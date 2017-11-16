@@ -45,5 +45,18 @@ namespace TP0
                 return n;
             return n * MyFact(n - 1);
         }
+
+        static double MyPow(double x, int n)
+        {
+            if (n = 0)
+                return x;
+            return x * MyPow(x, n - 1);
+
+        }
+
+        static uint MyFibo(uint n);
+        {
+            
+        }
     }
 }
