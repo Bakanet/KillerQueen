@@ -104,6 +104,18 @@ namespace TP0
                 }
             }
         }
+
+        static int MyGcd2(uint a, uint b)
+        {
+            int a2 = a < b ? (int) b : (int) a;
+            int b2 = a < b ? (int) a : (int) b;
+            int r = a2 % b2;
+
+            if (r == 0)
+                return b2;
+            else
+                return MyGcd2((uint) (a2 / b2), (uint) r);
+        }
         
     }
 }
