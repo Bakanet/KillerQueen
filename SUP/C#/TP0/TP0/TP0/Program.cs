@@ -3,7 +3,6 @@ using System.CodeDom;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
-using System.Xml.Xsl.Runtime;
 
 namespace TP0
 {
@@ -11,7 +10,7 @@ namespace TP0
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(MyGcd(74, 148));
+            Console.WriteLine(MyGcd(124,600));
         }
 
         static void HelloWorld()
@@ -75,38 +74,6 @@ namespace TP0
 
         static int MyGcd(uint a, uint b)
         {
-            int a2 = (int) a;
-            int b2 = (int) b;
-
-            if (a2 > b2)
-            {
-                int r = a2 % b2;
-                if (r == 0)
-                    return b2;
-                else
-                {
-                    uint b3 = (uint) b2;
-                    uint r2 = (uint) r;
-                    return MyGcd(b3, r2);
-                }
-            }
-
-            else
-            {
-                int r = b2 % a2;
-                if (r == 0)
-                    return a2;
-                else
-                {
-                    uint a3 = (uint) a2;
-                    uint r2 = (uint) r;
-                    return MyGcd(a3, r2);
-                }
-            }
-        }
-
-        static int MyGcd2(uint a, uint b)
-        {
             int a2 = a < b ? (int) b : (int) a;
             int b2 = a < b ? (int) a : (int) b;
             int r = a2 % b2;
@@ -114,7 +81,7 @@ namespace TP0
             if (r == 0)
                 return b2;
             else
-                return MyGcd2((uint) (a2 / b2), (uint) r);
+                return MyGcd((uint) b2, (uint) r);
         }
         
     }
