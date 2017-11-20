@@ -10,7 +10,7 @@ namespace TP0
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(MyGcd(124,600));
+            
         }
 
         static void HelloWorld()
@@ -61,13 +61,11 @@ namespace TP0
 
         static string ChangeChar(string s, char c, uint n)
         {
-            int l = s.Length;
-            int nth = (int) n;
-            if (n > l)
+            if (n > s.Length - 1)
                 return s;
             else
             {
-                return s.Substring(0, nth) + c + s.Substring(nth + 1);
+                return s.Substring(0, (int) n) + c + s.Substring((int) n + 1);
             }
 
         }
