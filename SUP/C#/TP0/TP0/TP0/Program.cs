@@ -1,8 +1,10 @@
 ﻿using System;
 using System.CodeDom;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
+using System.Xml.Schema;
 
 namespace TP0
 {
@@ -81,6 +83,45 @@ namespace TP0
             else
                 return MyGcd((uint) b2, (uint) r);
         }
-        
+
+        static double MySqrt(double n, uint i)
+        {
+            if (i == 0)
+                return 0.5;
+            else
+                return (MySqrt(n, i - 1) + n / MySqrt(n, i - 1)) / 2;
+        }
+
+        static string MyReverseString(string s)
+        {
+            if (s.Length == 1)
+                return s;
+            else
+            {
+                return (MyReverseString(s.Substring(1))) + s[0];
+            }
+        }
+
+        static bool MyIsPalindrome(string a)
+        {
+            int length = a.Length / 2;
+            return a.Substring(0, a.Length / 2 + 1) == MyReverseString(a.Substring(length));
+        }
+
+        static void CalcRealAge()
+        {
+            Console.WriteLine("What's your year of birth ?");
+            int y = int.Parse(Console.ReadLine());
+            Console.WriteLine("What's your month of birth ?");
+            int m = int.Parse(Console.ReadLine());
+            Console.WriteLine("What's your day of birth");
+            int d = int.Parse(Console.ReadLine());
+            
+            if (m < DateTime.Today.Month || d < DateTime.Today.Day && m == DateTime.Today.Month)
+                Console.WriteLine("Looks like you're exactly " + (DateTime.Today.Year - y));
+            else
+                Console.WriteLine("Looks like you're exactly " + (DateTime.Today.Year - y - 1));
+        }
+
     }
 }
