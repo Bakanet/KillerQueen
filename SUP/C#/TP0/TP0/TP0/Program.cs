@@ -12,7 +12,7 @@ namespace TP0
     {
         public static void Main(string[] args)
         {
-            
+            CalcRealAge();
         }
 
         static void HelloWorld()
