@@ -9,7 +9,7 @@ namespace TP1
     {
         public static void Main(string[] args)
         {
-            MCQ("Combien font 3+3", "6", "9", "12", "14", 1);
+
         }
 
         public static void HelloWorlds(int n)
@@ -58,6 +58,38 @@ namespace TP1
                 Console.WriteLine("You lose... The answer was " + aws);
             else
                 Console.WriteLine("So counting is too hard, n00b...");
+        }
+
+        public static void BestYears()
+        {
+            int n = 1989;
+            while (n < 2022)
+            {
+                if (n == 2020)
+                    Console.WriteLine("Best Year");
+                else if (n % 2 == 0)
+                    Console.WriteLine("Good Year");
+                else
+                    Console.WriteLine("Bad Year");
+                n++;
+            }
+            Console.WriteLine("Bad Year");
+        }
+
+        public static void Morse(string s, int i = 0)
+        {
+            while (i < s.Length)
+            {
+                char c = s[i];
+
+                if (c == '.')
+                    Console.Beep(900, 150);
+                else if (c == '_')
+                    Console.Beep(900, 450);
+                else
+                    Thread.Sleep(450);
+                i++;
+            }
         }
     }
 }
