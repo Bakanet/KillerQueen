@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Security.Cryptography;
 using System.Threading;
 
 namespace TP1
@@ -9,7 +8,7 @@ namespace TP1
     {
         public static void Main(string[] args)
         {
-
+            Reverse();
         }
 
         public static void HelloWorlds(int n)
@@ -28,9 +27,18 @@ namespace TP1
             Console.WriteLine(std);
         }
 
+        static string Lute(string s)
+        {
+            if (s.Length == 1)
+                return s;
+            else
+                return (Lute(s.Substring(1))) + s[0];
+        }
+
         public static void Reverse()
         {
-            Console.WriteLine("des barres");
+            string s = Console.ReadLine();
+            Console.WriteLine(Lute(s));
         }
 
         public static void LoveAcdc()
@@ -90,6 +98,22 @@ namespace TP1
                     Thread.Sleep(450);
                 i++;
             }
+        }
+
+        public static void Lighthouse(int n)
+        {
+            string b1f = " ===== \n_||_||_\n-------";
+            string roof = "  /^\\  \n  |#|  ";
+            string floor = " |===| \n  |0| \n  | |  ";
+            
+            int i = 0;
+            Console.WriteLine(roof);
+            while (i < n)
+            {
+                Console.WriteLine(floor);
+                i++;
+            }
+            Console.WriteLine(b1f);
         }
     }
 }
