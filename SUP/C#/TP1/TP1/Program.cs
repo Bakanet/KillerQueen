@@ -4,7 +4,7 @@ using System.Threading;
 
 namespace TP1
 {
-    internal class Program
+    static class Program
     {
         public static void Main(string[] args)
         {
@@ -100,7 +100,7 @@ namespace TP1
             }
         }
 
-        public static void Lighthouse(int n)
+        public static void LightHouse(int n)
         {
             string b1f = " ===== \n_||_||_\n-------";
             string roof = "  /^\\  \n  |#|  ";
@@ -114,6 +114,11 @@ namespace TP1
                 i++;
             }
             Console.WriteLine(b1f);
+        }
+
+        static void Music()
+        {
+            Console.WriteLine("nothing");
         }
     }
 }
