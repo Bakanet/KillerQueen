@@ -1,6 +1,6 @@
-C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP1\TP1\TP1\bin\Debug\TP1.exe
-C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP1\TP1\TP1\bin\Debug\TP1.pdb
-C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP1\TP1\TP1\obj\Debug\TP1.csprojResolveAssemblyReference.cache
-C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP1\TP1\TP1\obj\Debug\TP1.csproj.CoreCompileInputs.cache
-C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP1\TP1\TP1\obj\Debug\TP1.exe
-C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP1\TP1\TP1\obj\Debug\TP1.pdb
+C:\Users\malol\Desktop\Projets Epita\SUP\C#\TP1\TP1\TP1\bin\Debug\TP1.exe
+C:\Users\malol\Desktop\Projets Epita\SUP\C#\TP1\TP1\TP1\bin\Debug\TP1.pdb
+C:\Users\malol\Desktop\Projets Epita\SUP\C#\TP1\TP1\TP1\obj\Debug\TP1.csprojResolveAssemblyReference.cache
+C:\Users\malol\Desktop\Projets Epita\SUP\C#\TP1\TP1\TP1\obj\Debug\TP1.csproj.CoreCompileInputs.cache
+C:\Users\malol\Desktop\Projets Epita\SUP\C#\TP1\TP1\TP1\obj\Debug\TP1.exe
+C:\Users\malol\Desktop\Projets Epita\SUP\C#\TP1\TP1\TP1\obj\Debug\TP1.pdb
