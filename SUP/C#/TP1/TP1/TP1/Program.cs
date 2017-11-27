@@ -8,7 +8,7 @@ namespace TP1
     {
         public static void Main(string[] args)
         {
-            Music();
+            
         }
 
         public static void HelloWorlds(int n)
@@ -182,7 +182,7 @@ namespace TP1
                 else if (s[i] == 'D')
                     Console.Beep(554, 100);
                 else if (s[i] == 'A')
-                    Console.Beep(880, 200);
+                    Console.Beep(880, 250);
                 else if (s[i] == 'L')
                     Console.Beep(880, 600);
                 else if (s[i] == 's')
@@ -205,6 +205,8 @@ namespace TP1
                     Console.Beep(587, 600);
                 else if (s[i] == ' ')
                     Thread.Sleep(300);
+                else
+                    Console.WriteLine("Music: Error");
                 i++;    
             }
             
