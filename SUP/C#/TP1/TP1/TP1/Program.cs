@@ -8,7 +8,7 @@ namespace TP1
     {
         public static void Main(string[] args)
         {
-            
+            Morse("_ .. __ . _ ___ .__. ._.. ._ _.__ _ .... . __. ._ __ . ._._._");
         }
 
         public static void HelloWorlds(int n)
