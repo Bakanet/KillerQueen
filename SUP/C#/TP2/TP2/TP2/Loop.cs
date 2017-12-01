@@ -34,7 +34,7 @@ namespace Debugger
              
             else
             {
-                long a = 1;
+                long a = 0;
                 long b = 1;
 
                 while (n > 1)
@@ -50,8 +50,21 @@ namespace Debugger
 
         public static long Factorial(long n)
         {
-            // TODO
-            return 0;
+            if (n < 0)
+            {
+                Console.WriteLine("Factorial: invalid argument");
+                return 0;
+            }
+
+            else
+            {
+                long fact = 1;
+                for (int i = 1; i <= n; i++)
+                {
+                    fact *= i;
+                }
+                return fact;
+            }
         }
 
         public static void Print_Strong(int n)
@@ -61,8 +74,7 @@ namespace Debugger
 
         public static float Abs(float n)
         {
-            // TODO
-            return 0;
+            return n > 0 ? n : -n;
         }
 
         public static float Sqrt(float n)

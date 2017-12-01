@@ -7,7 +7,7 @@ namespace Debugger
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(Loop.Fibonacci(6));
+            Console.WriteLine(Loop.Abs(-9.99f));
         }
     }
 }
