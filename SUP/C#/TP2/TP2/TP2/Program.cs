@@ -7,7 +7,7 @@ namespace Debugger
     {
         public static void Main(string[] args)
         {
-            Loop.Print_Naturals(0);
+            Console.WriteLine(Loop.Fibonacci(6));
         }
     }
 }

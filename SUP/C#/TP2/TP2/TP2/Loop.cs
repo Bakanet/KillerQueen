@@ -21,13 +21,31 @@ namespace Debugger
 
         public static void Print_Primes(int n)
         {
-            // TODO
+            
         }
 
         public static long Fibonacci(long n)
         {
-            // TODO
-            return 0;
+            if (n <= 0)
+            {
+                Console.WriteLine("Fibonacci: invalid argument");
+                return 0;
+            }
+             
+            else
+            {
+                long a = 1;
+                long b = 1;
+
+                while (n > 1)
+                {
+                    a += b;
+                    b += a;
+                    n -= 2;
+                }
+
+                return n % 2 == 0 ? a : b;
+            }
         }
 
         public static long Factorial(long n)
