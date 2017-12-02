@@ -7,7 +7,7 @@ namespace Debugger
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(Loop.Power(2,-4));
+            Loop.Print_Strong(Int16.MaxValue);
         }
     }
 }

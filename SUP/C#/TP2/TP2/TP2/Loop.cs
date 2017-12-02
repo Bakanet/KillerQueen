@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Net;
 using System.Security.Cryptography.X509Certificates;
 
@@ -60,7 +62,7 @@ namespace Debugger
             else
             {
                 long fact = 1;
-                for (int i = 1; i <= n; i++)
+                    for (int i = 1; i <= n; i++)
                 {
                     fact *= i;
                 }
@@ -70,7 +72,19 @@ namespace Debugger
 
         public static void Print_Strong(int n)
         {
-            // TODO
+            for (int i = 1; i <= n; i++)
+            {
+                int sum = 0;
+                int x = i;
+                while (x != 0)
+                {
+                    sum += (int) Factorial(x % 10);
+                    x /= 10;
+                }
+                
+            if (sum == i)
+                Console.Write(sum + " ");                
+            }
         }
 
         public static float Abs(float n)
@@ -83,7 +97,7 @@ namespace Debugger
             float x0 = n;
             float x1 = 0;
 
-            while (Abs(x0 - x1) > 0.000001)
+            while (Abs(x0 - x1) > 0.00001)
             {
                 x1 = 0.5f * (x0 + n / x0);
                 x0 = 0.5f * (x1 + n / x1);
@@ -103,7 +117,7 @@ namespace Debugger
             
             else
             {
-                for (float i = Abs(b); i > 1; i--)
+                for (long i = b > 0 ? b : -b; i > 1; i--)
                 {
                     result *= a;
                 }
@@ -113,7 +127,17 @@ namespace Debugger
 
         public static void Print_Tree(int n)
         {
-            // TODO
+            string trunk = n < 3 ? "   *   " : "   *   \n   *   ";
+
+            string xmas = "   *   ";
+
+            while (n > 0)
+            {
+                xmas += "**";
+                Console.WriteLine(xmas);
+                --n;
+            }
+            Console.WriteLine(trunk);
         }
     }
 }
