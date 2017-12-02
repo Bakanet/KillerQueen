@@ -97,12 +97,12 @@ namespace Debugger
             float x0 = n;
             float x1 = 0;
 
-            while (Abs(x0 - x1) > 0.00001)
+            while (Abs(x0 - x1) > 0.0001)
             {
                 x1 = 0.5f * (x0 + n / x0);
                 x0 = 0.5f * (x1 + n / x1);
             }
-            return x0;
+            return x1;
         }
 
         public static long Power(long a, long b)

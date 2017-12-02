@@ -7,7 +7,7 @@ namespace Debugger
     {
         public static void Main(string[] args)
         {
-            Loop.Print_Strong(Int16.MaxValue);
+            Console.WriteLine(Loop.Sqrt(81.2365f));
         }
     }
 }
