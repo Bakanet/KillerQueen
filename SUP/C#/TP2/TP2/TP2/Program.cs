@@ -7,7 +7,7 @@ namespace Debugger
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(Loop.Abs(-9.99f));
+            Console.WriteLine(Loop.Power(2,-4));
         }
     }
 }

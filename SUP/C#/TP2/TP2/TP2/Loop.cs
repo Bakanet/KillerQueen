@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Debugger
 {
@@ -79,14 +80,35 @@ namespace Debugger
 
         public static float Sqrt(float n)
         {
-            // TODO
-            return 0;
+            float x0 = n;
+            float x1 = 0;
+
+            while (Abs(x0 - x1) > 0.000001)
+            {
+                x1 = 0.5f * (x0 + n / x0);
+                x0 = 0.5f * (x1 + n / x1);
+            }
+            return x0;
         }
 
         public static long Power(long a, long b)
         {
-            // TODO
-            return 0;
+            long result = a;
+
+            if (b == 0)
+                return 1;
+            
+            if (b < 0)
+                return 0;
+            
+            else
+            {
+                for (float i = Abs(b); i > 1; i--)
+                {
+                    result *= a;
+                }
+                return result;
+            }
         }
 
         public static void Print_Tree(int n)
