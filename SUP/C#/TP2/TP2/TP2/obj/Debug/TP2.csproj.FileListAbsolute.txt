@@ -4,3 +4,15 @@ C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP2\TP2\TP2\obj\Debug\TP
 C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP2\TP2\TP2\obj\Debug\TP2.csproj.CoreCompileInputs.cache
 C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP2\TP2\TP2\obj\Debug\TP2.exe
 C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP2\TP2\TP2\obj\Debug\TP2.pdb
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP2\TP2\TP2\bin\Debug\TP2.exe
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP2\TP2\TP2\bin\Debug\TP2.pdb
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP2\TP2\TP2\bin\Debug\mscorlib.dll
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP2\TP2\TP2\bin\Debug\fr\mscorlib.resources.dll
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP2\TP2\TP2\bin\Debug\normidna.nlp
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP2\TP2\TP2\bin\Debug\normnfc.nlp
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP2\TP2\TP2\bin\Debug\normnfd.nlp
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP2\TP2\TP2\bin\Debug\normnfkc.nlp
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP2\TP2\TP2\bin\Debug\normnfkd.nlp
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP2\TP2\TP2\obj\Debug\TP2.csprojResolveAssemblyReference.cache
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP2\TP2\TP2\obj\Debug\TP2.exe
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP2\TP2\TP2\obj\Debug\TP2.pdb

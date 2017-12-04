@@ -7,7 +7,7 @@ namespace Debugger
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(Loop.Sqrt(81.2365f));
+            Loop.Print_Primes(100);
         }
     }
 }

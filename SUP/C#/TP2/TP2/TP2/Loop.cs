@@ -22,9 +22,23 @@ namespace Debugger
             }
         }
 
+        public static bool Is_Prime(int n)
+        {
+            int i = 2;
+            while (i * i < n || n % i != 0)
+            {
+                ++i;
+            }
+            return n % i != 0;
+        }
+        
         public static void Print_Primes(int n)
         {
-            
+            for (int i = 2; i < n; i++)
+            {
+                if (Is_Prime(n))
+                    Console.WriteLine(i + " ");
+            }
         }
 
         public static long Fibonacci(long n)
