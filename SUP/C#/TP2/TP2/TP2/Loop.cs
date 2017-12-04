@@ -29,15 +29,15 @@ namespace Debugger
             {
                 ++i;
             }
-            return n % i != 0;
+            return n == i;
         }
         
         public static void Print_Primes(int n)
         {
             for (int i = 2; i < n; i++)
             {
-                if (Is_Prime(n))
-                    Console.WriteLine(i + " ");
+                if (Is_Prime(i))
+                    Console.Write(i + " ");
             }
         }
 
@@ -103,9 +103,12 @@ namespace Debugger
 
         public static float Abs(float n)
         {
-            return n > 0 ? n : -n;
+            if (n >= 0)
+                return n;
+            else
+                return -n;
         }
-
+        
         public static float Sqrt(float n)
         {
             float x0 = n;
