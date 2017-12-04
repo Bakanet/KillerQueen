@@ -1,6 +1,0 @@
-C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP2\TP2\TP2\bin\Debug\TP2.exe
-C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP2\TP2\TP2\bin\Debug\TP2.pdb
-C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP2\TP2\TP2\obj\Debug\TP2.csprojResolveAssemblyReference.cache
-C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP2\TP2\TP2\obj\Debug\TP2.csproj.CoreCompileInputs.cache
-C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP2\TP2\TP2\obj\Debug\TP2.exe
-C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP2\TP2\TP2\obj\Debug\TP2.pdb
