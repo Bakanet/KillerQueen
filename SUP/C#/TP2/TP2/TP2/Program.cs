@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Debugger
+﻿namespace Debugger
 {
     internal class Program
     {

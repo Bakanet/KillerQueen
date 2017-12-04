@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.Eventing.Reader;
-using System.Net;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Debugger
 {
@@ -21,22 +17,17 @@ namespace Debugger
                 Console.WriteLine(n);
             }
         }
-
-        public static bool Is_Prime(int n)
-        {
-            int i = 2;
-            while (i * i < n || n % i != 0)
-            {
-                ++i;
-            }
-            return n == i;
-        }
         
         public static void Print_Primes(int n)
         {
             for (int i = 2; i < n; i++)
             {
-                if (Is_Prime(i))
+                int c = 2;
+                
+                while (c * c < i || i % c != 0)
+                    ++c;
+                
+                if (i == c)
                     Console.Write(i + " ");
             }
         }

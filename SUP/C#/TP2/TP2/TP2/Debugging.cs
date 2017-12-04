@@ -1,6 +1,4 @@
-﻿using System.Net;
-
-namespace Debugger
+﻿namespace Debugger
 {
     public class Debugging
     {
