@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Data.SqlTypes;
+using System.Linq.Expressions;
 
 namespace Debugger
 {
@@ -133,19 +135,44 @@ namespace Debugger
             }
         }
 
+        static string Space(int n, string space = "")
+        {
+            for (int i = 1; i < n; i++)
+            {
+                space += " ";
+            }
+            return space;
+        }
+
         public static void Print_Tree(int n)
         {
-            string trunk = n < 3 ? "   *   " : "   *   \n   *   ";
 
-            string xmas = "   *   ";
+            int c = n;
 
-            while (n > 0)
+            for (int i = 1; i <= n; i++) //leaves
             {
-                xmas += "**";
-                Console.WriteLine(xmas);
-                --n;
+                string space = Space(c);
+                string star = "";
+                
+                for (int x = c; x < n; x++)
+                {
+                    star += "*";
+                }
+                
+                Console.WriteLine(space + star + "*" + star + space);
+                --c;
             }
-            Console.WriteLine(trunk);
+
+            if (n < 3) //trunk    
+            {
+                Console.WriteLine(Space(n) + "*" + Space(n));
+            }
+
+            else
+            {
+                Console.WriteLine(Space(n) + "*" + Space(n));
+                Console.WriteLine(Space(n) + "*" + Space(n));
+            }
         }
     }
 }

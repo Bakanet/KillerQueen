@@ -36,8 +36,9 @@
             }
             return sum;
             
-            // Les problemes ici sont que sum, initialise a 0, est toujours egal a 0 a chaque tour de boucle et que
-            // d, initialise a 0, va toujours renvoyer 0 car 0 * quelque chose est toujours egal a 0.
+            // Les problemes ici sont que sum, initialise a 0, est toujours egal a 0 a chaque tour de boucle (car
+            // il y a la ligne sum = sum et que d, initialise a 0, va toujours renvoyer 0 car 0 * quelque chose est 
+            // toujours egal a 0.
         }
 
         public static bool ex3(int n)

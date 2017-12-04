@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            Loop.Print_Primes(100);
+            Loop.Print_Tree(5);
         }
     }
 }
