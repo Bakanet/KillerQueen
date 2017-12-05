@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97844b83-98f7-4a8e-827e-d1869ed6166d" name="Default" comment="" />
+    <list default="true" id="e422d492-4548-436f-b9bd-fe2de77c5061" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,45 +10,51 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Loop.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP2/Loop.cs">
+    <leaf>
+      <file leaf-file-name="Debugging.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TP2/Debugging.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="103" column="15" lean-forward="false" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
               <folding>
-                <marker date="1512430774658" expanded="true" signature="6:72" ph="..." />
-                <marker date="1512430774658" expanded="true" signature="92:4127" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="123:4125" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="178:512" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="300:502" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="358:450" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="568:862" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="618:852" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="908:1382" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="942:1062" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="1093:1372" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="1194:1314" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="1428:1813" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="1461:1581" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="1599:1803" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="1693:1760" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="1861:2255" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="1912:2245" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="2013:2130" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="2297:2411" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="2462:2714" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="2567:2681" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="2764:3142" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="2946:3132" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="3018:3087" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="3197:3341" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="3247:3305" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="3387:4119" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="3472:3813" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="3622:3691" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="3849:3939" ph="{...}" />
-                <marker date="1512430774658" expanded="true" signature="3957:4109" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="37:4075" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="66:4073" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="104:1042" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="220:364" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="416:1032" ph="/* La boucle while ne fonctionnait pas car on isDivisor renvoyait toujours false (on re-calcule toujours la ... */" />
+                <marker date="1512492400464" expanded="true" signature="1090:2117" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="1113:1209" ph="/* FIXME expected output: the sum of [x - x^3 + x^5 - ...] ... */" />
+                <marker date="1512492400464" expanded="true" signature="1284:1373" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="1423:2107" ph="/* Les problemes ici sont que sum, initialise a 0, est toujours egal a 0 a chaque tour de boucle (car ... */" />
+                <marker date="1512492400464" expanded="true" signature="2156:3117" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="2362:2999" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="2464:2643" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="2518:2625" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="2687:2876" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="2747:2858" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="2916:2985" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="3024:3082" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="3161:4067" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="3184:3285" ph="/* FIXME - expected output: a sorted array ... */" />
+                <marker date="1512492400464" expanded="true" signature="3338:3706" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="3440:3692" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="3503:3674" ph="{...}" />
+                <marker date="1512492400464" expanded="true" signature="3757:4057" ph="/* Le premier probleme est qu'on veut chercher l'indice d'un element qui n'existe pas dans notre tableau car ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP2/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+              <folding>
+                <marker date="1512491868671" expanded="false" signature="6:85" ph="..." />
+                <marker date="1512491868671" expanded="true" signature="100:303" ph="{...}" />
+                <marker date="1512491868671" expanded="true" signature="129:301" ph="{...}" />
+                <marker date="1512491868671" expanded="true" signature="182:295" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -57,61 +63,14 @@
       <file leaf-file-name="Misc.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP2/Misc.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1512416400121" expanded="true" signature="33:403" ph="{...}" />
-                <marker date="1512416400121" expanded="true" signature="64:401" ph="{...}" />
-                <marker date="1512416400121" expanded="true" signature="121:172" ph="{...}" />
-                <marker date="1512416400121" expanded="true" signature="220:395" ph="{...}" />
-                <marker date="1512416400121" expanded="true" signature="279:352" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TP2/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <marker date="1512431630778" expanded="true" signature="33:194" ph="{...}" />
-                <marker date="1512431630778" expanded="true" signature="62:192" ph="{...}" />
-                <marker date="1512431630778" expanded="true" signature="115:186" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Debugging.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP2/Debugging.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding>
-                <marker date="1512432330008" expanded="true" signature="18:3554" ph="{...}" />
-                <marker date="1512432330008" expanded="true" signature="47:3552" ph="{...}" />
-                <marker date="1512432330008" expanded="true" signature="85:1023" ph="{...}" />
-                <marker date="1512432330008" expanded="true" signature="201:345" ph="{...}" />
-                <marker date="1512432330008" expanded="true" signature="397:1013" ph="/* La boucle while ne fonctionnait pas car on isDivisor renvoyait toujours false (on re-calcule toujours la ... */" />
-                <marker date="1512432330008" expanded="true" signature="1071:1926" ph="{...}" />
-                <marker date="1512432330008" expanded="true" signature="1094:1190" ph="/* FIXME expected output: the sum of [x - x^3 + x^5 - ...] ... */" />
-                <marker date="1512432330008" expanded="true" signature="1293:1443" ph="{...}" />
-                <marker date="1512432330008" expanded="true" signature="1493:1916" ph="/* Les problemes ici sont que sum, initialise a 0, est toujours egal a 0 a chaque tour de boucle (car ... */" />
-                <marker date="1512432330008" expanded="true" signature="1965:2926" ph="{...}" />
-                <marker date="1512432330008" expanded="true" signature="2171:2808" ph="{...}" />
-                <marker date="1512432330008" expanded="true" signature="2273:2452" ph="{...}" />
-                <marker date="1512432330008" expanded="true" signature="2327:2434" ph="{...}" />
-                <marker date="1512432330008" expanded="true" signature="2496:2685" ph="{...}" />
-                <marker date="1512432330008" expanded="true" signature="2556:2667" ph="{...}" />
-                <marker date="1512432330008" expanded="true" signature="2725:2794" ph="{...}" />
-                <marker date="1512432330008" expanded="true" signature="2833:2891" ph="{...}" />
-                <marker date="1512432330008" expanded="true" signature="2970:3546" ph="{...}" />
-                <marker date="1512432330008" expanded="true" signature="2993:3094" ph="/* FIXME - expected output: a sorted array ... */" />
-                <marker date="1512432330008" expanded="true" signature="3147:3511" ph="{...}" />
-                <marker date="1512432330008" expanded="true" signature="3245:3497" ph="{...}" />
-                <marker date="1512432330008" expanded="true" signature="3308:3479" ph="{...}" />
+                <marker date="1512487695424" expanded="true" signature="33:403" ph="{...}" />
+                <marker date="1512487695424" expanded="true" signature="64:401" ph="{...}" />
+                <marker date="1512487695424" expanded="true" signature="121:172" ph="{...}" />
+                <marker date="1512487695424" expanded="true" signature="220:395" ph="{...}" />
+                <marker date="1512487695424" expanded="true" signature="279:352" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -120,16 +79,13 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/TP2/Loop.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TP2/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TP2/Debugging.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TP2/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TP2/Misc.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TP2/Misc.cs" />
-        <option value="$PROJECT_DIR$/TP2/Loop.cs" />
         <option value="$PROJECT_DIR$/TP2/Program.cs" />
         <option value="$PROJECT_DIR$/TP2/Debugging.cs" />
       </list>
@@ -185,7 +141,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -219,21 +174,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="97844b83-98f7-4a8e-827e-d1869ed6166d" name="Default" comment="" />
-      <created>1512158215927</created>
+      <changelist id="e422d492-4548-436f-b9bd-fe2de77c5061" name="Default" comment="" />
+      <created>1512490303177</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1512158215927</updated>
-      <workItem from="1512158222068" duration="6926000" />
-      <workItem from="1512172067002" duration="19602000" />
-      <workItem from="1512234218721" duration="3941000" />
-      <workItem from="1512407182692" duration="1748000" />
-      <workItem from="1512411398424" duration="13625000" />
+      <updated>1512490303177</updated>
+      <workItem from="1512490325527" duration="2046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45842000" />
+    <option name="totallyTimeSpent" value="2046000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,28 +196,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39845476" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39845476" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39936608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -281,422 +233,91 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/TP2/Debugging.cs</url>
-          <line>31</line>
+          <line>90</line>
           <properties documentPath="$PROJECT_DIR$/TP2/Debugging.cs">
             <startOffsets>
-              <startOffset value="1262" />
+              <startOffset value="3399" />
             </startOffsets>
             <endOffsets>
-              <endOffset value="1443" />
+              <endOffset value="3692" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="11" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TP2/Debugging.cs</url>
+          <line>87</line>
+          <properties documentPath="$PROJECT_DIR$/TP2/Debugging.cs">
+            <startOffsets>
+              <startOffset value="3298" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="3706" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TP2/Loop.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512430774658" expanded="true" signature="6:72" ph="..." />
-            <marker date="1512430774658" expanded="true" signature="92:4127" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="123:4125" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="178:512" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="300:502" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="358:450" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="568:862" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="618:852" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="908:1382" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="942:1062" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1093:1372" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1194:1314" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1428:1813" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1461:1581" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1599:1803" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1693:1760" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1861:2255" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1912:2245" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2013:2130" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2297:2411" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2462:2714" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2567:2681" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2764:3142" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2946:3132" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3018:3087" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3197:3341" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3247:3305" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3387:4119" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3472:3813" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3622:3691" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3849:3939" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3957:4109" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-          <folding>
-            <marker date="1512431630778" expanded="true" signature="33:194" ph="{...}" />
-            <marker date="1512431630778" expanded="true" signature="62:192" ph="{...}" />
-            <marker date="1512431630778" expanded="true" signature="115:186" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/Debugging.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512432330008" expanded="true" signature="18:3554" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="47:3552" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="85:1023" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="201:345" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="397:1013" ph="/* La boucle while ne fonctionnait pas car on isDivisor renvoyait toujours false (on re-calcule toujours la ... */" />
-            <marker date="1512432330008" expanded="true" signature="1071:1926" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="1094:1190" ph="/* FIXME expected output: the sum of [x - x^3 + x^5 - ...] ... */" />
-            <marker date="1512432330008" expanded="true" signature="1293:1443" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="1493:1916" ph="/* Les problemes ici sont que sum, initialise a 0, est toujours egal a 0 a chaque tour de boucle (car ... */" />
-            <marker date="1512432330008" expanded="true" signature="1965:2926" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2171:2808" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2273:2452" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2327:2434" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2496:2685" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2556:2667" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2725:2794" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2833:2891" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2970:3546" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2993:3094" ph="/* FIXME - expected output: a sorted array ... */" />
-            <marker date="1512432330008" expanded="true" signature="3147:3511" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="3245:3497" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="3308:3479" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/Loop.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512430774658" expanded="true" signature="6:72" ph="..." />
-            <marker date="1512430774658" expanded="true" signature="92:4127" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="123:4125" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="178:512" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="300:502" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="358:450" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="568:862" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="618:852" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="908:1382" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="942:1062" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1093:1372" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1194:1314" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1428:1813" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1461:1581" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1599:1803" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1693:1760" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1861:2255" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1912:2245" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2013:2130" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2297:2411" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2462:2714" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2567:2681" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2764:3142" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2946:3132" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3018:3087" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3197:3341" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3247:3305" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3387:4119" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3472:3813" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3622:3691" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3849:3939" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3957:4109" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding>
-            <marker date="1512431630778" expanded="true" signature="33:194" ph="{...}" />
-            <marker date="1512431630778" expanded="true" signature="62:192" ph="{...}" />
-            <marker date="1512431630778" expanded="true" signature="115:186" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/Debugging.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512432330008" expanded="true" signature="18:3554" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="47:3552" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="85:1023" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="201:345" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="397:1013" ph="/* La boucle while ne fonctionnait pas car on isDivisor renvoyait toujours false (on re-calcule toujours la ... */" />
-            <marker date="1512432330008" expanded="true" signature="1071:1926" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="1094:1190" ph="/* FIXME expected output: the sum of [x - x^3 + x^5 - ...] ... */" />
-            <marker date="1512432330008" expanded="true" signature="1293:1443" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="1493:1916" ph="/* Les problemes ici sont que sum, initialise a 0, est toujours egal a 0 a chaque tour de boucle (car ... */" />
-            <marker date="1512432330008" expanded="true" signature="1965:2926" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2171:2808" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2273:2452" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2327:2434" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2496:2685" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2556:2667" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2725:2794" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2833:2891" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2970:3546" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2993:3094" ph="/* FIXME - expected output: a sorted array ... */" />
-            <marker date="1512432330008" expanded="true" signature="3147:3511" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="3245:3497" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="3308:3479" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/Loop.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1577">
-          <caret line="83" column="16" lean-forward="false" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
-          <folding>
-            <marker date="1512430774658" expanded="true" signature="6:72" ph="..." />
-            <marker date="1512430774658" expanded="true" signature="92:4127" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="123:4125" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="178:512" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="300:502" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="358:450" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="568:862" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="618:852" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="908:1382" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="942:1062" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1093:1372" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1194:1314" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1428:1813" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1461:1581" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1599:1803" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1693:1760" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1861:2255" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1912:2245" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2013:2130" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2297:2411" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2462:2714" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2567:2681" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2764:3142" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2946:3132" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3018:3087" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3197:3341" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3247:3305" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3387:4119" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3472:3813" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3622:3691" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3849:3939" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3957:4109" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/Debugging.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512432330008" expanded="true" signature="18:3554" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="47:3552" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="85:1023" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="201:345" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="397:1013" ph="/* La boucle while ne fonctionnait pas car on isDivisor renvoyait toujours false (on re-calcule toujours la ... */" />
-            <marker date="1512432330008" expanded="true" signature="1071:1926" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="1094:1190" ph="/* FIXME expected output: the sum of [x - x^3 + x^5 - ...] ... */" />
-            <marker date="1512432330008" expanded="true" signature="1293:1443" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="1493:1916" ph="/* Les problemes ici sont que sum, initialise a 0, est toujours egal a 0 a chaque tour de boucle (car ... */" />
-            <marker date="1512432330008" expanded="true" signature="1965:2926" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2171:2808" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2273:2452" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2327:2434" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2496:2685" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2556:2667" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2725:2794" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2833:2891" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2970:3546" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2993:3094" ph="/* FIXME - expected output: a sorted array ... */" />
-            <marker date="1512432330008" expanded="true" signature="3147:3511" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="3245:3497" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="3308:3479" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding>
-            <marker date="1512431630778" expanded="true" signature="33:194" ph="{...}" />
-            <marker date="1512431630778" expanded="true" signature="62:192" ph="{...}" />
-            <marker date="1512431630778" expanded="true" signature="115:186" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/Loop.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512430774658" expanded="true" signature="6:72" ph="..." />
-            <marker date="1512430774658" expanded="true" signature="92:4127" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="123:4125" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="178:512" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="300:502" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="358:450" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="568:862" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="618:852" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="908:1382" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="942:1062" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1093:1372" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1194:1314" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1428:1813" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1461:1581" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1599:1803" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1693:1760" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1861:2255" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1912:2245" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2013:2130" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2297:2411" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2462:2714" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2567:2681" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2764:3142" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2946:3132" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3018:3087" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3197:3341" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3247:3305" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3387:4119" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3472:3813" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3622:3691" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3849:3939" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3957:4109" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding>
-            <marker date="1512431630778" expanded="true" signature="33:194" ph="{...}" />
-            <marker date="1512431630778" expanded="true" signature="62:192" ph="{...}" />
-            <marker date="1512431630778" expanded="true" signature="115:186" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP2/Misc.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512416400121" expanded="true" signature="33:403" ph="{...}" />
-            <marker date="1512416400121" expanded="true" signature="64:401" ph="{...}" />
-            <marker date="1512416400121" expanded="true" signature="121:172" ph="{...}" />
-            <marker date="1512416400121" expanded="true" signature="220:395" ph="{...}" />
-            <marker date="1512416400121" expanded="true" signature="279:352" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/Loop.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-          <folding>
-            <marker date="1512430774658" expanded="true" signature="6:72" ph="..." />
-            <marker date="1512430774658" expanded="true" signature="92:4127" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="123:4125" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="178:512" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="300:502" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="358:450" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="568:862" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="618:852" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="908:1382" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="942:1062" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1093:1372" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1194:1314" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1428:1813" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1461:1581" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1599:1803" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1693:1760" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1861:2255" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="1912:2245" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2013:2130" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2297:2411" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2462:2714" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2567:2681" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2764:3142" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="2946:3132" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3018:3087" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3197:3341" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3247:3305" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3387:4119" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3472:3813" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3622:3691" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3849:3939" ph="{...}" />
-            <marker date="1512430774658" expanded="true" signature="3957:4109" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/Debugging.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <marker date="1512432330008" expanded="true" signature="18:3554" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="47:3552" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="85:1023" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="201:345" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="397:1013" ph="/* La boucle while ne fonctionnait pas car on isDivisor renvoyait toujours false (on re-calcule toujours la ... */" />
-            <marker date="1512432330008" expanded="true" signature="1071:1926" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="1094:1190" ph="/* FIXME expected output: the sum of [x - x^3 + x^5 - ...] ... */" />
-            <marker date="1512432330008" expanded="true" signature="1293:1443" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="1493:1916" ph="/* Les problemes ici sont que sum, initialise a 0, est toujours egal a 0 a chaque tour de boucle (car ... */" />
-            <marker date="1512432330008" expanded="true" signature="1965:2926" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2171:2808" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2273:2452" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2327:2434" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2496:2685" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2556:2667" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2725:2794" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2833:2891" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2970:3546" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="2993:3094" ph="/* FIXME - expected output: a sorted array ... */" />
-            <marker date="1512432330008" expanded="true" signature="3147:3511" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="3245:3497" ph="{...}" />
-            <marker date="1512432330008" expanded="true" signature="3308:3479" ph="{...}" />
+            <marker date="1512487695424" expanded="true" signature="33:403" ph="{...}" />
+            <marker date="1512487695424" expanded="true" signature="64:401" ph="{...}" />
+            <marker date="1512487695424" expanded="true" signature="121:172" ph="{...}" />
+            <marker date="1512487695424" expanded="true" signature="220:395" ph="{...}" />
+            <marker date="1512487695424" expanded="true" signature="279:352" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TP2/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding>
-            <marker date="1512431630778" expanded="true" signature="33:194" ph="{...}" />
-            <marker date="1512431630778" expanded="true" signature="62:192" ph="{...}" />
-            <marker date="1512431630778" expanded="true" signature="115:186" ph="{...}" />
+            <marker date="1512491868671" expanded="false" signature="6:85" ph="..." />
+            <marker date="1512491868671" expanded="true" signature="100:303" ph="{...}" />
+            <marker date="1512491868671" expanded="true" signature="129:301" ph="{...}" />
+            <marker date="1512491868671" expanded="true" signature="182:295" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP2/Debugging.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="103" column="15" lean-forward="false" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
+          <folding>
+            <marker date="1512492400464" expanded="true" signature="37:4075" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="66:4073" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="104:1042" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="220:364" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="416:1032" ph="/* La boucle while ne fonctionnait pas car on isDivisor renvoyait toujours false (on re-calcule toujours la ... */" />
+            <marker date="1512492400464" expanded="true" signature="1090:2117" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="1113:1209" ph="/* FIXME expected output: the sum of [x - x^3 + x^5 - ...] ... */" />
+            <marker date="1512492400464" expanded="true" signature="1284:1373" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="1423:2107" ph="/* Les problemes ici sont que sum, initialise a 0, est toujours egal a 0 a chaque tour de boucle (car ... */" />
+            <marker date="1512492400464" expanded="true" signature="2156:3117" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="2362:2999" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="2464:2643" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="2518:2625" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="2687:2876" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="2747:2858" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="2916:2985" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="3024:3082" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="3161:4067" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="3184:3285" ph="/* FIXME - expected output: a sorted array ... */" />
+            <marker date="1512492400464" expanded="true" signature="3338:3706" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="3440:3692" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="3503:3674" ph="{...}" />
+            <marker date="1512492400464" expanded="true" signature="3757:4057" ph="/* Le premier probleme est qu'on veut chercher l'indice d'un element qui n'existe pas dans notre tableau car ... */" />
           </folding>
         </state>
       </provider>

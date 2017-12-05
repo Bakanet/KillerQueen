@@ -1,4 +1,6 @@
-﻿namespace Debugger
+﻿using System.Net;
+
+namespace Debugger
 {
     public class Debugging
     {
@@ -27,20 +29,20 @@
         {
             // FIXME expected output: the sum of [x - x^3 + x^5 - ...]
             // with n number of terms
-            long c = 0, d = 0;
-            double sum = 0;
-            for (int i = 1; i < n - 1; i++)
+            double d = x, sum = x;
+            for (int i = 1; i < n; i++)
             {
-                c = 1 + (2 * i);
-                d = Loop.Power(x, c);
-                sum = sum + (i % 2 == 0 ? d : -d);
+                d *= x * x * (-1);
+                sum += d;
             }
             return sum;
             
             // Les problemes ici sont que sum, initialise a 0, est toujours egal a 0 a chaque tour de boucle (car
             // il y a la ligne sum = sum et que d, initialise a 0, va toujours renvoyer 0 car 0 * quelque chose est 
-            // toujours egal a 0. On utilise c comme puissance donc c'est un int. Pareil pour d qui sera
-            // calcule a partir de c. On utilise long pour fonctionner avec la fonction Loop.Power.
+            // toujours egal a 0. c est inutile pour la fonction actuelle alors on le supprime. Il suffit ensuite de
+            // modifier d de telle sorte que l'on va renvoyer une puissance impaire de x (on part de x puis on multiplie
+            // par x^2 donc on obtient x^3 puis x^5, etc...) et on multiplie par -1 pour inverser les signes a chaque
+            // tour. On doit s'arreter avant n et partir a partir de x (x^3 est notre premier terme calcule).
         }
 
         public static bool ex3(int n)
@@ -86,7 +88,7 @@
             for (int i = 0; i < arr.Length + 1; i++)
             {
                 int temp = 0;
-                for (int j = arr.Length; j >= 1; j--)
+                for (int j = arr.Length - 2; j >= 0; j--)
                 {
                     if (arr[j] > arr[j + 1])
                     {
@@ -98,6 +100,10 @@
             }
 
             return arr;
+            
+            // Le premier probleme est qu'on veut chercher l'indice d'un element qui n'existe pas dans notre tableau car
+            // ce dernier commence a -1. Du coup on initialise j à la taille du tableau -2 au lieu de -1. On fait
+            // descendre j jusqu'a -1 pour bien parcourir tout notre tableau.
         }
     }
 }

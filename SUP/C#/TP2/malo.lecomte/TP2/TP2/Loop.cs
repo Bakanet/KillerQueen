@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.Eventing.Reader;
 using System.Net;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Debugger
 {
@@ -15,18 +12,26 @@ namespace Debugger
             else
             {
                 for (int i = 1; i < n; i++)
-                    {
-                        Console.Write(i + " ");
-                    }
+                {
+                    Console.Write(i + " ");
+                }
                 Console.WriteLine(n);
             }
         }
 
         public static void Print_Primes(int n)
         {
-            
+            for (int i = 2; i < n; i++)
+            {
+                int c = 2;
+                
+                while (c * c < i || i % c != 0)
+                    ++c;
+                
+                if (i == c)
+                    Console.Write(i + " ");
+            }
         }
-
         public static long Fibonacci(long n)
         {
             if (n <= 0)
@@ -62,7 +67,7 @@ namespace Debugger
             else
             {
                 long fact = 1;
-                    for (int i = 1; i <= n; i++)
+                for (int i = 1; i <= n; i++)
                 {
                     fact *= i;
                 }
@@ -82,14 +87,17 @@ namespace Debugger
                     x /= 10;
                 }
                 
-            if (sum == i)
-                Console.Write(sum + " ");                
+                if (sum == i)
+                    Console.Write(sum + " ");                
             }
         }
 
         public static float Abs(float n)
         {
-            return n > 0 ? n : -n;
+            if (n >= 0)
+                return n;
+            else
+                return -n;
         }
 
         public static float Sqrt(float n)
@@ -125,19 +133,44 @@ namespace Debugger
             }
         }
 
+        static string Space(int n, string space = "")
+        {
+            for (int i = 1; i < n; i++)
+            {
+                space += " ";
+            }
+            return space;
+        }
+
         public static void Print_Tree(int n)
         {
-            string trunk = n < 3 ? "   *   " : "   *   \n   *   ";
 
-            string xmas = "   *   ";
+            int c = n;
 
-            while (n > 0)
+            for (int i = 1; i <= n; i++) //leaves
             {
-                xmas += "**";
-                Console.WriteLine(xmas);
-                --n;
+                string space = Space(c);
+                string star = "";
+                
+                for (int x = c; x < n; x++)
+                {
+                    star += "*";
+                }
+                
+                Console.WriteLine(space + star + "*" + star + space);
+                --c;
             }
-            Console.WriteLine(trunk);
+
+            if (n < 3) //trunk    
+            {
+                Console.WriteLine(Space(n) + "*" + Space(n));
+            }
+
+            else
+            {
+                Console.WriteLine(Space(n) + "*" + Space(n));
+                Console.WriteLine(Space(n) + "*" + Space(n));
+            }
         }
     }
 }

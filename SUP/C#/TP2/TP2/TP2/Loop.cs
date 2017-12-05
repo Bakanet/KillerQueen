@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Data.SqlTypes;
-using System.Linq.Expressions;
+using System.Net;
 
 namespace Debugger
 {
@@ -13,13 +12,13 @@ namespace Debugger
             else
             {
                 for (int i = 1; i < n; i++)
-                    {
-                        Console.Write(i + " ");
-                    }
+                {
+                    Console.Write(i + " ");
+                }
                 Console.WriteLine(n);
             }
         }
-        
+
         public static void Print_Primes(int n)
         {
             for (int i = 2; i < n; i++)
@@ -33,7 +32,6 @@ namespace Debugger
                     Console.Write(i + " ");
             }
         }
-
         public static long Fibonacci(long n)
         {
             if (n <= 0)
@@ -69,7 +67,7 @@ namespace Debugger
             else
             {
                 long fact = 1;
-                    for (int i = 1; i <= n; i++)
+                for (int i = 1; i <= n; i++)
                 {
                     fact *= i;
                 }
@@ -89,8 +87,8 @@ namespace Debugger
                     x /= 10;
                 }
                 
-            if (sum == i)
-                Console.Write(sum + " ");                
+                if (sum == i)
+                    Console.Write(sum + " ");                
             }
         }
 
@@ -101,7 +99,7 @@ namespace Debugger
             else
                 return -n;
         }
-        
+
         public static float Sqrt(float n)
         {
             float x0 = n;
