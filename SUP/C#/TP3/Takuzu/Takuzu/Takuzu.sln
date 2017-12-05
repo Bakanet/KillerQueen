@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.0.0
+MinimumVisualStudioVersion = 10.0.0.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Takuzu", "Takuzu/Takuzu.csproj", "{48CCA517-D2BE-4DFA-B98E-3F2AA7939F54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48CCA517-D2BE-4DFA-B98E-3F2AA7939F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48CCA517-D2BE-4DFA-B98E-3F2AA7939F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48CCA517-D2BE-4DFA-B98E-3F2AA7939F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48CCA517-D2BE-4DFA-B98E-3F2AA7939F54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
