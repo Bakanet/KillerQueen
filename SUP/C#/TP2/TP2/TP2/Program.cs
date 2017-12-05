@@ -9,8 +9,7 @@ namespace TP2
     {
         public static void Main(string[] args)
         {
-            int[] test = {4, 2, 3, 6, 8, 2};
-            Misc.printArr(Debugging.ex4(test));
+            Console.WriteLine(Debugging.ex3(11));
         }
     }
 }
