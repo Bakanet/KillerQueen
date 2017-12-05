@@ -1,10 +1,12 @@
-﻿namespace Debugger
+﻿using System;
+
+namespace Debugger
 {
     internal class Program
     {
         public static void Main(string[] args)
         {
-            Loop.Print_Tree(5);
+            Console.WriteLine(Debugging.ex2(2,9));
         }
     }
 }

@@ -27,18 +27,20 @@
         {
             // FIXME expected output: the sum of [x - x^3 + x^5 - ...]
             // with n number of terms
-            double c = 0, d = 0, sum = 0;
+            long c = 0, d = 0;
+            double sum = 0;
             for (int i = 1; i < n - 1; i++)
             {
-                c = (2) * (2 * i);
-                d = d * x / c;
-                sum = sum;
+                c = 1 + (2 * i);
+                d = Loop.Power(x, c);
+                sum = sum + (i % 2 == 0 ? d : -d);
             }
             return sum;
             
             // Les problemes ici sont que sum, initialise a 0, est toujours egal a 0 a chaque tour de boucle (car
             // il y a la ligne sum = sum et que d, initialise a 0, va toujours renvoyer 0 car 0 * quelque chose est 
-            // toujours egal a 0.
+            // toujours egal a 0. On utilise c comme puissance donc c'est un int. Pareil pour d qui sera
+            // calcule a partir de c. On utilise long pour fonctionner avec la fonction Loop.Power.
         }
 
         public static bool ex3(int n)
