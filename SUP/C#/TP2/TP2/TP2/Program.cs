@@ -9,7 +9,8 @@ namespace TP2
     {
         public static void Main(string[] args)
         {
-            
+            int[] test = {1, 2, 3, 4, 5};
+            Misc.printArr(test);
         }
     }
 }

@@ -4,7 +4,9 @@
     {
         public static void Swap(ref int a, ref int b)
         {
-            //FIXME
+            int c = a;
+            a = b;
+            b = c;
         }
 
         public static int Trunc(ref float f)
