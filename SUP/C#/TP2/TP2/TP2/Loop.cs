@@ -88,18 +88,23 @@ namespace Debugger
 
         public static void Print_Strong(int n)
         {
-            for (int i = 1; i <= n; i++)
+            if (n < 0)
+                Console.WriteLine("Print_Strong: invalid argument");
+            else
             {
-                int sum = 0;
-                int x = i;
-                while (x != 0)
+                for (int i = 1; i <= n; i++)
                 {
-                    sum += (int) Factorial(x % 10);
-                    x /= 10;
+                    int sum = 0;
+                    int x = i;
+                    while (x != 0)
+                    {
+                        sum += (int) Factorial(x % 10);
+                        x /= 10;
+                    }
+
+                    if (sum == i)
+                        Console.Write(sum + " ");
                 }
-                
-                if (sum == i)
-                    Console.Write(sum + " ");                
             }
         }
 
@@ -113,15 +118,24 @@ namespace Debugger
 
         public static float Sqrt(float n)
         {
-            float x0 = n;
-            float x1 = 0;
-
-            while (Abs(x0 - x1) > 0.0001)
+            if (n < 0)
             {
-                x1 = 0.5f * (x0 + n / x0);
-                x0 = 0.5f * (x1 + n / x1);
+                Console.WriteLine("Sqrt: invalid argument");
+                return 0;
             }
-            return x0;
+
+            else
+            {
+                float x0 = n;
+                float x1 = 0;
+
+                while (Abs(x0 - x1) > 0.0001)
+                {
+                    x1 = 0.5f * (x0 + n / x0);
+                    x0 = 0.5f * (x1 + n / x1);
+                }
+                return x0;
+            }
         }
 
         public static long Power(long a, long b)
@@ -155,32 +169,37 @@ namespace Debugger
 
         public static void Print_Tree(int n)
         {
-
-            int c = n;
-
-            for (int i = 1; i <= n; i++) //leaves
-            {
-                string space = Space(c);
-                string star = "";
-                
-                for (int x = c; x < n; x++)
-                {
-                    star += "*";
-                }
-                
-                Console.WriteLine(space + star + "*" + star + space);
-                --c;
-            }
-
-            if (n < 3) //trunk    
-            {
-                Console.WriteLine(Space(n) + "*" + Space(n));
-            }
+            if (n <= 0)
+                Console.WriteLine("Print_Tree: invalid argument");
 
             else
             {
-                Console.WriteLine(Space(n) + "*" + Space(n));
-                Console.WriteLine(Space(n) + "*" + Space(n));
+                int c = n;
+
+                for (int i = 1; i <= n; i++) //leaves
+                {
+                    string space = Space(c);
+                    string star = "";
+
+                    for (int x = c; x < n; x++)
+                    {
+                        star += "*";
+                    }
+
+                    Console.WriteLine(space + star + "*" + star + space);
+                    --c;
+                }
+
+                if (n < 3) //trunk    
+                {
+                    Console.WriteLine(Space(n) + "*" + Space(n));
+                }
+
+                else
+                {
+                    Console.WriteLine(Space(n) + "*" + Space(n));
+                    Console.WriteLine(Space(n) + "*" + Space(n));
+                }
             }
         }
     }

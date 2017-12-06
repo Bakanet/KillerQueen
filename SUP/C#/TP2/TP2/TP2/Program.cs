@@ -9,7 +9,7 @@ namespace TP2
     {
         public static void Main(string[] args)
         {
-            Loop.Print_Primes(19);
+            
         }
     }
 }
