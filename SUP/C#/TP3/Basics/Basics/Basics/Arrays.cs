@@ -4,7 +4,7 @@
     {
         public static int Search(int[] arr, int e)
         {
-            //FIXME
+            // a coder comme la version while de ma string en Py
             return -1;
         }
 

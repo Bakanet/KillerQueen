@@ -11,17 +11,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Arrays.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Arrays.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Basics/Arrays.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="108">
+              <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+              <folding>
+                <marker date="1512640127000" expanded="true" signature="16:536" ph="{...}" />
+                <marker date="1512640127000" expanded="true" signature="42:534" ph="{...}" />
+                <marker date="1512640127000" expanded="true" signature="99:207" ph="{...}" />
+                <marker date="1512640127000" expanded="true" signature="259:322" ph="{...}" />
+                <marker date="1512640127000" expanded="true" signature="373:438" ph="{...}" />
+                <marker date="1512640127000" expanded="true" signature="488:528" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reference.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Reference.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Basics/Reference.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
@@ -59,6 +66,7 @@
       <list>
         <option value="$PROJECT_DIR$/Basics/Program.cs" />
         <option value="$PROJECT_DIR$/Basics/Reference.cs" />
+        <option value="$PROJECT_DIR$/Basics/Arrays.cs" />
       </list>
     </option>
   </component>
@@ -146,12 +154,12 @@
       <updated>1512585947834</updated>
       <workItem from="1512585950675" duration="4978000" />
       <workItem from="1512628281195" duration="1080000" />
-      <workItem from="1512639570024" duration="184000" />
+      <workItem from="1512639570024" duration="558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6242000" />
+    <option name="totallyTimeSpent" value="6616000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -163,8 +171,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="36" width="960" height="573" extended-state="6" />
-    <editor active="true" />
+    <frame x="960" y="36" width="960" height="1145" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -204,7 +211,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1512640127000" expanded="true" signature="16:536" ph="{...}" />
+            <marker date="1512640127000" expanded="true" signature="42:534" ph="{...}" />
+            <marker date="1512640127000" expanded="true" signature="99:207" ph="{...}" />
+            <marker date="1512640127000" expanded="true" signature="259:322" ph="{...}" />
+            <marker date="1512640127000" expanded="true" signature="373:438" ph="{...}" />
+            <marker date="1512640127000" expanded="true" signature="488:528" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -234,7 +248,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1512640127000" expanded="true" signature="16:536" ph="{...}" />
+            <marker date="1512640127000" expanded="true" signature="42:534" ph="{...}" />
+            <marker date="1512640127000" expanded="true" signature="99:207" ph="{...}" />
+            <marker date="1512640127000" expanded="true" signature="259:322" ph="{...}" />
+            <marker date="1512640127000" expanded="true" signature="373:438" ph="{...}" />
+            <marker date="1512640127000" expanded="true" signature="488:528" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -260,14 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/Arrays.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -286,6 +299,21 @@
             <marker date="1512639753000" expanded="true" signature="105:186" ph="{...}" />
             <marker date="1512639753000" expanded="true" signature="232:335" ph="{...}" />
             <marker date="1512639753000" expanded="true" signature="390:430" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/Arrays.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <folding>
+            <marker date="1512640127000" expanded="true" signature="16:536" ph="{...}" />
+            <marker date="1512640127000" expanded="true" signature="42:534" ph="{...}" />
+            <marker date="1512640127000" expanded="true" signature="99:207" ph="{...}" />
+            <marker date="1512640127000" expanded="true" signature="259:322" ph="{...}" />
+            <marker date="1512640127000" expanded="true" signature="373:438" ph="{...}" />
+            <marker date="1512640127000" expanded="true" signature="488:528" ph="{...}" />
           </folding>
         </state>
       </provider>
