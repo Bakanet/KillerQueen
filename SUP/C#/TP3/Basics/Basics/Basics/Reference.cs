@@ -11,8 +11,10 @@
 
         public static int Trunc(ref float f)
         {
-            //FIXME
-            return -1;
+            int e = (int) f;
+            f = f - (float) e;
+
+            return e;
         }
 
         public static void RotChar(ref char c, int n)

@@ -7,10 +7,7 @@ namespace Basics
     {
         public static void Main(string[] args)
         {
-            int a = 4, b = 7;
-            Reference.Swap(ref a, ref b);
-            Console.WriteLine(a);
-            Console.WriteLine(b);
+            
         }
     }
 }
