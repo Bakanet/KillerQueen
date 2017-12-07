@@ -7,6 +7,7 @@ namespace Basics
     {
         public static void Main(string[] args)
         {
+            
         }
     }
 }
