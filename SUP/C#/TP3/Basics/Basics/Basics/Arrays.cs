@@ -18,7 +18,14 @@ namespace Basics
 
         public static int KingOfTheHill(int[] arr)
         {
-            return -1;
+            int length = arr.Length, max = 0;
+            for (int i = 0; i < length; i++)
+            {
+                if (arr[i] > max)
+                    max = arr[i];
+            }
+            
+            return max;
         }
 
         public static int[] CloneArray(int[] arr)

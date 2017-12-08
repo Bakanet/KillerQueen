@@ -1,6 +1,7 @@
 ﻿using System;
 using System.CodeDom;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 
 namespace Basics
 {
@@ -8,8 +9,10 @@ namespace Basics
     {
         public static void Main(string[] args)
         {
-            int[] test = {0, 4, 7, 1, 3, 5, 65, 4, 1, 2, 5, 10};
-            
+            char c = 'a';
+            int c2 = (int) c;
+            Console.WriteLine(c2);
+
         }
     }
 }
