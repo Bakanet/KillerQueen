@@ -10,3 +10,15 @@ C:\Users\malol\Desktop\tpcs3\Takuzu\Takuzu\Takuzu\bin\Debug\normnfkd.nlp
 C:\Users\malol\Desktop\tpcs3\Takuzu\Takuzu\Takuzu\obj\Debug\Takuzu.csprojResolveAssemblyReference.cache
 C:\Users\malol\Desktop\tpcs3\Takuzu\Takuzu\Takuzu\obj\Debug\Takuzu.exe
 C:\Users\malol\Desktop\tpcs3\Takuzu\Takuzu\Takuzu\obj\Debug\Takuzu.pdb
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\bin\Debug\Takuzu.exe
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\bin\Debug\Takuzu.pdb
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\bin\Debug\mscorlib.dll
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\bin\Debug\fr\mscorlib.resources.dll
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\bin\Debug\normidna.nlp
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\bin\Debug\normnfc.nlp
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\bin\Debug\normnfd.nlp
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\bin\Debug\normnfkc.nlp
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\bin\Debug\normnfkd.nlp
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\obj\Debug\Takuzu.csprojResolveAssemblyReference.cache
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\obj\Debug\Takuzu.exe
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\obj\Debug\Takuzu.pdb
