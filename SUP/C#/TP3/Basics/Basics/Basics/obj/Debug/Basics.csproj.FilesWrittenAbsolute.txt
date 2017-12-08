@@ -1,5 +1,0 @@
-/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP3/Basics/Basics/Basics/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP3/Basics/Basics/Basics/bin/Debug/Basics.pdb
-/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP3/Basics/Basics/Basics/bin/Debug/Basics.exe
-/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP3/Basics/Basics/Basics/obj/Debug/Basics.exe
-/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP3/Basics/Basics/Basics/obj/Debug/Basics.pdb
