@@ -1,0 +1,5 @@
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP3/Takuzu/Takuzu/Takuzu/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP3/Takuzu/Takuzu/Takuzu/bin/Debug/Takuzu.pdb
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP3/Takuzu/Takuzu/Takuzu/bin/Debug/Takuzu.exe
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP3/Takuzu/Takuzu/Takuzu/obj/Debug/Takuzu.exe
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP3/Takuzu/Takuzu/Takuzu/obj/Debug/Takuzu.pdb

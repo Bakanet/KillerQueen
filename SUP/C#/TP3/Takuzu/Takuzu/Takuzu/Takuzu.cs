@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Data.Common;
+using System.Linq.Expressions;
 
 namespace Takuzu 
 {
@@ -7,7 +9,31 @@ namespace Takuzu
     {
         public static void PrintGrid(int[,] grid)
         {
-            //FIXME
+            int line = grid.GetLength(0);
+            int column = grid.GetLength(1);
+            
+            Console.Write("   ");                // mettre au bon endroit la premiere ligne
+            for (int x = 0; x < column; x++)    // print de la premiere ligne
+            {
+                Console.Write(x + " ");
+            }
+            Console.WriteLine();
+            
+            for (int i = 0; i < line; i++)        // decomposition par lignes
+            {
+                Console.Write(i + " ");
+                
+                for (int j = 0; j < column; j++)  // parcours des colonnes
+                {
+                    if (grid[i,j] == 1 || grid[i,j] == 0)
+                        Console.Write("|" + grid[i,j]);
+                    else
+                        Console.Write("| ");
+
+                }
+                
+                Console.WriteLine("|");
+            }
         }
 
         public static bool IsRowValid(int[,] grid, int row)
