@@ -1,0 +1,3 @@
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\Takuzu\Takuzu\Takuzu\obj\Debug\Takuzu.csprojResolveAssemblyReference.cache
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\Takuzu\Takuzu\Takuzu\obj\Debug\Takuzu.exe
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\Takuzu\Takuzu\Takuzu\obj\Debug\Takuzu.pdb

@@ -10,19 +10,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Takuzu/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="345">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
-                <marker date="1512747999000" expanded="false" signature="6:47" ph="..." />
-                <marker date="1512747999000" expanded="true" signature="65:665" ph="{...}" />
-                <marker date="1512747999000" expanded="true" signature="94:663" ph="{...}" />
-                <marker date="1512747999000" expanded="true" signature="147:657" ph="{...}" />
-                <marker date="1512747999000" expanded="true" signature="196:610" ph="{...}" />
+                <marker date="1512752144555" expanded="false" signature="6:47" ph="..." />
+                <marker date="1512752144555" expanded="true" signature="65:665" ph="{...}" />
+                <marker date="1512752144555" expanded="true" signature="94:663" ph="{...}" />
+                <marker date="1512752144555" expanded="true" signature="147:657" ph="{...}" />
+                <marker date="1512752144555" expanded="true" signature="196:610" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Takuzu.sln" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Takuzu.sln">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -30,22 +40,21 @@
       <file leaf-file-name="Takuzu.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Takuzu/Takuzu.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="0">
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding>
-                <marker date="1512748023000" expanded="true" signature="6:107" ph="..." />
-                <marker date="1512748023000" expanded="true" signature="126:1870" ph="{...}" />
-                <marker date="1512748023000" expanded="true" signature="159:1868" ph="{...}" />
-                <marker date="1512748023000" expanded="true" signature="215:1134" ph="{...}" />
-                <marker date="1512748023000" expanded="true" signature="494:562" ph="{...}" />
-                <marker date="1512748023000" expanded="true" signature="686:1124" ph="{...}" />
-                <marker date="1512748023000" expanded="true" signature="832:1053" ph="{...}" />
-                <marker date="1512748023000" expanded="true" signature="1195:1261" ph="{...}" />
-                <marker date="1512748023000" expanded="true" signature="1333:1399" ph="{...}" />
-                <marker date="1512748023000" expanded="true" signature="1452:1518" ph="{...}" />
-                <marker date="1512748023000" expanded="true" signature="1590:1656" ph="{...}" />
-                <marker date="1512748023000" expanded="true" signature="1711:1751" ph="{...}" />
-                <marker date="1512748023000" expanded="true" signature="1797:1862" ph="{...}" />
+                <marker date="1512752144575" expanded="true" signature="6:107" ph="..." />
+                <marker date="1512752144575" expanded="true" signature="159:1868" ph="{...}" />
+                <marker date="1512752144575" expanded="true" signature="215:1134" ph="{...}" />
+                <marker date="1512752144575" expanded="true" signature="494:562" ph="{...}" />
+                <marker date="1512752144575" expanded="true" signature="686:1124" ph="{...}" />
+                <marker date="1512752144575" expanded="true" signature="832:1053" ph="{...}" />
+                <marker date="1512752144575" expanded="true" signature="1195:1261" ph="{...}" />
+                <marker date="1512752144575" expanded="true" signature="1333:1399" ph="{...}" />
+                <marker date="1512752144575" expanded="true" signature="1452:1518" ph="{...}" />
+                <marker date="1512752144575" expanded="true" signature="1590:1656" ph="{...}" />
+                <marker date="1512752144575" expanded="true" signature="1711:1751" ph="{...}" />
+                <marker date="1512752144575" expanded="true" signature="1797:1862" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -72,10 +81,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
-    <option name="y" value="36" />
-    <option name="width" value="960" />
-    <option name="height" value="382" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -115,6 +124,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Takuzu.sln" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,15 +140,17 @@
   </component>
   <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Takuzu/Takuzu.csproj" />
-      <option name="PROJECT_KIND" value="Console" />
-      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
       <option name="EXE_PATH" value="$PROJECT_DIR$/Takuzu/bin/Debug/Takuzu.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
       <option name="USE_MONO" value="0" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <envs />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Takuzu/Takuzu.csproj" />
+      <option name="PROJECT_OUTPUT_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -152,11 +164,13 @@
       <option name="presentableId" value="Default" />
       <updated>1512743275134</updated>
       <workItem from="1512743277434" duration="4883000" />
+      <workItem from="1512752331932" duration="144000" />
+      <workItem from="1512752540905" duration="140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4883000" />
+    <option name="totallyTimeSpent" value="5167000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -168,29 +182,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="36" width="960" height="573" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7389474" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16631798" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296355" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7389474" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16617863" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296355" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -205,39 +218,116 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Takuzu/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1512752144555" expanded="false" signature="6:47" ph="..." />
+            <marker date="1512752144555" expanded="true" signature="65:665" ph="{...}" />
+            <marker date="1512752144555" expanded="true" signature="94:663" ph="{...}" />
+            <marker date="1512752144555" expanded="true" signature="147:657" ph="{...}" />
+            <marker date="1512752144555" expanded="true" signature="196:610" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Takuzu/Takuzu.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding>
-            <marker date="1512748023000" expanded="true" signature="6:107" ph="..." />
-            <marker date="1512748023000" expanded="true" signature="126:1870" ph="{...}" />
-            <marker date="1512748023000" expanded="true" signature="159:1868" ph="{...}" />
-            <marker date="1512748023000" expanded="true" signature="215:1134" ph="{...}" />
-            <marker date="1512748023000" expanded="true" signature="494:562" ph="{...}" />
-            <marker date="1512748023000" expanded="true" signature="686:1124" ph="{...}" />
-            <marker date="1512748023000" expanded="true" signature="832:1053" ph="{...}" />
-            <marker date="1512748023000" expanded="true" signature="1195:1261" ph="{...}" />
-            <marker date="1512748023000" expanded="true" signature="1333:1399" ph="{...}" />
-            <marker date="1512748023000" expanded="true" signature="1452:1518" ph="{...}" />
-            <marker date="1512748023000" expanded="true" signature="1590:1656" ph="{...}" />
-            <marker date="1512748023000" expanded="true" signature="1711:1751" ph="{...}" />
-            <marker date="1512748023000" expanded="true" signature="1797:1862" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="6:107" ph="..." />
+            <marker date="1512752144575" expanded="true" signature="159:1868" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="215:1134" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="494:562" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="686:1124" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="832:1053" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1195:1261" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1333:1399" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1452:1518" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1590:1656" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1711:1751" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1797:1862" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Takuzu/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512747999000" expanded="false" signature="6:47" ph="..." />
-            <marker date="1512747999000" expanded="true" signature="65:665" ph="{...}" />
-            <marker date="1512747999000" expanded="true" signature="94:663" ph="{...}" />
-            <marker date="1512747999000" expanded="true" signature="147:657" ph="{...}" />
-            <marker date="1512747999000" expanded="true" signature="196:610" ph="{...}" />
+            <marker date="1512752144555" expanded="false" signature="6:47" ph="..." />
+            <marker date="1512752144555" expanded="true" signature="65:665" ph="{...}" />
+            <marker date="1512752144555" expanded="true" signature="94:663" ph="{...}" />
+            <marker date="1512752144555" expanded="true" signature="147:657" ph="{...}" />
+            <marker date="1512752144555" expanded="true" signature="196:610" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Takuzu/Takuzu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <marker date="1512752144575" expanded="true" signature="6:107" ph="..." />
+            <marker date="1512752144575" expanded="true" signature="159:1868" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="215:1134" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="494:562" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="686:1124" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="832:1053" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1195:1261" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1333:1399" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1452:1518" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1590:1656" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1711:1751" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1797:1862" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Takuzu/Takuzu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding>
+            <marker date="1512752144575" expanded="true" signature="6:107" ph="..." />
+            <marker date="1512752144575" expanded="true" signature="159:1868" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="215:1134" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="494:562" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="686:1124" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="832:1053" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1195:1261" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1333:1399" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1452:1518" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1590:1656" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1711:1751" ph="{...}" />
+            <marker date="1512752144575" expanded="true" signature="1797:1862" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Takuzu/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1512752144555" expanded="false" signature="6:47" ph="..." />
+            <marker date="1512752144555" expanded="true" signature="65:665" ph="{...}" />
+            <marker date="1512752144555" expanded="true" signature="94:663" ph="{...}" />
+            <marker date="1512752144555" expanded="true" signature="147:657" ph="{...}" />
+            <marker date="1512752144555" expanded="true" signature="196:610" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Takuzu.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
