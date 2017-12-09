@@ -9,48 +9,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Arrays.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Basics/Arrays.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="1" lean-forward="false" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-              <folding>
-                <marker date="1512753429537" expanded="true" signature="42:1486" ph="{...}" />
-                <marker date="1512753429537" expanded="true" signature="68:1484" ph="{...}" />
-                <marker date="1512753429537" expanded="true" signature="125:340" ph="{...}" />
-                <marker date="1512753429537" expanded="true" signature="392:636" ph="{...}" />
-                <marker date="1512753429537" expanded="true" signature="493:589" ph="{...}" />
-                <marker date="1512753429537" expanded="true" signature="687:938" ph="{...}" />
-                <marker date="1512753429537" expanded="true" signature="836:900" ph="{...}" />
-                <marker date="1512753429537" expanded="true" signature="988:1478" ph="{...}" />
-                <marker date="1512753429537" expanded="true" signature="1085:1468" ph="{...}" />
-                <marker date="1512753429537" expanded="true" signature="1143:1454" ph="{...}" />
-                <marker date="1512753429537" expanded="true" signature="1206:1436" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reference.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basics/Reference.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding>
-                <marker date="1512753429369" expanded="true" signature="16:439" ph="{...}" />
-                <marker date="1512753429369" expanded="true" signature="45:437" ph="{...}" />
-                <marker date="1512753429369" expanded="true" signature="105:186" ph="{...}" />
-                <marker date="1512753429369" expanded="true" signature="232:335" ph="{...}" />
-                <marker date="1512753429369" expanded="true" signature="390:431" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Basics/Reference.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Basics/Arrays.cs" root0="FORCE_HIGHLIGHTING" />
@@ -204,41 +162,5 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basics/Reference.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <marker date="1512753429369" expanded="true" signature="16:439" ph="{...}" />
-            <marker date="1512753429369" expanded="true" signature="45:437" ph="{...}" />
-            <marker date="1512753429369" expanded="true" signature="105:186" ph="{...}" />
-            <marker date="1512753429369" expanded="true" signature="232:335" ph="{...}" />
-            <marker date="1512753429369" expanded="true" signature="390:431" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/Arrays.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="1" lean-forward="false" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-          <folding>
-            <marker date="1512753429537" expanded="true" signature="42:1486" ph="{...}" />
-            <marker date="1512753429537" expanded="true" signature="68:1484" ph="{...}" />
-            <marker date="1512753429537" expanded="true" signature="125:340" ph="{...}" />
-            <marker date="1512753429537" expanded="true" signature="392:636" ph="{...}" />
-            <marker date="1512753429537" expanded="true" signature="493:589" ph="{...}" />
-            <marker date="1512753429537" expanded="true" signature="687:938" ph="{...}" />
-            <marker date="1512753429537" expanded="true" signature="836:900" ph="{...}" />
-            <marker date="1512753429537" expanded="true" signature="988:1478" ph="{...}" />
-            <marker date="1512753429537" expanded="true" signature="1085:1468" ph="{...}" />
-            <marker date="1512753429537" expanded="true" signature="1143:1454" ph="{...}" />
-            <marker date="1512753429537" expanded="true" signature="1206:1436" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
