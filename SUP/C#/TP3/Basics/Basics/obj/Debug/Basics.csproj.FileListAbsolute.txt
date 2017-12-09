@@ -10,3 +10,9 @@ C:\Users\malol\Desktop\tpcs3\Basics\Basics\Basics\bin\Debug\normnfkd.nlp
 C:\Users\malol\Desktop\tpcs3\Basics\Basics\Basics\obj\Debug\Basics.csprojResolveAssemblyReference.cache
 C:\Users\malol\Desktop\tpcs3\Basics\Basics\Basics\obj\Debug\Basics.exe
 C:\Users\malol\Desktop\tpcs3\Basics\Basics\Basics\obj\Debug\Basics.pdb
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP3\Basics\Basics\bin\Debug\Basics.exe
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP3\Basics\Basics\bin\Debug\Basics.pdb
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP3\Basics\Basics\obj\Debug\Basics.csprojResolveAssemblyReference.cache
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP3\Basics\Basics\obj\Debug\Basics.csproj.CoreCompileInputs.cache
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP3\Basics\Basics\obj\Debug\Basics.exe
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP3\Basics\Basics\obj\Debug\Basics.pdb
