@@ -22,3 +22,9 @@ C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\bin\Debug
 C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\obj\Debug\Takuzu.csprojResolveAssemblyReference.cache
 C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\obj\Debug\Takuzu.exe
 C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\obj\Debug\Takuzu.pdb
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\bin\Debug\Takuzu.exe
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\bin\Debug\Takuzu.pdb
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\obj\Debug\Takuzu.csprojResolveAssemblyReference.cache
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\obj\Debug\Takuzu.csproj.CoreCompileInputs.cache
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\obj\Debug\Takuzu.exe
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP3\TP3\Takuzu\Takuzu\Takuzu\obj\Debug\Takuzu.pdb

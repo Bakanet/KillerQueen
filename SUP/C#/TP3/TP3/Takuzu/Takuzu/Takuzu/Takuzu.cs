@@ -7,21 +7,21 @@ namespace Takuzu
     {
         public static void PrintGrid(int[,] grid)
         {
-            int row = grid.GetLength(0);
-            int column = grid.GetLength(1);
+            int row = grid.GetLength(1);
+            int column = grid.GetLength(0);
             
             Console.Write("   ");                // mettre au bon endroit la premiere ligne
-            for (int x = 0; x < column; x++)    // print de la premiere ligne
+            for (int x = 0; x < row; x++)        // print de la premiere ligne
             {
                 Console.Write(x + " ");
             }
             Console.WriteLine();
             
-            for (int i = 0; i < row; i++)       // decomposition par lignes
+            for (int i = 0; i < column; i++)       // decomposition par lignes
             {
                 Console.Write(i + " ");
                 
-                for (int j = 0; j < column; j++)  // parcours des colonnes
+                for (int j = 0; j < row; j++)  // parcours des colonnes
                 {
                     if (grid[i,j] == 1 || grid[i,j] == 0)
                         Console.Write("|" + grid[i,j]);
@@ -29,7 +29,6 @@ namespace Takuzu
                         Console.Write("| ");
 
                 }
-                
                 Console.WriteLine("|");
             }
         }
@@ -38,25 +37,40 @@ namespace Takuzu
         {
             int nb0 = 0, nb1 = 0;
 
-            for (int i = 0; i < grid.GetLength(0); i++)
+            for (int i = 0; i < grid.GetLength(1); i++)
             {
                 if (grid[row, i] == 0)
                     nb0 += 1;
                 else if (grid[row, i] == 1)
                     nb1 += 1;
             }
-            return nb0 == nb1;
+
+            return 2 * (nb0 > nb1 ? nb0 : nb1) >= grid.GetLength(1); // max(nb0,nb1) > length - max(nb0,nb1)
         }
         
         public static bool IsColumnValid(int[,] grid, int col)
         {
-            //FIXME
-            return false;
+            int nb0 = 0, nb1 = 1;
+
+            for (int i = 0; i < grid.GetLength(0); i++)
+            {
+                if (grid[i, col] == 0)
+                    nb0 += 1;
+                else if (grid[i, col] == 1)
+                    nb1 += 1;
+            }
+            return 2 * (nb0 > nb1 ? nb0 : nb1) >= grid.GetLength(0);
         }
 
         public static bool IsGridValid(int[,] grid)
         {
-            //FIXME
+            int row_length = grid.GetLength(1), i = 0;
+            while (i < row_length && IsRowValid(grid, i))
+            {
+                ++i;
+            }
+
+            bool row = i < row_length;
             return false;
         }
 
