@@ -19,7 +19,7 @@ namespace Takuzu
                 { 0, -1, -1, -1, -1,  0,  0, -1}
             };
 
-            int[,] test = {{0, 0, 0, 1, 1, 1}, {-1, -1, -1, -1, -1, -1}};
+            int[,] test = {{0, 0, -1, -1, -1, -1}, {0, 1, 0, 1, 0, 1}};
             Takuzu.PrintGrid(test);
             Console.WriteLine(Takuzu.IsRowValid(test, 0));
         }

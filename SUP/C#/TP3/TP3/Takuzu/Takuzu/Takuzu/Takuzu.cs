@@ -45,7 +45,7 @@ namespace Takuzu
                     nb1 += 1;
             }
 
-            return 2 * (nb0 > nb1 ? nb0 : nb1) >= grid.GetLength(1); // max(nb0,nb1) > length - max(nb0,nb1)
+            return 2 * (nb0 > nb1 ? nb0 : nb1) <= grid.GetLength(1); // max(nb0,nb1) > length - max(nb0,nb1)
         }
         
         public static bool IsColumnValid(int[,] grid, int col)
@@ -59,7 +59,7 @@ namespace Takuzu
                 else if (grid[i, col] == 1)
                     nb1 += 1;
             }
-            return 2 * (nb0 > nb1 ? nb0 : nb1) >= grid.GetLength(0);
+            return 2 * (nb0 > nb1 ? nb0 : nb1) <= grid.GetLength(0);
         }
 
         public static bool IsGridValid(int[,] grid)
