@@ -64,8 +64,18 @@ namespace Takuzu
 
         public static bool IsGridValid(int[,] grid)
         {
-            // gestion des lignes
-            return false;
+            int row_length = grid.GetLength(1), col_length = grid.GetLength(0);
+            bool row = true, column = true;
+            for (int j = 0; j < col_length && row; j++)
+            {
+                int i = 0;
+                while (i < row_length && (grid[j, i] != grid[j+1, i]))
+                {
+                    ++i;
+                }
+                row &= (i == row_length);
+            }
+            return row;
         }
 
         public static bool PutCell(int[,] grid, int x, int y, int val)

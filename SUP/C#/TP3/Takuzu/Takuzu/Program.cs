@@ -18,10 +18,18 @@ namespace Takuzu
                 { 0, -1, -1,  0,  0, -1, -1, -1},
                 { 0, -1, -1, -1, -1,  0,  0, -1}
             };
+            int[,] c = {{0, 0, 0, 0}, {0, 1, 0, 0}};
+            Console.WriteLine(Takuzu.IsGridValid(c));
+        }
 
-            int[,] test = {{0, 0, -1, -1, -1, -1}, {0, 1, 0, 1, 0, 1}};
-            Takuzu.PrintGrid(test);
-            Console.WriteLine(Takuzu.IsRowValid(test, 0));
+        static bool Same(int[] b1, int[] b2)
+        {
+            int i = 0, length = b1.Length;
+            while (i < length && b1[i] == b2[i])
+            {
+                ++i;
+            }
+            return i == length;
         }
     }
 }
