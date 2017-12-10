@@ -64,13 +64,7 @@ namespace Takuzu
 
         public static bool IsGridValid(int[,] grid)
         {
-            int row_length = grid.GetLength(1), i = 0;
-            while (i < row_length && IsRowValid(grid, i))
-            {
-                ++i;
-            }
-
-            bool row = i < row_length;
+            // gestion des lignes
             return false;
         }
 
