@@ -95,10 +95,10 @@ namespace Takuzu
         {
             int row_length = grid.GetLength(1), col_length = grid.GetLength(0);
             bool row = true, column = true;
-            for (int x = 0; x < col_length; x++)                        // pour les lignes
+            for (int x = 0; x < col_length; x++) // pour les lignes
             {
                 for (int j = x + 1; j < col_length && row; j++)
-                {    
+                {
                     int i = 0;
                     while (i < row_length && (grid[x, i] == grid[j, i]))
                     {
@@ -107,11 +107,11 @@ namespace Takuzu
                     row &= (i != row_length) && IsRowValid(grid, j);
                 }
             }
-            
-            for (int x = 0; x < row_length; x++)                            // pour les colonnes
+
+            for (int x = 0; x < row_length; x++) // pour les colonnes
             {
                 for (int j = x + 1; j < row_length && column; j++)
-                {    
+                {
                     int i = 0;
                     while (i < col_length && (grid[i, x] == grid[i, j]))
                     {
