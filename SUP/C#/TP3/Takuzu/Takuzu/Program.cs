@@ -18,8 +18,8 @@ namespace Takuzu
                 { 0, -1, -1,  0,  0, -1, -1, -1},
                 { 0, -1, -1, -1, -1,  0,  0, -1}
             };
-            int[,] c = {{0, 0, 1, 0}, {0, 0, 0, 0}, {0, 0, 1, 0}};
-            Console.WriteLine(Takuzu.IsGridValid(c));
+            int[,] c = {{-1, 1, 0, 0}, {0, 0, -1, 1}, {-1, 0, 1, 0}};
+            Console.WriteLine(Takuzu.IsGridValid(grid));
         }
 
         static bool Same(int[] b1, int[] b2)
