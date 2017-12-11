@@ -66,10 +66,10 @@ namespace Takuzu
         {
             int row_length = grid.GetLength(1), col_length = grid.GetLength(0);
             bool row = true, column = true;
-            for (int j = 0; j < col_length && row; j++)
+            for (int j = 0; j < col_length - 1; j++)
             {
                 int i = 0;
-                while (i < row_length && (grid[j, i] != grid[j+1, i]))
+                while (i < row_length && (grid[j, i] == grid[j+1, i]))
                 {
                     ++i;
                 }
