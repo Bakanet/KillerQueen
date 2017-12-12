@@ -155,11 +155,23 @@ namespace Takuzu
             {
                 PrintGrid(start);
                 Console.Write("x : ");
-                x = int.Parse(Console.ReadLine());
+                string xname = "";
+                while ((xname = Console.ReadLine()) == "")
+                {                   
+                }
+                x = int.Parse(xname);
                 Console.Write("y : ");
-                y = int.Parse(Console.ReadLine());
+                string yname = "";
+                while ((yname = Console.ReadLine()) == "")
+                {
+                }
+                y = int.Parse(yname);
                 Console.Write("value : ");
-                val = int.Parse(Console.ReadLine());
+                string valname = "";
+                while ((valname = Console.ReadLine()) == "")
+                {    
+                }
+                val = int.Parse(valname);
 
                 if (PutCell(start, x, y, val))
                     --nbvoid;
