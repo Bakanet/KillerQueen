@@ -125,13 +125,48 @@ namespace Takuzu
 
         public static bool PutCell(int[,] grid, int x, int y, int val)
         {
-            //FIXME
-            return false;
+            if (val != 1 && val != 0)
+                return false;
+            
+            if (x < 0 || x > grid.GetLength(1) - 1 || y > grid.GetLength(0) || y < 0)
+                return false;
+
+            int val0 = grid[y, x];
+            grid[y, x] = val;
+
+            if (!IsGridValid(grid))
+            {
+                grid[y, x] = val0;
+                return false;
+            }
+            return true;
         }
         
         public static void Game(int[,] start)
         {
-            //FIXME
+            int nbvoid = 0, x = 0, y = 0, val = 0;
+            foreach (int value in start)
+            {
+                if (value == -1)
+                    ++nbvoid;
+            }
+
+            while (nbvoid > 0)
+            {
+                PrintGrid(start);
+                Console.Write("x : ");
+                x = int.Parse(Console.ReadLine());
+                Console.Write("y : ");
+                y = int.Parse(Console.ReadLine());
+                Console.Write("value : ");
+                val = int.Parse(Console.ReadLine());
+
+                if (PutCell(start, x, y, val))
+                    --nbvoid;
+            }
+
+            Console.WriteLine("Le Takuzu c'est le feu mais vous auriez pu profiter de ce temps pour lire Homestuck" +
+                              " plutot");
         }
 
         public static int[,] AI(int[,] grid)
