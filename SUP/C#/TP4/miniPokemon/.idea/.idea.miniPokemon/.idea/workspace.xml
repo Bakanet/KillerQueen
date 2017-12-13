@@ -10,32 +10,81 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="Pokemon.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miniPokemon/Pokemon.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="39" column="15" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+            <state relative-caret-position="0">
+              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+              <folding>
+                <marker date="1513122888606" expanded="true" signature="6:72" ph="..." />
+                <marker date="1513122888606" expanded="true" signature="95:1609" ph="{...}" />
+                <marker date="1513122888606" expanded="true" signature="131:1607" ph="{...}" />
+                <marker date="1513122888606" expanded="true" signature="166:284" ph="{...}" />
+                <marker date="1513122888606" expanded="true" signature="295:612" ph="Constructor" />
+                <marker date="1513122888606" expanded="true" signature="422:580" ph="{...}" />
+                <marker date="1513122888606" expanded="true" signature="631:1592" ph="Methods" />
+                <marker date="1513122888606" expanded="true" signature="694:808" ph="{...}" />
+                <marker date="1513122888606" expanded="true" signature="849:963" ph="{...}" />
+                <marker date="1513122888606" expanded="true" signature="1002:1116" ph="{...}" />
+                <marker date="1513122888606" expanded="true" signature="1145:1259" ph="{...}" />
+                <marker date="1513122888606" expanded="true" signature="1300:1414" ph="{...}" />
+                <marker date="1513122888606" expanded="true" signature="1450:1564" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="miniPokemon.sln" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miniPokemon.sln">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Animal.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miniPokemon/App.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="78" lean-forward="false" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AssemblyInfo.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/miniPokemon/Properties/AssemblyInfo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+              <folding>
+                <marker date="1513122888682" expanded="true" signature="6:101" ph="..." />
+                <marker date="1513122888682" expanded="true" signature="103:290" ph="/* General Information about an assembly is controlled through the following ... */" />
+                <marker date="1513122888682" expanded="true" signature="599:809" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
+                <marker date="1513122888682" expanded="true" signature="984:1311" ph="/* Version information for an assembly consists of the following four values: ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animal.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miniPokemon/Animal.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="38">
+              <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
               <folding>
-                <marker date="1513186171187" expanded="true" signature="6:108" ph="..." />
-                <marker date="1513186171187" expanded="true" signature="131:881" ph="{...}" />
-                <marker date="1513186171187" expanded="true" signature="157:879" ph="{...}" />
-                <marker date="1513186171187" expanded="true" signature="172:339" ph="Constructor" />
-                <marker date="1513186171187" expanded="true" signature="257:307" ph="{...}" />
-                <marker date="1513186171187" expanded="true" signature="357:864" ph="Methods" />
-                <marker date="1513186171187" expanded="true" signature="410:524" ph="{...}" />
-                <marker date="1513186171187" expanded="true" signature="564:678" ph="{...}" />
-                <marker date="1513186171187" expanded="true" signature="722:836" ph="{...}" />
+                <marker date="1513190000890" expanded="true" signature="6:108" ph="..." />
+                <marker date="1513190000890" expanded="true" signature="131:881" ph="{...}" />
+                <marker date="1513190000890" expanded="true" signature="157:879" ph="{...}" />
+                <marker date="1513190000890" expanded="true" signature="172:339" ph="Constructor" />
+                <marker date="1513190000890" expanded="true" signature="257:307" ph="{...}" />
+                <marker date="1513190000890" expanded="true" signature="357:864" ph="Methods" />
+                <marker date="1513190000890" expanded="true" signature="410:524" ph="{...}" />
+                <marker date="1513190000890" expanded="true" signature="564:678" ph="{...}" />
+                <marker date="1513190000890" expanded="true" signature="722:836" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -44,10 +93,12 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/miniPokemon/Trainer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/miniPokemon/Pokemon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/miniPokemon/Animal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/miniPokemon/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/miniPokemon/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/miniPokemon/Trainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/miniPokemon/App.config" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -56,6 +107,7 @@
         <option value="$PROJECT_DIR$/miniPokemon/Pokemon.cs" />
         <option value="$PROJECT_DIR$/miniPokemon/Trainer.cs" />
         <option value="$PROJECT_DIR$/miniPokemon/Animal.cs" />
+        <option value="$PROJECT_DIR$/miniPokemon/App.config" />
       </list>
     </option>
   </component>
@@ -86,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -98,17 +151,23 @@
               <item name="miniPokemon (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="miniPokemon" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="miniPokemon (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="miniPokemon" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Properties" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/miniPokemon.sln" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -150,11 +209,13 @@
       <workItem from="1512921673119" duration="887000" />
       <workItem from="1512934687596" duration="361000" />
       <workItem from="1513185665304" duration="503000" />
+      <workItem from="1513190382552" duration="214000" />
+      <workItem from="1513190782344" duration="635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1751000" />
+    <option name="totallyTimeSpent" value="2600000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -166,7 +227,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -176,8 +237,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14860907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -202,6 +263,102 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/miniPokemon/Pokemon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding>
+            <marker date="1513122888606" expanded="true" signature="6:72" ph="..." />
+            <marker date="1513122888606" expanded="true" signature="95:1609" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="131:1607" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="166:284" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="295:612" ph="Constructor" />
+            <marker date="1513122888606" expanded="true" signature="422:580" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="631:1592" ph="Methods" />
+            <marker date="1513122888606" expanded="true" signature="694:808" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="849:963" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="1002:1116" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="1145:1259" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="1300:1414" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="1450:1564" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniPokemon.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniPokemon/App.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniPokemon/Animal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <marker date="1513190000890" expanded="true" signature="6:108" ph="..." />
+            <marker date="1513190000890" expanded="true" signature="131:881" ph="{...}" />
+            <marker date="1513190000890" expanded="true" signature="157:879" ph="{...}" />
+            <marker date="1513190000890" expanded="true" signature="172:339" ph="Constructor" />
+            <marker date="1513190000890" expanded="true" signature="257:307" ph="{...}" />
+            <marker date="1513190000890" expanded="true" signature="357:864" ph="Methods" />
+            <marker date="1513190000890" expanded="true" signature="410:524" ph="{...}" />
+            <marker date="1513190000890" expanded="true" signature="564:678" ph="{...}" />
+            <marker date="1513190000890" expanded="true" signature="722:836" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniPokemon/Pokemon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="15" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+          <folding>
+            <marker date="1513122888606" expanded="true" signature="6:72" ph="..." />
+            <marker date="1513122888606" expanded="true" signature="95:1609" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="131:1607" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="166:284" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="295:612" ph="Constructor" />
+            <marker date="1513122888606" expanded="true" signature="422:580" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="631:1592" ph="Methods" />
+            <marker date="1513122888606" expanded="true" signature="694:808" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="849:963" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="1002:1116" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="1145:1259" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="1300:1414" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="1450:1564" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniPokemon/Animal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <marker date="1513190000890" expanded="true" signature="6:108" ph="..." />
+            <marker date="1513190000890" expanded="true" signature="131:881" ph="{...}" />
+            <marker date="1513190000890" expanded="true" signature="157:879" ph="{...}" />
+            <marker date="1513190000890" expanded="true" signature="172:339" ph="Constructor" />
+            <marker date="1513190000890" expanded="true" signature="257:307" ph="{...}" />
+            <marker date="1513190000890" expanded="true" signature="357:864" ph="Methods" />
+            <marker date="1513190000890" expanded="true" signature="410:524" ph="{...}" />
+            <marker date="1513190000890" expanded="true" signature="564:678" ph="{...}" />
+            <marker date="1513190000890" expanded="true" signature="722:836" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/miniPokemon/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -216,28 +373,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/miniPokemon.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/miniPokemon/Pokemon.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="39" column="15" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding>
+            <marker date="1513122888606" expanded="true" signature="6:72" ph="..." />
+            <marker date="1513122888606" expanded="true" signature="95:1609" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="131:1607" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="166:284" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="295:612" ph="Constructor" />
+            <marker date="1513122888606" expanded="true" signature="422:580" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="631:1592" ph="Methods" />
+            <marker date="1513122888606" expanded="true" signature="694:808" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="849:963" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="1002:1116" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="1145:1259" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="1300:1414" ph="{...}" />
+            <marker date="1513122888606" expanded="true" signature="1450:1564" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/miniPokemon/Animal.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="38">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           <folding>
-            <marker date="1513186171187" expanded="true" signature="6:108" ph="..." />
-            <marker date="1513186171187" expanded="true" signature="131:881" ph="{...}" />
-            <marker date="1513186171187" expanded="true" signature="157:879" ph="{...}" />
-            <marker date="1513186171187" expanded="true" signature="172:339" ph="Constructor" />
-            <marker date="1513186171187" expanded="true" signature="257:307" ph="{...}" />
-            <marker date="1513186171187" expanded="true" signature="357:864" ph="Methods" />
-            <marker date="1513186171187" expanded="true" signature="410:524" ph="{...}" />
-            <marker date="1513186171187" expanded="true" signature="564:678" ph="{...}" />
-            <marker date="1513186171187" expanded="true" signature="722:836" ph="{...}" />
+            <marker date="1513190000890" expanded="true" signature="6:108" ph="..." />
+            <marker date="1513190000890" expanded="true" signature="131:881" ph="{...}" />
+            <marker date="1513190000890" expanded="true" signature="157:879" ph="{...}" />
+            <marker date="1513190000890" expanded="true" signature="172:339" ph="Constructor" />
+            <marker date="1513190000890" expanded="true" signature="257:307" ph="{...}" />
+            <marker date="1513190000890" expanded="true" signature="357:864" ph="Methods" />
+            <marker date="1513190000890" expanded="true" signature="410:524" ph="{...}" />
+            <marker date="1513190000890" expanded="true" signature="564:678" ph="{...}" />
+            <marker date="1513190000890" expanded="true" signature="722:836" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniPokemon/App.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="78" lean-forward="false" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniPokemon/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding>
+            <marker date="1513122888682" expanded="true" signature="6:101" ph="..." />
+            <marker date="1513122888682" expanded="true" signature="103:290" ph="/* General Information about an assembly is controlled through the following ... */" />
+            <marker date="1513122888682" expanded="true" signature="599:809" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
+            <marker date="1513122888682" expanded="true" signature="984:1311" ph="/* Version information for an assembly consists of the following four values: ... */" />
           </folding>
         </state>
       </provider>

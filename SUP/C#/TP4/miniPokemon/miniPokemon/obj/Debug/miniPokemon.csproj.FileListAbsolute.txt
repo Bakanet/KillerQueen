@@ -11,3 +11,5 @@ C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\bin\Debug\
 C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\obj\Debug\miniPokemon.csprojResolveAssemblyReference.cache
 C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\obj\Debug\miniPokemon.exe
 C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\obj\Debug\miniPokemon.pdb
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\obj\Debug\miniPokemon.exe
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\obj\Debug\miniPokemon.pdb
