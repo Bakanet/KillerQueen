@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
+using System.Security.Cryptography;
 
 namespace miniPokemon
 {
@@ -8,10 +9,11 @@ namespace miniPokemon
     {
         #region Constructor
 
+        private string name;
+
         public Animal(string name)
         {
-            // TODO
-            throw new TargetInvocationException(new InvalidOperationException("Constructor is not implemented yet"));
+            this.name = name;
         }
 
         #endregion Constructor
