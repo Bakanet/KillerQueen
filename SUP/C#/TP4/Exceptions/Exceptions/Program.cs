@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Exceptions
 {
@@ -6,7 +7,6 @@ namespace Exceptions
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(Base.Fibonacci(-1));
         }
     }
 }

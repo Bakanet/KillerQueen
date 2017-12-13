@@ -1,0 +1,5 @@
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP4/Exceptions/Exceptions/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP4/Exceptions/Exceptions/bin/Debug/Exceptions.pdb
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP4/Exceptions/Exceptions/bin/Debug/Exceptions.exe
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP4/Exceptions/Exceptions/obj/Debug/Exceptions.exe
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP4/Exceptions/Exceptions/obj/Debug/Exceptions.pdb
