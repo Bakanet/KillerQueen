@@ -5,27 +5,11 @@ using System.Security.Cryptography;
 namespace miniPokemon
 {
     public enum Poketype
-    {
-        None,
-        NORMAL,
-        FIRE,
-        GRASS,
-        WATER,
-        ELECTRICK,
-        FLY,
-        ROCK,
-        GROUND,
-        STEEL,
-        PSY,
-        DARK,
-        FAIRY,
-        DRAGON,
-        GHOST,
-        FIGHT,
-        INSECT,
-        POISON,
-        ICE
-    };
+    {None, NORMAL, FIRE, GRASS, WATER, ELECTRICK, FLY, ROCK, GROUND, STEEL, PSY, DARK, FAIRY, DRAGON, GHOST, FIGHT,
+        INSECT, POISON, ICE};
+    
+    public enum State
+    {None, SLP, BRN, FRZ, PAR, PSN, TXC, Confusion, Flinch, LeechSeed}
     
     public class stratPokemon
     {
@@ -44,9 +28,6 @@ namespace miniPokemon
             this.name = name;
             stats = new List<int>();
         }
-
-
-
 
         #endregion
 
@@ -67,7 +48,6 @@ namespace miniPokemon
             life += life;
             isKO = false;
         }
-
         #endregion
 
     }

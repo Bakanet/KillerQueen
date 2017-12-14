@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,11 @@ namespace miniPokemon
         static void Main(string[] args)
         {
             stratPokemon Jirachi = new stratPokemon("Jirhaxxi");
+        }
 
+        public void TeamBuilder()
+        {
+            
         }
     }
 }
