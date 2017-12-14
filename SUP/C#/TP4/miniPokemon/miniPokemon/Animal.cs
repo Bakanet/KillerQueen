@@ -10,7 +10,10 @@ namespace miniPokemon
 
         private string name;
 
-        public string Name => name;
+        public string Name
+        {
+            get { return name; }
+        }
 
         public Animal(string name)
         {

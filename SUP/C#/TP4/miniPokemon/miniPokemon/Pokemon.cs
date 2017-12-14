@@ -13,8 +13,7 @@ namespace miniPokemon
             FIRE,
             WATER,
             GRASS,
-            ELECTRICK,
-            STEEL
+            ELECTRICK
         };
 
         #region Constructor
@@ -27,14 +26,14 @@ namespace miniPokemon
 
         public bool IsKo
         {
-            get => isKO;
-            set => isKO = value;
+            get { return isKO; }
+            set { isKO = value; }
         }
 
         public int Life
         {
-            get => life;
-            set => life = value;
+            get { return life; }
+            set { life = value; }
         }
 
 
@@ -88,8 +87,7 @@ namespace miniPokemon
         public void Heal(int life)
         {
             this.life += life;
-            if (life > 0)
-                isKO = false;
+            isKO = false;
         }
 
         #endregion Methods

@@ -6,3 +6,16 @@ C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP4\miniPokemon\miniPoke
 C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\obj\Debug\miniPokemon.csproj.CoreCompileInputs.cache
 C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\obj\Debug\miniPokemon.exe
 C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\obj\Debug\miniPokemon.pdb
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\bin\Debug\miniPokemon.exe.config
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\bin\Debug\miniPokemon.exe
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\bin\Debug\miniPokemon.pdb
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\bin\Debug\mscorlib.dll
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\bin\Debug\fr\mscorlib.resources.dll
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\bin\Debug\normidna.nlp
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\bin\Debug\normnfc.nlp
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\bin\Debug\normnfd.nlp
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\bin\Debug\normnfkc.nlp
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\bin\Debug\normnfkd.nlp
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\obj\Debug\miniPokemon.csprojResolveAssemblyReference.cache
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\obj\Debug\miniPokemon.exe
+C:\Users\malol\Desktop\KillerQueen\SUP\C#\TP4\miniPokemon\miniPokemon\obj\Debug\miniPokemon.pdb

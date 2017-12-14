@@ -10,6 +10,8 @@ namespace miniPokemon
     {
         static void Main(string[] args)
         {
+            stratPokemon Jirachi = new stratPokemon("Jirhaxxi");
+
         }
     }
 }

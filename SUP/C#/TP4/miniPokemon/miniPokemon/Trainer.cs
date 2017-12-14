@@ -12,8 +12,8 @@ namespace miniPokemon
 
         public int Age
         {
-            get => age;
-            set => age = value;
+            get { return age; }
+            set { age = value; }
         }
 
         public Trainer(string name, int age)
@@ -31,38 +31,46 @@ namespace miniPokemon
 
         public override void WhoAmI()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            Console.WriteLine("I'm a Pokemon trainer !");
         }
 
         public int NumberOfPokemon()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            int nb = 0;
+            foreach (var pomon in listPokemon)
+            {
+                ++nb;
+            }
+            return nb;
         }
 
         public override void Describe()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            Console.WriteLine("My name is " + Name + ", I'm " + age + " and I have " + NumberOfPokemon() + " Pokemons !");
         }
 
         public void Birthday()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            ++Age;
         }
 
         public void MyPokemon()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            Console.WriteLine("My Pokemon are :");
+            foreach (var pomon in listPokemon)
+            {
+                Console.WriteLine("- " + pomon.Name);
+            }
         }
 
         public void CatchAPokemon(Pokemon pokemon)
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            listPokemon.Add(pokemon);
+        }
+
+        public void ReleaseAPokemon(Pokemon pokemon)
+        {
+            listPokemon.Remove(pokemon);
         }
         
         #endregion Methods
