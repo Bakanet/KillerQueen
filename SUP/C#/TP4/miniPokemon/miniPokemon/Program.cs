@@ -10,7 +10,6 @@ namespace miniPokemon
     {
         static void Main(string[] args)
         {
-            throw new MissingMethodException("This must be removed or placed after all your tests");
         }
     }
 }

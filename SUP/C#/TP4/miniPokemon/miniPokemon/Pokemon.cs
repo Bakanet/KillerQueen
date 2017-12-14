@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Reflection;
 
 namespace miniPokemon
@@ -12,17 +13,38 @@ namespace miniPokemon
             FIRE,
             WATER,
             GRASS,
-            ELECTRICK
+            ELECTRICK,
+            STEEL
         };
 
         #region Constructor
 
-        
+        private int life;
+        private int damage;
+        private int level;
+        private bool isKO;
+        private Poketype poketype;
+
+        public bool IsKo
+        {
+            get => isKO;
+            set => isKO = value;
+        }
+
+        public int Life
+        {
+            get => life;
+            set => life = value;
+        }
+
+
         public Pokemon(string name, int life, int damage, Poketype poketype)
         : base(name)
         {
-            // TODO
-            throw new TargetInvocationException(new InvalidOperationException("Constructor is not implemented yet"));
+            this.poketype = poketype;
+            this.life = life;
+            this.damage = damage;
+            level = 1;
         }
 
         #endregion Constructor
@@ -33,38 +55,41 @@ namespace miniPokemon
         
         public override void WhoAmI()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            Console.WriteLine("I'm a Pokemon");
         }
 
         public override void Describe()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            Console.WriteLine("My name is " + Name + " I'm a Pokemon of type " + poketype + " and I'm level " + level);
         }
         
         public void LevelUp()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            level += 1;
         }
 
         public int Attack()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            Console.WriteLine(Name + " uses cut, it's super effective");
+            return damage;
         }
 
         public void GetHurt(int damage)
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            life -= damage;
+            if (life <= 0)
+            {
+                life = 0;
+                isKO = true;
+            }
+            
         }
 
         public void Heal(int life)
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            this.life += life;
+            if (life > 0)
+                isKO = false;
         }
 
         #endregion Methods

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
-using System.Security.Cryptography;
 
 namespace miniPokemon
 {
@@ -10,6 +9,8 @@ namespace miniPokemon
         #region Constructor
 
         private string name;
+
+        public string Name => name;
 
         public Animal(string name)
         {
@@ -22,20 +23,17 @@ namespace miniPokemon
 
         public virtual void WhoAmI()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            Console.WriteLine("I am an animal !");
         }
 
         public virtual void Describe()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            Console.WriteLine("My name is " + name);
         }
 
         public void Rename(string NewName)
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            name = NewName;
         }
 
         #endregion Methods

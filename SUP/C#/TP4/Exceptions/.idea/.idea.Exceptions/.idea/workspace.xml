@@ -14,21 +14,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Base.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Base.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exceptions/Base.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+            <state relative-caret-position="838">
+              <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
               <folding>
-                <marker date="1513176469000" expanded="true" signature="35:1552" ph="{...}" />
-                <marker date="1513176469000" expanded="true" signature="66:1550" ph="{...}" />
-                <marker date="1513176469000" expanded="true" signature="115:460" ph="{...}" />
-                <marker date="1513176469000" expanded="true" signature="272:372" ph="{...}" />
-                <marker date="1513176469000" expanded="true" signature="511:739" ph="{...}" />
-                <marker date="1513176469000" expanded="true" signature="798:1048" ph="{...}" />
-                <marker date="1513176469000" expanded="true" signature="1105:1544" ph="{...}" />
-                <marker date="1513176469000" expanded="true" signature="1192:1271" ph="{...}" />
-                <marker date="1513176469000" expanded="true" signature="1298:1509" ph="{...}" />
+                <marker date="1513190000872" expanded="true" signature="35:1552" ph="{...}" />
+                <marker date="1513190000872" expanded="true" signature="66:1550" ph="{...}" />
+                <marker date="1513190000872" expanded="true" signature="115:460" ph="{...}" />
+                <marker date="1513190000872" expanded="true" signature="272:372" ph="{...}" />
+                <marker date="1513190000872" expanded="true" signature="511:739" ph="{...}" />
+                <marker date="1513190000872" expanded="true" signature="798:1048" ph="{...}" />
+                <marker date="1513190000872" expanded="true" signature="1105:1544" ph="{...}" />
+                <marker date="1513190000872" expanded="true" signature="1192:1271" ph="{...}" />
+                <marker date="1513190000872" expanded="true" signature="1298:1509" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AssemblyInfo.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Exceptions/Properties/AssemblyInfo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1513122888278" expanded="false" signature="6:101" ph="..." />
+                <marker date="1513122888278" expanded="true" signature="103:290" ph="/* General Information about an assembly is controlled through the following ... */" />
+                <marker date="1513122888278" expanded="true" signature="622:832" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
+                <marker date="1513122888278" expanded="true" signature="1007:1334" ph="/* Version information for an assembly consists of the following four values: ... */" />
               </folding>
             </state>
           </provider>
@@ -37,14 +52,9 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exceptions/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-              <folding>
-                <marker date="1513176501000" expanded="true" signature="6:41" ph="..." />
-                <marker date="1513176501000" expanded="true" signature="63:173" ph="{...}" />
-                <marker date="1513176501000" expanded="true" signature="92:171" ph="{...}" />
-                <marker date="1513176501000" expanded="true" signature="145:165" ph="{...}" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,12 +64,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Exceptions/Base.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Exceptions/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Exceptions/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Exceptions/Base.cs" />
         <option value="$PROJECT_DIR$/Exceptions/Program.cs" />
+        <option value="$PROJECT_DIR$/Exceptions/Base.cs" />
       </list>
     </option>
   </component>
@@ -101,6 +112,19 @@
               <item name="Exceptions (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Exceptions" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Exceptions (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Exceptions" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Exceptions (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Exceptions" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assemblies" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -112,6 +136,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Skeleton_v2/skeleton/miniPokemon/miniPokemon.sln" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -127,15 +152,17 @@
   </component>
   <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Exceptions/Exceptions.csproj" />
-      <option name="PROJECT_KIND" value="Console" />
-      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
       <option name="EXE_PATH" value="$PROJECT_DIR$/Exceptions/bin/Debug/Exceptions.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
       <option name="USE_MONO" value="0" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <envs />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Exceptions/Exceptions.csproj" />
+      <option name="PROJECT_OUTPUT_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -154,11 +181,14 @@
       <workItem from="1512920952074" duration="672000" />
       <workItem from="1513174744597" duration="307000" />
       <workItem from="1513175185429" duration="1364000" />
+      <workItem from="1513190632314" duration="18000" />
+      <workItem from="1513204141984" duration="316000" />
+      <workItem from="1513204497597" duration="143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2345000" />
+    <option name="totallyTimeSpent" value="2822000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -170,7 +200,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="840" y="18" width="840" height="1013" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -180,8 +210,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23060109" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16626795" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16614583" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -191,6 +220,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -233,18 +263,39 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Exceptions/Base.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="1216">
+          <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
           <folding>
-            <marker date="1513176469000" expanded="true" signature="35:1552" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="66:1550" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="115:460" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="272:372" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="511:739" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="798:1048" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="1105:1544" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="1192:1271" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="1298:1509" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="35:1552" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="66:1550" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="115:460" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="272:372" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="511:739" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="798:1048" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1105:1544" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1192:1271" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1298:1509" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exceptions/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exceptions/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1513122888278" expanded="false" signature="6:101" ph="..." />
+            <marker date="1513122888278" expanded="true" signature="103:290" ph="/* General Information about an assembly is controlled through the following ... */" />
+            <marker date="1513122888278" expanded="true" signature="622:832" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
+            <marker date="1513122888278" expanded="true" signature="1007:1334" ph="/* Version information for an assembly consists of the following four values: ... */" />
           </folding>
         </state>
       </provider>
@@ -254,15 +305,59 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1513176469000" expanded="true" signature="35:1552" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="66:1550" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="115:460" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="272:372" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="511:739" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="798:1048" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="1105:1544" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="1192:1271" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="1298:1509" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="35:1552" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="66:1550" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="115:460" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="272:372" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="511:739" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="798:1048" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1105:1544" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1192:1271" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1298:1509" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exceptions/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exceptions/Base.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding>
+            <marker date="1513190000872" expanded="true" signature="35:1552" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="66:1550" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="115:460" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="272:372" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="511:739" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="798:1048" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1105:1544" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1192:1271" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1298:1509" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exceptions/Base.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1513190000872" expanded="true" signature="35:1552" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="66:1550" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="115:460" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="272:372" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="511:739" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="798:1048" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1105:1544" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1192:1271" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1298:1509" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -286,46 +381,54 @@
         <state relative-caret-position="301">
           <caret line="36" column="60" lean-forward="false" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
           <folding>
-            <marker date="1513176469000" expanded="true" signature="35:1552" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="66:1550" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="115:460" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="272:372" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="511:739" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="798:1048" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="1105:1544" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="1192:1271" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="1298:1509" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exceptions/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <marker date="1513176501000" expanded="true" signature="6:41" ph="..." />
-            <marker date="1513176501000" expanded="true" signature="63:173" ph="{...}" />
-            <marker date="1513176501000" expanded="true" signature="92:171" ph="{...}" />
-            <marker date="1513176501000" expanded="true" signature="145:165" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="35:1552" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="66:1550" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="115:460" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="272:372" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="511:739" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="798:1048" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1105:1544" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1192:1271" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1298:1509" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Exceptions/Base.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+        <state relative-caret-position="838">
+          <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
           <folding>
-            <marker date="1513176469000" expanded="true" signature="35:1552" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="66:1550" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="115:460" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="272:372" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="511:739" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="798:1048" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="1105:1544" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="1192:1271" ph="{...}" />
-            <marker date="1513176469000" expanded="true" signature="1298:1509" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="35:1552" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="66:1550" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="115:460" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="272:372" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="511:739" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="798:1048" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1105:1544" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1192:1271" ph="{...}" />
+            <marker date="1513190000872" expanded="true" signature="1298:1509" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exceptions/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exceptions/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1513122888278" expanded="false" signature="6:101" ph="..." />
+            <marker date="1513122888278" expanded="true" signature="103:290" ph="/* General Information about an assembly is controlled through the following ... */" />
+            <marker date="1513122888278" expanded="true" signature="622:832" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
+            <marker date="1513122888278" expanded="true" signature="1007:1334" ph="/* Version information for an assembly consists of the following four values: ... */" />
           </folding>
         </state>
       </provider>

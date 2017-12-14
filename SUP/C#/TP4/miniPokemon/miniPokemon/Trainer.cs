@@ -8,11 +8,18 @@ namespace miniPokemon
     {
         #region Constructor
 
+        private int age;
+
+        public int Age
+        {
+            get => age;
+            set => age = value;
+        }
+
         public Trainer(string name, int age)
         : base(name)
         {
-            // TODO
-            throw new TargetInvocationException(new InvalidOperationException("Constructor is not implemented yet"));
+            this.age = age;
             listPokemon = new List<Pokemon>();
         }
 
@@ -28,7 +35,7 @@ namespace miniPokemon
             throw new NotImplementedException("Please fix this quickly");
         }
 
-        public static int NumberOfPokemon()
+        public int NumberOfPokemon()
         {
             // TODO
             throw new NotImplementedException("Please fix this quickly");
