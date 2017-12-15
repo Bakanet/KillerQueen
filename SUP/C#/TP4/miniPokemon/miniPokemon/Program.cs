@@ -11,12 +11,8 @@ namespace miniPokemon
     {
         static void Main(string[] args)
         {
-            stratPokemon Jirachi = new stratPokemon(Pomon.Jirachi);
+            StratPokemon Dracaufeu = new StratPokemon(Pomon.CharizardMegaX);
         }
 
-        public void TeamBuilder()
-        {
-            Console.WriteLine("Créez un Pokemon");
-        }
     }
 }

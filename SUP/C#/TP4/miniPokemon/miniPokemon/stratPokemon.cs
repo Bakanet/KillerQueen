@@ -1,28 +1,49 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Net;
 using System.Security.Cryptography;
 
 namespace miniPokemon
 {
+    class Stats    // HP - Atk - Def - SpA - SpD - Spe - Type1 - Type2
+    {
+        public int HP { get; set; }
+        public int Atk { get; set; }
+        public int Def { get; set; }
+        public int SpA { get; set; }
+        public int SpD { get; set; }
+        public int Spe { get; set; }
+        public Poketype Type1 { get; set; }
+        public Poketype Type2 { get; set; }
+    }
 
-    public class stratPokemon
+    public class StratPokemon
     {
         #region Constructor
 
-        private Pomon name;
+        public Pomon name;
         private Poketype type;
         private Poketype type2;
-        private List<int> stats;
         private bool isKO;
         private int life;
         private State state;
+        private Dictionary<Pomon, Stats> Poke;
         // attaques
 
-        public stratPokemon(Pomon name)
+        public StratPokemon(Pomon name)
         {
             this.name = name;
-            stats = new List<int>();
+            Poke = new Dictionary<Pomon, Stats>
+            {
+                {Pomon.AlakazamMega, new Stats {HP = 55, Atk = 50, Def = 65, SpA = 175, SpD = 105, Spe = 150, Type1 = Poketype.PSYCHIC}},
+                {Pomon.Bisharp, new Stats {HP = 65, Atk = 125, Def = 100, SpA = 60, SpD = 70, Spe = 70, Type1 = Poketype.DARK, Type2 = Poketype.STEEL}},
+                {Pomon.Blacephalon, new Stats {HP = 53, Atk = 127, Def = 53, SpA = 151, SpD = 79, Spe = 107, Type1 = Poketype.FIRE, Type2 = Poketype.GHOST}},
+                {Pomon.Celesteela, new Stats {HP = 97, Atk = 101, Def = 103, SpA = 107, SpD = 101, Spe = 61, Type1 = Poketype.STEEL, Type2 = Poketype.FLYING}},
+                {Pomon.Chansey, new Stats {HP = 250, Atk = 5, Def = 5, SpA = 35, SpD = 105, Spe = 50, Type1 = Poketype.NORMAL}},
+                {Pomon.CharizardMegaX, new Stats {HP = 78, Atk = 130, Def = 111, SpA = 130, SpD = 85, Spe = 100, Type1 = Poketype.FIRE, Type2 = Poketype.DRAGON}}
+            };
+            life = ((((2 * Poke[name].HP + 31) * 100)) / 100) + 110;
         }
 
         #endregion
@@ -44,7 +65,6 @@ namespace miniPokemon
             life += life;
             isKO = false;
         }
-        #endregion
 
         public void StateChange(State state)
         {
@@ -54,6 +74,8 @@ namespace miniPokemon
                 Console.WriteLine(name + " prend des dégâts de statut.");
             }
         }
+        
+        #endregion
 
     }
 }

@@ -1,0 +1,6 @@
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP4/miniPokemon/miniPokemon/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP4/miniPokemon/miniPokemon/bin/Debug/miniPokemon.exe.config
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP4/miniPokemon/miniPokemon/bin/Debug/miniPokemon.pdb
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP4/miniPokemon/miniPokemon/bin/Debug/miniPokemon.exe
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP4/miniPokemon/miniPokemon/obj/Debug/miniPokemon.exe
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP4/miniPokemon/miniPokemon/obj/Debug/miniPokemon.pdb
