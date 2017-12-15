@@ -12,6 +12,7 @@ namespace miniPokemon
         static void Main(string[] args)
         {
             StratPokemon Dracaufeu = new StratPokemon(Pomon.CharizardMegaX);
+            TypeTable.Affinity(Poketype.DARK, Poketype.DRAGON);
         }
 
     }

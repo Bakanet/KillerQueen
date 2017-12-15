@@ -1,4 +1,6 @@
-﻿namespace miniPokemon
+﻿using System;
+
+namespace miniPokemon
 {
     public enum Poketype
     {
@@ -46,21 +48,23 @@
     {
         private int[,] table;
         public int[,] Table { get; set; }
+        private int lol;
 
         public TypeTable()
         {
             table = new int[,]
             {
-                { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1/2, 0, 1, 1, 1/2, 1},
-                
+                {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 / 2, 0, 1, 1, 1 / 2, 1},
+
             };
+            lol = table[(int) Poketype.NORMAL, (int) Poketype.FIRE];
         }
 
-        public int Affinity(Poketype atkType, Poketype defType)
-        {
-            return 0;
+        public void Affinity(Poketype atkType, Poketype defType)
+            {
+                Console.WriteLine(lol);
 
-        }
+            }
     }
 }
     
