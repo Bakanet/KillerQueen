@@ -1,0 +1,15 @@
+Bonus de Pokemon : coder un simulateur de combats strategiques.
+
+Les problemes majeurs :
+- avoir toutes les stats d'une attaques, d'un Pokemon, les effets secondaires pouvant s'appliquer et calculer tout ca
+- limiter les attaques disponibles des Pokemon SANS QUE CA PRENNE 3 GO DE PLACE
+- tout faire via des classes
+
+Classe stratPokemon :
+C'est la classe de base de nos Pokemon. Elle contiendra normalement un dictionnaire avec le nom du Pokemon
+(defini via une enum afin de limiter les Pokemon dispo au tier OU), et ses stats sous forme d'un tuple d'int.
+
+Classe Move :
+Elle contiendra normalement un dictionnaire avec toutes les attaques disponibles et leurs stats, types, effets, etc.
+On va ensuite calculer les degats d'un Move via les methodes et les parametres pris en compte (stat physique/speciale,
+table des types, etc)

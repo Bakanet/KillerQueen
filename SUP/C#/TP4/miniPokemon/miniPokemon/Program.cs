@@ -11,12 +11,12 @@ namespace miniPokemon
     {
         static void Main(string[] args)
         {
-            stratPokemon Jirachi = new stratPokemon("Jirhaxxi");
+            stratPokemon Jirachi = new stratPokemon(Pomon.Jirachi);
         }
 
         public void TeamBuilder()
         {
-            
+            Console.WriteLine("Créez un Pokemon");
         }
     }
 }

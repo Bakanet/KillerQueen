@@ -1,29 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Security.Cryptography;
 
 namespace miniPokemon
 {
-    public enum Poketype
-    {None, NORMAL, FIRE, GRASS, WATER, ELECTRICK, FLY, ROCK, GROUND, STEEL, PSY, DARK, FAIRY, DRAGON, GHOST, FIGHT,
-        INSECT, POISON, ICE};
-    
-    public enum State
-    {None, SLP, BRN, FRZ, PAR, PSN, TXC, Confusion, Flinch, LeechSeed}
-    
+
     public class stratPokemon
     {
         #region Constructor
 
-        private string name;
+        private Pomon name;
         private Poketype type;
         private Poketype type2;
         private List<int> stats;
         private bool isKO;
         private int life;
+        private State state;
         // attaques
 
-        public stratPokemon(string name)
+        public stratPokemon(Pomon name)
         {
             this.name = name;
             stats = new List<int>();
@@ -49,6 +45,15 @@ namespace miniPokemon
             isKO = false;
         }
         #endregion
+
+        public void StateChange(State state)
+        {
+            if (state == miniPokemon.State.BRN || state == State.PSN || state == State.LeechSeed)
+            {
+                life -= life / 12;
+                Console.WriteLine(name + " prend des dégâts de statut.");
+            }
+        }
 
     }
 }
