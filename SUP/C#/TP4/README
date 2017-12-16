@@ -5,11 +5,13 @@ Les problemes majeurs :
 - limiter les attaques disponibles des Pokemon SANS QUE CA PRENNE 3 GO DE PLACE
 - tout faire via des classes
 
-Classe stratPokemon :
-C'est la classe de base de nos Pokemon. Elle contiendra normalement un dictionnaire avec le nom du Pokemon
-(defini via une enum afin de limiter les Pokemon dispo au tier OU), et ses stats sous forme d'un tuple d'int.
+Database.cs :
+Ce fichier contient des enum pour tout ce dont on aura besoin en termes de donnees dans nos classes. Poketype definit les types existants des Pokemon et leur attribue un int pour
+la table des types. Pomon enumere tous les Pokemon disponibles pour le programme (le type Pomon sera utile pour que l'user sache quels Pokemon mettre). L'enum State sera utilise pour les
+attaques avec des effets particuliers (Sommeil, Brulure, etc...). La classe TypeTable servira, elle, à créer la table des types et a calculer le multiplicateur de degats.
 
-Classe Move :
-Elle contiendra normalement un dictionnaire avec toutes les attaques disponibles et leurs stats, types, effets, etc.
-On va ensuite calculer les degats d'un Move via les methodes et les parametres pris en compte (stat physique/speciale,
-table des types, etc)
+StratPokemon.cs :
+Ce fichier contient une premiere classe Stats composee de plusieurs getter/setter pour definir les stats et types de nos Pokemon.
+Ca nous sera utile pour la classe StratPokemon qui aura un dictionnaire dans le constructeur. Ce dictionnaire a pour cle un Pokemon (du type Pomon) et en valeur retournee un ensemble
+de stats qui vient de la classe Stats et qui nous permet de recuperer ces stats pour les calculs de degats. La vie du Pokemon est determinee via un calcul (source : Bulbapedia).
+On a ensuite la methode GetHurt, quand un Pokemon prend des degats, la methode Heal pour le soigner (avec le booléen qui determine s'il est KO ou non).
