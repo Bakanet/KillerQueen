@@ -10,9 +10,7 @@ namespace miniPokemon
     class Program
     {
         static void Main(string[] args)
-        {
-            StratPokemon Dracaufeu = new StratPokemon(Pomon.CharizardMegaX);
-            TypeTable test = new TypeTable();
+        {   
         }
 
     }

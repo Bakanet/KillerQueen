@@ -8,10 +8,16 @@ Les problemes majeurs :
 Database.cs :
 Ce fichier contient des enum pour tout ce dont on aura besoin en termes de donnees dans nos classes. Poketype definit les types existants des Pokemon et leur attribue un int pour
 la table des types. Pomon enumere tous les Pokemon disponibles pour le programme (le type Pomon sera utile pour que l'user sache quels Pokemon mettre). L'enum State sera utilise pour les
-attaques avec des effets particuliers (Sommeil, Brulure, etc...). La classe TypeTable servira, elle, à créer la table des types et a calculer le multiplicateur de degats.
+attaques avec des effets particuliers (Sommeil, Brulure, etc...).
 
 StratPokemon.cs :
 Ce fichier contient une premiere classe Stats composee de plusieurs getter/setter pour definir les stats et types de nos Pokemon.
 Ca nous sera utile pour la classe StratPokemon qui aura un dictionnaire dans le constructeur. Ce dictionnaire a pour cle un Pokemon (du type Pomon) et en valeur retournee un ensemble
 de stats qui vient de la classe Stats et qui nous permet de recuperer ces stats pour les calculs de degats. La vie du Pokemon est determinee via un calcul (source : Bulbapedia).
 On a ensuite la methode GetHurt, quand un Pokemon prend des degats, la methode Heal pour le soigner (avec le booléen qui determine s'il est KO ou non).
+
+Move.cs :
+On utilise la meme methode de creer une classe pour les stats de notre attaque et on les recupere via un dictionnaire.
+
+Fight.cs :
+La classe TypeTable servira à créer la table des types et a calculer le multiplicateur de degats.

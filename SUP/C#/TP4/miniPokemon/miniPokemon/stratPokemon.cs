@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 
 namespace miniPokemon
 {
-    class Stats    // HP - Atk - Def - SpA - SpD - Spe - Type1 - Type2
+    public class Stats    // HP - Atk - Def - SpA - SpD - Spe - Type1 - Type2
     {
         public int HP { get; set; }
         public int Atk { get; set; }
@@ -22,13 +22,14 @@ namespace miniPokemon
     {
         #region Constructor
 
-        public Pomon name;
+        private Pomon name;
         private Poketype type;
         private Poketype type2;
         private bool isKO;
         private int life;
         private State state;
-        private Dictionary<Pomon, Stats> Poke;
+        public Dictionary<Pomon, Stats> Poke;
+        private Attack[,] moves;
         // attaques
 
         public StratPokemon(Pomon name)
@@ -43,7 +44,7 @@ namespace miniPokemon
                 {Pomon.Chansey, new Stats {HP = 250, Atk = 5, Def = 5, SpA = 35, SpD = 105, Spe = 50, Type1 = Poketype.NORMAL}},
                 {Pomon.CharizardMegaX, new Stats {HP = 78, Atk = 130, Def = 111, SpA = 130, SpD = 85, Spe = 100, Type1 = Poketype.FIRE, Type2 = Poketype.DRAGON}}
             };
-            life = ((((2 * Poke[name].HP + 31) * 100)) / 100) + 110;
+            life = ((((2 * Poke[name].HP) * 100)) / 100) + 110;
         }
 
         #endregion
@@ -64,15 +65,6 @@ namespace miniPokemon
         {
             life += life;
             isKO = false;
-        }
-
-        public void StateChange(State state)
-        {
-            if (state == miniPokemon.State.BRN || state == State.PSN || state == State.LeechSeed)
-            {
-                life -= life / 12;
-                Console.WriteLine(name + " prend des dégâts de statut.");
-            }
         }
         
         #endregion
