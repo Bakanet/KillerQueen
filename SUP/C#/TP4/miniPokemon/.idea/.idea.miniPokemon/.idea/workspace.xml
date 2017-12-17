@@ -164,8 +164,8 @@
       <file leaf-file-name="Pokemon.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/miniPokemon/Pokemon.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="78" column="26" lean-forward="false" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+            <state relative-caret-position="307">
+              <caret line="78" column="14" lean-forward="false" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
               <folding>
                 <marker date="1513467597639" expanded="false" signature="6:100" ph="..." />
                 <marker date="1513467597639" expanded="true" signature="123:1921" ph="{...}" />
@@ -210,7 +210,6 @@
         <option value="$PROJECT_DIR$/miniPokemon/Animal.cs" />
         <option value="$PROJECT_DIR$/miniPokemon/myValue.cs" />
         <option value="$PROJECT_DIR$/miniPokemon/stratPokemon.cs" />
-        <option value="$PROJECT_DIR$/miniPokemon/Pokemon.cs" />
         <option value="$PROJECT_DIR$/miniPokemon/Move.cs" />
         <option value="$PROJECT_DIR$/miniPokemon/StratPokemon.cs" />
         <option value="$PROJECT_DIR$/miniPokemon/Fight.cs" />
@@ -218,6 +217,7 @@
         <option value="$PROJECT_DIR$/miniPokemon/Program.cs" />
         <option value="$PROJECT_DIR$/miniPokemon/Trainer.cs" />
         <option value="$PROJECT_DIR$/miniPokemon/Team.cs" />
+        <option value="$PROJECT_DIR$/miniPokemon/Pokemon.cs" />
       </list>
     </option>
   </component>
@@ -325,12 +325,12 @@
       <workItem from="1513429479208" duration="18434000" />
       <workItem from="1513465869904" duration="1946000" />
       <workItem from="1513468034750" duration="7788000" />
-      <workItem from="1513531229763" duration="6436000" />
+      <workItem from="1513531229763" duration="9055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75504000" />
+    <option name="totallyTimeSpent" value="78123000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,10 +349,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18763797" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18763797" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.128125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.128125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781458" sideWeight="0.49583334" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1087,31 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miniPokemon/Pokemon.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="78" column="26" lean-forward="false" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
-          <folding>
-            <marker date="1513467597639" expanded="false" signature="6:100" ph="..." />
-            <marker date="1513467597639" expanded="true" signature="123:1921" ph="{...}" />
-            <marker date="1513467597639" expanded="true" signature="159:1919" ph="{...}" />
-            <marker date="1513467597639" expanded="true" signature="194:312" ph="{...}" />
-            <marker date="1513467597639" expanded="true" signature="323:988" ph="Constructor" />
-            <marker date="1513467597639" expanded="true" signature="512:599" ph="{...}" />
-            <marker date="1513467597639" expanded="true" signature="624:711" ph="{...}" />
-            <marker date="1513467597639" expanded="true" signature="811:956" ph="{...}" />
-            <marker date="1513467597639" expanded="true" signature="1007:1904" ph="Methods" />
-            <marker date="1513467597639" expanded="true" signature="1070:1138" ph="{...}" />
-            <marker date="1513467597639" expanded="true" signature="1179:1319" ph="{...}" />
-            <marker date="1513467597639" expanded="true" signature="1358:1402" ph="{...}" />
-            <marker date="1513467597639" expanded="true" signature="1431:1551" ph="{...}" />
-            <marker date="1513467597639" expanded="true" signature="1592:1763" ph="{...}" />
-            <marker date="1513467597639" expanded="true" signature="1657:1740" ph="{...}" />
-            <marker date="1513467597639" expanded="true" signature="1799:1876" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/miniPokemon/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1175,6 +1150,31 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniPokemon/Pokemon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="78" column="14" lean-forward="false" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
+          <folding>
+            <marker date="1513467597639" expanded="false" signature="6:100" ph="..." />
+            <marker date="1513467597639" expanded="true" signature="123:1921" ph="{...}" />
+            <marker date="1513467597639" expanded="true" signature="159:1919" ph="{...}" />
+            <marker date="1513467597639" expanded="true" signature="194:312" ph="{...}" />
+            <marker date="1513467597639" expanded="true" signature="323:988" ph="Constructor" />
+            <marker date="1513467597639" expanded="true" signature="512:599" ph="{...}" />
+            <marker date="1513467597639" expanded="true" signature="624:711" ph="{...}" />
+            <marker date="1513467597639" expanded="true" signature="811:956" ph="{...}" />
+            <marker date="1513467597639" expanded="true" signature="1007:1904" ph="Methods" />
+            <marker date="1513467597639" expanded="true" signature="1070:1138" ph="{...}" />
+            <marker date="1513467597639" expanded="true" signature="1179:1319" ph="{...}" />
+            <marker date="1513467597639" expanded="true" signature="1358:1402" ph="{...}" />
+            <marker date="1513467597639" expanded="true" signature="1431:1551" ph="{...}" />
+            <marker date="1513467597639" expanded="true" signature="1592:1763" ph="{...}" />
+            <marker date="1513467597639" expanded="true" signature="1657:1740" ph="{...}" />
+            <marker date="1513467597639" expanded="true" signature="1799:1876" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
