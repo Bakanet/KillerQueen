@@ -15,14 +15,14 @@ namespace miniPokemon
         public int SpD { get; set; }
         public int Spe { get; set; }
         public Poketype Type1 { get; set; }
-        public Poketype Type2 { get; set; }
-    }
+        public Poketype Type2 { get; set; }    }
 
     public class StratPokemon
     {
         #region Constructor
 
-        private Pomon name;
+        private Pomon pokemon;
+        private string name;
         private Poketype type;
         private Poketype type2;
         private bool isKO;
@@ -32,8 +32,9 @@ namespace miniPokemon
         private Attack[,] moves;
         // attaques
 
-        public StratPokemon(Pomon name)
+        public StratPokemon(Pomon pokemon, string name)
         {
+            this.pokemon = pokemon;
             this.name = name;
             Poke = new Dictionary<Pomon, Stats>
             {
@@ -44,7 +45,7 @@ namespace miniPokemon
                 {Pomon.Chansey, new Stats {HP = 250, Atk = 5, Def = 5, SpA = 35, SpD = 105, Spe = 50, Type1 = Poketype.NORMAL}},
                 {Pomon.CharizardMegaX, new Stats {HP = 78, Atk = 130, Def = 111, SpA = 130, SpD = 85, Spe = 100, Type1 = Poketype.FIRE, Type2 = Poketype.DRAGON}}
             };
-            life = ((((2 * Poke[name].HP) * 100)) / 100) + 110;
+            life = ((((2 * Poke[pokemon].HP) * 100)) / 100) + 110;
         }
 
         #endregion
@@ -58,6 +59,7 @@ namespace miniPokemon
             {
                 life = 0;
                 isKO = true;
+                Console.WriteLine(name + " is KO !");
             }
         }
 

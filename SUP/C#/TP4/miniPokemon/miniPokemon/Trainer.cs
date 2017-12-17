@@ -39,7 +39,7 @@ namespace miniPokemon
             int nb = 0;
             foreach (var pomon in listPokemon)
             {
-                ++nb;
+                ++nb;    
             }
             return nb;
         }
@@ -65,7 +65,7 @@ namespace miniPokemon
 
         public void CatchAPokemon(Pokemon pokemon)
         {
-            listPokemon.Add(pokemon);
+            listPokemon.Add(pokemon);    
         }
 
         public void ReleaseAPokemon(Pokemon pokemon)

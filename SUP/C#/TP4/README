@@ -18,6 +18,9 @@ On a ensuite la methode GetHurt, quand un Pokemon prend des degats, la methode H
 
 Move.cs :
 On utilise la meme methode de creer une classe pour les stats de notre attaque et on les recupere via un dictionnaire.
+La methode Damages va calculer les degats d'une attaque (et sa precision), selon les calculs utilises par le jeu.
+La classe TypeTable calcule les affinites de type pour les reutiliser dans les calculs de degats.
 
 Fight.cs :
-La classe TypeTable servira à créer la table des types et a calculer le multiplicateur de degats.
+Cette methode statique sera celle qui recupere les donnees de toutes les autres classes et qui determine si l'on peut continuer a jouer, qu'est-ce qu'il se passe quand on switch de Pokemon...
+Chaque team sera representee par une array d'objets de la classe StratPokemon.
