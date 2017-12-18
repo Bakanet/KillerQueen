@@ -27,7 +27,7 @@ namespace miniPokemon
 
     public enum Pomon
     {
-        AlakazamMega, Bisharp, Blacephalon, Celesteela, Chansey, CharizardMegaX,
+        AlakazamMega = 1, Bisharp, Blacephalon, Celesteela, Chansey, CharizardMegaX,
         CharizardMegaY, Clefable, DiancieMega, Dragonite, Excadrill, Ferrothorn,
         Garchomp, GarchompMega, Gengar, Greninja, GreninjaAsh, Hawlucha, Heatran,
         Jirachi, Kartana, Keldeo, Kingdra, KyuremBlack, LandorusTherian, Latios, 
@@ -48,5 +48,6 @@ namespace miniPokemon
     {
         Outrage, FlareBlitz, Roost, DragonDance
     }
+    
 }
     

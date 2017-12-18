@@ -12,6 +12,7 @@ namespace miniPokemon
         static void Main(string[] args)
         {
             Pokemon Test = new Pokemon("Dracaufeu", 130, 80, Pokemon.Poketype.FIRE);
+            Fight.CreateTeam();
         }
 
     }
