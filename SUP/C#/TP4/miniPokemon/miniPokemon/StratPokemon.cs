@@ -15,18 +15,28 @@ namespace miniPokemon
         public int SpD { get; set; }
         public int Spe { get; set; }
         public Poketype Type1 { get; set; }
-        public Poketype Type2 { get; set; }    }
+        public Poketype Type2 { get; set; }
+        public Move Attack1 { get; set; }
+        public Move Attack2 { get; set; }
+        public Move Attack3 { get; set; }
+        public Move Attack4 { get; set; }
+    }
 
     public class StratPokemon
     {
         #region Constructor
 
         private Pomon pokemon;
+        public Pomon Pokemon => pokemon;
         private string name;
+        public string Name => name;
         private Poketype type;
         private Poketype type2;
         private bool isKO;
+        private int maxlife;
+        public int Maxlife => maxlife;
         private int life;
+        public int Life => life;
         private State state;
         public Dictionary<Pomon, Stats> Poke;
         private Attack[,] moves;
@@ -43,9 +53,10 @@ namespace miniPokemon
                 {Pomon.Blacephalon, new Stats {HP = 53, Atk = 127, Def = 53, SpA = 151, SpD = 79, Spe = 107, Type1 = Poketype.FIRE, Type2 = Poketype.GHOST}},
                 {Pomon.Celesteela, new Stats {HP = 97, Atk = 101, Def = 103, SpA = 107, SpD = 101, Spe = 61, Type1 = Poketype.STEEL, Type2 = Poketype.FLYING}},
                 {Pomon.Chansey, new Stats {HP = 250, Atk = 5, Def = 5, SpA = 35, SpD = 105, Spe = 50, Type1 = Poketype.NORMAL}},
-                {Pomon.CharizardMegaX, new Stats {HP = 78, Atk = 130, Def = 111, SpA = 130, SpD = 85, Spe = 100, Type1 = Poketype.FIRE, Type2 = Poketype.DRAGON}}
+                {Pomon.CharizardMegaX, new Stats {HP = 78, Atk = 130, Def = 111, SpA = 130, SpD = 85, Spe = 100, Type1 = Poketype.FIRE, Type2 = Poketype.DRAGON, Attack1 = new Move(Attack.FlareBlitz), Attack2 = new Move(Attack.DragonDance), Attack3 = new Move(Attack.Outrage), Attack4 = new Move(Attack.Roost)}}
             };
-            life = ((((2 * Poke[pokemon].HP) * 100)) / 100) + 110;
+            maxlife = ((((2 * Poke[pokemon].HP) * 100)) / 100) + 110;
+            life = maxlife;
         }
 
         #endregion

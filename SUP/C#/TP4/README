@@ -23,4 +23,8 @@ La classe TypeTable calcule les affinites de type pour les reutiliser dans les c
 
 Fight.cs :
 Cette methode statique sera celle qui recupere les donnees de toutes les autres classes et qui determine si l'on peut continuer a jouer, qu'est-ce qu'il se passe quand on switch de Pokemon...
-Chaque team sera representee par une array d'objets de la classe StratPokemon.
+Chaque team sera representee par une array d'objets de la classe StratPokemon. La methode AvailablePokemon va print tous les Pokemon disponibles, il est important de bien entrer l'entier
+correspondant à quel Pokemon on veut mettre dans notre equipe, sinon ca ne fonctionnera pas. On utilise CreateTeam pour creer les deux equipes qui vont s'affronter.
+La methode Switch permet le switch d'un Pokemon en premiere position de la team. La methode PrintBoard fait un affichage des Pokemon actuels des deux equipes ainsi que leurs attaques.
+La methode Turn appelle toutes les methodes necessaires pour faire un tour de jeu.
+Les grosses boucles while moches avec "Choose a valid number" servent a faire en sorte que le joueur ne puisse pas casser le jeu en choisissant un Pokemon non-existant.

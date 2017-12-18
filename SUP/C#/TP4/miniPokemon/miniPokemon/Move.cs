@@ -24,12 +24,14 @@ namespace miniPokemon
     {
         #region Constructor
 
-        private Attack name;
-        private Dictionary<Attack, MoveStats> PokeAttack;   
+        private static Attack name;
+        public Attack Name => name;
+
+        public static Dictionary<Attack, MoveStats> PokeAttack;
 
         public Move(Attack name)
         {
-            this.name = name;
+           
             PokeAttack = new Dictionary<Attack, MoveStats>()
             {
                 {Attack.FlareBlitz, new MoveStats {Power = 120, Accuracy = 100, Effect = State.Recoil, Kind = "physique", Type = Poketype.FIRE}} 
@@ -46,7 +48,7 @@ namespace miniPokemon
 
         }
 
-        public int Damages(int Atk, int SpA, int Def, int SpD, string kind, Poketype poke, Poketype move, State state, Poketype type1, Poketype type2)
+        public static int Damages(int Atk, int SpA, int Def, int SpD, string kind, Poketype poke1, Poketype poke2, Poketype move, State state, Poketype type1, Poketype type2)
         {
             if (new Random().Next(0, 100) > PokeAttack[name].Accuracy)
             {
@@ -54,7 +56,7 @@ namespace miniPokemon
                 return 0;
             }
             int damage = (42 * PokeAttack[name].Power * (kind == "physique" ? Atk / Def : SpA / SpD)) / 50 + 2;
-            int stab = poke == move ? 3/2 : 1;
+            int stab = poke1 == move || poke2 == move ? 3/2 : 1;
             int critical = new Random().Next(0, 10000) < 625 ? 3/2 : 1;
             
             if (critical == 3 / 2)
