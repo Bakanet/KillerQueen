@@ -33,6 +33,7 @@ namespace miniPokemon
         private Poketype type;
         private Poketype type2;
         private bool isKO;
+        public bool IsKo => isKO;
         private int maxlife;
         public int Maxlife => maxlife;
         private int life;
