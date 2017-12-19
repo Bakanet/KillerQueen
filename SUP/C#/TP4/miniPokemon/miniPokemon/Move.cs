@@ -16,6 +16,7 @@ namespace miniPokemon
         public int Power { get; set; }
         public int Accuracy { get; set; }
         public State Effect { get; set; }
+        public State Effect2 { get; set; }
         public string Kind { get; set; }
         public Poketype Type { get; set; }
     }
@@ -34,7 +35,14 @@ namespace miniPokemon
            
             PokeAttack = new Dictionary<Attack, MoveStats>()
             {
-                {Attack.FlareBlitz, new MoveStats {Power = 120, Accuracy = 100, Effect = State.Recoil, Kind = "physique", Type = Poketype.FIRE}} 
+                {Attack.Psychic, new MoveStats{Power = 90, Accuracy = 100, Effect = State.lowSpD, Kind = "special", Type = Poketype.PSYCHIC}},
+                {Attack.FocusBlast, new MoveStats{Power = 120, Accuracy = 70, Effect = State.lowSpD, Kind = "special", Type = Poketype.FIGHT}},
+                {Attack.ShadowBall, new MoveStats{Power = 80, Accuracy = 100, Effect = State.lowSpD, Kind = "special", Type = Poketype.GHOST}},
+                {Attack.CalmMind, new MoveStats{Kind = "status", Effect = State.upSpA, Effect2 = State.upSpD}},
+                {Attack.FlareBlitz, new MoveStats {Power = 120, Accuracy = 100, Effect = State.Recoil, Kind = "physique", Type = Poketype.FIRE}},
+                {Attack.Flamethrower, new MoveStats {Power = 90, Accuracy = 100, Effect = State.BRN, Kind = "special", Type = Poketype.FIRE}},
+                {Attack.FireBlast, new MoveStats {Power = 110, Accuracy = 85, Effect = State.BRN, Kind = "special", Type = Poketype.FIRE}},
+                {Attack.Overheat, new MoveStats {Power = 130, Accuracy = 90, Kind = "special", Type = Poketype.FIRE}},
             };
         }
 
@@ -48,8 +56,13 @@ namespace miniPokemon
 
         }
 
-        public static int Damages(int Atk, int SpA, int Def, int SpD, string kind, Poketype poke1, Poketype poke2, Poketype move, State state, Poketype type1, Poketype type2)
+        public static int Damages(int Atk, int SpA, int Def, int SpD, string kind, Poketype poke1, Poketype poke2, Poketype move, State state, Poketype type1, Poketype type2, StratPokemon actualpoke, StratPokemon enemypoke)
         {
+            if (kind == "status")
+            {
+                MoveEffect(PokeAttack[name].Effect, PokeAttack[name].Effect2, actualpoke, enemypoke);
+                return 0;
+            }
             if (new Random().Next(0, 100) > PokeAttack[name].Accuracy)
             {
                 Console.WriteLine("Missed !");
@@ -63,6 +76,43 @@ namespace miniPokemon
                 Console.WriteLine("A critical hit !");
 
             return damage * stab * new Random().Next(85, 100) / 100 * TypeTable.Affinity(move, type1, type2);
+        }
+
+        public static void MoveEffect(State effect, State effect2, StratPokemon pokemon, StratPokemon enemy)
+        {
+            Stats Apokestats = pokemon.Poke[pokemon.Pokemon];
+            Stats Epokestats = enemy.Poke[enemy.Pokemon];
+            
+            if (effect == State.PAR)
+            {
+                Epokestats.Spe /= 2;
+                enemy.State = State.PAR;
+                Console.WriteLine(enemy.Name + "is paralyzed");
+            }
+
+            if (effect == State.lowSpD)
+            { 
+                Epokestats.SpD *= 2 / 3;
+                Console.WriteLine(enemy.Name + "'s Special Defense fell!");
+            }
+
+            if (effect == State.upSpA)
+            {
+                Apokestats.SpA *= 3 / 2;
+                Console.WriteLine(pokemon.Name + "'s Special Attack rose!");
+            }
+
+            if (effect2 == State.upSpD)
+            {
+                Apokestats.SpD *= 3 / 2;
+                Console.WriteLine(pokemon.Name + "'s Special Defense rose!");
+            }
+
+            if (effect == State.Recoil)
+            {
+                Apokestats.HP /= 5;
+            }
+                
         }
 
         #endregion

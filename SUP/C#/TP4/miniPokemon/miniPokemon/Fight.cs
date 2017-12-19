@@ -172,25 +172,29 @@ namespace miniPokemon
                 if (int.Parse(move1) == 1)
                 {
                     team1Damages = Move.Damages(team1.Atk, team1.SpA, team2.Def, team2.SpD,
-                        attack1.Kind, team1.Type1, team1.Type2, attack1.Type, attack1.Effect, team2.Type1, team2.Type2);
+                        attack1.Kind, team1.Type1, team1.Type2, attack1.Type, attack1.Effect, team2.Type1, team2.Type2, 
+                        Team1[0], Team2[0]);
                 }
 
                 if (int.Parse(move1) == 2)
                 {
                     team1Damages = Move.Damages(team1.Atk, team1.SpA, team2.Def, team2.SpD,
-                        attack2.Kind, team1.Type1, team1.Type2, attack2.Type, attack2.Effect, team2.Type1, team2.Type2);
+                        attack2.Kind, team1.Type1, team1.Type2, attack2.Type, attack2.Effect, team2.Type1, team2.Type2,
+                    Team1[0], Team2[0]);
                 }
 
                 if (int.Parse(move1) == 3)
                 {
                     team1Damages = Move.Damages(team1.Atk, team1.SpA, team2.Def, team2.SpD,
-                        attack3.Kind, team1.Type1, team1.Type2, attack3.Type, attack3.Effect, team2.Type1, team2.Type2);
+                        attack3.Kind, team1.Type1, team1.Type2, attack3.Type, attack3.Effect, team2.Type1, team2.Type2,
+                        Team1[0], Team2[0]);
                 }
 
                 if (int.Parse(move1) == 4)
                 {
                     team1Damages = Move.Damages(team1.Atk, team1.SpA, team2.Def, team2.SpD,
-                        attack4.Kind, team1.Type1, team1.Type2, attack4.Type, attack4.Effect, team2.Type1, team2.Type2);
+                        attack4.Kind, team1.Type1, team1.Type2, attack4.Type, attack4.Effect, team2.Type1, team2.Type2,
+                        Team1[0], Team2[0]);
                 }
 
                 // Team 2
@@ -228,25 +232,29 @@ namespace miniPokemon
                 if (int.Parse(move2) == 1)
                 {
                     team2Damages = Move.Damages(team2.Atk, team2.SpA, team1.Def, team1.SpD,
-                        attack1.Kind, team2.Type1, team2.Type2, attack1.Type, attack1.Effect, team1.Type1, team1.Type2);
+                        attack1.Kind, team2.Type1, team2.Type2, attack1.Type, attack1.Effect, team1.Type1, team1.Type2,
+                        Team2[0], Team1[0]);
                 }
 
                 if (int.Parse(move2) == 2)
                 {
                     team2Damages = Move.Damages(team2.Atk, team2.SpA, team1.Def, team1.SpD,
-                        attack2.Kind, team2.Type1, team2.Type2, attack2.Type, attack2.Effect, team1.Type1, team1.Type2);
+                        attack2.Kind, team2.Type1, team2.Type2, attack2.Type, attack2.Effect, team1.Type1, team1.Type2,
+                        Team2[0], Team1[0]);
                 }
 
                 if (int.Parse(move2) == 3)
                 {
                     team2Damages = Move.Damages(team1.Atk, team1.SpA, team2.Def, team2.SpD,
-                        attack3.Kind, team1.Type1, team1.Type2, attack3.Type, attack3.Effect, team2.Type1, team2.Type2);
+                        attack3.Kind, team1.Type1, team1.Type2, attack3.Type, attack3.Effect, team2.Type1, team2.Type2,
+                        Team2[0], Team1[0]);
                 }
 
                 if (int.Parse(move2) == 4)
                 {
                     team2Damages = Move.Damages(team1.Atk, team1.SpA, team2.Def, team2.SpD,
-                        attack4.Kind, team1.Type1, team1.Type2, attack4.Type, attack4.Effect, team2.Type1, team2.Type2);
+                        attack4.Kind, team1.Type1, team1.Type2, attack4.Type, attack4.Effect, team2.Type1, team2.Type2,
+                        Team2[0], Team1[0]);
                 }
 
                 // Pokemon le plus rapide qui tape en premier
