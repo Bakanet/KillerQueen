@@ -28,3 +28,7 @@ correspondant à quel Pokemon on veut mettre dans notre equipe, sinon ca ne fonct
 La methode Switch permet le switch d'un Pokemon en premiere position de la team. La methode PrintBoard fait un affichage des Pokemon actuels des deux equipes ainsi que leurs attaques.
 La methode Turn appelle toutes les methodes necessaires pour faire un tour de jeu.
 Les grosses boucles while moches avec "Choose a valid number" servent a faire en sorte que le joueur ne puisse pas casser le jeu en choisissant un Pokemon non-existant.
+
+
+
+Au final la partie combat ne fonctionne pas. C'est triste. Jouez sur Pokemon Showdown, ce sera mieux :(
