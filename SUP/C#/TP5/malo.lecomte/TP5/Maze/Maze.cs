@@ -34,11 +34,6 @@ namespace Maze
 		{
 			return Path.ChangeExtension(fileIn, ".maze");
 		}
-
-		private static char[][] ParseFile(string file)
-		{
-			
-		}
 	}
 
 	/// <summary>

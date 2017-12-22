@@ -1,0 +1,5 @@
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP5/TP5/Maze/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP5/TP5/Maze/bin/Debug/Maze.pdb
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP5/TP5/Maze/bin/Debug/Maze.exe
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP5/TP5/Maze/obj/Debug/Maze.exe
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP5/TP5/Maze/obj/Debug/Maze.pdb
