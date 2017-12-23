@@ -10,23 +10,25 @@ namespace Maze
 	{
 		public static void Main(string[] args)
 		{
-			// get .maze filename
-			// get .solved filename
-			// parse .maze file
-			// print the maze (BONUS)
-			// solve the maze
-			// print the maze (BONUS)
-			// save solution in .solved file
-			grid_to_str(ParseFile("../../../tests/map2.maze"));
+			char [][]a = ParseFile("../../../tests/map1.maze");
+			PrintMaze(ParseFile("../../../tests/map1.maze"));
 			string file = AskMazeFile();
 			char[][] grid = ParseFile(file);
-			int[][] processed = new int[grid.Length][];
+			int[][] processed = new int[a.Length][];
+			for (int i = 0; i < a.Length; ++i)
+			{
+				processed[i] = new int[a[i].Length];
+				for (int j = 0; j < a[i].Length; ++j)
+				{
+					processed[i][j] = 0;
+				}
+			}
 			SolveMazeBackTracking(grid, processed, FindStart(grid));
 			SaveSolution(grid, GetOutPutFile(file));
-			grid_to_str(ParseFile("../../../tests/map2.solved"));
+			PrintMaze(ParseFile("../../../tests/map1.solved"));
 		}
 		
-		private static void grid_to_str(char[][] grid)
+		private static void PrintInt(int[][] grid)
 		{
 			for (int j = 0; j < grid.Length; j++)
 			{
@@ -95,7 +97,7 @@ namespace Maze
 
 		private static bool SolveMazeBackTracking(char[][] grid, int[][] processed, Point p)
 		{
-			if (p.X < 0 || p.X > grid[0].Length || p.Y < 0 || p.Y > grid.Length)
+			if (p.X < 0 || p.X > grid[0].Length - 1 || p.Y < 0 || p.Y > grid.Length - 1)
 				return false;
 			
 			if (processed[p.Y][p.X] != 0)
@@ -154,6 +156,41 @@ namespace Maze
 			}
 
 			File.WriteAllLines(fileOut, strArr);
+		}
+
+		private static void PrintMaze(char[][] grid)
+		{
+			foreach (var line in grid)
+			{
+				foreach (var charact in line)
+				{
+					switch (charact)
+					{
+						case 'B':
+							Console.BackgroundColor = ConsoleColor.Blue;
+							Console.Write("  ");
+							break;
+						case 'O':
+							Console.BackgroundColor = ConsoleColor.Gray;
+							Console.Write("  ");
+							break;
+						case 'P':
+							Console.BackgroundColor = ConsoleColor.DarkRed;
+							Console.Write("  ");
+							break;
+						case 'S':
+							Console.BackgroundColor = ConsoleColor.Yellow;
+							Console.Write("  ");
+							break;
+						case 'F':
+							Console.BackgroundColor = ConsoleColor.Red;
+							Console.Write("  ");
+							break;
+					}
+				}
+				Console.BackgroundColor = ConsoleColor.Black;
+				Console.WriteLine();
+			}
 		}
 	}
 	
