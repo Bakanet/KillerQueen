@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using System.Reflection.Emit;
 
 namespace Maze
@@ -37,7 +38,22 @@ namespace Maze
 
 		private static char[][] ParseFile(string file)
 		{
-			
+			string[] parse = File.ReadAllLines(file);
+			char[][] total = new char[parse.Length][];
+			int i = 0;
+			foreach (var line in parse)
+			{
+				int j = 0;
+				char[] line1 = new char[line.Length];
+				foreach (var charact in line)
+				{
+					line1[j] = charact;
+					++j;
+				}
+				total[i] = line1;
+				++i;
+			}
+			return total;
 		}
 	}
 

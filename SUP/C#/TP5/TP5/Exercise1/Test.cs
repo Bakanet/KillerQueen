@@ -10,11 +10,6 @@ namespace Exercise1
 													?  Environment.GetEnvironmentVariable("HOME")
 													:  Environment.ExpandEnvironmentVariables("%HOMEDRIVE%%HOMEPATH%");
 
-		/// <summary>
-		///   TESTS
-		///   Put your tests here, then compile.
-		/// </summary>
-		/// <param name="args">Unusued</param>
 		public static void Main(string[] args)
 		{
 			// TODO: put all your tests here like these examples
