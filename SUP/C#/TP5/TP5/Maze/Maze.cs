@@ -73,10 +73,7 @@ namespace Maze
 
 		private static bool SolveMazeBackTracking(char[][] grid, int[][] processed, Point p)
 		{
-			if (p.X < 0 || p.X > grid[0].Length - 1 || p.Y < 0 || p.Y > grid.Length - 1)
-				return false;
-			
-			if (processed[p.Y][p.X] != 0)
+			if (p.X < 0 || p.X > grid[0].Length - 1 || p.Y < 0 || p.Y > grid.Length - 1 || processed[p.Y][p.X] != 0)
 				return false;
 			
 			processed[p.Y][p.X] = 1;
