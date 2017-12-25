@@ -3,6 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection.Emit;
 using System.Security.Cryptography.X509Certificates;
+using System.Threading;
 
 namespace Maze
 {
@@ -60,7 +61,9 @@ namespace Maze
 				foreach (char letter in line)
 				{
 					if (letter == 'S')
-						return new Point(i, j);
+					{
+						return new Point(j, i);
+					}
 					++j;
 				}
 				++i;
@@ -109,7 +112,7 @@ namespace Maze
 				grid[p.Y][p.X] = 'P';
 				return true;
 			}
-
+			
 			return false;
 		}
 
@@ -161,7 +164,7 @@ namespace Maze
 							break;
 					}
 				}
-				Console.BackgroundColor = ConsoleColor.Black;
+				Console.ResetColor();
 				Console.WriteLine("");
 			}
 		}
@@ -198,5 +201,10 @@ namespace Maze
 
 		public int Y { get; set; }
 		public int X { get; set; }
+	}
+
+	internal class Node
+	{
+		
 	}
 }
