@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Tracing;
 using System.IO;
 using System.Linq;
 using System.Reflection.Emit;
+using System.Runtime.Remoting.Messaging;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading;
 
@@ -188,25 +190,72 @@ namespace Maze
 			PrintMaze(ParseFile(GetOutPutFile(file)));
 		}
 
-		public static void GetNeighboursValue(char[][] grid, Node n, List<Node> doneNodes, List<Node> toExplore)
+		public static Point FindFinish(char[][] grid)		// on c/c la fonction FindStart
 		{
-			Node downNode = new Node(n.X, n.Y + 1, n.Value + 10, Direction.Down);
-			Node upNode = new Node(n.X, n.Y - 1, n.Value + 10, Direction.Up);
-			Node leftNode = new Node(n.X - 1, n.Y, n.Value + 10, Direction.Left);
-			Node rightNode = new Node(n.X + 1, n.Y, n.Value + 10, Direction.Right);
+			int i = 0;
+			foreach (char[] line in grid)
+			{
+				int j = 0;
+				foreach (char letter in line)
+				{
+					if (letter == 'F')
+					{
+						return new Point(j, i);
+					}
+					++j;
+				}
+				++i;
+			}
 			
-			downNode:
-			if (downNode.X < 0 || downNode.X > grid[0].Length - 1 || downNode.Y < 0 || downNode.Y > grid.Length - 1 || doneNodes.Contains(downNode))
-				goto upNode;
-			downNode.Value += (downNode.X - // need finish point
-			toExplore.Add(downNode);
-			
-			upNode:
-			
-			leftNode:
-			
-			rightNode:
+			throw new Exception("finish point not found");
+		}
+
+		public static bool Exists(List<Node> list, int x, int y, ref int i) // le i permettra de recup l'index sans passer par une autre fonction
+		{
+			foreach (Node node in list)
+			{
+				if (node.X == x && node.Y == y)
+					return true;
+				++i;
+			}
+			return false;
+		}
+		
+		public static void GetNeighboursValue(char[][] grid, Node n, List<Node> doneNodes, List<Node> toExplore, Point finish)
+		{
+			long nValue = n.Value + 10 - n.ComputeValue(finish);		// avec ce calcul on recup la value des cases parcourues (+10 par case) sans prendre en compte
+			// la value de la distance entre les cases parcourues et l'arrivee
+			Node downNode = new Node(n.X, n.Y + 1, nValue, Direction.Down);
+			Node upNode = new Node(n.X, n.Y - 1, nValue, Direction.Up);
+			Node leftNode = new Node(n.X - 1, n.Y, nValue, Direction.Left);
+			Node rightNode = new Node(n.X + 1, n.Y, nValue, Direction.Right);
+			List<Node> neighbours = new List<Node>{downNode, upNode, leftNode, rightNode};
+
+			foreach (Node node in neighbours)
+			{
+				if (node.X < 0 || node.X > grid[0].Length - 1 || node.Y < 0 || node.Y > grid.Length - 1 ||
+				    doneNodes.Contains(node) || grid[node.Y][node.X] == 'B')	
+					continue;
+				int i = 0;
+				long newValue = node.ComputeValue(finish);
+				if (Exists(toExplore, node.X, node.Y, ref i) && toExplore[i].Value > node.Value + newValue)
+				{
+					toExplore[i].Value += newValue;
+					toExplore[i].Direction = node.Direction;
+					continue;
+				}
+				node.Value += newValue;
+				toExplore.Add(node);
+			}
+		}
+
+		public static void GottaGoFast(List<Node> toExplore, List<Node> doneNodes) // SAAAAAANIC
+		{
+			Node min = toExplore[0];
+			foreach (Node node in toExplore)
+			{
 				
+			}
 		}
 		
 	}
@@ -239,6 +288,11 @@ namespace Maze
 			Y = y;
 			Value = value;
 			Direction = direction;
+		}
+
+		public long ComputeValue(Point p)
+		{
+			return (X - p.X) * (X - p.X) + (Y - p.Y) * (Y - p.Y);
 		}
 	}
 }
