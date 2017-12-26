@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Diagnostics.Tracing;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Reflection.Emit;
+using System.Runtime.CompilerServices;
 using System.Runtime.Remoting.Messaging;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading;
@@ -15,6 +17,7 @@ namespace Maze
 		public static void Main(string[] args)
 		{
 			ResolveMaze();
+			ResolveMaze2();
 		}	
 
 		private static string AskMazeFile()
@@ -152,7 +155,7 @@ namespace Maze
 							Console.Write("  ");
 							break;
 						case 'P':
-							Console.BackgroundColor = ConsoleColor.DarkRed;
+							Console.BackgroundColor = ConsoleColor.Red;
 							Console.Write("  ");
 							break;
 						case 'S':
@@ -189,6 +192,8 @@ namespace Maze
 			Console.WriteLine("Maze solved :");
 			PrintMaze(ParseFile(GetOutPutFile(file)));
 		}
+		
+		// c'est la que commence mon A* enjoy :D
 
 		public static Point FindFinish(char[][] grid)		// on c/c la fonction FindStart
 		{
@@ -210,38 +215,41 @@ namespace Maze
 			throw new Exception("finish point not found");
 		}
 
-		public static bool Exists(List<Node> list, int x, int y, ref int i) // le i permettra de recup l'index sans passer par une autre fonction
+		public static bool Exists(List<Node> list, int x, int y) // le i permettra de recup l'index sans passer par une autre fonction
 		{
 			foreach (Node node in list)
 			{
 				if (node.X == x && node.Y == y)
 					return true;
-				++i;
 			}
 			return false;
+		}
+
+		public static int Index(List<Node> list, int x, int y)
+		{
+			int i = 0;
+			for ( ; i < list.Count && list[i].X != x || list[i].Y != y; ++i){}
+			return i;
 		}
 		
 		public static void GetNeighboursValue(char[][] grid, Node n, List<Node> doneNodes, List<Node> toExplore, Point finish)
 		{
-			long nValue = n.Value + 10 - n.ComputeValue(finish);		// avec ce calcul on recup la value des cases parcourues (+10 par case) sans prendre en compte
-			// la value de la distance entre les cases parcourues et l'arrivee
-			Node downNode = new Node(n.X, n.Y + 1, nValue, Direction.Down);
-			Node upNode = new Node(n.X, n.Y - 1, nValue, Direction.Up);
-			Node leftNode = new Node(n.X - 1, n.Y, nValue, Direction.Left);
-			Node rightNode = new Node(n.X + 1, n.Y, nValue, Direction.Right);
+			Node downNode = new Node(n.X, n.Y + 1, n.Value + 10, Direction.Down);
+			Node upNode = new Node(n.X, n.Y - 1, n.Value + 10, Direction.Up);
+			Node leftNode = new Node(n.X - 1, n.Y, n.Value + 10, Direction.Left);
+			Node rightNode = new Node(n.X + 1, n.Y, n.Value + 10, Direction.Right);
 			List<Node> neighbours = new List<Node>{downNode, upNode, leftNode, rightNode};
 
 			foreach (Node node in neighbours)
 			{
 				if (node.X < 0 || node.X > grid[0].Length - 1 || node.Y < 0 || node.Y > grid.Length - 1 ||
-				    doneNodes.Contains(node) || grid[node.Y][node.X] == 'B')	
+				    Exists(doneNodes, node.X, node.Y) || grid[node.Y][node.X] == 'B')	
 					continue;
-				int i = 0;
 				long newValue = node.ComputeValue(finish);
-				if (Exists(toExplore, node.X, node.Y, ref i) && toExplore[i].Value > node.Value + newValue)
+				if (Exists(toExplore, node.X, node.Y) && toExplore[Index(toExplore, node.X, node.Y)].Value < node.Value + newValue)
 				{
-					toExplore[i].Value += newValue;
-					toExplore[i].Direction = node.Direction;
+					toExplore[Index(toExplore, node.X, node.Y)].Value = node.Value + newValue;
+					toExplore[Index(toExplore, node.X, node.Y)].Direction = node.Direction;
 					continue;
 				}
 				node.Value += newValue;
@@ -249,13 +257,71 @@ namespace Maze
 			}
 		}
 
-		public static void GottaGoFast(List<Node> toExplore, List<Node> doneNodes) // SAAAAAANIC
+		public static Node GottaGoFast(List<Node> toExplore, List<Node> doneNodes) // SAAAAAANIC
 		{
 			Node min = toExplore[0];
 			foreach (Node node in toExplore)
 			{
-				
+				if (node.Value < min.Value)
+					min = node;
 			}
+			toExplore.RemoveAt(Index(toExplore, min.X, min.Y));
+			doneNodes.Add(min);
+			return min;
+		}
+
+		public static void PathFinding(char[][] grid)
+		{
+			Point startPoint = FindStart(grid);
+			Point finishPoint = FindFinish(grid);
+			Node start = new Node(startPoint.X, startPoint.Y, 0, Direction.None);  // BUG: value, direction
+			Node finish = new Node(finishPoint.X, finishPoint.Y, 0, Direction.None);
+
+			List<Node> toExplore = new List<Node> {start};
+			List<Node> doneNodes = new List<Node>();
+
+			while (toExplore.Count > 0 && !Exists(toExplore, finish.X, finish.Y))
+			{
+				Node min = GottaGoFast(toExplore, doneNodes);
+				GetNeighboursValue(grid, min, doneNodes, toExplore, finishPoint);
+			}
+			
+			if (toExplore.Count <= 0)
+				throw new Exception("maze can't be solved");
+			finish = toExplore[Index(toExplore, finish.X, finish.Y)];
+			while (finish.X != doneNodes[0].X || finish.Y != doneNodes[0].Y)
+			{
+				switch (finish.Direction)
+				{
+					case Direction.Down:
+						grid[finish.Y][finish.X] = 'P';
+						finish = doneNodes[Index(doneNodes, finish.X, finish.Y - 1)];
+						break;
+					case Direction.Up:
+						grid[finish.Y][finish.X] = 'P';
+						finish = doneNodes[Index(doneNodes, finish.X, finish.Y + 1)];
+						break;
+					case Direction.Left:
+						grid[finish.Y][finish.X] = 'P';
+						finish = doneNodes[Index(doneNodes, finish.X + 1, finish.Y)];
+						break;
+					case Direction.Right:
+						grid[finish.Y][finish.X] = 'P';
+						finish = doneNodes[Index(doneNodes, finish.X - 1, finish.Y)];
+						break;
+				}
+			}
+		}
+
+		private static void ResolveMaze2()
+		{
+			string file = AskMazeFile();
+			char[][] grid = ParseFile(file);
+			PrintMaze(ParseFile(file));
+			PathFinding(grid);
+			SaveSolution(grid, GetOutPutFile(file));
+			Console.WriteLine("Maze solved :");
+			PrintMaze(ParseFile(GetOutPutFile(file)));
 		}
 		
 	}
@@ -273,7 +339,7 @@ namespace Maze
 	}
 
 	internal enum Direction
-	{Right, Left, Up, Down}
+	{None, Right, Left, Up, Down} // le None sert pour le start (qui n'a pas de predecesseur), et le finish (pas encore defini)
 
 	internal class Node
 	{

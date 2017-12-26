@@ -11,8 +11,10 @@ La GetNeighboursValue a pour but de calculer le poids des 4 noeuds autour de not
 Notre list toExplore permet de verifier quels noeuds on doit encore explorer.
 GottaGoFast (sonic.exe reference) sert a recuperer le noeud avec le poids le moins lourd (donc le chemin le plus rapide), l'ajouter dans la liste des noeuds explores et le retirer
 de ceux qu'il nous reste a explorer.
-
-RENDU TEMPORAIRE.
+Fonction PathFinding : on définit un point start et finish, ainsi que nos fameuses listes toExplore et doneNodes. La première while boucle tant qu'il reste
+des noeuds dans notre liste à explorer et qu'on n'a pas atteint l'arrivée.
+Si notre liste à explorer est vide, c'est qu'on a testé toutes les possibilités et qu'il est impossible de finir le labyrinthe. Sinon on entre dans une dernière boucle
+qui va parcourir notre chemin en sens inverse en mettant des P à chaque fois qu'on passe par une case du chemin.
 
 Sinon une idee pour le prochain TP avec des labyrinthes : https://youtu.be/x9hBWnh_O6A
 
