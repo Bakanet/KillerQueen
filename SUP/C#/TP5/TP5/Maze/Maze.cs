@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection.Emit;
@@ -17,11 +18,12 @@ namespace Maze
 		private static string AskMazeFile()
 		{
 			Console.WriteLine("Which file should be loaded ?");
-			string file = Console.ReadLine();
+			string file;
+			while ((file = Console.ReadLine()) == ""){};
 			while (!File.Exists(file) || Path.GetExtension(file) != ".maze")
 			{
 				Console.WriteLine("Which file should be loaded ?");
-				file = Console.ReadLine();
+				while ((file = Console.ReadLine()) == ""){};
 			}
 
 			return file;
@@ -162,7 +164,7 @@ namespace Maze
 					}
 				}
 				Console.ResetColor();
-				Console.WriteLine("");
+				Console.WriteLine(""); // pour le "" : des fois y avait des bugs. maintenant y a moins de bugs. dunno.
 			}
 		}
 
@@ -185,6 +187,27 @@ namespace Maze
 			Console.WriteLine("Maze solved :");
 			PrintMaze(ParseFile(GetOutPutFile(file)));
 		}
+
+		public static void GetNeighboursValue(char[][] grid, Node n, List<Node> doneNodes, List<Node> toExplore)
+		{
+			Node downNode = new Node(n.X, n.Y + 1, n.Value + 10, Direction.Down);
+			Node upNode = new Node(n.X, n.Y - 1, n.Value + 10, Direction.Up);
+			Node leftNode = new Node(n.X - 1, n.Y, n.Value + 10, Direction.Left);
+			Node rightNode = new Node(n.X + 1, n.Y, n.Value + 10, Direction.Right);
+			
+			downNode:
+			if (downNode.X < 0 || downNode.X > grid[0].Length - 1 || downNode.Y < 0 || downNode.Y > grid.Length - 1 || doneNodes.Contains(downNode))
+				goto upNode;
+			downNode.Value += (downNode.X - // need finish point
+			toExplore.Add(downNode);
+			
+			upNode:
+			
+			leftNode:
+			
+			rightNode:
+				
+		}
 		
 	}
 	
@@ -200,8 +223,22 @@ namespace Maze
 		public int X { get; set; }
 	}
 
+	internal enum Direction
+	{Right, Left, Up, Down}
+
 	internal class Node
 	{
-		
+		public int X { get; set; }
+		public int Y { get; set; }
+		public long Value { get; set; }
+		public Direction Direction { get; set; }
+
+		public Node(int x, int y, long value, Direction direction) // le long, si vous etes chiants et que vous faites overflow la value d'une case
+		{
+			X = x;
+			Y = y;
+			Value = value;
+			Direction = direction;
+		}
 	}
 }
