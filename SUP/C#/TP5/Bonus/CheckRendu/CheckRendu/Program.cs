@@ -9,7 +9,7 @@ namespace CheckRendu
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(CheckRendu("../../../../CheckIt/archi_2/delecr_t"));
+            Console.WriteLine(CheckRendu("../../../../CheckIt/archi_9/delecr_t"));
         }
 
         public static bool CheckRendu(string path)
@@ -42,25 +42,25 @@ namespace CheckRendu
 
             foreach (string dir in directories)
             {
-                string[] subdir = Directory.GetDirectories(path + dir);
+                string[] subdir = Directory.GetDirectories(dir);
                 foreach (string gpodidé in subdir)
                 {
-                    if (gpodidé == "/.idea")
+                    if (gpodidé == Path.Combine(dir, ".idea"))
                     {
                         Console.WriteLine("fail dir : .idea");
                         return false;
                     }
 
-                    if (!File.Exists(subdir + "/" + subdir + ".sln"))
+                    if (!File.Exists(dir + "/CheckIt.sln"))
                     {
                         Console.WriteLine("fail sln : missing");
                         return false;
-                    }
+                    }    
                     
-                    string[] deep = Directory.GetDirectories(subdir + "/" + gpodidé);
+                    string[] deep = Directory.GetDirectories(gpodidé);
                     foreach (string deeper in deep)
                     {
-                        if (deeper == "/bin" || deeper == "/obj")
+                        if (deeper == Path.Combine(gpodidé, "bin") || deeper == Path.Combine(gpodidé, "obj"))
                         {
                             Console.WriteLine("fail dir : obj and bin");
                             return false;
