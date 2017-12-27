@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Threading;
 
 namespace CheckRendu
 {
@@ -8,7 +9,7 @@ namespace CheckRendu
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(CheckRendu("../../../../CheckIt/archi_0/delecr_t"));
+            Console.WriteLine(CheckRendu("../../../../CheckIt/archi_2/delecr_t"));
         }
 
         public static bool CheckRendu(string path)
@@ -19,16 +20,11 @@ namespace CheckRendu
                 return false;
             }
 
-            File.Copy(path + "/AUTHORS", path + "/tempAUTHORS", true);
-            File.AppendAllText(path + "/tempAUTHORS", "\n");
-            string[] check = File.ReadAllLines(path + "/tempAUTHORS");
-            if (check.Length == 2)
+            if (File.ReadAllText(path + "/AUTHORS") != "* delecr_t\n")
             {
-                Console.WriteLine("fail AUTHORS : backline");
+                Console.WriteLine("fail AUTHORS : newline");
                 return false;
             }
-
-            File.Delete(path + "/tempAUTHORS");
 
             if (!File.Exists(path + "/README"))
             {
@@ -46,7 +42,7 @@ namespace CheckRendu
 
             foreach (string dir in directories)
             {
-                string[] subdir = Directory.GetDirectories(path + "/" + dir);
+                string[] subdir = Directory.GetDirectories(path + dir);
                 foreach (string gpodidé in subdir)
                 {
                     if (gpodidé == "/.idea")
