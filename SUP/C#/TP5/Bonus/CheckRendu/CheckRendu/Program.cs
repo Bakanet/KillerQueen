@@ -9,7 +9,7 @@ namespace CheckRendu
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(CheckRendu("../../../../CheckIt/archi_9/delecr_t"));
+            Console.WriteLine(CheckRendu("../../../../malo.lecomte"));
         }
 
         public static bool CheckRendu(string path)
@@ -20,7 +20,7 @@ namespace CheckRendu
                 return false;
             }
 
-            if (File.ReadAllText(path + "/AUTHORS") != "* delecr_t\n")
+            if (File.ReadAllText(path + "/AUTHORS") != "* malo.lecomte\n")
             {
                 Console.WriteLine("fail AUTHORS : newline");
                 return false;
@@ -51,7 +51,7 @@ namespace CheckRendu
                         return false;
                     }
 
-                    if (!File.Exists(dir + "/CheckIt.sln"))
+                    if (!File.Exists(dir + "/TP5.sln"))
                     {
                         Console.WriteLine("fail sln : missing");
                         return false;

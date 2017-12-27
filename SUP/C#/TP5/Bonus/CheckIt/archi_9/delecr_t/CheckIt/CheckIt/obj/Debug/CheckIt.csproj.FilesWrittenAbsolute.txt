@@ -1,5 +1,0 @@
-/home/tetra/ci/delecr_t/CheckIt/CheckIt/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/home/tetra/ci/delecr_t/CheckIt/CheckIt/bin/Debug/CheckIt.pdb
-/home/tetra/ci/delecr_t/CheckIt/CheckIt/bin/Debug/CheckIt.exe
-/home/tetra/ci/delecr_t/CheckIt/CheckIt/obj/Debug/CheckIt.exe
-/home/tetra/ci/delecr_t/CheckIt/CheckIt/obj/Debug/CheckIt.pdb
