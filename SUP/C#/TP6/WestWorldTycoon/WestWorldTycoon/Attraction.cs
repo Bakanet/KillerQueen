@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace WestWorldTycoon
 {
@@ -13,7 +14,8 @@ namespace WestWorldTycoon
 
         public Attraction()
         {
-            throw new NotImplementedException();
+            lvl = 0;
+            type = BuildingType.ATTRACTION;
         }
 
 
@@ -25,19 +27,24 @@ namespace WestWorldTycoon
 
         public long Attractiveness()
         {
-            throw new NotImplementedException();
+            return ATTRACTIVENESS[lvl];
         }
 
 
         public bool Upgrade(ref long money)
         {
-            throw new NotImplementedException();
+            if (UPGRADE_COST[lvl] > money || lvl < 3)
+                return false;
+
+            money -= UPGRADE_COST[lvl];
+            ++lvl;
+            return true;
         }
 
 
         public int Lvl
         {
-            get { throw new NotImplementedException(); }
+            get { return lvl; }
         }
     }
 }

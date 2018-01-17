@@ -9,11 +9,14 @@ namespace WestWorldTycoon
         {
             SEA, MOUNTAIN, PLAIN
         }
-        
+
+        private Biome biome;
+        private Building building;
         
         public Tile(Biome b)
         {
-            throw new NotImplementedException();
+            biome = b;
+            building = null;
         }
 
         
@@ -26,13 +29,57 @@ namespace WestWorldTycoon
         
         public bool Build(ref long money, Building.BuildingType type)
         {
-            throw new NotImplementedException();
+            long cost = 0;
+            switch (type)
+            {
+                case Building.BuildingType.ATTRACTION:
+                    cost = Attraction.BUILD_COST;
+                    break;
+                case Building.BuildingType.HOUSE:
+                    cost = House.BUILD_COST;
+                    break;
+                case Building.BuildingType.SHOP:
+                    cost = Shop.BUILD_COST;
+                    break;
+            }
+
+            if (biome != Biome.PLAIN || cost > money)
+                return false;
+
+            switch (type)
+            {
+                    case Building.BuildingType.ATTRACTION:
+                        building = new Attraction();
+                        break;
+                    case Building.BuildingType.HOUSE:
+                        building = new House();
+                        break;
+                    case Building.BuildingType.SHOP:
+                        building = new Shop();
+                        break;
+            }
+
+            return true;
         }
 
 
         public bool Upgrade(ref long money)
         {
-            throw new NotImplementedException();
+            long cost = 0;
+            switch (building.Type)
+            {
+                case Building.BuildingType.ATTRACTION:
+                    cost = Attraction.BUILD_COST;
+                    break;
+                case Building.BuildingType.HOUSE:
+                    cost = House.BUILD_COST;
+                    break;
+                case Building.BuildingType.SHOP:
+                    cost = Shop.BUILD_COST;
+                    break;
+            }
+            
+            if (money < cost || )
         }
         
         
@@ -63,7 +110,7 @@ namespace WestWorldTycoon
 
         public Biome GetBiome
         {
-            get { throw new NotImplementedException(); }
+            get { return biome; }
         }
     }
 }
