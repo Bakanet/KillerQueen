@@ -24,9 +24,7 @@ namespace WestWorldTycoon
 
         public bool Build(int i, int j, ref long money, Building.BuildingType type)
         {
-            if (i < 0 || j < 0 || i > matrix.GetLength(1) || j > matrix.GetLength(0))
-                throw new IndexOutOfRangeException();
-            Tile tile = matrix[j, i];
+            Tile tile = matrix[i, j];
             return tile.Build(ref money, type);
         }
 
@@ -39,16 +37,20 @@ namespace WestWorldTycoon
 
         public bool Upgrade(int i, int j, ref long money)
         {
-            if (i < 0 || j < 0 || i > matrix.GetLength(1) || j > matrix.GetLength(0))
-                throw new IndexOutOfRangeException();
-            Tile tile = matrix[j, i];
+            Tile tile = matrix[i, j];
             return tile.Upgrade(ref money);
         }
         
         
         public long GetAttractiveness()
         {
-            throw new NotImplementedException();
+            long attract = 0;
+            foreach (Tile tile in matrix)
+            {
+                attract += tile.GetAttractiveness();
+            }
+
+            return attract;
         }
 
         
@@ -57,20 +59,28 @@ namespace WestWorldTycoon
             long visitors = 0;
             foreach (Tile tile in matrix)
             {
-                if (tile.)
+                visitors += tile.GetHousing();
             }
+
+            return visitors;
         }
 
 
         public long GetPopulation()
         {
-            throw new NotImplementedException();
+            return GetAttractiveness() < GetHousing() ? GetAttractiveness() : GetHousing();
         }
         
         
         public long GetIncome(long population)
         {
-            throw new NotImplementedException();
+            long income = 0;
+            foreach (Tile tile in matrix)
+            {
+                income += tile.GetIncome(population);
+            }
+
+            return income;
         }
        
     }

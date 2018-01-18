@@ -1,32 +1,54 @@
 ﻿using System;
+using System.Runtime.Remoting.Messaging;
 
 namespace WestWorldTycoon
 {
     public class Game
     {
+        private long score;
+        private long money;
+        private int nbRound;
+        private int round;
+        private Map map;
+        
         public Game(string name, int nbRound, long initialMoney)
         {
             TycoonIO.GameInit(name, nbRound, initialMoney);
-            throw new NotImplementedException();
+            map = new Map(name);
+            this.nbRound = nbRound;
+            money = initialMoney;
         }
 
 
         public long Launch(Bot bot)
         {
-            throw new NotImplementedException();
+            bot.Start(this);
+            for (int i = 0; i < nbRound; ++i)
+            {
+                bot.Update(this);
+                ++round;
+            }
+            bot.End(this);
+
+            return score;
         }
         
         
         public void Update()
         {
-            throw new NotImplementedException();
+            score += money;
             TycoonIO.GameUpdate();
         }
 
 
         public bool Build(int i, int j, Building.BuildingType type)
         {
-            throw new NotImplementedException();
+            if (!map.Build(i, j, ref money, type)) 
+                return false;
+            
+            TycoonIO.GameBuild(i, j, type);
+            return true;
+
         }
 
 
@@ -37,36 +59,41 @@ namespace WestWorldTycoon
         
         public bool Upgrade(int i, int j)
         {
-            throw new NotImplementedException();
+            if (!map.Upgrade(i, j, ref money)) 
+                return false;
+            
+            TycoonIO.GameUpgrade(i, j);
+            return true;
+
         }
         
         
         public long Score
         {
-            get { throw new NotImplementedException(); }
+            get { return score; }
         }
         
         
         public long Money
         {
-            get { throw new NotImplementedException(); }
+            get { return money; }
         }
         
         
         public int NbRound
         {
-            get { throw new NotImplementedException(); }
+            get { return nbRound; }
         }
 
 
         public int Round
         {
-            get { throw new NotImplementedException(); }
+            get { return round;  }
         }
 
         public Map Map
         {
-            get { throw new NotImplementedException(); }
+            get { return map; }
         }
     }
 }
