@@ -6,9 +6,12 @@ namespace WestWorldTycoon
 {
     public class Map
     {
+
+        private Tile[,] matrix;
+        
         public Map(string name)
         {
-            throw new NotImplementedException();
+            matrix = TycoonIO.ParseMap(name);
         }
         
         
@@ -21,7 +24,10 @@ namespace WestWorldTycoon
 
         public bool Build(int i, int j, ref long money, Building.BuildingType type)
         {
-            throw new NotImplementedException();
+            if (i < 0 || j < 0 || i > matrix.GetLength(1) || j > matrix.GetLength(0))
+                throw new IndexOutOfRangeException();
+            Tile tile = matrix[j, i];
+            return tile.Build(ref money, type);
         }
 
 
@@ -33,7 +39,10 @@ namespace WestWorldTycoon
 
         public bool Upgrade(int i, int j, ref long money)
         {
-            throw new NotImplementedException();
+            if (i < 0 || j < 0 || i > matrix.GetLength(1) || j > matrix.GetLength(0))
+                throw new IndexOutOfRangeException();
+            Tile tile = matrix[j, i];
+            return tile.Upgrade(ref money);
         }
         
         

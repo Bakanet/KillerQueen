@@ -66,38 +66,58 @@ namespace WestWorldTycoon
         public bool Upgrade(ref long money)
         {
             long cost = 0;
+            int lvl = 0;
             switch (building.Type)
             {
                 case Building.BuildingType.ATTRACTION:
                     cost = Attraction.BUILD_COST;
+                    lvl = ((Attraction) building).Lvl;
                     break;
                 case Building.BuildingType.HOUSE:
                     cost = House.BUILD_COST;
+                    lvl = ((House) building).Lvl;
                     break;
                 case Building.BuildingType.SHOP:
                     cost = Shop.BUILD_COST;
+                    lvl = ((Shop) building).Lvl;
                     break;
             }
-            
-            if (money < cost || )
+
+            if (money < cost || lvl >= 3)
+                return false;
+
+            switch (building.Type)
+            {
+                    case Building.BuildingType.ATTRACTION:
+                        ((Attraction) building).Upgrade(ref money);
+                        break;
+                    case Building.BuildingType.HOUSE:
+                        ((House) building).Upgrade(ref money);
+                        break;
+                    case Building.BuildingType.SHOP:
+                        ((Shop) building).Upgrade(ref money);
+                        break;
+            }
+
+            return true;
         }
         
         
         public long GetHousing()
         {
-            throw new NotImplementedException();
+            return building.Type != Building.BuildingType.HOUSE ? 0 : ((House) building).Housing();
         }
         
         
         public long GetAttractiveness()
         {
-            throw new NotImplementedException();
+            return building.Type != Building.BuildingType.ATTRACTION ? 0 : ((Attraction) building).Attractiveness();
         }
         
         
         public long GetIncome(long population)
         {
-            throw new NotImplementedException();
+            return building.Type != Building.BuildingType.SHOP ? 0 : ((Shop) building).Income(population);
         }
 
 
