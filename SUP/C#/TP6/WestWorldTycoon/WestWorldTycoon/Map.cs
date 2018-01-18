@@ -54,7 +54,11 @@ namespace WestWorldTycoon
         
         public long GetHousing()
         {
-            throw new NotImplementedException();
+            long visitors = 0;
+            foreach (Tile tile in matrix)
+            {
+                if (tile.)
+            }
         }
 
 
