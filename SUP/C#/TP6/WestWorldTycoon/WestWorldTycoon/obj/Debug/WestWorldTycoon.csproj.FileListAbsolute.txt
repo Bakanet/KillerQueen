@@ -1,0 +1,6 @@
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP6\WestWorldTycoon\WestWorldTycoon\bin\Debug\WestWorldTycoon.exe
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP6\WestWorldTycoon\WestWorldTycoon\bin\Debug\WestWorldTycoon.pdb
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP6\WestWorldTycoon\WestWorldTycoon\obj\Debug\WestWorldTycoon.csprojResolveAssemblyReference.cache
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP6\WestWorldTycoon\WestWorldTycoon\obj\Debug\WestWorldTycoon.csproj.CoreCompileInputs.cache
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP6\WestWorldTycoon\WestWorldTycoon\obj\Debug\WestWorldTycoon.exe
+C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP6\WestWorldTycoon\WestWorldTycoon\obj\Debug\WestWorldTycoon.pdb

@@ -36,7 +36,9 @@ namespace WestWorldTycoon
         
         public void Update()
         {
-            score += money;
+            long income = map.GetIncome(map.GetPopulation());
+            score += income;
+            money += income;
             TycoonIO.GameUpdate();
         }
 
