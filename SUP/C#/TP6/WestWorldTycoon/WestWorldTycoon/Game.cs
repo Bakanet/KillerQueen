@@ -90,7 +90,7 @@ namespace WestWorldTycoon
 
         public int Round
         {
-            get { return round;  }
+            get { return round; }
         }
 
         public Map Map
