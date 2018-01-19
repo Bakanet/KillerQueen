@@ -24,8 +24,7 @@ namespace WestWorldTycoon
 
         public bool Build(int i, int j, ref long money, Building.BuildingType type)
         {
-            Tile tile = matrix[i, j];
-            return tile.Build(ref money, type);
+            return matrix[i, j].Build(ref money, type);
         }
 
 
@@ -82,6 +81,10 @@ namespace WestWorldTycoon
 
             return income;
         }
-       
+
+        public Tile[,] Matrix
+        {
+            get { return matrix; }
+        }
     }
 }

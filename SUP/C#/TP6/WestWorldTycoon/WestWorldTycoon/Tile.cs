@@ -7,117 +7,107 @@ namespace WestWorldTycoon
     {
         public enum Biome
         {
-            SEA, MOUNTAIN, PLAIN
+            SEA,
+            MOUNTAIN,
+            PLAIN
         }
 
         private Biome biome;
         private Building building;
-        
+
         public Tile(Biome b)
         {
             biome = b;
             building = null;
         }
 
-        
+
         public Tile(Tile tile)
         {
             // BONUS
             throw new NotImplementedException();
         }
 
-        
+
         public bool Build(ref long money, Building.BuildingType type)
         {
-            long cost = 0;
-            switch (type)
+            if (biome == Biome.PLAIN && building == null)
             {
-                case Building.BuildingType.ATTRACTION:
-                    cost = Attraction.BUILD_COST;
-                    break;
-                case Building.BuildingType.HOUSE:
-                    cost = House.BUILD_COST;
-                    break;
-                case Building.BuildingType.SHOP:
-                    cost = Shop.BUILD_COST;
-                    break;
-            }
-
-            if (biome != Biome.PLAIN || cost > money)
-                return false;
-
-            switch (type)
-            {
+                switch (type)
+                {
                     case Building.BuildingType.ATTRACTION:
-                        building = new Attraction();
+                        if (Attraction.BUILD_COST <= money)
+                        {
+                            building = new Attraction();
+                            return true;
+                        }
+
                         break;
                     case Building.BuildingType.HOUSE:
-                        building = new House();
+                        if (House.BUILD_COST <= money)
+                        {
+                            building = new House();
+                            return true;
+                        }
+
                         break;
                     case Building.BuildingType.SHOP:
-                        building = new Shop();
+                        if (Shop.BUILD_COST <= money)
+                        {
+                            building = new Shop();
+                            return true;
+                        }
+
                         break;
+                }
             }
 
-            return true;
+            return false;
         }
 
 
         public bool Upgrade(ref long money)
         {
-            long cost = 0;
-            int lvl = 0;
             switch (building.Type)
             {
                 case Building.BuildingType.ATTRACTION:
-                    cost = Attraction.BUILD_COST;
-                    lvl = ((Attraction) building).Lvl;
+                    if (Attraction.BUILD_COST <= money && ((Attraction) building).Lvl < 3)
+                        ((Attraction) building).Upgrade(ref money);
                     break;
                 case Building.BuildingType.HOUSE:
-                    cost = House.BUILD_COST;
-                    lvl = ((House) building).Lvl;
+                    if (House.BUILD_COST <= money && ((House) building).Lvl < 3)
+                        ((House) building).Upgrade(ref money);
                     break;
                 case Building.BuildingType.SHOP:
-                    cost = Shop.BUILD_COST;
-                    lvl = ((Shop) building).Lvl;
+                    if (Shop.BUILD_COST <= money && ((Shop) building).Lvl < 3) ;
                     break;
-            }
-
-            if (money < cost || lvl >= 3)
-                return false;
-
-            switch (building.Type)
-            {
-                    case Building.BuildingType.ATTRACTION:
-                        ((Attraction) building).Upgrade(ref money);
-                        break;
-                    case Building.BuildingType.HOUSE:
-                        ((House) building).Upgrade(ref money);
-                        break;
-                    case Building.BuildingType.SHOP:
-                        ((Shop) building).Upgrade(ref money);
-                        break;
             }
 
             return true;
         }
-        
-        
+
+
         public long GetHousing()
         {
-            return building.Type != Building.BuildingType.HOUSE ? 0 : ((House) building).Housing();
+            if (building == null || building.Type != Building.BuildingType.HOUSE)
+                return 0;
+            return ((House) building).Housing();
         }
-        
-        
+
+
         public long GetAttractiveness()
         {
-            return building.Type != Building.BuildingType.ATTRACTION ? 0 : ((Attraction) building).Attractiveness();
+            if (building == null || building.Type != Building.BuildingType.ATTRACTION)
+                return 0;
+            return ((Attraction) building).Attractiveness();
         }
-        
-        
+
+
         public long GetIncome(long population)
         {
-            return building.Type != Building.BuildingType.SHOP ? 0 : ((Shop) building).Income(population);
+            if (building == null || building.Type != Building.BuildingType.SHOP)
+                return 0;
+            return ((Shop) building).Income(population);
         }
 
 
@@ -126,11 +116,16 @@ namespace WestWorldTycoon
             // BONUS
             throw new NotImplementedException();
         }
-        
+
 
         public Biome GetBiome
         {
             get { return biome; }
+        }
+
+        public Building GetBuilding
+        {
+            get { return building; }
         }
     }
 }

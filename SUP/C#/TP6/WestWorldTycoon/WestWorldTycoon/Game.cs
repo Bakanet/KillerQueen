@@ -17,6 +17,7 @@ namespace WestWorldTycoon
             map = new Map(name);
             this.nbRound = nbRound;
             money = initialMoney;
+            score = 0;
         }
 
 
@@ -26,6 +27,7 @@ namespace WestWorldTycoon
             for (int i = 0; i < nbRound; ++i)
             {
                 bot.Update(this);
+                Update();
                 ++round;
             }
             bot.End(this);
