@@ -8,7 +8,7 @@ namespace WestWorldTycoon
         private long score;
         private long money;
         private int nbRound;
-        private int round;
+        private int round = 1;
         private Map map;
         
         public Game(string name, int nbRound, long initialMoney)
