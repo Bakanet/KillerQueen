@@ -108,51 +108,5 @@ namespace WestWorldTycoon
                     Console.Write(sr.ReadToEnd());
             }
         }
-        
-        public static void Viewer2()
-        {
-            File.Copy(PATH_OUT, "../../../bot.out", true);
-            ProcessStartInfo viewer = new ProcessStartInfo();
-            viewer.FileName = "C:/Users/malol/Desktop/Projets Epita/KillerQueen/SUP/C#/TP6/WestWorldTycoon/WestWorldTycoon/Content/viewer/viewer.py";
-            viewer.Arguments = PATH_OUT;
-            viewer.UseShellExecute = false;
-            viewer.RedirectStandardError = true;
-            viewer.RedirectStandardOutput = true;
-
-            var p = new Process();
-            p.StartInfo = new ProcessStartInfo(@"Content\viewer\viewer.py")
-            {
-                Arguments = PATH_OUT,
-                UseShellExecute = false
-            };
-            p.Start();
-            
-            using (p)
-            {
-                using (StreamReader sr = p.StandardOutput)
-                    Console.Write(sr.ReadToEnd());
-                using (StreamReader sr = p.StandardError)
-                    Console.Write(sr.ReadToEnd());
-            }
-        }
-        
-        public static void Viewer3()
-        {
-            File.Copy(PATH_OUT, "../../../bot.out", true);
-            ProcessStartInfo viewer = new ProcessStartInfo();
-            string path = "C:/Users/malol/Desktop/Projets Epita/KillerQueen/SUP/C#/TP6/malo.lecomte/WestWorldTycoon/WestWorldTycoon/Content/viewer/viewer.py";
-            viewer.FileName = "C:/Windows/py.exe";
-            viewer.Arguments = String.Format("{0} {1}", path, PATH_OUT);
-            viewer.UseShellExecute = false;
-            viewer.RedirectStandardError = true;
-            viewer.RedirectStandardOutput = true;
-            using (Process process = Process.Start(viewer))
-            {
-                using (StreamReader sr = process.StandardOutput)
-                    Console.Write(sr.ReadToEnd());
-                using (StreamReader sr = process.StandardError)
-                    Console.Write(sr.ReadToEnd());
-            }
-        }
     }
 }

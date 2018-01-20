@@ -1,0 +1,10 @@
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP6/WestWorldTycoon/WestWorldTycoon/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP6/WestWorldTycoon/WestWorldTycoon/bin/Debug/WestWorldTycoon.pdb
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP6/WestWorldTycoon/WestWorldTycoon/bin/Debug/WestWorldTycoon.exe
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP6/WestWorldTycoon/WestWorldTycoon/obj/Debug/WestWorldTycoon.exe
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP6/WestWorldTycoon/WestWorldTycoon/obj/Debug/WestWorldTycoon.pdb
+/root/Desktop/KillerQueen/SUP/C#/TP6/WestWorldTycoon/WestWorldTycoon/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/root/Desktop/KillerQueen/SUP/C#/TP6/WestWorldTycoon/WestWorldTycoon/bin/Debug/WestWorldTycoon.pdb
+/root/Desktop/KillerQueen/SUP/C#/TP6/WestWorldTycoon/WestWorldTycoon/bin/Debug/WestWorldTycoon.exe
+/root/Desktop/KillerQueen/SUP/C#/TP6/WestWorldTycoon/WestWorldTycoon/obj/Debug/WestWorldTycoon.exe
+/root/Desktop/KillerQueen/SUP/C#/TP6/WestWorldTycoon/WestWorldTycoon/obj/Debug/WestWorldTycoon.pdb

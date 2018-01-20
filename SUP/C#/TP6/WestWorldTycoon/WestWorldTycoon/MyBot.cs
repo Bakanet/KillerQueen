@@ -16,45 +16,39 @@ namespace WestWorldTycoon
             game.Build(2, 7, Building.BuildingType.HOUSE);
             game.Build(12, 5, Building.BuildingType.ATTRACTION);
             game.Build(8, 18, Building.BuildingType.SHOP);
+            game.Build(8, 19, Building.BuildingType.SHOP);
 
-            if (game.Money > 10000)
-                for (int i = 0; i < game.Map.Matrix.GetLength(0); i++)
+            for (int i = 0; i < game.Map.Matrix.GetLength(0); i++)
+            {
+                for (int j = 0; j < game.Map.Matrix.GetLength(1); j++)
                 {
-                    for (int j = 0; j < game.Map.Matrix.GetLength(1); j++)
+                    if (game.Map.Matrix[i, j].GetBuilding == null && game.Map.Matrix[i, j].GetBiome == Tile.Biome.PLAIN)
                     {
-                        if (game.Map.Matrix[i,j].GetBuilding != null && game.Map.Matrix[i,j].GetBiome == Tile.Biome.PLAIN && game.Map.Matrix[i,j].GetBuilding.Type != Building.BuildingType.NONE)
+                        if (game.Round <= 18)
                         {
-                            game.Build(i, j, Building.BuildingType.ATTRACTION);
-                            break;
+                            switch (game.Round)
+                            {
+                                case 4:
+                                    game.Build(i, j, Building.BuildingType.HOUSE);
+                                    break;
+                                case 8: case 11: case 13: case 15: case 17: case 18:
+                                    game.Build(i, j, Building.BuildingType.SHOP);
+                                    break;
+                            }
                         }
+
+                        /*while (game.Round < 20)
+                        {
+                            game.Money > 
+                        }*/
                     }
+
+
+
                 }
+            }
+
             
-            if (game.Map.GetAttractiveness() > game.Map.GetHousing())
-                for (int i = 0; i < game.Map.Matrix.GetLength(0); i++)
-                {
-                    for (int j = 0; j < game.Map.Matrix.GetLength(1); j++)
-                    {
-                        if (game.Map.Matrix[i,j].GetBuilding != null && game.Map.Matrix[i,j].GetBiome == Tile.Biome.PLAIN && game.Map.Matrix[i,j].GetBuilding.Type != Building.BuildingType.NONE)
-                        {
-                            game.Build(i, j, Building.BuildingType.HOUSE);
-                            break;
-                        }
-                    }
-                }
-            
-            else
-                for (int i = 0; i < game.Map.Matrix.GetLength(0); i++)
-                {
-                    for (int j = 0; j < game.Map.Matrix.GetLength(1); j++)
-                    {
-                        if (game.Map.Matrix[i,j].GetBuilding != null && game.Map.Matrix[i,j].GetBiome == Tile.Biome.PLAIN && game.Map.Matrix[i,j].GetBuilding.Type != Building.BuildingType.NONE)
-                        {
-                            game.Build(i, j, Building.BuildingType.ATTRACTION);
-                            break;
-                        }
-                    }
-                }
 
 
 
