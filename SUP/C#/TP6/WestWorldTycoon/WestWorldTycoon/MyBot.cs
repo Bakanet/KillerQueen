@@ -18,7 +18,7 @@ namespace WestWorldTycoon
             game.Build(8, 18, Building.BuildingType.SHOP);
             game.Build(8, 19, Building.BuildingType.SHOP);
 
-            for (int i = 0; i < game.Map.Matrix.GetLength(0); i++)
+            /*for (int i = 0; i < game.Map.Matrix.GetLength(0); i++)
             {
                 for (int j = 0; j < game.Map.Matrix.GetLength(1); j++)
                 {
@@ -45,7 +45,7 @@ namespace WestWorldTycoon
 
 
                 }
-            }
+            }*/
 
             
 

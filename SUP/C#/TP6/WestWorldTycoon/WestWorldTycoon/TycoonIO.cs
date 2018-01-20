@@ -140,7 +140,7 @@ namespace WestWorldTycoon
         {
             File.Copy(PATH_OUT, "../../../bot.out", true);
             ProcessStartInfo viewer = new ProcessStartInfo();
-            string path = "C:/Users/malol/Desktop/Projets Epita/KillerQueen/SUP/C#/TP6/malo.lecomte/WestWorldTycoon/WestWorldTycoon/Content/viewer/viewer.py";
+            string path = "C:/Users/malol/Desktop/ProjetsEpita/KillerQueen/SUP/C#/TP6/malo.lecomte/WestWorldTycoon/WestWorldTycoon/Content/viewer/viewer.py";
             viewer.FileName = "C:/Windows/py.exe";
             viewer.Arguments = String.Format("{0} {1}", path, PATH_OUT);
             viewer.UseShellExecute = false;

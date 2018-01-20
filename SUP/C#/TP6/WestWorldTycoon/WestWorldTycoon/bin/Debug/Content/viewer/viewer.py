@@ -99,7 +99,7 @@ class Viewer(tk.Frame):
             widget.grid_forget()
         carte = self.states[r][1]
         (cur_h, cur_a) = (housing(carte), attractivity(carte))
-        tk.Label(self, text="WestWorld Tycoon", font=("Courier", 34)).grid(row=0, column=1, columnspan=3)
+        tk.Label(self, text="WestWorldTycoon", font=("Courier", 34)).grid(row=0, column=1, columnspan=3)
         tk.Label(self, text="Score: " + str(self.states[r][2]), font=("Courier", 24)).grid(row=1, column=0, sticky='w')
         tk.Label(self, text="Money: $" + str(self.states[r][0]), font=("Courier", 24)).grid(row=2, column=0, sticky='w')
         tk.Label(self, text="Income: $" + str(income(min(cur_h, cur_a), carte)), font=("Courier", 24)).grid(row=3, column=0, sticky='w')
@@ -237,7 +237,7 @@ if __name__ == '__main__':
         printf("Usage: {argv[0]} bot.out")
         exit(1)
     root = tk.Tk()
-    root.title("WestWorld Tycoon")
+    root.title("WestWorldTycoon")
     try:
         states = simulator(argv[1])
     except:
