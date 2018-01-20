@@ -10,9 +10,7 @@
         <e p="Bot.cs" t="Include" />
         <e p="Building.cs" t="Include" />
         <e p="Content" t="Include">
-          <e p="viewer" t="Include">
-            <e p="viewer2.py" t="Include" />
-          </e>
+          <e p="viewer" t="Include" />
         </e>
         <e p="Game.cs" t="Include" />
         <e p="House.cs" t="Include" />

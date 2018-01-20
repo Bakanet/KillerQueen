@@ -18,7 +18,7 @@ namespace WestWorldTycoon
             game.Build(8, 18, Building.BuildingType.SHOP);
             game.Build(8, 19, Building.BuildingType.SHOP);
 
-            /*for (int i = 0; i < game.Map.Matrix.GetLength(0); i++)
+            for (int i = 0; i < game.Map.Matrix.GetLength(0); i++)
             {
                 for (int j = 0; j < game.Map.Matrix.GetLength(1); j++)
                 {
@@ -31,31 +31,29 @@ namespace WestWorldTycoon
                                 case 4:
                                     game.Build(i, j, Building.BuildingType.HOUSE);
                                     break;
+
                                 case 8: case 11: case 13: case 15: case 17: case 18:
                                     game.Build(i, j, Building.BuildingType.SHOP);
                                     break;
                             }
                         }
 
-                        while (game.Round > 19 && game.Round < 27)
+                        /*while (game.Round > 19 && game.Round < 27)
                         {
                             game.Build(i, j, Building.BuildingType.SHOP);
-                        }
+                        }*/
                     }
-
-
                 }
-            }*/
-
-            
-
+            }
+        }
 
 
 
-            // money > 10000 : attraction
+
+
+        // money > 10000 : attraction
             // attraction > house : build house
             // build shop
-        }
 
         public override void End(Game game)
         {

@@ -61,7 +61,6 @@ namespace WestWorldTycoon
                         break;
                 }
             }
-
             return false;
         }
 
