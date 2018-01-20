@@ -24,7 +24,7 @@ namespace WestWorldTycoon
                 {
                     if (game.Map.Matrix[i, j].GetBuilding == null && game.Map.Matrix[i, j].GetBiome == Tile.Biome.PLAIN)
                     {
-                        if (game.Round <= 18)
+                        if (game.Round < 19)
                         {
                             switch (game.Round)
                             {
@@ -37,12 +37,11 @@ namespace WestWorldTycoon
                             }
                         }
 
-                        /*while (game.Round < 20)
+                        while (game.Round > 19 && game.Round < 27)
                         {
-                            game.Money > 
-                        }*/
+                            game.Build(i, j, Building.BuildingType.SHOP);
+                        }
                     }
-
 
 
                 }
