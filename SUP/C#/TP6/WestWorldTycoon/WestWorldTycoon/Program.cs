@@ -14,7 +14,7 @@ namespace WestWorldTycoon
             Game game = new Game("agave_plantation.map", NB_ROUNDS, INITIAL_MONEY);
             long score = game.Launch(new MyBot());
             Console.WriteLine("Score: {0}", score);
-            TycoonIO.Viewer3();
+            TycoonIO.Viewer();
         }
     }
 }
