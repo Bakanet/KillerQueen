@@ -70,6 +70,9 @@ namespace WestWorldTycoon
 
         public bool Upgrade(ref long money)
         {
+            if (building == null)
+                return false;
+            
             switch (building.Type)
             {
                 case Building.BuildingType.ATTRACTION:

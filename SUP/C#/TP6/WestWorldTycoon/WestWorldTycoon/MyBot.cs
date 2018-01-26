@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlTypes;
 using System.Dynamic;
+using System.Globalization;
 using System.Reflection;
 using System.Resources;
 using System.Runtime.CompilerServices;
@@ -24,7 +25,7 @@ namespace WestWorldTycoon
             {
                 for (int j = 0; j < game.Map.Matrix.GetLength(1); ++j)
                 {
-                    if (game.Map.Matrix[i, j].GetBiome == Tile.Biome.PLAIN)
+                    if (game.Map.Matrix[i, j].GetBiome == Tile.Biome.PLAIN && game.Map.Matrix[i ,j].GetBuilding == null)
                     {
                         buildable.Add(new Point(i, j));
                     }
@@ -80,11 +81,15 @@ namespace WestWorldTycoon
             
             switch (game.Round)
                 {
-                    case 4: case 41: case 43:
+                    case 1: case 2: case 3: case 5: case 6: case 7: case 9: case 10: case 12: case 14: case 16:
+                    case 27: case 28: case 29: case 30: case 31: case 32: case 33: case 44:
+                        break;
+                        
+                    case 4: case 41: case 42:
                         game.Build(buildableList[0].X, buildableList[0].Y, Building.BuildingType.HOUSE);
                         break;
                         
-                    case 42:
+                    case 43:
                         game.Build(game.Map.Matrix.GetLength(0) - 1, game.Map.Matrix.GetLength(1) - 1, Building.BuildingType.ATTRACTION);
                         break;
 
@@ -110,24 +115,40 @@ namespace WestWorldTycoon
                         game.Build(buildableList[3].X, buildableList[3].Y, Building.BuildingType.HOUSE);
                         break;        
                         
-                    case 44:
+                    case 45:
                         game.Upgrade(game.Map.Matrix.GetLength(0) - 1, game.Map.Matrix.GetLength(1) - 1);
                         break;
                     
-                    case 45:
+                    case 46:
                         game.Build(buildableList[0].X, buildableList[0].Y, Building.BuildingType.HOUSE);
                         Shop:
-                        int i = 1;
-                        int j = 1;
-                        while (game.Money >= 300)
+                        long money = game.Money;
+                        int i = 0;
+                        int j = 0;
+                        int count = buildableList.Count;
+                        while (money >= 300 && count > 0)
                         {
                             game.Build(buildableList[i].X, buildableList[j].Y, Building.BuildingType.SHOP);
+                            money -= 300;
                             ++i;
                             ++j;
+                            --count;
+
                         }
                         break;
+                        
+                    default:
+                        if (buildableList.Count != 0)
+                            goto Shop;
+                        break;
+                        
+                    
                 }
-            
+
+            /*while (buildableList.Count != 0)
+            {
+                
+            }*/
         }          
 
         public override void End(Game game)
