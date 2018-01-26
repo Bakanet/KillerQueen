@@ -1,6 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlTypes;
+using System.Dynamic;
+using System.Globalization;
+using System.Reflection;
+using System.Resources;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography.X509Certificates;
 
@@ -8,98 +13,204 @@ namespace WestWorldTycoon
 {
     public class MyBot : Bot
     {
+        private int[,] upgrade;
+        private long money;
+        private List<Point> buildableList;
         public override void Start(Game game)
         {
         }
 
-        private List<Tile> TileList(Game game, ref List<int> xPos, ref List<int> yPos)
+        private List<Point> BuildableList(Game game)
         {
-            List<Tile> tileList = new List<Tile>();
-            for (int i = 0; i < game.Map.Matrix.GetLength(0); i++)
+            List<Point> buildable = new List<Point>();
+            for (int i = 0; i < game.Map.Matrix.GetLength(0); ++i)
             {
-                for (int j = 0; j < game.Map.Matrix.GetLength(1); j++)
+                for (int j = 0; j < game.Map.Matrix.GetLength(1); ++j)
                 {
-                    Tile tile = game.Map.Matrix[i, j];
-                    if (tile.GetBiome == Tile.Biome.PLAIN && tile.GetBuilding == null)
+                    if (game.Map.Matrix[i, j].GetBiome == Tile.Biome.PLAIN && game.Map.Matrix[i ,j].GetBuilding == null)
                     {
-                        tileList.Add(tile);
-                        xPos.Add(i);
-                        yPos.Add(j);
+                        buildable.Add(new Point(i, j));
                     }
                 }
             }
 
-            
-            return tileList;
+            return buildable;
+        }
+
+        private void PrintArr(int[,] arr)
+        {
+            for (int i = 0; i < arr.GetLength(0); i++)
+            {
+                for (int j = 0; j < arr.GetLength(1); j++)
+                {
+                    Console.Write(arr[i,j] + " ");
+                }
+
+                Console.WriteLine();
+            }
+        }
+        
+        private int[,] UpgradeArr(Game game)
+        {
+            int[,] upgrades = new int[game.Map.Matrix.GetLength(0), game.Map.Matrix.GetLength(1)];
+            int building = 0;
+            int lvl = 0;
+            for (int i = 0; i < game.Map.Matrix.GetLength(0); ++i)
+            {
+                for (int j = 0; j < game.Map.Matrix.GetLength(1); ++j)
+                {
+                    if (game.Map.Matrix[i,j].GetBuilding == null)
+                        continue;
+                    switch (game.Map.Matrix[i, j].GetBuilding.Type)
+                    {
+                        case Building.BuildingType.ATTRACTION:
+                            building = 1;
+                            lvl = ((Attraction) game.Map.Matrix[i, j].GetBuilding).Lvl;
+                            break;
+                        case Building.BuildingType.HOUSE:
+                            building = 2;
+                            lvl = ((House) game.Map.Matrix[i, j].GetBuilding).Lvl;
+                            break;
+                        case Building.BuildingType.SHOP:
+                            building = 3;
+                            lvl = ((Shop) game.Map.Matrix[i, j].GetBuilding).Lvl;
+                            break;
+                    }
+
+                    upgrades[i, j] = building * 10 + lvl;
+                    
+                    //PrintArr(upgrades);
+                }
+            }
+
+            return upgrades;
         }
         
         public override void Update(Game game)
         {
-            game.Build(2, 7, Building.BuildingType.HOUSE);
-            game.Build(0, 2, Building.BuildingType.ATTRACTION);
-            game.Build(8, 18, Building.BuildingType.SHOP);
-            game.Build(8, 19, Building.BuildingType.SHOP);
-            List<int> xPos = new List<int>();
-            List<int> yPos = new List<int>();
-            List<Tile> tileList = TileList(game, ref xPos, ref yPos);
-            int x = xPos[0];
-            int y = yPos[0];
+            buildableList = BuildableList(game);
+            upgrade = UpgradeArr(game);
+
+            if (game.Round == 1)
+            {
+                game.Build(2, 7, Building.BuildingType.HOUSE);
+                game.Build(0, 2, Building.BuildingType.ATTRACTION);
+                game.Build(8, 18, Building.BuildingType.SHOP);
+                game.Build(8, 19, Building.BuildingType.SHOP);
+            }
             
             switch (game.Round)
                 {
-                    case 4: case 41: case 43:
-                        game.Build(x, y, Building.BuildingType.HOUSE);
+                    case 1: case 2: case 3: case 5: case 6: case 7: case 9: case 10: case 12: case 14: case 16:
+                    case 27: case 28: case 29: case 30: case 31: case 32: case 33: case 44: case 53:
                         break;
                         
-                    case 42:
+                    case 4: case 41: case 42:
+                        game.Build(buildableList[0].X, buildableList[0].Y, Building.BuildingType.HOUSE);
+                        break;
+                        
+                    case 43:
                         game.Build(game.Map.Matrix.GetLength(0) - 1, game.Map.Matrix.GetLength(1) - 1, Building.BuildingType.ATTRACTION);
                         break;
 
                     case 8: case 11: case 13: case 15: case 17: case 18: case 19: case 20: case 21: case 22: case 24:
                     case 26: case 36: case 37: case 38: case 39: case 40:
-                        game.Build(x, y, Building.BuildingType.SHOP);
+                        game.Build(buildableList[0].X, buildableList[0].Y, Building.BuildingType.SHOP);
                         break;
                         
                     case 23: case 25:
-                        game.Build(x, y, Building.BuildingType.SHOP);
-                        game.Build(xPos[1], yPos[1], Building.BuildingType.SHOP);
+                        game.Build(buildableList[0].X, buildableList[0].X, Building.BuildingType.SHOP);
+                        game.Build(buildableList[1].X, buildableList[1].Y, Building.BuildingType.SHOP);
                         break;
                         
                     case 34:
                         game.Upgrade(0, 2);
-                        game.Build(x, y, Building.BuildingType.HOUSE);
+                        game.Build(buildableList[0].X, buildableList[0].Y, Building.BuildingType.HOUSE);
                         break;
                         
                     case 35:
-                        game.Build(x, y, Building.BuildingType.SHOP);
-                        game.Build(xPos[1], yPos[1], Building.BuildingType.SHOP);
-                        game.Build(xPos[2], yPos[2], Building.BuildingType.SHOP);
-                        game.Build(xPos[3], yPos[3], Building.BuildingType.HOUSE);
+                        game.Build(buildableList[0].X, buildableList[0].Y, Building.BuildingType.SHOP);
+                        game.Build(buildableList[1].X, buildableList[1].Y, Building.BuildingType.SHOP);
+                        game.Build(buildableList[2].X, buildableList[2].Y, Building.BuildingType.SHOP);
+                        game.Build(buildableList[3].X, buildableList[3].Y, Building.BuildingType.HOUSE);
                         break;        
                         
-                    case 44:
+                    case 45: case 54:
                         game.Upgrade(game.Map.Matrix.GetLength(0) - 1, game.Map.Matrix.GetLength(1) - 1);
                         break;
                     
-                    case 45:
-                        game.Build(x, y, Building.BuildingType.HOUSE);
-                        long money = game.Money - (game.Money - game.Map.GetIncome(game.Map.GetPopulation())) - 250;
-                        int i = 1;
-                        int j = 1;
-                        while (money >= 300)
+                    case 46:
+                        game.Build(buildableList[0].X, buildableList[0].Y, Building.BuildingType.HOUSE);
+                        Shop:
+                        money = game.Money;
+                        int i = 0;
+                        int j = 0;
+                        int count = buildableList.Count;
+                        while (money >= 300 && count > 0)
                         {
-                            game.Build(xPos[i], yPos[j], Building.BuildingType.SHOP);
+                            game.Build(buildableList[i].X, buildableList[j].Y, Building.BuildingType.SHOP);
+                            money -= 300;
                             ++i;
                             ++j;
-                            money -= 300;
+                            --count;
+
                         }
                         break;
+                        
+                    case 49:
+                        game.Build(game.Map.Matrix.GetLength(0) - 2, game.Map.Matrix.GetLength(1) - 1, Building.BuildingType.ATTRACTION);
+                        break;
+                        
+                    default:
+                        if (buildableList.Count != 0)
+                            goto Shop;
+
+                        game.Upgrade(game.Map.Matrix.GetLength(0) - 1, game.Map.Matrix.GetLength(1) - 1);
+                        game.Upgrade(game.Map.Matrix.GetLength(0) - 2, game.Map.Matrix.GetLength(1) - 1);
+                        money = game.Money;
+                        for (int k = 0; k < upgrade.GetLength(0) - 1; ++k)
+                        {
+                            for (int l = 0; l < upgrade.GetLength(1) - 1; ++l)
+                            {
+                                if (upgrade[k, l] % 10 >= 3 || game.Map.Matrix[k, l].GetBuilding == null) 
+                                    continue;
+                                
+                                game.Upgrade(k, l);
+                            
+                            }
+                        }
+                        break;
+                        
+                    
                 }
-            }          
+        }          
 
         public override void End(Game game)
         {
             // Nothing to do...
+        }
+        
+    }
+
+    public class Point
+    {
+        private int x;
+        private int y;
+        
+        public Point(int x, int y)
+        {
+            this.x = x;
+            this.y = y;
+        }
+
+        public int X
+        {
+            get { return x; }
+        }
+        
+        public int Y
+        {
+            get { return y; }
         }
     }
 }

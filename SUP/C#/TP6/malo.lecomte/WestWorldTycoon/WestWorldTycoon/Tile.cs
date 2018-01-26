@@ -39,6 +39,7 @@ namespace WestWorldTycoon
                         if (Attraction.BUILD_COST <= money)
                         {
                             building = new Attraction();
+                            money -= Attraction.BUILD_COST;
                             return true;
                         }
 
@@ -47,6 +48,7 @@ namespace WestWorldTycoon
                         if (House.BUILD_COST <= money)
                         {
                             building = new House();
+                            money -= House.BUILD_COST;
                             return true;
                         }
 
@@ -55,6 +57,7 @@ namespace WestWorldTycoon
                         if (Shop.BUILD_COST <= money)
                         {
                             building = new Shop();
+                            money -= Shop.BUILD_COST;
                             return true;
                         }
 
@@ -67,19 +70,17 @@ namespace WestWorldTycoon
 
         public bool Upgrade(ref long money)
         {
+            if (building == null)
+                return false;
+            
             switch (building.Type)
             {
                 case Building.BuildingType.ATTRACTION:
-                    if (Attraction.BUILD_COST <= money && ((Attraction) building).Lvl < 3)
-                        ((Attraction) building).Upgrade(ref money);
-                    break;
+                    return ((Attraction) building).Upgrade(ref money);
                 case Building.BuildingType.HOUSE:
-                    if (House.BUILD_COST <= money && ((House) building).Lvl < 3)
-                        ((House) building).Upgrade(ref money);
-                    break;
+                    return ((House) building).Upgrade(ref money);
                 case Building.BuildingType.SHOP:
-                    if (Shop.BUILD_COST <= money && ((Shop) building).Lvl < 3) ;
-                    break;
+                    return ((Shop) building).Upgrade(ref money);
             }
 
             return true;
@@ -125,6 +126,11 @@ namespace WestWorldTycoon
         public Building GetBuilding
         {
             get { return building; }
+        }
+
+        public bool IsBuildable(Building building2, Biome biome2)
+        {
+            return building2 == null && biome2 == Biome.PLAIN;
         }
     }
 }

@@ -36,8 +36,7 @@ namespace WestWorldTycoon
 
         public bool Upgrade(int i, int j, ref long money)
         {
-            Tile tile = matrix[i, j];
-            return tile.Upgrade(ref money);
+            return matrix[i, j].Upgrade(ref money);
         }
         
         

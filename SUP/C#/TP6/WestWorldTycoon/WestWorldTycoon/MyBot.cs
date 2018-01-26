@@ -15,9 +15,9 @@ namespace WestWorldTycoon
     {
         private int[,] upgrade;
         private long money;
+        private List<Point> buildableList;
         public override void Start(Game game)
         {
-            upgrade = UpgradeArr(game);
         }
 
         private List<Point> BuildableList(Game game)
@@ -35,6 +35,19 @@ namespace WestWorldTycoon
             }
 
             return buildable;
+        }
+
+        private void PrintArr(int[,] arr)
+        {
+            for (int i = 0; i < arr.GetLength(0); i++)
+            {
+                for (int j = 0; j < arr.GetLength(1); j++)
+                {
+                    Console.Write(arr[i,j] + " ");
+                }
+
+                Console.WriteLine();
+            }
         }
         
         private int[,] UpgradeArr(Game game)
@@ -65,6 +78,8 @@ namespace WestWorldTycoon
                     }
 
                     upgrades[i, j] = building * 10 + lvl;
+                    
+                    //PrintArr(upgrades);
                 }
             }
 
@@ -73,7 +88,8 @@ namespace WestWorldTycoon
         
         public override void Update(Game game)
         {
-            List<Point> buildableList = BuildableList(game);
+            buildableList = BuildableList(game);
+            upgrade = UpgradeArr(game);
 
             if (game.Round == 1)
             {
@@ -86,7 +102,7 @@ namespace WestWorldTycoon
             switch (game.Round)
                 {
                     case 1: case 2: case 3: case 5: case 6: case 7: case 9: case 10: case 12: case 14: case 16:
-                    case 27: case 28: case 29: case 30: case 31: case 32: case 33: case 44:
+                    case 27: case 28: case 29: case 30: case 31: case 32: case 33: case 44: case 53:
                         break;
                         
                     case 4: case 41: case 42:
@@ -119,7 +135,7 @@ namespace WestWorldTycoon
                         game.Build(buildableList[3].X, buildableList[3].Y, Building.BuildingType.HOUSE);
                         break;        
                         
-                    case 45:
+                    case 45: case 54:
                         game.Upgrade(game.Map.Matrix.GetLength(0) - 1, game.Map.Matrix.GetLength(1) - 1);
                         break;
                     
@@ -141,35 +157,26 @@ namespace WestWorldTycoon
                         }
                         break;
                         
+                    case 49:
+                        game.Build(game.Map.Matrix.GetLength(0) - 2, game.Map.Matrix.GetLength(1) - 1, Building.BuildingType.ATTRACTION);
+                        break;
+                        
                     default:
                         if (buildableList.Count != 0)
                             goto Shop;
-                        
+
+                        game.Upgrade(game.Map.Matrix.GetLength(0) - 1, game.Map.Matrix.GetLength(1) - 1);
+                        game.Upgrade(game.Map.Matrix.GetLength(0) - 2, game.Map.Matrix.GetLength(1) - 1);
                         money = game.Money;
-                        for (int k = 0; k < upgrade.GetLength(0); ++k)
+                        for (int k = 0; k < upgrade.GetLength(0) - 1; ++k)
                         {
-                            for (int l = 0; l < upgrade.GetLength(1); l++)
+                            for (int l = 0; l < upgrade.GetLength(1) - 1; ++l)
                             {
                                 if (upgrade[k, l] % 10 >= 3 || game.Map.Matrix[k, l].GetBuilding == null) 
                                     continue;
                                 
-                                switch (upgrade[k, l] / 10)
-                                {
-                                    case 1:
-                                        if (Attraction.UPGRADE_COST[upgrade[k, l]] <= money)
-                                            game.Map.Matrix[k, l].Upgrade(ref money);
-                                        break;
-                                                
-                                    case 2:
-                                        if (House.UPGRADE_COST[upgrade[k, l]] <= money)
-                                            game.Map.Matrix[k, l].Upgrade(ref money);
-                                        break;
-                                            
-                                    case 3:
-                                        if (Shop.UPGRADE_COST[upgrade[k, l]] <= money)
-                                            game.Map.Matrix[k, l].Upgrade(ref money);
-                                        break;
-                                }
+                                game.Upgrade(k, l);
+                            
                             }
                         }
                         break;

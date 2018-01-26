@@ -5,7 +5,7 @@ from enum import Enum
 from copy import deepcopy
 import tkinter as tk
 
-SIZE = 10
+SIZE = 50
 HOUSE_B = 250
 HOUSE_U = (750, 3000, 10000)
 HOUSING = (300, 500, 650, 750)

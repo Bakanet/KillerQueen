@@ -33,7 +33,7 @@ namespace WestWorldTycoon
 
         public bool Upgrade(ref long money)
         {
-            if (UPGRADE_COST[lvl] > money || lvl >= 3)
+            if (lvl >= 3 || UPGRADE_COST[lvl] > money)
                 return false;
 
             money -= UPGRADE_COST[lvl];
