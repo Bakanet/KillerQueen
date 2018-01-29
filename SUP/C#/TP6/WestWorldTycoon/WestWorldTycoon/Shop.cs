@@ -20,8 +20,8 @@ namespace WestWorldTycoon
 
         public Shop(Shop shop)
         {
-            // BONUS
-            throw new NotImplementedException();
+            lvl = shop.lvl;
+            type = BuildingType.SHOP;
         }
         
         

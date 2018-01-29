@@ -24,8 +24,8 @@ namespace WestWorldTycoon
 
         public Tile(Tile tile)
         {
-            // BONUS
-            throw new NotImplementedException();
+            biome = tile.biome;
+            building = tile.building;
         }
 
 
@@ -113,8 +113,13 @@ namespace WestWorldTycoon
 
         public bool Destroy()
         {
-            // BONUS
-            throw new NotImplementedException();
+            if (building != null)
+            {
+                building = null;
+                return true;
+            }
+
+            return false;
         }
 
 

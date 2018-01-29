@@ -20,8 +20,8 @@ namespace WestWorldTycoon
 
         public House(House house)
         {
-            // BONUS
-            throw new NotImplementedException();
+            lvl = house.lvl;
+            type = BuildingType.HOUSE;
         }
 
         

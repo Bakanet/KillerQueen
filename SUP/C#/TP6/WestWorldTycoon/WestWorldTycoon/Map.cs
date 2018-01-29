@@ -17,8 +17,7 @@ namespace WestWorldTycoon
         
         public Map(Map map)
         {
-            // BONUS
-            throw new NotImplementedException();
+            matrix = map.matrix;
         }
 
 
@@ -30,8 +29,7 @@ namespace WestWorldTycoon
 
         public bool Destroy(int i, int j)
         {
-            // BONUS
-            throw new NotImplementedException();
+            return Matrix[i, j].Destroy();
         }
 
         public bool Upgrade(int i, int j, ref long money)
@@ -84,6 +82,24 @@ namespace WestWorldTycoon
         public Tile[,] Matrix
         {
             get { return matrix; }
+        }
+
+        public Map Map
+        {
+            get
+            {
+                Tile[,] matrix2 = new Tile[matrix.GetLength(0),matrix.GetLength(1)];
+
+                for (int i = 0; i < matrix.GetLength(0); i++)
+                {
+                    for (int j = 0; j < matrix.GetLength(1); j++)
+                    {
+                        matrix2[i, j] = matrix[i, j];
+                    }
+                }
+
+                return new Map();
+            }
         }
     }
 }

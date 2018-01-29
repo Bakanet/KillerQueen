@@ -21,8 +21,8 @@ namespace WestWorldTycoon
 
         public Attraction(Attraction attraction)
         {
-            // BONUS
-            throw new NotImplementedException();
+            lvl = attraction.lvl;
+            type = BuildingType.ATTRACTION;
         }
 
         public long Attractiveness()

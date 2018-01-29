@@ -58,7 +58,7 @@ namespace WestWorldTycoon
 
         public bool Destroy(int i, int j)
         {
-            throw new NotImplementedException();
+            return map.Destroy(i, j);
         }
         
         public bool Upgrade(int i, int j)
