@@ -1,7 +1,16 @@
-Dans MyBot, j'ai cree un array d'entiers, UpgradeArr qui permet de sauvegarder les types des batiments et leur niveau a leur position sur la map. (La position d'un element dans l'array
-est la meme que sur la map).
-
 La methode IsBuildable de la classe Tile permet de verifier si on peut construire sur une Tile ou non.
 
 La liste BuildableList permet de recuperer des cases (de la classe Point) sur lesquels il est possible de construire. Ces coordonnees seront utiles pour savoir sur quelles cases on
 peut construire des batiments.
+
+Version "bete" du bot : il commence par construire sur toute la map, en priorite des shops (pour avoir beaucoup d'argent au debut), puis il va equilibrer les Attractions et les House.
+Au lvl max, une attraction = 2 house. Le plus optimise en termes de points est d'avoir 39 Attractions, 78 Houses et 117 Shops. C'est pour cela qu'on arrete de construire quand ces valeurs
+sont atteintes.
+L'upgrade se fait ensuite, avec les premiers niveaux des attractions puis les shops.
+
+Cette version n'atteint que 27 393 504 points.
+
+Prochaine version du bot (si j'ai le temps) : integrer l'upgrade avant la construction totale, un niveau supplémentaire pour toutes les 
+attractions et houses peut-etre plus interessant au lieu d'en construire de nouveaux directement.
+
+Bonus faits : Map Copy (sauf getter de Map) et Destroy.

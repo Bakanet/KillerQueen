@@ -1,21 +1,16 @@
-C'etait marrant les labyrinthes. Le TP etait vraiment pas complique, fallait surtout aller chercher les trucs sur MSDN quoi.
-Bonus faits : l'affichage (fonction PrintMaze).
-La fonction ResolveMaze dans le Main permet d'appeler toutes les fonctions avec en plus l'affichage avant et apres la resolution du labyrinthe.
+La methode IsBuildable de la classe Tile permet de verifier si on peut construire sur une Tile ou non.
 
-Deuxieme bonus : c'est parti pour tenter un A* (avec un peu d'aide de Justin).
-On cree une classe Node qui permet de stocker les coords d'un noeud, ainsi que son poids (utile pour choisir le chemin le plus rapide), et sa "direction" qui designe
-en realite son predecesseur (le noeud duquel on vient).
-La methode ComputeValue sert a calculer la distance entre le noeud actuel et l'arrivee de notre labyrinthe.
-Notre fonction FindFinish est... un c/c du FindStart.
-La GetNeighboursValue a pour but de calculer le poids des 4 noeuds autour de notre point (sauf s'il est en dehors de la grid, si c'est un block, ou si on l'a deja explore).
-Notre list toExplore permet de verifier quels noeuds on doit encore explorer.
-GottaGoFast (sonic.exe reference) sert a recuperer le noeud avec le poids le moins lourd (donc le chemin le plus rapide), l'ajouter dans la liste des noeuds explores et le retirer
-de ceux qu'il nous reste a explorer.
-Fonction PathFinding : on définit un point start et finish, ainsi que nos fameuses listes toExplore et doneNodes. La première while boucle tant qu'il reste
-des noeuds dans notre liste à explorer et qu'on n'a pas atteint l'arrivée.
-Si notre liste à explorer est vide, c'est qu'on a testé toutes les possibilités et qu'il est impossible de finir le labyrinthe. Sinon on entre dans une dernière boucle
-qui va parcourir notre chemin en sens inverse en mettant des P à chaque fois qu'on passe par une case du chemin.
+La liste BuildableList permet de recuperer des cases (de la classe Point) sur lesquels il est possible de construire. Ces coordonnees seront utiles pour savoir sur quelles cases on
+peut construire des batiments.
 
-Sinon une idee pour le prochain TP avec des labyrinthes : https://youtu.be/x9hBWnh_O6A
+Version "bete" du bot : il commence par construire sur toute la map, en priorite des shops (pour avoir beaucoup d'argent au debut), puis il va equilibrer les Attractions et les House.
+Au lvl max, une attraction = 2 house. Le plus optimise en termes de points est d'avoir 39 Attractions, 78 Houses et 117 Shops. C'est pour cela qu'on arrete de construire quand ces valeurs
+sont atteintes.
+L'upgrade se fait ensuite, avec les premiers niveaux des attractions puis les shops.
 
-g pa dumour du kou g pa de blag :(
+Cette version n'atteint que 27 393 504 points.
+
+Prochaine version du bot (si j'ai le temps) : integrer l'upgrade avant la construction totale, un niveau supplémentaire pour toutes les 
+attractions et houses peut-etre plus interessant au lieu d'en construire de nouveaux directement.
+
+Bonus faits : Map Copy (sauf getter de Map) et Destroy.

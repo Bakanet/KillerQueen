@@ -14,24 +14,24 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CheckRendu/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="22" column="74" lean-forward="true" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+            <state relative-caret-position="304">
+              <caret line="22" column="69" lean-forward="true" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
               <folding>
-                <marker date="1514389061932" expanded="true" signature="6:88" ph="..." />
-                <marker date="1514389061932" expanded="true" signature="110:2292" ph="{...}" />
-                <marker date="1514389061932" expanded="true" signature="139:2290" ph="{...}" />
-                <marker date="1514389061932" expanded="true" signature="192:283" ph="{...}" />
-                <marker date="1514389061932" expanded="true" signature="335:2284" ph="{...}" />
-                <marker date="1514389061932" expanded="true" signature="394:513" ph="{...}" />
-                <marker date="1514389061932" expanded="true" signature="589:708" ph="{...}" />
-                <marker date="1514389061932" expanded="true" signature="757:875" ph="{...}" />
-                <marker date="1514389061932" expanded="true" signature="934:1050" ph="{...}" />
-                <marker date="1514389061932" expanded="true" signature="1167:2249" ph="{...}" />
-                <marker date="1514389061932" expanded="true" signature="1297:2235" ph="{...}" />
-                <marker date="1514389061932" expanded="true" signature="1378:1523" ph="{...}" />
-                <marker date="1514389061932" expanded="true" signature="1580:1727" ph="{...}" />
-                <marker date="1514389061932" expanded="true" signature="1875:2196" ph="{...}" />
-                <marker date="1514389061932" expanded="true" signature="2007:2174" ph="{...}" />
+                <marker date="1517351271021" expanded="false" signature="6:88" ph="..." />
+                <marker date="1517351271021" expanded="true" signature="110:2304" ph="{...}" />
+                <marker date="1517351271021" expanded="true" signature="139:2302" ph="{...}" />
+                <marker date="1517351271021" expanded="true" signature="192:283" ph="{...}" />
+                <marker date="1517351271021" expanded="true" signature="335:2296" ph="{...}" />
+                <marker date="1517351271021" expanded="true" signature="394:513" ph="{...}" />
+                <marker date="1517351271021" expanded="true" signature="589:708" ph="{...}" />
+                <marker date="1517351271021" expanded="true" signature="757:875" ph="{...}" />
+                <marker date="1517351271021" expanded="true" signature="934:1050" ph="{...}" />
+                <marker date="1517351271021" expanded="true" signature="1167:2261" ph="{...}" />
+                <marker date="1517351271021" expanded="true" signature="1297:2247" ph="{...}" />
+                <marker date="1517351271021" expanded="true" signature="1378:1523" ph="{...}" />
+                <marker date="1517351271021" expanded="true" signature="1592:1739" ph="{...}" />
+                <marker date="1517351271021" expanded="true" signature="1887:2208" ph="{...}" />
+                <marker date="1517351271021" expanded="true" signature="2019:2186" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -106,7 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.Default">
+  <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/CheckRendu/bin/Debug/CheckRendu.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -116,13 +116,18 @@
       <option name="USE_MONO" value="0" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/CheckRendu/CheckRendu.csproj" />
-      <option name="PROJECT_OUTPUT_TRACKING" value="1" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="Console" />
       <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -133,11 +138,12 @@
       <updated>1514308084457</updated>
       <workItem from="1514308090657" duration="9195000" />
       <workItem from="1514374262762" duration="9156000" />
+      <workItem from="1517351255217" duration="31000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18351000" />
+    <option name="totallyTimeSpent" value="18382000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -150,21 +156,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281768" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -182,60 +190,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/CheckRendu/Program.cs</url>
-          <line>16</line>
-          <properties documentPath="$PROJECT_DIR$/CheckRendu/Program.cs">
-            <startOffsets>
-              <startOffset value="358" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="513" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/CheckRendu/Program.cs</url>
-          <line>62</line>
-          <properties documentPath="$PROJECT_DIR$/CheckRendu/Program.cs">
-            <startOffsets>
-              <startOffset value="1922" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="2174" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/CheckRendu/Program.cs</url>
-          <line>22</line>
-          <properties documentPath="$PROJECT_DIR$/CheckRendu/Program.cs">
-            <startOffsets>
-              <startOffset value="527" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="708" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/CheckRendu/Program.cs</url>
-          <line>47</line>
-          <properties documentPath="$PROJECT_DIR$/CheckRendu/Program.cs">
-            <startOffsets>
-              <startOffset value="1336" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="1523" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
@@ -246,45 +200,69 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1514389061932" expanded="true" signature="6:88" ph="..." />
-            <marker date="1514389061932" expanded="true" signature="110:2292" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="139:2290" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="192:283" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="335:2284" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="394:513" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="589:708" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="757:875" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="934:1050" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="1167:2249" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="1297:2235" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="1378:1523" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="1580:1727" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="1875:2196" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="2007:2174" ph="{...}" />
+            <marker date="1517351271021" expanded="false" signature="6:88" ph="..." />
+            <marker date="1517351271021" expanded="true" signature="110:2304" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="139:2302" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="192:283" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="335:2296" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="394:513" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="589:708" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="757:875" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="934:1050" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="1167:2261" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="1297:2247" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="1378:1523" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="1592:1739" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="1887:2208" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="2019:2186" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CheckRendu/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="74" lean-forward="true" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1514389061932" expanded="true" signature="6:88" ph="..." />
-            <marker date="1514389061932" expanded="true" signature="110:2292" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="139:2290" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="192:283" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="335:2284" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="394:513" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="589:708" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="757:875" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="934:1050" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="1167:2249" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="1297:2235" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="1378:1523" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="1580:1727" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="1875:2196" ph="{...}" />
-            <marker date="1514389061932" expanded="true" signature="2007:2174" ph="{...}" />
+            <marker date="1517351271021" expanded="false" signature="6:88" ph="..." />
+            <marker date="1517351271021" expanded="true" signature="110:2304" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="139:2302" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="192:283" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="335:2296" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="394:513" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="589:708" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="757:875" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="934:1050" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="1167:2261" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="1297:2247" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="1378:1523" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="1592:1739" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="1887:2208" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="2019:2186" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CheckRendu/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="22" column="69" lean-forward="true" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+          <folding>
+            <marker date="1517351271021" expanded="false" signature="6:88" ph="..." />
+            <marker date="1517351271021" expanded="true" signature="110:2304" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="139:2302" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="192:283" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="335:2296" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="394:513" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="589:708" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="757:875" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="934:1050" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="1167:2261" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="1297:2247" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="1378:1523" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="1592:1739" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="1887:2208" ph="{...}" />
+            <marker date="1517351271021" expanded="true" signature="2019:2186" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -51,7 +51,7 @@ namespace CheckRendu
                         return false;
                     }
 
-                    if (!File.Exists(dir + "/TP5.sln"))
+                    if (!File.Exists(dir + "/WestWorldTycoon.sln"))
                     {
                         Console.WriteLine("fail sln : missing");
                         return false;

@@ -4,3 +4,9 @@ C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP5\Bonus\CheckRendu\Che
 C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP5\Bonus\CheckRendu\CheckRendu\obj\Debug\CheckRendu.csproj.CoreCompileInputs.cache
 C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP5\Bonus\CheckRendu\CheckRendu\obj\Debug\CheckRendu.exe
 C:\Users\malol\Desktop\Projets Epita\KillerQueen\SUP\C#\TP5\Bonus\CheckRendu\CheckRendu\obj\Debug\CheckRendu.pdb
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP5\Bonus\CheckRendu\CheckRendu\bin\Debug\CheckRendu.exe
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP5\Bonus\CheckRendu\CheckRendu\bin\Debug\CheckRendu.pdb
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP5\Bonus\CheckRendu\CheckRendu\obj\Debug\CheckRendu.csprojResolveAssemblyReference.cache
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP5\Bonus\CheckRendu\CheckRendu\obj\Debug\CheckRendu.csproj.CoreCompileInputs.cache
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP5\Bonus\CheckRendu\CheckRendu\obj\Debug\CheckRendu.exe
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP5\Bonus\CheckRendu\CheckRendu\obj\Debug\CheckRendu.pdb

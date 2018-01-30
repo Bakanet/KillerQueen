@@ -17,8 +17,7 @@ namespace WestWorldTycoon
         
         public Map(Map map)
         {
-            // BONUS
-            throw new NotImplementedException();
+            matrix = map.matrix;
         }
 
 
@@ -30,8 +29,7 @@ namespace WestWorldTycoon
 
         public bool Destroy(int i, int j)
         {
-            // BONUS
-            throw new NotImplementedException();
+            return Matrix[i, j].Destroy();
         }
 
         public bool Upgrade(int i, int j, ref long money)
