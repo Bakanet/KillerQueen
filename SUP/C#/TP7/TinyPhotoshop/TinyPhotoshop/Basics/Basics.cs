@@ -7,14 +7,16 @@ namespace TinyPhotoshop
     {
         public static Color Grey(Color color)
         {
-	        Color grey = new Color();
+	        throw new NotImplementedException();
         }
 
         public static Color Binarize(Color color)
         {
-			//FIXME
-			throw new NotImplementedException();
-		}
+	        if (color.R + color.G + color.B <= Color.Gray.R + Color.Gray.G + Color.Gray.B)
+		        return Color.Black;
+
+	        return Color.White;
+        }
         
         public static Color BinarizeColor(Color color)
         {
