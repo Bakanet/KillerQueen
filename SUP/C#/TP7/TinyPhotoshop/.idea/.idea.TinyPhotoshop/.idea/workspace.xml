@@ -9,6 +9,120 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Basics.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Basics/Basics.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+              <folding>
+                <marker date="1517432842364" expanded="false" signature="6:35" ph="..." />
+                <marker date="1517432842364" expanded="true" signature="60:1522" ph="{...}" />
+                <marker date="1517432842364" expanded="true" signature="93:1520" ph="{...}" />
+                <marker date="1517432842364" expanded="true" signature="145:296" ph="{...}" />
+                <marker date="1517432842364" expanded="true" signature="347:486" ph="{...}" />
+                <marker date="1517432842364" expanded="true" signature="550:767" ph="{...}" />
+                <marker date="1517432842364" expanded="true" signature="826:951" ph="{...}" />
+                <marker date="1517432842364" expanded="true" signature="1032:1205" ph="{...}" />
+                <marker date="1517432842364" expanded="true" signature="1277:1514" ph="{...}" />
+                <marker date="1517432842364" expanded="true" signature="1332:1482" ph="{...}" />
+                <marker date="1517432842364" expanded="true" signature="1390:1471" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Geometry.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Basics/Geometry.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="18" column="103" lean-forward="false" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
+              <folding>
+                <marker date="1517434396020" expanded="false" signature="6:88" ph="..." />
+                <marker date="1517434396020" expanded="true" signature="114:1172" ph="{...}" />
+                <marker date="1517434396020" expanded="true" signature="149:1170" ph="{...}" />
+                <marker date="1517434396020" expanded="true" signature="222:293" ph="{...}" />
+                <marker date="1517434396020" expanded="true" signature="362:511" ph="{...}" />
+                <marker date="1517434396020" expanded="true" signature="571:636" ph="{...}" />
+                <marker date="1517434396020" expanded="true" signature="702:767" ph="{...}" />
+                <marker date="1517434396020" expanded="true" signature="844:909" ph="{...}" />
+                <marker date="1517434396020" expanded="true" signature="971:1036" ph="{...}" />
+                <marker date="1517434396020" expanded="true" signature="1099:1164" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Filter.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Instagram/Filter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1517334943213" expanded="true" signature="46:309" ph="{...}" />
+                <marker date="1517334943213" expanded="true" signature="81:307" ph="{...}" />
+                <marker date="1517334943213" expanded="true" signature="191:237" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Auto.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Auto/Auto.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1517334943160" expanded="false" signature="6:137" ph="..." />
+                <marker date="1517334943160" expanded="true" signature="162:1539" ph="{...}" />
+                <marker date="1517334943160" expanded="true" signature="193:1537" ph="{...}" />
+                <marker date="1517334943160" expanded="true" signature="271:616" ph="{...}" />
+                <marker date="1517334943160" expanded="true" signature="397:558" ph="{...}" />
+                <marker date="1517334943160" expanded="true" signature="657:722" ph="{...}" />
+                <marker date="1517334943160" expanded="true" signature="764:829" ph="{...}" />
+                <marker date="1517334943160" expanded="true" signature="936:1068" ph="{...}" />
+                <marker date="1517334943160" expanded="true" signature="1122:1218" ph="{...}" />
+                <marker date="1517334943160" expanded="true" signature="1278:1384" ph="{...}" />
+                <marker date="1517334943160" expanded="true" signature="1442:1530" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1517334943221" expanded="true" signature="6:124" ph="..." />
+                <marker date="1517334943221" expanded="true" signature="149:445" ph="{...}" />
+                <marker date="1517334943221" expanded="true" signature="173:443" ph="{...}" />
+                <marker date="1517334943221" expanded="true" signature="179:258" ph="/// Point d'entrée principal de l'application. ... " />
+                <marker date="1517334943221" expanded="true" signature="293:440" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TinyPhotoshop/Auto/Auto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TinyPhotoshop/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TinyPhotoshop/Basics/Geometry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TinyPhotoshop/Basics/Basics.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TinyPhotoshop/Instagram/Filter.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TinyPhotoshop/Basics/Basics.cs" />
+        <option value="$PROJECT_DIR$/TinyPhotoshop/Basics/Geometry.cs" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -35,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -48,12 +161,19 @@
               <item name="TinyPhotoshop (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="TinyPhotoshop" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TinyPhotoshop (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TinyPhotoshop" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Basics" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -73,19 +193,19 @@
   </component>
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/TinyPhotoshop/bin/Debug/TinyPhotoshop.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TinyPhotoshop/bin/Debug" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <envs />
       <option name="USE_MONO" value="0" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TinyPhotoshop/TinyPhotoshop.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -102,11 +222,12 @@
       <option name="presentableId" value="Default" />
       <updated>1517353744490</updated>
       <workItem from="1517353756802" duration="26000" />
+      <workItem from="1517419069759" duration="9551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26000" />
+    <option name="totallyTimeSpent" value="9577000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -121,25 +242,26 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -150,7 +272,96 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Auto/Auto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1517334943160" expanded="false" signature="6:137" ph="..." />
+            <marker date="1517334943160" expanded="true" signature="162:1539" ph="{...}" />
+            <marker date="1517334943160" expanded="true" signature="193:1537" ph="{...}" />
+            <marker date="1517334943160" expanded="true" signature="271:616" ph="{...}" />
+            <marker date="1517334943160" expanded="true" signature="397:558" ph="{...}" />
+            <marker date="1517334943160" expanded="true" signature="657:722" ph="{...}" />
+            <marker date="1517334943160" expanded="true" signature="764:829" ph="{...}" />
+            <marker date="1517334943160" expanded="true" signature="936:1068" ph="{...}" />
+            <marker date="1517334943160" expanded="true" signature="1122:1218" ph="{...}" />
+            <marker date="1517334943160" expanded="true" signature="1278:1384" ph="{...}" />
+            <marker date="1517334943160" expanded="true" signature="1442:1530" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Instagram/Filter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1517334943213" expanded="true" signature="46:309" ph="{...}" />
+            <marker date="1517334943213" expanded="true" signature="81:307" ph="{...}" />
+            <marker date="1517334943213" expanded="true" signature="191:237" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Basics/Geometry.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="103" lean-forward="false" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
+          <folding>
+            <marker date="1517434396020" expanded="false" signature="6:88" ph="..." />
+            <marker date="1517434396020" expanded="true" signature="114:1172" ph="{...}" />
+            <marker date="1517434396020" expanded="true" signature="149:1170" ph="{...}" />
+            <marker date="1517434396020" expanded="true" signature="222:293" ph="{...}" />
+            <marker date="1517434396020" expanded="true" signature="362:511" ph="{...}" />
+            <marker date="1517434396020" expanded="true" signature="571:636" ph="{...}" />
+            <marker date="1517434396020" expanded="true" signature="702:767" ph="{...}" />
+            <marker date="1517434396020" expanded="true" signature="844:909" ph="{...}" />
+            <marker date="1517434396020" expanded="true" signature="971:1036" ph="{...}" />
+            <marker date="1517434396020" expanded="true" signature="1099:1164" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Basics/Basics.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+          <folding>
+            <marker date="1517432842364" expanded="false" signature="6:35" ph="..." />
+            <marker date="1517432842364" expanded="true" signature="60:1522" ph="{...}" />
+            <marker date="1517432842364" expanded="true" signature="93:1520" ph="{...}" />
+            <marker date="1517432842364" expanded="true" signature="145:296" ph="{...}" />
+            <marker date="1517432842364" expanded="true" signature="347:486" ph="{...}" />
+            <marker date="1517432842364" expanded="true" signature="550:767" ph="{...}" />
+            <marker date="1517432842364" expanded="true" signature="826:951" ph="{...}" />
+            <marker date="1517432842364" expanded="true" signature="1032:1205" ph="{...}" />
+            <marker date="1517432842364" expanded="true" signature="1277:1514" ph="{...}" />
+            <marker date="1517432842364" expanded="true" signature="1332:1482" ph="{...}" />
+            <marker date="1517432842364" expanded="true" signature="1390:1471" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1517334943221" expanded="true" signature="6:124" ph="..." />
+            <marker date="1517334943221" expanded="true" signature="149:445" ph="{...}" />
+            <marker date="1517334943221" expanded="true" signature="173:443" ph="{...}" />
+            <marker date="1517334943221" expanded="true" signature="179:258" ph="/// Point d'entrée principal de l'application. ... " />
+            <marker date="1517334943221" expanded="true" signature="293:440" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

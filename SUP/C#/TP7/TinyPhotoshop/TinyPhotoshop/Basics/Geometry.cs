@@ -16,7 +16,7 @@ namespace TinyPhotoshop
         
         public static Image Shift(Bitmap img, int x, int y)
         {
-			//FIXME
+			// double boucle for -> i, j pour recup le pixel  +x, +y pour le decaler dans une new Image
 			throw new NotImplementedException();
 		}
 
