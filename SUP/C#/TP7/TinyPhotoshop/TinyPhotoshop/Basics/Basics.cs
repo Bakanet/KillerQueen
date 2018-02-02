@@ -38,9 +38,9 @@ namespace TinyPhotoshop
 
         public static Image Apply(Bitmap img, Func<Color, Color> func)
         {
-	        for (int i = 0; i < img.Width; i++)
+	        for (int i = 0; i < img.Width; ++i)
 	        {
-		        for (int j = 0; j < img.Height; j++)
+		        for (int j = 0; j < img.Height; ++j)
 		        {
 			        img.SetPixel(i, j, func(img.GetPixel(i, j)));
 		        }
