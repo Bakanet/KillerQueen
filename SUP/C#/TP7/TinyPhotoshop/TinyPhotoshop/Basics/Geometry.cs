@@ -18,14 +18,13 @@ namespace TinyPhotoshop
         
         public static Image Shift(Bitmap img, int x, int y)
         {
-			// double boucle for -> i, j pour recup le pixel  +x, +y pour le decaler dans une new Image
 	        Bitmap shiftalized = new Bitmap(img.Width, img.Height);
 	        
 	        for (int i = 0; i < img.Width; ++i)
 	        {
 		        for (int j = 0; j < img.Height; ++j)
 		        {
-			        shiftalized.SetPixel((i + x) % img.Width, (j + y) % img.Height, img.GetPixel(i, j));
+			        shiftalized.SetPixel((i + x + img.Width) % img.Width, (y + j + img.Height) % img.Height, img.GetPixel(i, j));
 		        }
 	        }
 
@@ -70,11 +69,12 @@ namespace TinyPhotoshop
 	        {
 		        for (int j = 0; j < img.Height; ++j)
 		        {
-			        //pointalized.SetPixel((2 * x - i) % img.Width,);
+			        pointalized.SetPixel((2 * x - i + img.Width) % img.Width, (2 * y - j + img.Height) % img.Height, img.GetPixel(i, j));
 		        }
 	        }
-			throw new NotImplementedException();
-		}
+
+	        return pointalized;
+        }
         
         public static Image RotationLeft(Bitmap img)
         {
@@ -84,7 +84,7 @@ namespace TinyPhotoshop
 	        {
 		        for (int j = 0; j < img.Height; ++j)
 		        {
-			        leftalized.SetPixel(j, i, img.GetPixel(i, j));
+			        leftalized.SetPixel(j, img.Width - i - 1, img.GetPixel(i, j));
 		        }
 	        }
 
@@ -93,7 +93,17 @@ namespace TinyPhotoshop
         
         public static Image RotationRight(Bitmap img)
         {
-	        return SymmetryVertical((Bitmap) RotationLeft(img));
+	        Bitmap rightalized = new Bitmap(img.Height, img.Width);
+
+	        for (int i = 0; i < img.Width; ++i)
+	        {
+		        for (int j = 0; j < img.Height; ++j)
+		        {
+			        rightalized.SetPixel(img.Height - j - 1 , i, img.GetPixel(i,j));
+		        }
+	        }
+
+	        return rightalized;
         }
     }
 }

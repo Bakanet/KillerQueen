@@ -13,7 +13,7 @@ namespace TinyPhotoshop
 
         public static Color Binarize(Color color)
         {
-	        return color.R + color.G + color.B <= Color.Gray.R + Color.Gray.G + Color.Gray.B ? Color.Black : Color.White;
+	        return color.R + color.G + color.B <= 3 * Color.Gray.R ? Color.Black : Color.White;
         }
         
         public static Color BinarizeColor(Color color)

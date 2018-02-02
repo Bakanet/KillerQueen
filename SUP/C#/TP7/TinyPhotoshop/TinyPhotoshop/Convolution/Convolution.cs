@@ -34,19 +34,25 @@ namespace TinyPhotoshop
         
         private static int Clamp(float c)
         {
-			//FIXME
-			throw new NotImplementedException();
-		}
+	        if (c < 0)
+		        return 0;
+	        if (c < 255)
+		        return 255;
+
+	        return c - (int) c > 0.5 ? (int) c + 1 : (int) c;
+	        
+        }
 
         private static bool IsValid(int x, int y, Size size)
         {
-			//FIXME
-			throw new NotImplementedException();
-		}
+	        return x > 0 && x < size.Width && y > 0 && y < size.Height;
+        }
         
         public static Image Convolute(Bitmap img, float[,] mask)
         {
-			//FIXME
+			Size size = new Size(img.Width, img.Height);
+	        
+	        
 			throw new NotImplementedException();
 		}
     }
