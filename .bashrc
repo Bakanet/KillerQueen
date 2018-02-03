@@ -1,1 +1,0 @@
-/home/malo.lecomte/afs/.confs/bashrc
