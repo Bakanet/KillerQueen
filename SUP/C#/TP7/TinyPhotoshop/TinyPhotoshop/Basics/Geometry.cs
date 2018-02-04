@@ -12,19 +12,29 @@ namespace TinyPhotoshop
     {      
         public static Image Resize(Bitmap img, int x, int y)
         {
-			//FIXME
+	        Bitmap resized = new Bitmap(x, y);
+	        double p = y / img.Height;
+	        
+	        for (int i = 0; i < x; i++)
+	        {
+		        for (int j = 0; j < y; j++)
+		        {
+			    	//Color pixel = img.GetPixel()
+		        }
+	        }
 			throw new NotImplementedException();
         }
         
         public static Image Shift(Bitmap img, int x, int y)
         {
 	        Bitmap shiftalized = new Bitmap(img.Width, img.Height);
+	        int w = img.Width, h = img.Height;
 	        
 	        for (int i = 0; i < img.Width; ++i)
 	        {
 		        for (int j = 0; j < img.Height; ++j)
 		        {
-			        shiftalized.SetPixel((i + x + img.Width) % img.Width, (y + j + img.Height) % img.Height, img.GetPixel(i, j));
+			        shiftalized.SetPixel(((i + x) % w + w) % w, ((y + j) % h + h) % h, img.GetPixel(i, j));
 		        }
 	        }
 
@@ -64,12 +74,13 @@ namespace TinyPhotoshop
         public static Image SymmetryPoint(Bitmap img, int x, int y)
         {
 			Bitmap pointalized = new Bitmap(img.Width, img.Height);
+	        int w = img.Width, h = img.Height;
 
 	        for (int i = 0; i < img.Width; ++i)
 	        {
 		        for (int j = 0; j < img.Height; ++j)
 		        {
-			        pointalized.SetPixel((2 * x - i + img.Width) % img.Width, (2 * y - j + img.Height) % img.Height, img.GetPixel(i, j));
+			        pointalized.SetPixel(((2 * x - i) % w + w) % w, ((2 * y) % h - j + h) % h, img.GetPixel(i, j));
 		        }
 	        }
 
@@ -99,7 +110,7 @@ namespace TinyPhotoshop
 	        {
 		        for (int j = 0; j < img.Height; ++j)
 		        {
-			        rightalized.SetPixel(img.Height - j - 1 , i, img.GetPixel(i,j));
+			        rightalized.SetPixel(img.Height - j - 1, i, img.GetPixel(i, j));
 		        }
 	        }
 
