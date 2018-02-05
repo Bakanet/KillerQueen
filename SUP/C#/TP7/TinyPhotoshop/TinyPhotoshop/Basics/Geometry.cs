@@ -12,16 +12,7 @@ namespace TinyPhotoshop
     {      
         public static Image Resize(Bitmap img, int x, int y)
         {
-	        Bitmap resized = new Bitmap(x, y);
-	        double p = y / img.Height;
-	        
-	        for (int i = 0; i < x; i++)
-	        {
-		        for (int j = 0; j < y; j++)
-		        {
-			    	//Color pixel = img.GetPixel()
-		        }
-	        }
+	        // cancer
 			throw new NotImplementedException();
         }
         

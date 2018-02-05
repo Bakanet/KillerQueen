@@ -80,6 +80,6 @@ namespace TinyPhotoshop
 	        }
 
 	        return convoluted;
-        }
+        } 
     }
 }
