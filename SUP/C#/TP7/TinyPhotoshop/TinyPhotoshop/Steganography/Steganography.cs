@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Globalization;
 using System.Runtime.CompilerServices;
@@ -12,22 +13,25 @@ namespace TinyPhotoshop
         public static Image EncryptImage(Bitmap img, Bitmap enc)
         {
 	        int w = enc.Width, h = enc.Height;
+	        if (w > img.Width || h > img.Height)
+		        throw new ArgumentOutOfRangeException("the image to encrypt is too big");
+	        
 	        for (int i = 0; i < img.Width; ++i)
 	        {
 		        for (int j = 0; j < img.Height; ++j)
 		        {
-			        double imgRed = 240 & img.GetPixel(i, j).R; // 240(10) = 1111 0000(2)
-			        double imgGreen = 240 & img.GetPixel(i, j).G;
-			        double imgBlue = 240 & img.GetPixel(i, j).B;
+			        int imgRed = 240 & img.GetPixel(i, j).R; // 240(10) = 1111 0000(2)
+			        int imgGreen = 240 & img.GetPixel(i, j).G;
+			        int imgBlue = 240 & img.GetPixel(i, j).B;
 
-			        imgRed += i < w && j < h ? (240 & enc.GetPixel(i, j).R) * 0.0625 : 0; //decalage de 4 bits
-			        imgGreen += i < w && j < h ? (240 & enc.GetPixel(i, j).G) * 0.0625 : 0;
-			        imgBlue += i < w && j < h ? (240 & enc.GetPixel(i, j).B) * 0.0625 : 0;
+			        imgRed += i < w && j < h ? (240 & enc.GetPixel(i, j).R) >> 4 : 0; //decalage de 4 bits
+			        imgGreen += i < w && j < h ? (240 & enc.GetPixel(i, j).G) >> 4 : 0;
+			        imgBlue += i < w && j < h ? (240 & enc.GetPixel(i, j).B) >> 4 : 0;
 			        
-			        img.SetPixel(i, j, Color.FromArgb((int) imgRed, (int) imgGreen, (int) imgBlue));
+			        img.SetPixel(i, j, Color.FromArgb(imgRed, imgGreen, imgBlue));
 		        }
 	        }
-
+	        
 	        return img;
         }
 
@@ -39,27 +43,100 @@ namespace TinyPhotoshop
 			{
 				for (int j = 0; j < img.Height; ++j)
 				{
-					double decRed = 15 & img.GetPixel(i, j).R * 16; // 15(10) = 0000 1111(2)
-					double decGreen = 15 & img.GetPixel(i, j).G * 16;
-					double decBlue = 15 & img.GetPixel(i, j).B * 16;
+					int decRed = (15 & img.GetPixel(i, j).R) << 4; // 15(10) = 0000 1111(2)
+					int decGreen = (15 & img.GetPixel(i, j).G) << 4;
+					int decBlue = (15 & img.GetPixel(i, j).B) << 4;
 					
-					decrypted.SetPixel(i, j, Color.FromArgb((int) decRed, (int) decGreen, (int) decBlue));
+					decrypted.SetPixel(i, j, Color.FromArgb( decRed, decGreen, decBlue));
 				}
 			}
 
 			return decrypted;
 		}
 
-		public static Image EncryptText(Bitmap img, string text)
-		{
-			//FIXME
-			throw new NotImplementedException();
-		}
+	    public static Image EncryptText(Bitmap img, string text)
+	    {
+
+		    if (text.Length > img.Height * img.Width)
+			    throw new ArgumentOutOfRangeException("text too big for the image");
+		    
+		    // buffer part
+
+		    int[] buffer = new int[text.Length * 2 + 2]; // longueur du texte * 2 parce qu'on divise par 2 les caractères + 2 pour les deux 0
+		    int i = 0;
+
+		    foreach (char character in text)
+		    {
+			    buffer[i] = character & 15;
+			    buffer[i + 1] = (character & 240) >> 4;
+			    i += 2;
+		    }
+
+		    buffer[i] = 0;
+		    buffer[i + 1] = 0;
+		    
+		    // encryptage
+
+		    i = 0;
+		    int length = buffer.Length;
+		    for (int k = 0; k < img.Width && i < length; ++k)
+		    {
+			    for (int l = 0; l < img.Height && i < length; ++l)
+			    {
+				    
+				    int encRed = img.GetPixel(k, l).R & 240;
+				    int encGreen = img.GetPixel(k, l).G & 240;
+				    int encBlue = img.GetPixel(k, l).B & 240;
+				    
+				    if (i == length - 2)
+				    {
+					    encRed += buffer[i];
+					    encBlue += buffer[i + 1];
+				    }
+
+				    else if (i == length - 1)
+					    encRed += buffer[i];
+
+				    else
+				    {
+					    encRed += buffer[i];
+					    encGreen += buffer[i + 1];
+					    encBlue += buffer[i + 2];
+				    }
+				    
+				    img.SetPixel(k, l, Color.FromArgb(encRed, encGreen, encBlue));
+				    ++i;
+			    }
+		    }
+
+		    return img;
+	    }
 
 		public static string DecryptText(Bitmap img)
-        {
-			//FIXME
-			throw new NotImplementedException();
-		}
+         		{
+         			string decrypted = "";
+         	        for (int i = 0; i < img.Width; ++i)
+         	        {
+         		        for (int j = 0; j < img.Height; ++j)
+         		        {
+         			        int testRed = img.GetPixel(i, j).R;
+         			        int testGreen = img.GetPixel(i, j).G;
+         			        int testBlue = img.GetPixel(i, j).B;
+         			        
+         			        if ((testRed & 15 + testGreen & 15) == 0)
+         				        break;
+         
+         			        if ((testGreen & 15 + testBlue & 15) == 0)
+         			        {
+         				        decrypted += (char) (testRed & 15);
+         				        break;
+         			        }
+         
+         			        decrypted += (char) (testRed & 15) + (char) (testGreen & 15) + (char) (testBlue & 15);
+         		        }
+         	        }
+         			
+         			return decrypted;
+         		}
     }
 }
