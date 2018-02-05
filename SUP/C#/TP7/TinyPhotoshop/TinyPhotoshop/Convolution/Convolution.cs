@@ -37,7 +37,7 @@ namespace TinyPhotoshop
         {
 	        if (c < 0)
 		        return 0;
-	        if (c > 255)
+	        if (c >	 255)
 		        return 255;
 
 	        return c - (int) c > 0.5 ? (int) c + 1 : (int) c;
