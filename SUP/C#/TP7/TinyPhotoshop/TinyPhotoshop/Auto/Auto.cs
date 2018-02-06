@@ -18,41 +18,73 @@ namespace TinyPhotoshop
                                              { 'B', new int[256] } };
 
 
-			//FIXME
-			throw new NotImplementedException();
-		}
+	        for (int i = 0; i < img.Width; ++i)
+	        {
+		        for (int j = 0; j < img.Height; ++j)
+		        {
+			        hist['R'][img.GetPixel(i, j).R] += 1;
+			        hist['G'][img.GetPixel(i, j).G] += 1;
+			        hist['B'][img.GetPixel(i, j).B] += 1;
+		        }
+	        }
+
+	        return hist;
+        }
 
 		public static int FindLow(int[] hist)
-        {
-			//FIXME
-			throw new NotImplementedException();
+		{
+			int i = 0;
+
+			while (hist[i] == 0)
+			{
+				++i;
+			}
+
+			return i;
 		}
 
 		public static int FindHigh(int[] hist)
-        {
-			//FIXME
-			throw new NotImplementedException();
+		{
+			int i = 255;
+
+			while (hist[i] == 0)
+			{
+				--i;
+			}
+
+			return i;
 		}
 
 		public static Dictionary<char, int>
         FindBound(Dictionary<char, int[]> hist, Func<int[], int> f)
         {
 			Dictionary<char, int> bound = new Dictionary<char, int>();
-			
-			//FIXME
 
-			throw new NotImplementedException();
-		}
+	        foreach (char c in hist.Keys)
+	        {
+		        bound.Add(c, f(hist[c]));
+	        }
+
+	        return bound;
+        }
 
 
 		public static int[] ComputeLUT(int low, int high)
         {
 			int[] LUT = new int[256];
 
-			//FIXME
+	        for (int i = 0; i < 256; ++i)
+	        {
+		        if (i < low)
+			        LUT[i] = 0;
+		        else if (i > high)
+			        LUT[i] = 255;
+		        else
+			        LUT[i] = 255 * (i - low) / (high - low);
+	        }
 
-			throw new NotImplementedException();
-		}
+	        return LUT;
+        }
 
 		public static Dictionary<char, int[]> GetLUT(Bitmap img)
         {

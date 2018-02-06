@@ -14,23 +14,37 @@ namespace TinyPhotoshop
         };
         
         public static float[,] Sharpen = {
-			//FIXME
+	        {0, 0, 0, 0, 0},
+	        {0, 0, -1, 0, 0},
+	        {0, -1, 5, -1, 0},
+	        {0, 0, -1, 0, 0},
+	        {0, 0, 0, 0, 0}
         };
         
         public static float[,] Blur = {
-			//FIXME
+			{0, 0, 0, 0, 0},
+	        {0, 1/9f, 1/9f, 1/9f, 0},
+	        {0, 1/9f, 1/9f, 1/9f, 0},
+	        {0, 1/9f, 1/9f, 1/9f, 0},
+	        {0, 0, 0, 0, 0}
         };
         
         public static float[,] EdgeEnhance = {
-			//FIXME
+	        {0, 0, 0},
+	        {-1, 1, 0},
+	        {0, 0, 0}
         };
         
         public static float[,] EdgeDetect = {
-			//FIXME
+			{0, 1, 0},
+	        {1, -4, 1},
+	        {0, 1, 0}
         };
         
         public static float[,] Emboss = {
-			//FIXME
+	        {-2, -1, 0},
+	        {-1, 1, 1},
+	        {0, 1, 2}
         };
         
         private static int Clamp(float c)
@@ -40,13 +54,13 @@ namespace TinyPhotoshop
 	        if (c >	 255)
 		        return 255;
 
-	        return c - (int) c > 0.5 ? (int) c + 1 : (int) c;
-	        
+	        return (int) c;
+
         }
 
         private static bool IsValid(int x, int y, Size size)
         {
-	        return x > 0 && x < size.Width && y > 0 && y < size.Height;
+	        return x >= 0 && x < size.Width && y >= 0 && y < size.Height;
         }
         
         public static Image Convolute(Bitmap img, float[,] mask)

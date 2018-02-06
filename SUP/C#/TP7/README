@@ -1,2 +1,6 @@
-Difficultes : le resize c'est cancer, le encrypt/decrypt image est plutot complique (pour l'instant je ne sais
+Difficultes : le resize c'est cancer, le encrypt/decrypt text est plutot complique (pour l'instant je ne sais
 pas lequel des deux ne fonctionne pas)
+
+Encrypt text est assez moche mais devrait fonctionner (c'est histoire de pas sortir de l'array)
+
+Pas eu le temps de finir le TP (bonus 3 fait jusqu'a GetLUT)

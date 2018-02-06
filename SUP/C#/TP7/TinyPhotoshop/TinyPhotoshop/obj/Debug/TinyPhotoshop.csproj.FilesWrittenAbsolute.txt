@@ -1,6 +1,0 @@
-/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP7/TinyPhotoshop/TinyPhotoshop/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP7/TinyPhotoshop/TinyPhotoshop/obj/Debug/TinyPhotoshop.TinyPhotoshopForm.resources
-/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP7/TinyPhotoshop/TinyPhotoshop/bin/Debug/TinyPhotoshop.pdb
-/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP7/TinyPhotoshop/TinyPhotoshop/bin/Debug/TinyPhotoshop.exe
-/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP7/TinyPhotoshop/TinyPhotoshop/obj/Debug/TinyPhotoshop.exe
-/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP7/TinyPhotoshop/TinyPhotoshop/obj/Debug/TinyPhotoshop.pdb

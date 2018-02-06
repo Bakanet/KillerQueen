@@ -53,7 +53,7 @@ namespace TinyPhotoshop
 
 	        for (int i = 0; i < img.Width; ++i)
 	        {
-		        for (int j = 0; j < img.Height; j++)
+		        for (int j = 0; j < img.Height; ++j)
 		        {
 			        verticalized.SetPixel(img.Width - i - 1, j, img.GetPixel(i, j));
 		        }

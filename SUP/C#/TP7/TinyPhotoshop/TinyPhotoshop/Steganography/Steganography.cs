@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Globalization;
 using System.Runtime.CompilerServices;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace TinyPhotoshop
@@ -36,9 +37,7 @@ namespace TinyPhotoshop
         }
 
 		public static Image DecryptImage(Bitmap img)
-		{
-			Bitmap decrypted = new Bitmap(img.Width, img.Height);
-			
+		{	
 			for (int i = 0; i < img.Width; ++i)
 			{
 				for (int j = 0; j < img.Height; ++j)
@@ -47,11 +46,11 @@ namespace TinyPhotoshop
 					int decGreen = (15 & img.GetPixel(i, j).G) << 4;
 					int decBlue = (15 & img.GetPixel(i, j).B) << 4;
 					
-					decrypted.SetPixel(i, j, Color.FromArgb( decRed, decGreen, decBlue));
+					img.SetPixel(i, j, Color.FromArgb(decRed, decGreen, decBlue));
 				}
 			}
 
-			return decrypted;
+			return img;
 		}
 
 	    public static Image EncryptText(Bitmap img, string text)
@@ -92,20 +91,24 @@ namespace TinyPhotoshop
 				    {
 					    encRed += buffer[i];
 					    encBlue += buffer[i + 1];
+					    i += 2;
 				    }
 
 				    else if (i == length - 1)
+				    {
 					    encRed += buffer[i];
+					    ++i;
+				    }
 
 				    else
 				    {
 					    encRed += buffer[i];
 					    encGreen += buffer[i + 1];
 					    encBlue += buffer[i + 2];
+					    i += 3;
 				    }
 				    
 				    img.SetPixel(k, l, Color.FromArgb(encRed, encGreen, encBlue));
-				    ++i;
 			    }
 		    }
 
@@ -114,29 +117,29 @@ namespace TinyPhotoshop
 
 		public static string DecryptText(Bitmap img)
          		{
-         			string decrypted = "";
+         			string decryptalized = "";
          	        for (int i = 0; i < img.Width; ++i)
          	        {
-         		        for (int j = 0; j < img.Height; ++j)
-         		        {
-         			        int testRed = img.GetPixel(i, j).R;
-         			        int testGreen = img.GetPixel(i, j).G;
-         			        int testBlue = img.GetPixel(i, j).B;
-         			        
-         			        if ((testRed & 15 + testGreen & 15) == 0)
-         				        break;
-         
-         			        if ((testGreen & 15 + testBlue & 15) == 0)
-         			        {
-         				        decrypted += (char) (testRed & 15);
-         				        break;
-         			        }
-         
-         			        decrypted += (char) (testRed & 15) + (char) (testGreen & 15) + (char) (testBlue & 15);
-         		        }
-         	        }
+		                 for (int j = 0; j < img.Height; ++j)
+		                 {
+			                 int testRed = img.GetPixel(i, j).R;
+			                 int testGreen = img.GetPixel(i, j).G;
+			                 int testBlue = img.GetPixel(i, j).B;
+
+			                 if ((testRed & 15) == 0 && (testGreen & 15) == 0)
+			                 	break;
+
+			                 if ((testGreen & 15) == 0 && (testBlue & 15) == 0)
+			                 {
+				                 int prevBlue = img.GetPixel(i - 1, j - 1).B;
+				                 decryptalized += (char) ((prevBlue & 15) << 4 + (testRed & 15));
+			                 }
+			                 
+			                 
+		                 }
+	                 }
          			
-         			return decrypted;
+         			throw new NotImplementedException();
          		}
     }
 }
