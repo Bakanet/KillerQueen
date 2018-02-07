@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\malol\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_Brainfuck.817576703.00" t="ExcludeRecursive" />
+    <e p="C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP8\Brainfuck" t="IncludeFlat">
+      <e p="Brainfuck" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Brainfuck.cs" t="Include" />
+        <e p="Brainfuck.csproj" t="IncludeRecursive" />
+        <e p="IDE.cs" t="Include" />
+        <e p="IDE.Designer.cs" t="Include" />
+        <e p="IDE.resx" t="Include" />
+        <e p="JSON.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Brainfuck.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

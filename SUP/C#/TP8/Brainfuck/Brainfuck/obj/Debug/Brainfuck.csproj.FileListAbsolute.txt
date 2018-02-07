@@ -1,0 +1,9 @@
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP8\Brainfuck\Brainfuck\bin\Debug\Brainfuck.exe.config
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP8\Brainfuck\Brainfuck\bin\Debug\Brainfuck.exe
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP8\Brainfuck\Brainfuck\bin\Debug\Brainfuck.pdb
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP8\Brainfuck\Brainfuck\obj\Debug\Brainfuck.csprojResolveAssemblyReference.cache
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP8\Brainfuck\Brainfuck\obj\Debug\Brainfuck.IDE.resources
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP8\Brainfuck\Brainfuck\obj\Debug\Brainfuck.csproj.GenerateResource.Cache
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP8\Brainfuck\Brainfuck\obj\Debug\Brainfuck.csproj.CoreCompileInputs.cache
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP8\Brainfuck\Brainfuck\obj\Debug\Brainfuck.exe
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP8\Brainfuck\Brainfuck\obj\Debug\Brainfuck.pdb
