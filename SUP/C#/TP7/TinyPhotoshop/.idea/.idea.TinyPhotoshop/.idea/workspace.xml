@@ -10,46 +10,104 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1517384129000" expanded="false" signature="6:124" ph="..." />
-                <marker date="1517384129000" expanded="true" signature="149:445" ph="{...}" />
-                <marker date="1517384129000" expanded="true" signature="173:443" ph="{...}" />
-                <marker date="1517384129000" expanded="true" signature="179:258" ph="/// Point d'entrée principal de l'application. ... " />
-                <marker date="1517384129000" expanded="true" signature="293:440" ph="{...}" />
+                <marker date="1517334943221" expanded="false" signature="6:124" ph="..." />
+                <marker date="1517334943221" expanded="true" signature="149:445" ph="{...}" />
+                <marker date="1517334943221" expanded="true" signature="173:443" ph="{...}" />
+                <marker date="1517334943221" expanded="true" signature="179:258" ph="/// Point d'entrée principal de l'application. ... " />
+                <marker date="1517334943221" expanded="true" signature="293:440" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Convolution.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Convolution.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Convolution/Convolution.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
+            <state relative-caret-position="1824">
+              <caret line="98" column="1" lean-forward="false" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
               <folding>
-                <marker date="1517938857000" expanded="false" signature="6:59" ph="..." />
-                <marker date="1517938857000" expanded="true" signature="84:2601" ph="{...}" />
-                <marker date="1517938857000" expanded="true" signature="122:2599" ph="{...}" />
-                <marker date="1517938857000" expanded="true" signature="175:281" ph="{...}" />
-                <marker date="1517938857000" expanded="true" signature="333:477" ph="{...}" />
-                <marker date="1517938857000" expanded="true" signature="526:687" ph="{...}" />
-                <marker date="1517938857000" expanded="true" signature="743:814" ph="{...}" />
-                <marker date="1517938857000" expanded="true" signature="869:934" ph="{...}" />
-                <marker date="1517938857000" expanded="true" signature="985:1058" ph="{...}" />
-                <marker date="1517938857000" expanded="true" signature="1110:1242" ph="{...}" />
-                <marker date="1517938857000" expanded="true" signature="1304:1395" ph="{...}" />
-                <marker date="1517938857000" expanded="true" signature="1469:2592" ph="{...}" />
-                <marker date="1517938857000" expanded="true" signature="1743:2553" ph="{...}" />
-                <marker date="1517938857000" expanded="true" signature="1792:2542" ph="{...}" />
-                <marker date="1517938857000" expanded="true" signature="1931:2427" ph="{...}" />
-                <marker date="1517938857000" expanded="true" signature="2008:2414" ph="{...}" />
-                <marker date="1517938857000" expanded="true" signature="2068:2400" ph="{...}" />
+                <marker date="1517950530094" expanded="false" signature="6:59" ph="..." />
+                <marker date="1517950530094" expanded="true" signature="122:2599" ph="{...}" />
+                <marker date="1517950530094" expanded="true" signature="175:281" ph="{...}" />
+                <marker date="1517950530094" expanded="true" signature="333:477" ph="{...}" />
+                <marker date="1517950530094" expanded="true" signature="526:687" ph="{...}" />
+                <marker date="1517950530094" expanded="true" signature="743:814" ph="{...}" />
+                <marker date="1517950530094" expanded="true" signature="869:934" ph="{...}" />
+                <marker date="1517950530094" expanded="true" signature="985:1058" ph="{...}" />
+                <marker date="1517950530094" expanded="true" signature="1110:1242" ph="{...}" />
+                <marker date="1517950530094" expanded="true" signature="1304:1395" ph="{...}" />
+                <marker date="1517950530094" expanded="true" signature="1469:2592" ph="{...}" />
+                <marker date="1517950530094" expanded="true" signature="1743:2553" ph="{...}" />
+                <marker date="1517950530094" expanded="true" signature="1792:2542" ph="{...}" />
+                <marker date="1517950530094" expanded="true" signature="1931:2427" ph="{...}" />
+                <marker date="1517950530094" expanded="true" signature="2008:2414" ph="{...}" />
+                <marker date="1517950530094" expanded="true" signature="2068:2400" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Auto.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Auto/Auto.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1517950530090" expanded="false" signature="6:137" ph="..." />
+                <marker date="1517950530090" expanded="true" signature="162:2110" ph="{...}" />
+                <marker date="1517950530090" expanded="true" signature="193:2108" ph="{...}" />
+                <marker date="1517950530090" expanded="true" signature="271:879" ph="{...}" />
+                <marker date="1517950530090" expanded="true" signature="397:558" ph="{...}" />
+                <marker date="1517950530090" expanded="true" signature="606:846" ph="{...}" />
+                <marker date="1517950530090" expanded="true" signature="664:835" ph="{...}" />
+                <marker date="1517950530090" expanded="true" signature="920:1000" ph="{...}" />
+                <marker date="1517950530090" expanded="true" signature="963:982" ph="{...}" />
+                <marker date="1517950530090" expanded="true" signature="1042:1124" ph="{...}" />
+                <marker date="1517950530090" expanded="true" signature="1087:1106" ph="{...}" />
+                <marker date="1517950530090" expanded="true" signature="1231:1435" ph="{...}" />
+                <marker date="1517950530090" expanded="true" signature="1343:1401" ph="{...}" />
+                <marker date="1517950530090" expanded="true" signature="1489:1789" ph="{...}" />
+                <marker date="1517950530090" expanded="true" signature="1568:1757" ph="{...}" />
+                <marker date="1517950530090" expanded="true" signature="1849:1955" ph="{...}" />
+                <marker date="1517950530090" expanded="true" signature="2013:2101" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Steganography.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Steganography/Steganography.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1672">
+              <caret line="153" column="9" lean-forward="true" selection-start-line="153" selection-start-column="9" selection-end-line="153" selection-end-column="9" />
+              <folding>
+                <marker date="1517956332913" expanded="false" signature="6:211" ph="..." />
+                <marker date="1517956332913" expanded="true" signature="236:5123" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="276:5121" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="347:1323" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="592:1288" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="659:1274" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="1377:1900" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="1435:1865" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="1502:1851" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="1966:3777" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="2355:2507" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="2715:3742" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="2796:3728" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="3042:3213" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="3260:3378" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="3404:3626" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="3831:5115" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="3960:4790" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="4027:4776" ph="{...}" />
+                <marker date="1517956332913" expanded="true" signature="4928:5074" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -58,8 +116,17 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/TinyPhotoshop/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TinyPhotoshop/Steganography/Steganography.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TinyPhotoshop/Convolution/Convolution.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TinyPhotoshop/Auto/Auto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TinyPhotoshop/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TinyPhotoshop/Steganography/Steganography.cs" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -105,13 +172,13 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="TinyPhotoshop (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="TinyPhotoshop" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Basics" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Auto" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="TinyPhotoshop (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="TinyPhotoshop" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Convolution" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Steganography" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -138,19 +205,19 @@
   </component>
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/TinyPhotoshop/bin/Debug/TinyPhotoshop.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TinyPhotoshop/bin/Debug" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <envs />
       <option name="USE_MONO" value="0" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TinyPhotoshop/TinyPhotoshop.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -167,11 +234,13 @@
       <option name="presentableId" value="Default" />
       <updated>1517940439133</updated>
       <workItem from="1517940441931" duration="147000" />
+      <workItem from="1517950814348" duration="5682000" />
+      <workItem from="1517957052319" duration="53000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147000" />
+    <option name="totallyTimeSpent" value="5882000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -183,28 +252,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="36" width="960" height="1145" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17364016" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29060772" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1734375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -215,7 +285,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -224,37 +296,224 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1517384129000" expanded="false" signature="6:124" ph="..." />
-            <marker date="1517384129000" expanded="true" signature="149:445" ph="{...}" />
-            <marker date="1517384129000" expanded="true" signature="173:443" ph="{...}" />
-            <marker date="1517384129000" expanded="true" signature="179:258" ph="/// Point d'entrée principal de l'application. ... " />
-            <marker date="1517384129000" expanded="true" signature="293:440" ph="{...}" />
+            <marker date="1517334943221" expanded="false" signature="6:124" ph="..." />
+            <marker date="1517334943221" expanded="true" signature="149:445" ph="{...}" />
+            <marker date="1517334943221" expanded="true" signature="173:443" ph="{...}" />
+            <marker date="1517334943221" expanded="true" signature="179:258" ph="/// Point d'entrée principal de l'application. ... " />
+            <marker date="1517334943221" expanded="true" signature="293:440" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Convolution/Convolution.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
+        <state relative-caret-position="1824">
+          <caret line="98" column="1" lean-forward="false" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
           <folding>
-            <marker date="1517938857000" expanded="false" signature="6:59" ph="..." />
-            <marker date="1517938857000" expanded="true" signature="84:2601" ph="{...}" />
-            <marker date="1517938857000" expanded="true" signature="122:2599" ph="{...}" />
-            <marker date="1517938857000" expanded="true" signature="175:281" ph="{...}" />
-            <marker date="1517938857000" expanded="true" signature="333:477" ph="{...}" />
-            <marker date="1517938857000" expanded="true" signature="526:687" ph="{...}" />
-            <marker date="1517938857000" expanded="true" signature="743:814" ph="{...}" />
-            <marker date="1517938857000" expanded="true" signature="869:934" ph="{...}" />
-            <marker date="1517938857000" expanded="true" signature="985:1058" ph="{...}" />
-            <marker date="1517938857000" expanded="true" signature="1110:1242" ph="{...}" />
-            <marker date="1517938857000" expanded="true" signature="1304:1395" ph="{...}" />
-            <marker date="1517938857000" expanded="true" signature="1469:2592" ph="{...}" />
-            <marker date="1517938857000" expanded="true" signature="1743:2553" ph="{...}" />
-            <marker date="1517938857000" expanded="true" signature="1792:2542" ph="{...}" />
-            <marker date="1517938857000" expanded="true" signature="1931:2427" ph="{...}" />
-            <marker date="1517938857000" expanded="true" signature="2008:2414" ph="{...}" />
-            <marker date="1517938857000" expanded="true" signature="2068:2400" ph="{...}" />
+            <marker date="1517950530094" expanded="false" signature="6:59" ph="..." />
+            <marker date="1517950530094" expanded="true" signature="122:2599" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="175:281" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="333:477" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="526:687" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="743:814" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="869:934" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="985:1058" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1110:1242" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1304:1395" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1469:2592" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1743:2553" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1792:2542" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1931:2427" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="2008:2414" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="2068:2400" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Auto/Auto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1517950530090" expanded="false" signature="6:137" ph="..." />
+            <marker date="1517950530090" expanded="true" signature="162:2110" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="193:2108" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="271:879" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="397:558" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="606:846" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="664:835" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="920:1000" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="963:982" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="1042:1124" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="1087:1106" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="1231:1435" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="1343:1401" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="1489:1789" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="1568:1757" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="1849:1955" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="2013:2101" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Steganography/Steganography.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2831">
+          <caret line="149" column="45" lean-forward="true" selection-start-line="149" selection-start-column="45" selection-end-line="149" selection-end-column="45" />
+          <folding>
+            <marker date="1517956332913" expanded="false" signature="6:211" ph="..." />
+            <marker date="1517956332913" expanded="true" signature="236:5123" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="276:5121" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="347:1323" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="592:1288" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="659:1274" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="1377:1900" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="1435:1865" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="1502:1851" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="1966:3777" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="2355:2507" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="2715:3742" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="2796:3728" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="3042:3213" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="3260:3378" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="3404:3626" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="3831:5115" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="3960:4790" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="4027:4776" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="4928:5074" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1517334943221" expanded="false" signature="6:124" ph="..." />
+            <marker date="1517334943221" expanded="true" signature="149:445" ph="{...}" />
+            <marker date="1517334943221" expanded="true" signature="173:443" ph="{...}" />
+            <marker date="1517334943221" expanded="true" signature="179:258" ph="/// Point d'entrée principal de l'application. ... " />
+            <marker date="1517334943221" expanded="true" signature="293:440" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Convolution/Convolution.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+          <folding>
+            <marker date="1517950530094" expanded="false" signature="6:59" ph="..." />
+            <marker date="1517950530094" expanded="true" signature="122:2599" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="175:281" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="333:477" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="526:687" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="743:814" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="869:934" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="985:1058" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1110:1242" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1304:1395" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1469:2592" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1743:2553" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1792:2542" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1931:2427" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="2008:2414" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="2068:2400" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1517334943221" expanded="false" signature="6:124" ph="..." />
+            <marker date="1517334943221" expanded="true" signature="149:445" ph="{...}" />
+            <marker date="1517334943221" expanded="true" signature="173:443" ph="{...}" />
+            <marker date="1517334943221" expanded="true" signature="179:258" ph="/// Point d'entrée principal de l'application. ... " />
+            <marker date="1517334943221" expanded="true" signature="293:440" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Convolution/Convolution.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="98" column="1" lean-forward="false" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
+          <folding>
+            <marker date="1517950530094" expanded="false" signature="6:59" ph="..." />
+            <marker date="1517950530094" expanded="true" signature="122:2599" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="175:281" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="333:477" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="526:687" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="743:814" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="869:934" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="985:1058" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1110:1242" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1304:1395" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1469:2592" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1743:2553" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1792:2542" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="1931:2427" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="2008:2414" ph="{...}" />
+            <marker date="1517950530094" expanded="true" signature="2068:2400" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Auto/Auto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1517950530090" expanded="false" signature="6:137" ph="..." />
+            <marker date="1517950530090" expanded="true" signature="162:2110" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="193:2108" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="271:879" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="397:558" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="606:846" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="664:835" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="920:1000" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="963:982" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="1042:1124" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="1087:1106" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="1231:1435" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="1343:1401" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="1489:1789" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="1568:1757" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="1849:1955" ph="{...}" />
+            <marker date="1517950530090" expanded="true" signature="2013:2101" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TinyPhotoshop/Steganography/Steganography.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="153" column="9" lean-forward="true" selection-start-line="153" selection-start-column="9" selection-end-line="153" selection-end-column="9" />
+          <folding>
+            <marker date="1517956332913" expanded="false" signature="6:211" ph="..." />
+            <marker date="1517956332913" expanded="true" signature="236:5123" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="276:5121" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="347:1323" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="592:1288" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="659:1274" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="1377:1900" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="1435:1865" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="1502:1851" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="1966:3777" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="2355:2507" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="2715:3742" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="2796:3728" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="3042:3213" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="3260:3378" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="3404:3626" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="3831:5115" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="3960:4790" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="4027:4776" ph="{...}" />
+            <marker date="1517956332913" expanded="true" signature="4928:5074" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\malol\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_TinyPhotoshop.-1598132344.00" t="ExcludeRecursive" />
+    <e p="C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP7\malo.lecomte\TinyPhotoshop" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TinyPhotoshop" t="IncludeRecursive">
+        <e p="Auto" t="Include">
+          <e p="Auto.cs" t="Include" />
+        </e>
+        <e p="Basics" t="Include">
+          <e p="Basics.cs" t="Include" />
+          <e p="Geometry.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Convolution" t="Include">
+          <e p="Convolution.cs" t="Include" />
+        </e>
+        <e p="Instagram" t="Include">
+          <e p="Filter.cs" t="Include" />
+          <e p="InstaFilter.cs" t="Include" />
+          <e p="MyImage.cs" t="Include" />
+          <e p="Nashville.cs" t="Include" />
+          <e p="Toaster.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Steganography" t="Include">
+          <e p="Steganography.cs" t="Include" />
+        </e>
+        <e p="TinyPhotoshop.csproj" t="IncludeRecursive" />
+        <e p="TinyPhotoshopForm.cs" t="Include" />
+        <e p="TinyPhotoshopForm.Designer.cs" t="Include" />
+        <e p="TinyPhotoshopForm.resx" t="Include" />
+      </e>
+      <e p="TinyPhotoshop.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
