@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 namespace Brainfuck
-{
+{   
     class Brainfuck
     {
         /**
@@ -59,7 +59,7 @@ namespace Brainfuck
                     stack.Push(j);
                 }
                 
-                else if (code[j] == symbols[']'])
+                else if (code[j] == symbols[']'])    
                 {
                     if (array[i] == 0)
                         stack.Pop();
@@ -88,8 +88,33 @@ namespace Brainfuck
             // A naive implementation could be to generate a loop foreach character in the
             // text and the print it.
 
-            throw new NotImplementedException();
-            return null;
+            string str = "";
+            int i = 0;
+            
+            foreach (char character in text)
+            {
+                for (int j = i; j < character; ++j)
+                {
+                    str += "+";
+                    if (j == character - 1)
+                    {
+                        str += ".";
+                        i = j + 1;
+                    }
+                }
+
+                for (int j = i; j > character; --j)
+                {
+                    str += "-";
+                    if (j == character + 1)
+                    {
+                        str += ".";
+                        i = j - 1;
+                    }
+                }
+            }
+
+            return str;
         }
 
         /**

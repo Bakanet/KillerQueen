@@ -1,0 +1,7 @@
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP8/Brainfuck/Brainfuck/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP8/Brainfuck/Brainfuck/obj/Debug/Brainfuck.IDE.resources
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP8/Brainfuck/Brainfuck/bin/Debug/Brainfuck.exe.config
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP8/Brainfuck/Brainfuck/bin/Debug/Brainfuck.pdb
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP8/Brainfuck/Brainfuck/bin/Debug/Brainfuck.exe
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP8/Brainfuck/Brainfuck/obj/Debug/Brainfuck.exe
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP8/Brainfuck/Brainfuck/obj/Debug/Brainfuck.pdb
