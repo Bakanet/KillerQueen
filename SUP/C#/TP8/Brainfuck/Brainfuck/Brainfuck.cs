@@ -22,17 +22,25 @@ namespace Brainfuck
             // Fill the resulting string
 
             int[] array = new int[30000];
-            int i = 0;
+            int i = 15000;
             Stack stack = new Stack();
             string brainfucked = "";
 
             for (int j = 0; j < code.Length; ++j)
             {
                 if (code[j] == symbols['>'])
+                {
                     ++i;
+                    if (i > 29999)
+                        i = 0;
+                }
 
                 else if (code[j] == symbols['<'])
+                {
                     --i;
+                    if (i < 0)
+                        i = 29999;
+                }
 
                 else if (code[j] == symbols['+'])
                 {
@@ -52,7 +60,7 @@ namespace Brainfuck
                     brainfucked += (char) array[i];
 
                 else if (code[j] == symbols[','])
-                    array[i] = int.Parse(Console.ReadLine());
+                    array[i] = Console.Read();
 
                 else if (code[j] == symbols['['])
                 {
@@ -61,6 +69,8 @@ namespace Brainfuck
                 
                 else if (code[j] == symbols[']'])    
                 {
+                    if (stack.Count == 0)
+                        throw new ArgumentException("invalid braces order");
                     if (array[i] == 0)
                         stack.Pop();
                     else
@@ -72,6 +82,9 @@ namespace Brainfuck
                 else
                     throw new ArgumentException("the code has an invalid instruction");
             }
+            
+            if (stack.Count > 0)
+                throw new ArgumentException("invalid number of braces");
 
 
             return brainfucked;

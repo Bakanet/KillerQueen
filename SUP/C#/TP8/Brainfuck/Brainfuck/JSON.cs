@@ -50,8 +50,21 @@ namespace Brainfuck
 
         public static JSONElement.JSONType GetJsonType(char c)
         {
-            // TODO
-            throw new NotImplementedException();
+            switch (c)
+            {
+                case '"':
+                    return JSONElement.JSONType.STR;
+                case 't': case 'f':
+                    return JSONElement.JSONType.BOOL;
+                case '[':
+                    return JSONElement.JSONType.LIST;
+                case '{':
+                    return JSONElement.JSONType.DIC;
+                case 'n':
+                    return JSONElement.JSONType.NULL;
+                default:
+                    return JSONElement.JSONType.NB;
+            }
         }
 
         public static string ParseString(string json, ref int index)
