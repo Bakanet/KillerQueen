@@ -65,6 +65,16 @@ namespace Brainfuck
                 else if (code[j] == symbols['['])
                 {
                     stack.Push(j);
+                    if (array[i] == 0)
+                    {
+                        int k = j;
+                        for (; code[k] != symbols[']']; ++k)
+                        {
+                        }
+
+                        j = k;
+                        stack.Pop();
+                    }
                 }
                 
                 else if (code[j] == symbols[']'])    
@@ -83,7 +93,7 @@ namespace Brainfuck
                     throw new ArgumentException("the code has an invalid instruction");
             }
             
-            if (stack.Count > 0)
+                if (stack.Count > 0)
                 throw new ArgumentException("invalid number of braces");
 
 
@@ -108,20 +118,20 @@ namespace Brainfuck
             {
                 for (int j = i; j < character; ++j)
                 {
-                    str += "+";
+                    str += symbols['+'];
                     if (j == character - 1)
                     {
-                        str += ".";
+                        str += symbols['.'];
                         i = j + 1;
                     }
                 }
 
                 for (int j = i; j > character; --j)
                 {
-                    str += "-";
+                    str += symbols['-'];
                     if (j == character + 1)
                     {
-                        str += ".";
+                        str += symbols['.'];
                         i = j - 1;
                     }
                 }
@@ -142,8 +152,116 @@ namespace Brainfuck
             // Search for the symbols['+'] sequencies and reduces it with a loop.
             // Do not hesitate to search and find more techniques.
 
-            throw new NotImplementedException();
-            return null;
+            string shortened = "";
+            int nb = 0;
+
+            for (int i = 0; i < program.Length; ++i)
+            {
+                if (program[i] == symbols['+'])
+                {
+                    int j = i;
+                    for (; program[j] == symbols['+']; ++j)
+                    {
+                    }
+
+                    int c = j;
+                    j -= i;
+                    i = c - 1;
+
+                    if (j / 5 > 1)
+                    {
+                        if (nb > 0)
+                            shortened += symbols['<'];
+                        for (int k = 0; k < 5; ++k)
+                        {
+                            shortened += symbols['+'];
+                        }
+
+                        shortened += symbols['['];
+                        shortened += symbols['>'];
+                        for (int k = 0; k < j / 5; ++k)
+                        {
+                            shortened += symbols['+'];
+                        }
+
+                        shortened += symbols['<'];
+                        shortened += symbols['-'];
+                        shortened += symbols[']'];
+                        shortened += symbols['>'];
+                        for (int k = 0; k < j % 5; ++k)
+                        {
+                            shortened += symbols['+'];
+                        }
+                    }
+
+                    else
+                    {
+                        for (int k = 0; k < j; ++k)
+                        {
+                            shortened += symbols['+'];
+                        }
+                    }
+
+                    ++nb;
+                }
+
+                else if (program[i] == symbols['-'])
+                {
+                    int j = i;
+                    for (; program[j] == symbols['-']; ++j)
+                    {
+                    }
+
+                    int c = j;
+                    j -= i;
+                    i = c - 1;
+
+                    if (j / 5 > 1)
+                    {
+                        if (nb > 0)
+                            shortened += symbols['<'];
+                        for (int k = 0; k < 5; ++k)
+                        {
+                            shortened += symbols['+'];
+                        }
+
+                        shortened += symbols['['];
+                        shortened += symbols['>'];
+                        for (int k = 0; k < j / 5; ++k)
+                        {
+                            shortened += symbols['-'];
+                        }
+
+                        shortened += symbols['<'];
+                        shortened += symbols['-'];
+                        shortened += symbols[']'];
+                        shortened += symbols['>'];
+                        for (int k = 0; k < j % 5; ++k)
+                        {
+                            shortened += symbols['-'];
+                        }
+                    }
+
+                    else
+                    {
+                        for (int k = 0; k < j; ++k)
+                        {
+                            shortened += symbols['-'];
+                        }
+                    }
+
+                    ++nb;
+                }
+
+                else
+                {
+                    if (!symbols.ContainsKey(program[i]))
+                        throw new ArgumentException("invalid symbol");
+                    shortened += program[i];
+                }
+            }
+
+            return shortened;
         }
     }
 }

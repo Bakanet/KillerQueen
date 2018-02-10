@@ -84,13 +84,14 @@ namespace Brainfuck
         public static int ParseInt(string json, ref int index)
         {
             int parsed = 0;
+            int sign = json[index] == '-' ? -1 : 1;
             while (json[index] >= 48 && json[index] <= 57)
             {
                 parsed = parsed * 10 + json[index];
                 ++index;
             }
 
-            return parsed;
+            return sign * parsed;
         }
 
         public static bool ParseBool(string json, ref int index)
