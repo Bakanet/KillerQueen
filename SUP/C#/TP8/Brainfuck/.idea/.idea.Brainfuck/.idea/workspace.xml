@@ -11,29 +11,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JSON.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JSON.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Brainfuck/JSON.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="65" column="51" lean-forward="false" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+            <state relative-caret-position="475">
+              <caret line="111" column="48" lean-forward="true" selection-start-line="111" selection-start-column="48" selection-end-line="111" selection-end-column="48" />
               <folding>
-                <marker date="1518189433000" expanded="false" signature="6:224" ph="..." />
-                <marker date="1518189433000" expanded="true" signature="245:2996" ph="{...}" />
-                <marker date="1518189433000" expanded="true" signature="269:1043" ph="{...}" />
-                <marker date="1518189433000" expanded="true" signature="304:427" ph="{...}" />
-                <marker date="1518189433000" expanded="true" signature="689:940" ph="{...}" />
-                <marker date="1518189433000" expanded="true" signature="970:1028" ph="{...}" />
-                <marker date="1518189433000" expanded="true" signature="1066:2991" ph="{...}" />
-                <marker date="1518189433000" expanded="true" signature="1136:1692" ph="{...}" />
-                <marker date="1518189433000" expanded="true" signature="1169:1682" ph="{...}" />
-                <marker date="1518189433000" expanded="true" signature="1762:1851" ph="{...}" />
-                <marker date="1518189433000" expanded="true" signature="1916:2005" ph="{...}" />
-                <marker date="1518189433000" expanded="true" signature="2071:2160" ph="{...}" />
-                <marker date="1518189433000" expanded="true" signature="2225:2314" ph="{...}" />
-                <marker date="1518189433000" expanded="true" signature="2401:2490" ph="{...}" />
-                <marker date="1518189433000" expanded="true" signature="2560:2649" ph="{...}" />
-                <marker date="1518189433000" expanded="true" signature="2703:2792" ph="{...}" />
-                <marker date="1518189433000" expanded="true" signature="2871:2985" ph="{...}" />
+                <marker date="1518227434287" expanded="false" signature="6:265" ph="..." />
+                <marker date="1518227434287" expanded="true" signature="286:3343" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="310:1084" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="345:468" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="730:981" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="1011:1069" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="1107:3338" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="1177:1733" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="1210:1723" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="1803:2014" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="1884:1976" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="2079:2319" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="2176:2281" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="2385:2444" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="2509:2661" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="2598:2651" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="2748:2837" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="2907:2996" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="3050:3139" ph="{...}" />
+                <marker date="1518227434287" expanded="true" signature="3218:3332" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -42,44 +45,44 @@
       <file leaf-file-name="IDE.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Brainfuck/IDE.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1692">
+            <state relative-caret-position="1786">
               <caret line="94" column="27" lean-forward="false" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Brainfuck.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Brainfuck.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Brainfuck/Brainfuck.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+            <state relative-caret-position="400">
+              <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
               <folding>
-                <marker date="1518184927000" expanded="false" signature="6:73" ph="..." />
-                <marker date="1518184927000" expanded="true" signature="94:4575" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="119:4573" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
-                <marker date="1518184927000" expanded="true" signature="501:2747" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
-                <marker date="1518184927000" expanded="true" signature="957:2584" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="1016:1143" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="1194:1321" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="1372:1518" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="1569:1715" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="1967:2038" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="2109:2460" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="2347:2442" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
-                <marker date="1518184927000" expanded="true" signature="3090:3962" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
-                <marker date="1518184927000" expanded="true" signature="3340:3927" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="3406:3633" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="3500:3615" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="3686:3913" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="3780:3895" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
-                <marker date="1518184927000" expanded="true" signature="4323:4567" ph="{...}" />
-                <marker date="1518184927000" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
+                <marker date="1518213724934" expanded="false" signature="6:73" ph="..." />
+                <marker date="1518213724934" expanded="true" signature="94:4575" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="119:4573" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
+                <marker date="1518213724934" expanded="true" signature="501:2747" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
+                <marker date="1518213724934" expanded="true" signature="957:2584" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="1016:1143" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="1194:1321" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="1372:1518" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="1569:1715" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="1967:2038" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="2109:2460" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="2347:2442" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
+                <marker date="1518213724934" expanded="true" signature="3090:3962" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
+                <marker date="1518213724934" expanded="true" signature="3340:3927" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="3406:3633" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="3500:3615" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="3686:3913" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="3780:3895" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
+                <marker date="1518213724934" expanded="true" signature="4323:4567" ph="{...}" />
+                <marker date="1518213724934" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
               </folding>
             </state>
           </provider>
@@ -88,16 +91,9 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Brainfuck/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="437">
               <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding>
-                <marker date="1518170493000" expanded="false" signature="6:181" ph="..." />
-                <marker date="1518170493000" expanded="true" signature="202:1135" ph="{...}" />
-                <marker date="1518170493000" expanded="true" signature="222:1133" ph="{...}" />
-                <marker date="1518170493000" expanded="true" signature="257:388" ph="/* Used in IDE.cs in order to give the resulting Dictionnary as argument to ... */" />
-                <marker date="1518170493000" expanded="true" signature="452:888" ph="{...}" />
-                <marker date="1518170493000" expanded="true" signature="944:1117" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,12 +101,12 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Brainfuck/IDE.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Brainfuck/IDE.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Brainfuck/IDE.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Brainfuck/JSON.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Brainfuck/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Brainfuck/IDE.resx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Brainfuck/App.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Brainfuck/IDE.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Brainfuck/Brainfuck.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -231,11 +227,13 @@
       <workItem from="1518041787707" duration="1703000" />
       <workItem from="1518170536500" duration="5292000" />
       <workItem from="1518182029476" duration="7948000" />
+      <workItem from="1518213964957" duration="980000" />
+      <workItem from="1518219140755" duration="8516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52773000" />
+    <option name="totallyTimeSpent" value="62269000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -247,23 +245,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="840" y="36" width="840" height="995" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18506132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18453039" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11004785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10989583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44640884" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44640884" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -281,21 +280,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Brainfuck/Brainfuck.cs</url>
-          <line>28</line>
-          <properties documentPath="$PROJECT_DIR$/Brainfuck/Brainfuck.cs">
-            <startOffsets>
-              <startOffset value="920" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="957" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
@@ -306,23 +290,26 @@
         <state relative-caret-position="306">
           <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding>
-            <marker date="1518189433000" expanded="false" signature="6:224" ph="..." />
-            <marker date="1518189433000" expanded="true" signature="245:2996" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="269:1043" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="304:427" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="689:940" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="970:1028" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1066:2991" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1136:1692" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1169:1682" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1762:1851" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1916:2005" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2071:2160" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2225:2314" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2401:2490" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2560:2649" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2703:2792" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2871:2985" ph="{...}" />
+            <marker date="1518227434287" expanded="false" signature="6:265" ph="..." />
+            <marker date="1518227434287" expanded="true" signature="286:3343" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="310:1084" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="345:468" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="730:981" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1011:1069" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1107:3338" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1177:1733" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1210:1723" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1803:2014" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1884:1976" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2079:2319" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2176:2281" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2385:2444" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2509:2661" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2598:2651" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2748:2837" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2907:2996" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="3050:3139" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="3218:3332" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -340,31 +327,31 @@
         <state relative-caret-position="846">
           <caret line="47" column="39" lean-forward="false" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
           <folding>
-            <marker date="1518184927000" expanded="false" signature="6:73" ph="..." />
-            <marker date="1518184927000" expanded="true" signature="94:4575" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="119:4573" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
-            <marker date="1518184927000" expanded="true" signature="501:2747" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
-            <marker date="1518184927000" expanded="true" signature="957:2584" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1016:1143" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1194:1321" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1372:1518" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1569:1715" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1967:2038" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2109:2460" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2347:2442" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
-            <marker date="1518184927000" expanded="true" signature="3090:3962" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
-            <marker date="1518184927000" expanded="true" signature="3340:3927" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3406:3633" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3500:3615" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3686:3913" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3780:3895" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
-            <marker date="1518184927000" expanded="true" signature="4323:4567" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
+            <marker date="1518213724934" expanded="false" signature="6:73" ph="..." />
+            <marker date="1518213724934" expanded="true" signature="94:4575" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="119:4573" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
+            <marker date="1518213724934" expanded="true" signature="501:2747" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
+            <marker date="1518213724934" expanded="true" signature="957:2584" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1016:1143" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1194:1321" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1372:1518" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1569:1715" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1967:2038" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2109:2460" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2347:2442" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
+            <marker date="1518213724934" expanded="true" signature="3090:3962" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
+            <marker date="1518213724934" expanded="true" signature="3340:3927" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3406:3633" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3500:3615" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3686:3913" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3780:3895" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
+            <marker date="1518213724934" expanded="true" signature="4323:4567" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
           </folding>
         </state>
       </provider>
@@ -373,14 +360,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <marker date="1518170493000" expanded="false" signature="6:181" ph="..." />
-            <marker date="1518170493000" expanded="true" signature="202:1135" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="222:1133" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="257:388" ph="/* Used in IDE.cs in order to give the resulting Dictionnary as argument to ... */" />
-            <marker date="1518170493000" expanded="true" signature="452:888" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="944:1117" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -389,23 +369,26 @@
         <state relative-caret-position="323">
           <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding>
-            <marker date="1518189433000" expanded="false" signature="6:224" ph="..." />
-            <marker date="1518189433000" expanded="true" signature="245:2996" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="269:1043" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="304:427" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="689:940" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="970:1028" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1066:2991" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1136:1692" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1169:1682" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1762:1851" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1916:2005" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2071:2160" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2225:2314" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2401:2490" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2560:2649" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2703:2792" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2871:2985" ph="{...}" />
+            <marker date="1518227434287" expanded="false" signature="6:265" ph="..." />
+            <marker date="1518227434287" expanded="true" signature="286:3343" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="310:1084" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="345:468" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="730:981" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1011:1069" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1107:3338" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1177:1733" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1210:1723" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1803:2014" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1884:1976" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2079:2319" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2176:2281" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2385:2444" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2509:2661" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2598:2651" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2748:2837" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2907:2996" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="3050:3139" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="3218:3332" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -423,31 +406,31 @@
         <state relative-caret-position="855">
           <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
           <folding>
-            <marker date="1518184927000" expanded="false" signature="6:73" ph="..." />
-            <marker date="1518184927000" expanded="true" signature="94:4575" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="119:4573" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
-            <marker date="1518184927000" expanded="true" signature="501:2747" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
-            <marker date="1518184927000" expanded="true" signature="957:2584" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1016:1143" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1194:1321" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1372:1518" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1569:1715" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1967:2038" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2109:2460" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2347:2442" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
-            <marker date="1518184927000" expanded="true" signature="3090:3962" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
-            <marker date="1518184927000" expanded="true" signature="3340:3927" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3406:3633" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3500:3615" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3686:3913" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3780:3895" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
-            <marker date="1518184927000" expanded="true" signature="4323:4567" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
+            <marker date="1518213724934" expanded="false" signature="6:73" ph="..." />
+            <marker date="1518213724934" expanded="true" signature="94:4575" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="119:4573" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
+            <marker date="1518213724934" expanded="true" signature="501:2747" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
+            <marker date="1518213724934" expanded="true" signature="957:2584" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1016:1143" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1194:1321" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1372:1518" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1569:1715" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1967:2038" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2109:2460" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2347:2442" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
+            <marker date="1518213724934" expanded="true" signature="3090:3962" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
+            <marker date="1518213724934" expanded="true" signature="3340:3927" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3406:3633" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3500:3615" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3686:3913" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3780:3895" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
+            <marker date="1518213724934" expanded="true" signature="4323:4567" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
           </folding>
         </state>
       </provider>
@@ -456,14 +439,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <marker date="1518170493000" expanded="false" signature="6:181" ph="..." />
-            <marker date="1518170493000" expanded="true" signature="202:1135" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="222:1133" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="257:388" ph="/* Used in IDE.cs in order to give the resulting Dictionnary as argument to ... */" />
-            <marker date="1518170493000" expanded="true" signature="452:888" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="944:1117" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -472,23 +448,26 @@
         <state relative-caret-position="323">
           <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding>
-            <marker date="1518189433000" expanded="false" signature="6:224" ph="..." />
-            <marker date="1518189433000" expanded="true" signature="245:2996" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="269:1043" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="304:427" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="689:940" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="970:1028" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1066:2991" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1136:1692" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1169:1682" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1762:1851" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1916:2005" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2071:2160" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2225:2314" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2401:2490" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2560:2649" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2703:2792" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2871:2985" ph="{...}" />
+            <marker date="1518227434287" expanded="false" signature="6:265" ph="..." />
+            <marker date="1518227434287" expanded="true" signature="286:3343" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="310:1084" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="345:468" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="730:981" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1011:1069" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1107:3338" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1177:1733" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1210:1723" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1803:2014" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1884:1976" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2079:2319" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2176:2281" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2385:2444" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2509:2661" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2598:2651" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2748:2837" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2907:2996" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="3050:3139" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="3218:3332" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -506,31 +485,31 @@
         <state relative-caret-position="1026">
           <caret line="54" column="23" lean-forward="false" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
           <folding>
-            <marker date="1518184927000" expanded="false" signature="6:73" ph="..." />
-            <marker date="1518184927000" expanded="true" signature="94:4575" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="119:4573" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
-            <marker date="1518184927000" expanded="true" signature="501:2747" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
-            <marker date="1518184927000" expanded="true" signature="957:2584" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1016:1143" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1194:1321" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1372:1518" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1569:1715" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1967:2038" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2109:2460" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2347:2442" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
-            <marker date="1518184927000" expanded="true" signature="3090:3962" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
-            <marker date="1518184927000" expanded="true" signature="3340:3927" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3406:3633" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3500:3615" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3686:3913" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3780:3895" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
-            <marker date="1518184927000" expanded="true" signature="4323:4567" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
+            <marker date="1518213724934" expanded="false" signature="6:73" ph="..." />
+            <marker date="1518213724934" expanded="true" signature="94:4575" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="119:4573" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
+            <marker date="1518213724934" expanded="true" signature="501:2747" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
+            <marker date="1518213724934" expanded="true" signature="957:2584" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1016:1143" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1194:1321" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1372:1518" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1569:1715" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1967:2038" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2109:2460" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2347:2442" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
+            <marker date="1518213724934" expanded="true" signature="3090:3962" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
+            <marker date="1518213724934" expanded="true" signature="3340:3927" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3406:3633" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3500:3615" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3686:3913" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3780:3895" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
+            <marker date="1518213724934" expanded="true" signature="4323:4567" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
           </folding>
         </state>
       </provider>
@@ -539,14 +518,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1518170493000" expanded="false" signature="6:181" ph="..." />
-            <marker date="1518170493000" expanded="true" signature="202:1135" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="222:1133" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="257:388" ph="/* Used in IDE.cs in order to give the resulting Dictionnary as argument to ... */" />
-            <marker date="1518170493000" expanded="true" signature="452:888" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="944:1117" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -555,23 +527,26 @@
         <state relative-caret-position="210">
           <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding>
-            <marker date="1518189433000" expanded="false" signature="6:224" ph="..." />
-            <marker date="1518189433000" expanded="true" signature="245:2996" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="269:1043" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="304:427" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="689:940" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="970:1028" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1066:2991" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1136:1692" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1169:1682" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1762:1851" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1916:2005" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2071:2160" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2225:2314" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2401:2490" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2560:2649" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2703:2792" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2871:2985" ph="{...}" />
+            <marker date="1518227434287" expanded="false" signature="6:265" ph="..." />
+            <marker date="1518227434287" expanded="true" signature="286:3343" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="310:1084" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="345:468" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="730:981" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1011:1069" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1107:3338" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1177:1733" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1210:1723" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1803:2014" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1884:1976" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2079:2319" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2176:2281" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2385:2444" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2509:2661" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2598:2651" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2748:2837" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2907:2996" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="3050:3139" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="3218:3332" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -589,31 +564,31 @@
         <state relative-caret-position="714">
           <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
           <folding>
-            <marker date="1518184927000" expanded="false" signature="6:73" ph="..." />
-            <marker date="1518184927000" expanded="true" signature="94:4575" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="119:4573" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
-            <marker date="1518184927000" expanded="true" signature="501:2747" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
-            <marker date="1518184927000" expanded="true" signature="957:2584" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1016:1143" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1194:1321" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1372:1518" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1569:1715" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1967:2038" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2109:2460" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2347:2442" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
-            <marker date="1518184927000" expanded="true" signature="3090:3962" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
-            <marker date="1518184927000" expanded="true" signature="3340:3927" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3406:3633" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3500:3615" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3686:3913" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3780:3895" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
-            <marker date="1518184927000" expanded="true" signature="4323:4567" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
+            <marker date="1518213724934" expanded="false" signature="6:73" ph="..." />
+            <marker date="1518213724934" expanded="true" signature="94:4575" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="119:4573" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
+            <marker date="1518213724934" expanded="true" signature="501:2747" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
+            <marker date="1518213724934" expanded="true" signature="957:2584" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1016:1143" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1194:1321" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1372:1518" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1569:1715" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1967:2038" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2109:2460" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2347:2442" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
+            <marker date="1518213724934" expanded="true" signature="3090:3962" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
+            <marker date="1518213724934" expanded="true" signature="3340:3927" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3406:3633" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3500:3615" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3686:3913" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3780:3895" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
+            <marker date="1518213724934" expanded="true" signature="4323:4567" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
           </folding>
         </state>
       </provider>
@@ -622,14 +597,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <marker date="1518170493000" expanded="false" signature="6:181" ph="..." />
-            <marker date="1518170493000" expanded="true" signature="202:1135" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="222:1133" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="257:388" ph="/* Used in IDE.cs in order to give the resulting Dictionnary as argument to ... */" />
-            <marker date="1518170493000" expanded="true" signature="452:888" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="944:1117" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -638,31 +606,31 @@
         <state relative-caret-position="1029">
           <caret line="50" column="57" lean-forward="false" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
           <folding>
-            <marker date="1518184927000" expanded="false" signature="6:73" ph="..." />
-            <marker date="1518184927000" expanded="true" signature="94:4575" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="119:4573" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
-            <marker date="1518184927000" expanded="true" signature="501:2747" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
-            <marker date="1518184927000" expanded="true" signature="957:2584" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1016:1143" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1194:1321" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1372:1518" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1569:1715" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1967:2038" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2109:2460" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2347:2442" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
-            <marker date="1518184927000" expanded="true" signature="3090:3962" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
-            <marker date="1518184927000" expanded="true" signature="3340:3927" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3406:3633" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3500:3615" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3686:3913" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3780:3895" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
-            <marker date="1518184927000" expanded="true" signature="4323:4567" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
+            <marker date="1518213724934" expanded="false" signature="6:73" ph="..." />
+            <marker date="1518213724934" expanded="true" signature="94:4575" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="119:4573" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
+            <marker date="1518213724934" expanded="true" signature="501:2747" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
+            <marker date="1518213724934" expanded="true" signature="957:2584" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1016:1143" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1194:1321" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1372:1518" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1569:1715" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1967:2038" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2109:2460" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2347:2442" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
+            <marker date="1518213724934" expanded="true" signature="3090:3962" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
+            <marker date="1518213724934" expanded="true" signature="3340:3927" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3406:3633" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3500:3615" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3686:3913" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3780:3895" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
+            <marker date="1518213724934" expanded="true" signature="4323:4567" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
           </folding>
         </state>
       </provider>
@@ -680,23 +648,26 @@
         <state relative-caret-position="210">
           <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding>
-            <marker date="1518189433000" expanded="false" signature="6:224" ph="..." />
-            <marker date="1518189433000" expanded="true" signature="245:2996" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="269:1043" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="304:427" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="689:940" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="970:1028" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1066:2991" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1136:1692" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1169:1682" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1762:1851" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1916:2005" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2071:2160" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2225:2314" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2401:2490" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2560:2649" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2703:2792" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2871:2985" ph="{...}" />
+            <marker date="1518227434287" expanded="false" signature="6:265" ph="..." />
+            <marker date="1518227434287" expanded="true" signature="286:3343" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="310:1084" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="345:468" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="730:981" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1011:1069" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1107:3338" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1177:1733" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1210:1723" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1803:2014" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1884:1976" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2079:2319" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2176:2281" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2385:2444" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2509:2661" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2598:2651" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2748:2837" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2907:2996" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="3050:3139" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="3218:3332" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -705,14 +676,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <marker date="1518170493000" expanded="false" signature="6:181" ph="..." />
-            <marker date="1518170493000" expanded="true" signature="202:1135" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="222:1133" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="257:388" ph="/* Used in IDE.cs in order to give the resulting Dictionnary as argument to ... */" />
-            <marker date="1518170493000" expanded="true" signature="452:888" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="944:1117" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -721,31 +685,31 @@
         <state relative-caret-position="1029">
           <caret line="50" column="57" lean-forward="false" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
           <folding>
-            <marker date="1518184927000" expanded="false" signature="6:73" ph="..." />
-            <marker date="1518184927000" expanded="true" signature="94:4575" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="119:4573" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
-            <marker date="1518184927000" expanded="true" signature="501:2747" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
-            <marker date="1518184927000" expanded="true" signature="957:2584" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1016:1143" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1194:1321" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1372:1518" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1569:1715" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1967:2038" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2109:2460" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2347:2442" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
-            <marker date="1518184927000" expanded="true" signature="3090:3962" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
-            <marker date="1518184927000" expanded="true" signature="3340:3927" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3406:3633" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3500:3615" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3686:3913" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3780:3895" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
-            <marker date="1518184927000" expanded="true" signature="4323:4567" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
+            <marker date="1518213724934" expanded="false" signature="6:73" ph="..." />
+            <marker date="1518213724934" expanded="true" signature="94:4575" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="119:4573" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
+            <marker date="1518213724934" expanded="true" signature="501:2747" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
+            <marker date="1518213724934" expanded="true" signature="957:2584" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1016:1143" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1194:1321" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1372:1518" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1569:1715" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1967:2038" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2109:2460" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2347:2442" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
+            <marker date="1518213724934" expanded="true" signature="3090:3962" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
+            <marker date="1518213724934" expanded="true" signature="3340:3927" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3406:3633" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3500:3615" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3686:3913" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3780:3895" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
+            <marker date="1518213724934" expanded="true" signature="4323:4567" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
           </folding>
         </state>
       </provider>
@@ -763,23 +727,26 @@
         <state relative-caret-position="210">
           <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding>
-            <marker date="1518189433000" expanded="false" signature="6:224" ph="..." />
-            <marker date="1518189433000" expanded="true" signature="245:2996" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="269:1043" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="304:427" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="689:940" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="970:1028" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1066:2991" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1136:1692" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1169:1682" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1762:1851" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1916:2005" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2071:2160" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2225:2314" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2401:2490" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2560:2649" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2703:2792" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2871:2985" ph="{...}" />
+            <marker date="1518227434287" expanded="false" signature="6:265" ph="..." />
+            <marker date="1518227434287" expanded="true" signature="286:3343" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="310:1084" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="345:468" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="730:981" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1011:1069" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1107:3338" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1177:1733" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1210:1723" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1803:2014" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1884:1976" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2079:2319" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2176:2281" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2385:2444" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2509:2661" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2598:2651" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2748:2837" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2907:2996" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="3050:3139" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="3218:3332" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -788,14 +755,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <marker date="1518170493000" expanded="false" signature="6:181" ph="..." />
-            <marker date="1518170493000" expanded="true" signature="202:1135" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="222:1133" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="257:388" ph="/* Used in IDE.cs in order to give the resulting Dictionnary as argument to ... */" />
-            <marker date="1518170493000" expanded="true" signature="452:888" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="944:1117" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -804,23 +764,26 @@
         <state relative-caret-position="2163">
           <caret line="103" column="23" lean-forward="false" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
           <folding>
-            <marker date="1518189433000" expanded="false" signature="6:224" ph="..." />
-            <marker date="1518189433000" expanded="true" signature="245:2996" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="269:1043" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="304:427" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="689:940" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="970:1028" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1066:2991" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1136:1692" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1169:1682" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1762:1851" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1916:2005" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2071:2160" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2225:2314" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2401:2490" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2560:2649" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2703:2792" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2871:2985" ph="{...}" />
+            <marker date="1518227434287" expanded="false" signature="6:265" ph="..." />
+            <marker date="1518227434287" expanded="true" signature="286:3343" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="310:1084" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="345:468" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="730:981" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1011:1069" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1107:3338" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1177:1733" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1210:1723" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1803:2014" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1884:1976" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2079:2319" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2176:2281" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2385:2444" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2509:2661" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2598:2651" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2748:2837" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2907:2996" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="3050:3139" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="3218:3332" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -830,31 +793,31 @@
         <state relative-caret-position="1113">
           <caret line="54" column="23" lean-forward="false" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
           <folding>
-            <marker date="1518184927000" expanded="false" signature="6:73" ph="..." />
-            <marker date="1518184927000" expanded="true" signature="94:4575" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="119:4573" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
-            <marker date="1518184927000" expanded="true" signature="501:2747" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
-            <marker date="1518184927000" expanded="true" signature="957:2584" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1016:1143" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1194:1321" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1372:1518" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1569:1715" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1967:2038" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2109:2460" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2347:2442" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
-            <marker date="1518184927000" expanded="true" signature="3090:3962" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
-            <marker date="1518184927000" expanded="true" signature="3340:3927" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3406:3633" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3500:3615" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3686:3913" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3780:3895" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
-            <marker date="1518184927000" expanded="true" signature="4323:4567" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
+            <marker date="1518213724934" expanded="false" signature="6:73" ph="..." />
+            <marker date="1518213724934" expanded="true" signature="94:4575" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="119:4573" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
+            <marker date="1518213724934" expanded="true" signature="501:2747" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
+            <marker date="1518213724934" expanded="true" signature="957:2584" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1016:1143" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1194:1321" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1372:1518" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1569:1715" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1967:2038" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2109:2460" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2347:2442" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
+            <marker date="1518213724934" expanded="true" signature="3090:3962" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
+            <marker date="1518213724934" expanded="true" signature="3340:3927" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3406:3633" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3500:3615" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3686:3913" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3780:3895" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
+            <marker date="1518213724934" expanded="true" signature="4323:4567" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
           </folding>
         </state>
       </provider>
@@ -997,7 +960,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Brainfuck/IDE.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1692">
+        <state relative-caret-position="1786">
           <caret line="94" column="27" lean-forward="false" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
           <folding />
         </state>
@@ -1005,75 +968,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Brainfuck/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="437">
           <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Brainfuck/Brainfuck.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
           <folding>
-            <marker date="1518170493000" expanded="false" signature="6:181" ph="..." />
-            <marker date="1518170493000" expanded="true" signature="202:1135" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="222:1133" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="257:388" ph="/* Used in IDE.cs in order to give the resulting Dictionnary as argument to ... */" />
-            <marker date="1518170493000" expanded="true" signature="452:888" ph="{...}" />
-            <marker date="1518170493000" expanded="true" signature="944:1117" ph="{...}" />
+            <marker date="1518213724934" expanded="false" signature="6:73" ph="..." />
+            <marker date="1518213724934" expanded="true" signature="94:4575" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="119:4573" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
+            <marker date="1518213724934" expanded="true" signature="501:2747" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
+            <marker date="1518213724934" expanded="true" signature="957:2584" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1016:1143" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1194:1321" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1372:1518" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1569:1715" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="1967:2038" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2109:2460" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2347:2442" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
+            <marker date="1518213724934" expanded="true" signature="3090:3962" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
+            <marker date="1518213724934" expanded="true" signature="3340:3927" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3406:3633" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3500:3615" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3686:3913" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3780:3895" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
+            <marker date="1518213724934" expanded="true" signature="4323:4567" ph="{...}" />
+            <marker date="1518213724934" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Brainfuck/JSON.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="65" column="51" lean-forward="false" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+        <state relative-caret-position="475">
+          <caret line="111" column="48" lean-forward="true" selection-start-line="111" selection-start-column="48" selection-end-line="111" selection-end-column="48" />
           <folding>
-            <marker date="1518189433000" expanded="false" signature="6:224" ph="..." />
-            <marker date="1518189433000" expanded="true" signature="245:2996" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="269:1043" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="304:427" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="689:940" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="970:1028" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1066:2991" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1136:1692" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1169:1682" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1762:1851" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="1916:2005" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2071:2160" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2225:2314" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2401:2490" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2560:2649" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2703:2792" ph="{...}" />
-            <marker date="1518189433000" expanded="true" signature="2871:2985" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Brainfuck/Brainfuck.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          <folding>
-            <marker date="1518184927000" expanded="false" signature="6:73" ph="..." />
-            <marker date="1518184927000" expanded="true" signature="94:4575" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="119:4573" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="134:417" ph="/* Interpret @code with @symbols and return the resulting string. ... */" />
-            <marker date="1518184927000" expanded="true" signature="501:2747" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="524:760" ph="/* Create cells array  and initialize it to 0 ... */" />
-            <marker date="1518184927000" expanded="true" signature="957:2584" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1016:1143" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1194:1321" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1372:1518" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1569:1715" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="1967:2038" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2109:2460" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2347:2442" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="2757:2995" ph="/* Generate the brainfuck code to print @text with @symbols.and return it. ... */" />
-            <marker date="1518184927000" expanded="true" signature="3090:3962" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3113:3229" ph="/* A naive implementation could be to generate a loop foreach character in the ... */" />
-            <marker date="1518184927000" expanded="true" signature="3340:3927" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3406:3633" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3500:3615" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3686:3913" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3780:3895" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="3972:4234" ph="/* Shorten @program with @symbols and return the resulting string. ... */" />
-            <marker date="1518184927000" expanded="true" signature="4323:4567" ph="{...}" />
-            <marker date="1518184927000" expanded="true" signature="4346:4482" ph="/* Search for the symbols['+'] sequencies and reduces it with a loop. ... */" />
+            <marker date="1518227434287" expanded="false" signature="6:265" ph="..." />
+            <marker date="1518227434287" expanded="true" signature="286:3343" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="310:1084" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="345:468" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="730:981" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1011:1069" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1107:3338" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1177:1733" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1210:1723" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1803:2014" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="1884:1976" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2079:2319" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2176:2281" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2385:2444" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2509:2661" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2598:2651" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2748:2837" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="2907:2996" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="3050:3139" ph="{...}" />
+            <marker date="1518227434287" expanded="true" signature="3218:3332" ph="{...}" />
           </folding>
         </state>
       </provider>

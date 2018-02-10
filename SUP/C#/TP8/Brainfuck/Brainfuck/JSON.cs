@@ -6,6 +6,7 @@ using System.IO;
 using System.Net.NetworkInformation;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace Brainfuck
 {
@@ -69,27 +70,40 @@ namespace Brainfuck
 
         public static string ParseString(string json, ref int index)
         {
-            // TODO
-            throw new NotImplementedException();
+            string parsed = "";
+            while (json[index] != '"')
+            {
+                parsed += json[index];
+                ++index;
+            }
+
+            return parsed;
         }
 
 
         public static int ParseInt(string json, ref int index)
         {
-            // TODO
-            throw new NotImplementedException();
+            int parsed = 0;
+            while (json[index] >= 48 && json[index] <= 57)
+            {
+                parsed = parsed * 10 + json[index];
+                ++index;
+            }
+
+            return parsed;
         }
 
         public static bool ParseBool(string json, ref int index)
         {
-            // TODO
-            throw new NotImplementedException();
+            return json[index] == 't';
         }
 
         public static void EatBlank(string json, ref int index)
         {
-            // TODO
-            throw new NotImplementedException();
+            while (json[index] == 32 || json[index] == 10 || json[index] == 9)
+            {
+                ++index;
+            }
         }
         
         public static JSONElement ParseJSONString(string json, ref int index)
