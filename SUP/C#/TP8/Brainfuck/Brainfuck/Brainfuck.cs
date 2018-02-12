@@ -68,9 +68,12 @@ namespace Brainfuck
                     if (array[i] == 0)
                     {
                         int k = j;
-                        for (; code[k] != symbols[']']; ++k)
+                        for (; code[k] != symbols[']'] && k < code.Length; ++k)
                         {
                         }
+                        
+                        if (k == code.Length)
+                            throw new ArgumentException("invalid number of braces");
 
                         j = k;
                         stack.Pop();
@@ -92,9 +95,6 @@ namespace Brainfuck
                 else
                     throw new ArgumentException("the code has an invalid instruction");
             }
-            
-                if (stack.Count > 0)
-                throw new ArgumentException("invalid number of braces");
 
 
             return brainfucked;

@@ -109,8 +109,23 @@ namespace Brainfuck
         
         public static JSONElement ParseJSONString(string json, ref int index)
         {
-            // TODO
-            throw new NotImplementedException();
+            JSONElement parsejsonstringalized = new JSONElement(GetJsonType(json[index]));
+            for (; index < json.Length;)
+            {
+                switch (GetJsonType(json[index]))
+                {
+                     case JSONElement.JSONType.BOOL:
+                         JSONElement boolized = new JSONElement(JSONElement.JSONType.BOOL);
+                         boolized.bool_value = ParseBool(json, ref index);
+                         parsejsonstringalized.data.Add(boolized);
+                         break;
+                     
+                     case JSONElement.JSONType.DIC:
+                         return ParseJSONString(json, ref index);
+                         
+                     case 
+                }
+            }
         }
         
         public static JSONElement ParseJSONFile(string file)
