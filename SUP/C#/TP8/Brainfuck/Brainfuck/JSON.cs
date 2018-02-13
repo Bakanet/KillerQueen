@@ -70,11 +70,14 @@ namespace Brainfuck
         public static string ParseString(string json, ref int index)
         {
             string parsed = "";
+            ++index;
             while (json[index] != '"')
             {
                 parsed += json[index];
                 ++index;
             }
+
+            ++index;
 
             return parsed;
         }
@@ -82,20 +85,29 @@ namespace Brainfuck
 
         public static int ParseInt(string json, ref int index)
         {
-            int parsed = 0;
+            string parsed = "";
             int sign = json[index] == '-' ? -1 : 1;
+            if (sign == -1)
+                ++index;
             while (json[index] >= 48 && json[index] <= 57)
             {
-                parsed = parsed * 10 + json[index];
+                parsed += json[index];
                 ++index;
             }
 
-            return sign * parsed;
+            return sign * int.Parse(parsed);
         }
 
         public static bool ParseBool(string json, ref int index)
         {
-            return json[index] == 't';
+            if (json[index] == 't')
+            {
+                index += 4;
+                return true;
+            }
+
+            index += 5;
+            return false;
         }
 
         public static void EatBlank(string json, ref int index)
@@ -109,66 +121,66 @@ namespace Brainfuck
         public static JSONElement ParseJSONString(string json, ref int index)
         {
             JSONElement parsed = new JSONElement(GetJsonType(json[index]));
-            bool value = false;
 
             for (; index < json.Length;)
             {
                 EatBlank(json, ref index);
 
-                switch (json[index])
+                if (json[index] == ',')
                 {
-                    case ']': case '}':
-                        return parsed;
-                    case ':':
-                        ++index;
-                        EatBlank(json, ref index);
-                        value = true;
-                        break;
-                    case ',':
-                        ++index;
-                        EatBlank(json, ref index);
-                        break;
+                    ++index;
+                    EatBlank(json, ref index);
                 }
 
+                EatBlank(json, ref index);
+                
                 switch (GetJsonType(json[index]))
                 {
                     case JSONElement.JSONType.BOOL:
                         JSONElement boolized = new JSONElement(JSONElement.JSONType.BOOL);
                         boolized.bool_value = ParseBool(json, ref index);
-                        parsed.data.Add(boolized);
-                        break;
+                        return boolized;
 
                     case JSONElement.JSONType.DIC:
-                        parsed.data.Add(ParseJSONString(json, ref index));
-                        break;
+                        ++index;
+                        EatBlank(json, ref index);
+                        for (; index < json.Length && json[index] != '}';)
+                        {
+                            string key = ParseString(json, ref index);
+                            parsed.key.Add(key);
+                            ++index;
+                            EatBlank(json, ref index);
+                            parsed.data.Add(ParseJSONString(json, ref index));
+                            ++index;
+                            EatBlank(json, ref index);
+                        }
+
+                        return parsed;
 
 
                     case JSONElement.JSONType.STR:
-                        if (value)
-                        {
-                            JSONElement stringed = new JSONElement(JSONElement.JSONType.STR);
-                            stringed.string_value = ParseString(json, ref index);
-                            parsed.data.Add(stringed);
-                            value = false;
-                        }
-                        else
-                            parsed.key.Add(ParseString(json, ref index));
-                        break;
-                        
+
+                        JSONElement stringed = new JSONElement(JSONElement.JSONType.STR);
+                        stringed.string_value = ParseString(json, ref index);
+                        ++index;
+                        return stringed;
+
                     case JSONElement.JSONType.LIST:
-                        parsed.data.Add(ParseJSONString(json, ref index));
-                        break;
+                        ++index;
+                        EatBlank(json, ref index);
+                        for (; json[index] != ']';)
+                        {
+                            parsed.data.Add(ParseJSONString(json, ref index));
+                        }
+                        return parsed;
 
                     case JSONElement.JSONType.NB:
                         JSONElement gimmeyournumbersweetie = new JSONElement(JSONElement.JSONType.NB);
                         gimmeyournumbersweetie.int_value = ParseInt(json, ref index);
-                        parsed.data.Add(gimmeyournumbersweetie);
-                        break;
-                        
+                        return gimmeyournumbersweetie;
+
                     case JSONElement.JSONType.NULL:
-                        JSONElement none = new JSONElement(JSONElement.JSONType.NULL);
-                        parsed.data.Add(none);
-                        break;
+                        return new JSONElement(JSONElement.JSONType.NULL);
                 }
             }
 
@@ -188,38 +200,42 @@ namespace Brainfuck
 
             switch (el.Type)
             {
-                 case JSONElement.JSONType.DIC:
-                     Console.WriteLine("{");
-                     for (int i = 0; i < el.data.Count; ++i)
-                     {
-                         Console.Write(el.key[i] + ": ");
-                         PrintJSON(el.data[i]);
-                         Console.WriteLine();
-                     }
-                     Console.WriteLine("}");
-                     break;
-                  
-                 case JSONElement.JSONType.LIST:
-                     Console.WriteLine("[");
-                     for (int i = 0; i < el.data.Count; ++i)
-                     {
-                         Console.Write(el.data[i] + ", ");
-                         PrintJSON(el.data[i]);
-                         Console.WriteLine();
-                     }
-                     Console.WriteLine("]");
-                     break;
-                     
-                 case JSONElement.JSONType.BOOL:
-                     Console.WriteLine(el.bool_value);
-                     break;
-                 
-                 case JSONElement.JSONType.NB:
-                     Console.WriteLine(el.int_value);
-                     break;
-                     
-                 case JSONElement.JSONType.STR:
-                     Console.WriteLine(el.string_value);
+                case JSONElement.JSONType.DIC:
+                    Console.WriteLine("{");
+                    for (int i = 0; i < el.data.Count; ++i)
+                    {
+                        Console.Write("\"" + el.key[i] + "\": ");
+                        PrintJSON(el.data[i]);
+                        if (i < el.data.Count - 1)
+                            Console.Write(',');
+                        Console.WriteLine();
+                    }
+                    Console.WriteLine("}");
+                    break;
+
+                case JSONElement.JSONType.LIST:
+                    Console.WriteLine("[");
+                    for (int i = 0; i < el.data.Count; ++i)
+                    {
+                        PrintJSON(el.data[i]);
+                        if (i < el.data.Count - 1)
+                            Console.Write(',');
+                    }
+                    Console.WriteLine();
+                    Console.Write("]");
+                    break;
+
+                case JSONElement.JSONType.BOOL:
+                    Console.Write(el.bool_value);
+                    break;
+
+                case JSONElement.JSONType.NB:
+                    Console.Write(el.int_value);
+                    break;
+
+                case JSONElement.JSONType.STR:
+                    Console.Write("\"" + el.string_value + "\"");
+                    break;
             }
         }
 
