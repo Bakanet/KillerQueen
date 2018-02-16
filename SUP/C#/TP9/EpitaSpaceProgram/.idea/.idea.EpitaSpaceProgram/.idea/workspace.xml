@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="40155269-c8e2-4b9d-9019-6905f7c8d96a" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Vector2.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Vector2.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1584">
+              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <folding>
+                <marker date="1518777142000" expanded="false" signature="6:43" ph="..." />
+                <marker date="1518777142000" expanded="true" signature="72:2519" ph="{...}" />
+                <marker date="1518777142000" expanded="true" signature="99:2517" ph="{...}" />
+                <marker date="1518777142000" expanded="true" signature="255:490" ph="{...}" />
+                <marker date="1518777142000" expanded="true" signature="610:674" ph="{...}" />
+                <marker date="1518777142000" expanded="true" signature="740:818" ph="{...}" />
+                <marker date="1518777142000" expanded="true" signature="884:962" ph="{...}" />
+                <marker date="1518777142000" expanded="true" signature="1030:1110" ph="{...}" />
+                <marker date="1518777142000" expanded="true" signature="1178:1258" ph="{...}" />
+                <marker date="1518777142000" expanded="true" signature="1326:1406" ph="{...}" />
+                <marker date="1518777142000" expanded="true" signature="1474:1554" ph="{...}" />
+                <marker date="1518777142000" expanded="true" signature="1627:1692" ph="{...}" />
+                <marker date="1518777142000" expanded="true" signature="1783:1889" ph="{...}" />
+                <marker date="1518777142000" expanded="true" signature="2001:2097" ph="{...}" />
+                <marker date="1518777142000" expanded="true" signature="2248:2341" ph="{...}" />
+                <marker date="1518777142000" expanded="true" signature="2420:2511" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestScene.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/TestScene.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1516784400000" expanded="true" signature="65:606" ph="{...}" />
+                <marker date="1516784400000" expanded="true" signature="102:604" ph="{...}" />
+                <marker date="1516784400000" expanded="true" signature="135:598" ph="{...}" />
+                <marker date="1516784400000" expanded="true" signature="158:516" ph="/* Add a new body called &quot;Boring&quot; to the scene, with a mass of 10000kg, a density of 1kg/m^3, and an initial ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Body.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Body.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="869">
+              <caret line="86" column="27" lean-forward="false" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
+              <folding>
+                <marker date="1518778075000" expanded="false" signature="6:77" ph="..." />
+                <marker date="1518778075000" expanded="true" signature="106:3699" ph="{...}" />
+                <marker date="1518778075000" expanded="true" signature="140:3697" ph="{...}" />
+                <marker date="1518778075000" expanded="true" signature="155:369" ph="/* This constructor exists as a way to create a body without specifying an initial velocity. The corresponding bo ... */" />
+                <marker date="1518778075000" expanded="true" signature="532:552" ph="{...}" />
+                <marker date="1518778075000" expanded="true" signature="562:628" ph="/* Create a new body. ... */" />
+                <marker date="1518778075000" expanded="true" signature="740:1011" ph="{...}" />
+                <marker date="1518778075000" expanded="true" signature="1815:2265" ph="/* Update the body during a single update frame. ... */" />
+                <marker date="1518778075000" expanded="true" signature="2314:2776" ph="{...}" />
+                <marker date="1518778075000" expanded="true" signature="2425:2720" ph="/* Once we've applied the previous update frame's acceleration, we can reset the acceleration to zero. It is the ... */" />
+                <marker date="1518778075000" expanded="true" signature="2786:2897" ph="/* See the definition of this method in Json::ISerializable::Serialize. ... */" />
+                <marker date="1518778075000" expanded="true" signature="2944:3466" ph="{...}" />
+                <marker date="1518778075000" expanded="true" signature="3009:3454" ph="{...}" />
+                <marker date="1518778075000" expanded="true" signature="3636:3691" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+              <folding>
+                <marker date="1518777223000" expanded="false" signature="6:75" ph="..." />
+                <marker date="1518777223000" expanded="true" signature="104:1603" ph="{...}" />
+                <marker date="1518777223000" expanded="true" signature="140:1601" ph="{...}" />
+                <marker date="1518777223000" expanded="true" signature="180:377" ph="{...}" />
+                <marker date="1518777223000" expanded="true" signature="203:338" ph="/* Write your tests for Vector2 here. ... */" />
+                <marker date="1518777223000" expanded="true" signature="421:1595" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/TestScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Vector2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Body.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Vector2.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Program.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/Body.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1280" />
+    <option name="y" value="18" />
+    <option name="width" value="640" />
+    <option name="height" value="1163" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="EpitaSpaceProgram (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="EpitaSpaceProgram (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="EpitaSpaceProgram" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="EpitaSpaceProgram (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="EpitaSpaceProgram" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Entities" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/EpitaSpaceProgram/bin/Debug/EpitaSpaceProgram.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EpitaSpaceProgram/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/EpitaSpaceProgram/EpitaSpaceProgram.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40155269-c8e2-4b9d-9019-6905f7c8d96a" name="Default" comment="" />
+      <created>1518774416012</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518774416012</updated>
+      <workItem from="1518774419586" duration="3046000" />
+      <workItem from="1518777753251" duration="336000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3382000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="960" y="36" width="960" height="1145" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33524355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16631798" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Vector2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <marker date="1518777142000" expanded="false" signature="6:43" ph="..." />
+            <marker date="1518777142000" expanded="true" signature="72:2519" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="99:2517" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="255:490" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="610:674" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="740:818" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="884:962" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="1030:1110" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="1178:1258" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="1326:1406" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="1474:1554" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="1627:1692" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="1783:1889" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="2001:2097" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="2248:2341" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="2420:2511" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/TestScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516784400000" expanded="true" signature="65:606" ph="{...}" />
+            <marker date="1516784400000" expanded="true" signature="102:604" ph="{...}" />
+            <marker date="1516784400000" expanded="true" signature="135:598" ph="{...}" />
+            <marker date="1516784400000" expanded="true" signature="158:516" ph="/* Add a new body called &quot;Boring&quot; to the scene, with a mass of 10000kg, a density of 1kg/m^3, and an initial ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding>
+            <marker date="1518777223000" expanded="false" signature="6:75" ph="..." />
+            <marker date="1518777223000" expanded="true" signature="104:1603" ph="{...}" />
+            <marker date="1518777223000" expanded="true" signature="140:1601" ph="{...}" />
+            <marker date="1518777223000" expanded="true" signature="180:377" ph="{...}" />
+            <marker date="1518777223000" expanded="true" signature="203:338" ph="/* Write your tests for Vector2 here. ... */" />
+            <marker date="1518777223000" expanded="true" signature="421:1595" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Vector2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <marker date="1518777142000" expanded="false" signature="6:43" ph="..." />
+            <marker date="1518777142000" expanded="true" signature="72:2519" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="99:2517" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="255:490" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="610:674" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="740:818" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="884:962" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="1030:1110" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="1178:1258" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="1326:1406" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="1474:1554" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="1627:1692" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="1783:1889" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="2001:2097" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="2248:2341" ph="{...}" />
+            <marker date="1518777142000" expanded="true" signature="2420:2511" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding>
+            <marker date="1518777223000" expanded="false" signature="6:75" ph="..." />
+            <marker date="1518777223000" expanded="true" signature="104:1603" ph="{...}" />
+            <marker date="1518777223000" expanded="true" signature="140:1601" ph="{...}" />
+            <marker date="1518777223000" expanded="true" signature="180:377" ph="{...}" />
+            <marker date="1518777223000" expanded="true" signature="203:338" ph="/* Write your tests for Vector2 here. ... */" />
+            <marker date="1518777223000" expanded="true" signature="421:1595" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/TestScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516784400000" expanded="true" signature="65:606" ph="{...}" />
+            <marker date="1516784400000" expanded="true" signature="102:604" ph="{...}" />
+            <marker date="1516784400000" expanded="true" signature="135:598" ph="{...}" />
+            <marker date="1516784400000" expanded="true" signature="158:516" ph="/* Add a new body called &quot;Boring&quot; to the scene, with a mass of 10000kg, a density of 1kg/m^3, and an initial ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Body.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="869">
+          <caret line="86" column="27" lean-forward="false" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
+          <folding>
+            <marker date="1518778075000" expanded="false" signature="6:77" ph="..." />
+            <marker date="1518778075000" expanded="true" signature="106:3699" ph="{...}" />
+            <marker date="1518778075000" expanded="true" signature="140:3697" ph="{...}" />
+            <marker date="1518778075000" expanded="true" signature="155:369" ph="/* This constructor exists as a way to create a body without specifying an initial velocity. The corresponding bo ... */" />
+            <marker date="1518778075000" expanded="true" signature="532:552" ph="{...}" />
+            <marker date="1518778075000" expanded="true" signature="562:628" ph="/* Create a new body. ... */" />
+            <marker date="1518778075000" expanded="true" signature="740:1011" ph="{...}" />
+            <marker date="1518778075000" expanded="true" signature="1815:2265" ph="/* Update the body during a single update frame. ... */" />
+            <marker date="1518778075000" expanded="true" signature="2314:2776" ph="{...}" />
+            <marker date="1518778075000" expanded="true" signature="2425:2720" ph="/* Once we've applied the previous update frame's acceleration, we can reset the acceleration to zero. It is the ... */" />
+            <marker date="1518778075000" expanded="true" signature="2786:2897" ph="/* See the definition of this method in Json::ISerializable::Serialize. ... */" />
+            <marker date="1518778075000" expanded="true" signature="2944:3466" ph="{...}" />
+            <marker date="1518778075000" expanded="true" signature="3009:3454" ph="{...}" />
+            <marker date="1518778075000" expanded="true" signature="3636:3691" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,8 +1,0 @@
-C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP7\malo.lecomte\TinyPhotoshop\TinyPhotoshop\bin\Debug\TinyPhotoshop.exe
-C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP7\malo.lecomte\TinyPhotoshop\TinyPhotoshop\bin\Debug\TinyPhotoshop.pdb
-C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP7\malo.lecomte\TinyPhotoshop\TinyPhotoshop\obj\Debug\TinyPhotoshop.csprojResolveAssemblyReference.cache
-C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP7\malo.lecomte\TinyPhotoshop\TinyPhotoshop\obj\Debug\TinyPhotoshop.TinyPhotoshopForm.resources
-C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP7\malo.lecomte\TinyPhotoshop\TinyPhotoshop\obj\Debug\TinyPhotoshop.csproj.GenerateResource.Cache
-C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP7\malo.lecomte\TinyPhotoshop\TinyPhotoshop\obj\Debug\TinyPhotoshop.csproj.CoreCompileInputs.cache
-C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP7\malo.lecomte\TinyPhotoshop\TinyPhotoshop\obj\Debug\TinyPhotoshop.exe
-C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP7\malo.lecomte\TinyPhotoshop\TinyPhotoshop\obj\Debug\TinyPhotoshop.pdb

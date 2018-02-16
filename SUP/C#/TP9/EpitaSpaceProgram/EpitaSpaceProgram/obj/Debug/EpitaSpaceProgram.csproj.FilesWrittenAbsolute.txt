@@ -1,0 +1,6 @@
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP9/EpitaSpaceProgram/EpitaSpaceProgram/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP9/EpitaSpaceProgram/EpitaSpaceProgram/bin/Debug/EpitaSpaceProgram.pdb
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP9/EpitaSpaceProgram/EpitaSpaceProgram/bin/Debug/EpitaSpaceProgram.exe
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP9/EpitaSpaceProgram/EpitaSpaceProgram/obj/Debug/EpitaSpaceProgram.exe
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP9/EpitaSpaceProgram/EpitaSpaceProgram/obj/Debug/EpitaSpaceProgram.pdb
+/afs/cri.epita.net/user/m/ma/malo.lecomte/u/KillerQueen/SUP/C#/TP9/EpitaSpaceProgram/EpitaSpaceProgram/bin/Debug/Fleck.dll

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="EpitaSpaceProgram" t="IncludeRecursive">
+        <e p="ACDC" t="Include">
+          <e p="Client.cs" t="Include" />
+          <e p="IEntity.cs" t="Include" />
+          <e p="Json.cs" t="Include" />
+          <e p="Scene.cs" t="Include" />
+          <e p="Simulation.cs" t="Include" />
+        </e>
+        <e p="Constants.cs" t="Include" />
+        <e p="Entities" t="Include">
+          <e p="Body.cs" t="Include" />
+          <e p="CirclingSpring.cs" t="Include" />
+          <e p="CompositeBody.cs" t="Include" />
+          <e p="DamperSpring.cs" t="Include" />
+          <e p="DistanceJoint.cs" t="Include" />
+          <e p="Gravity.cs" t="Include" />
+          <e p="Infinity.cs" t="Include" />
+          <e p="Spring.cs" t="Include" />
+          <e p="SpringMax.cs" t="Include" />
+          <e p="System.cs" t="Include" />
+          <e p="TestBody.cs" t="Include" />
+        </e>
+        <e p="EpitaSpaceProgram.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Scenes" t="Include">
+          <e p="BouncyEarthScene.cs" t="Include" />
+          <e p="CirclingComplexScene.cs" t="Include" />
+          <e p="CirclingDemoScene.cs" t="Include" />
+          <e p="CirclingScene.cs" t="Include" />
+          <e p="DamperScene.cs" t="Include" />
+          <e p="GravityScene.cs" t="Include" />
+          <e p="InfinityComplexScene.cs" t="Include" />
+          <e p="InfinityDemoScene.cs" t="Include" />
+          <e p="InfinityScene.cs" t="Include" />
+          <e p="MagnetismScene.cs" t="Include" />
+          <e p="PendulumScene.cs" t="Include" />
+          <e p="SpringScene.cs" t="Include" />
+          <e p="TestScene.cs" t="Include" />
+          <e p="ThreeBodyScene.cs" t="Include" />
+          <e p="TwoBodyScene.cs" t="Include" />
+        </e>
+        <e p="Vector2.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="EpitaSpaceProgram.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/.Rider2017.3/system/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_EpitaSpaceProgram.-1938636826.00" t="ExcludeRecursive" />
+  </component>
+</project>
