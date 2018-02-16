@@ -1,4 +1,6 @@
-﻿namespace EpitaSpaceProgram
+﻿using System;
+
+namespace EpitaSpaceProgram
 {
     public class SpringMax : Spring
     {
@@ -6,7 +8,8 @@
             double spring)
             : base(name, mass, density, initialPosition, origin, spring)
         {
-            // FIXME
+            this.origin = origin;
+            Velocity = -(initialPosition - origin) * Math.Sqrt(spring / mass);
         }
     }
 }

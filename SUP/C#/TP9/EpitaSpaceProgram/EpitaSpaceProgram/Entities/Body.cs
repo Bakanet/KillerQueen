@@ -84,7 +84,7 @@ namespace EpitaSpaceProgram
         // Applies a force to the body. This method affects the acceleration of the body according to Newton's second law.
         public void ApplyForce(Vector2 force)
         {
-            Acceleration += force;
+            Acceleration += force / Mass;
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.Configuration;
 
 namespace EpitaSpaceProgram
 {
@@ -8,6 +9,7 @@ namespace EpitaSpaceProgram
             double spring)
             : base(name, mass, density, initialPosition)
         {
+            ;
         }
     }
 }
