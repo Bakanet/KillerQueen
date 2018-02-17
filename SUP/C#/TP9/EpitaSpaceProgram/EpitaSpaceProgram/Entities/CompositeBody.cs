@@ -4,7 +4,8 @@ namespace EpitaSpaceProgram
 {
     public abstract class CompositeBody : Body
     {
-        protected List<Body> bodies;
+        List<Body> bodies;
+
         protected CompositeBody(string name, double mass, double density, Vector2 initialPosition)
             : base(name, mass, density, initialPosition)
         {
@@ -20,9 +21,11 @@ namespace EpitaSpaceProgram
 
         public override void Update(double delta)
         {
+            base.Update(delta);
             foreach (Body body in bodies)
             {
                 body.Update(delta);
+                Acceleration += body.Acceleration;
             }
         }
     }
