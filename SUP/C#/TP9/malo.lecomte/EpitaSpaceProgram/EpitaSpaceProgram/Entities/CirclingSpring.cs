@@ -1,8 +1,11 @@
-﻿namespace EpitaSpaceProgram
+﻿using System;
+using System.Net.Configuration;
+
+namespace EpitaSpaceProgram
 {
-    public class Infinity : CompositeBody
+    public class CirclingSpring : CompositeBody
     {
-        public Infinity(string name, double mass, double density, Vector2 initialPosition, Vector2 origin,
+        public CirclingSpring(string name, double mass, double density, Vector2 initialPosition, Vector2 origin,
             double spring)
             : base(name, mass, density, initialPosition)
         {
@@ -10,7 +13,7 @@
             initialSpringMax = new Vector2(initialSpringMax.Y, -initialSpringMax.X) + origin;
 
             Add(new Spring(name, mass, density, initialPosition, origin, spring));
-            Add(new SpringMax(name, mass, density, initialSpringMax / 2, origin, 4 * spring));
+            Add(new SpringMax(name, mass, density, initialSpringMax, origin, spring));
         }
     }
 }
