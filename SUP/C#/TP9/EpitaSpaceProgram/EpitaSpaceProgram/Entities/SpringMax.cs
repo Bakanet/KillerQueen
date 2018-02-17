@@ -8,8 +8,8 @@ namespace EpitaSpaceProgram
             double spring)
             : base(name, mass, density, initialPosition, origin, spring)
         {
-            this.origin = origin;
             Velocity = -(initialPosition - origin) * Math.Sqrt(spring / mass);
+            Position = origin;
         }
     }
 }

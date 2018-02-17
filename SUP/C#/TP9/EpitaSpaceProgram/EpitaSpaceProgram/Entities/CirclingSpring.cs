@@ -9,7 +9,11 @@ namespace EpitaSpaceProgram
             double spring)
             : base(name, mass, density, initialPosition)
         {
-            ;
+            Vector2 initialSpringMax = initialPosition - origin;
+            initialSpringMax = new Vector2(initialSpringMax.Y, -initialSpringMax.X) + origin;
+
+            Add(new Spring(name, mass, density, initialPosition, origin, spring));
+            Add(new SpringMax(name, mass, density, initialSpringMax, origin, spring));
         }
     }
 }
