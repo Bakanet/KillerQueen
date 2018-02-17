@@ -6,7 +6,6 @@
             double spring)
             : base(name, mass, density, initialPosition)
         {
-            // FIXME
         }
     }
 }
