@@ -54,7 +54,7 @@ def heapPop(H):
        :rtype: any (the removed element)
     
     """
-    #FIXME
+
 
 
 
@@ -90,4 +90,6 @@ def heapify(H):
 heap = heapPush([None, (2, 'G'), (2, 'I'), (8, 'F'), (5, 'B'), (9, 'J'), (20, 'A'), (10, 'C'), (6, 'H'), (12, 'D'), (15, 'E')], 'lol', 14)
 heap2 = [None, (1,'B'), (3, 'K'), (4, 'N')]
 heap3 = [None, (2, 'G'), (2, 'I'), (8, 'F'), (5, 'B'), (9, 'J'), (20, 'A'), (10, 'C'), (6, 'H'), (12, 'D'), (15, 'E')]
+heap4 = heapPush(heapPush(heapPush(heapPush(heapPush(newHeap(),'A',6),'B',4),'C',5),'D',7),'E',3)
 print(isHeap(heap))
+print(heap4)
