@@ -68,9 +68,9 @@ def isHeap(T):
        :rtype: bool
     
     """
-    length = len(T)
+    length = len(T) / 2 - 1
     i = 1
-    while i < length - 1 and T[i][0] <= T[i + 1][0]:
+    while i < length and T[i][0] <= T[2*i][0] and T[i][0] <= T[2*i + 1][0]:
         i += 1
     return i >= length - 1
     
@@ -83,5 +83,6 @@ def heapify(H):
     #FIXME
 
 heap = heapPush([None, (2, 'G'), (2, 'I'), (8, 'F'), (5, 'B'), (9, 'J'), (20, 'A'), (10, 'C'), (6, 'H'), (12, 'D'), (15, 'E')], 'lol', 1)
-heap2 = isHeap([None, (1,'B'), (3, 'K'), (4, 'N')])
-print(heap)
+heap2 = [None, (1,'B'), (3, 'K'), (4, 'N')]
+heap3 = [None, (2, 'G'), (2, 'I'), (8, 'F'), (5, 'B'), (9, 'J'), (20, 'A'), (10, 'C'), (6, 'H'), (12, 'D'), (15, 'E')]
+print(isHeap(heap2))
