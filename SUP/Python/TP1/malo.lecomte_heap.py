@@ -36,11 +36,16 @@ def heapPush(H, elt, val):
        :rtype: list  (heap)
     """
     H.append((val, elt))
-    i = len(H) - 1
-    while i > 1 and H[i][0] < H[i - 1][0]:
-        H[i-1], H[i] = H[i], H[i-1]
-        i -= 1
+    if not isEmpty(H):
+        posChild = len(H) - 1
+        posParent = posChild // 2
+
+        while posParent > 0 and H[posChild][0] < H[posParent][0]:
+            H[posChild], H[posParent] = H[posParent], H[posChild]
+            posChild = posParent
+            posParent //= 2
     return H
+
     
 def heapPop(H):
     """ returns and deletes the element of smallest value
@@ -82,7 +87,7 @@ def heapify(H):
     """    
     #FIXME
 
-heap = heapPush([None, (2, 'G'), (2, 'I'), (8, 'F'), (5, 'B'), (9, 'J'), (20, 'A'), (10, 'C'), (6, 'H'), (12, 'D'), (15, 'E')], 'lol', 1)
+heap = heapPush([None, (2, 'G'), (2, 'I'), (8, 'F'), (5, 'B'), (9, 'J'), (20, 'A'), (10, 'C'), (6, 'H'), (12, 'D'), (15, 'E')], 'lol', 14)
 heap2 = [None, (1,'B'), (3, 'K'), (4, 'N')]
 heap3 = [None, (2, 'G'), (2, 'I'), (8, 'F'), (5, 'B'), (9, 'J'), (20, 'A'), (10, 'C'), (6, 'H'), (12, 'D'), (15, 'E')]
-print(isHeap(heap2))
+print(isHeap(heap))
