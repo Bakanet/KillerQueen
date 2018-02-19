@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../../packages/OxyPlot.GtkSharp.1.0.0/lib/net45/OxyPlot.GtkSharp.dll" />
+    <widget-library name="../bin/Debug/Mathmageddon.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="2458 1000">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">Viewermageddon</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <property name="Resizable">False</property>
+    <property name="AllowGrow">False</property>
+    <property name="DefaultWidth">650</property>
+    <property name="DefaultHeight">500</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.HPaned" id="hpaned1">
+        <property name="MemberName" />
+        <property name="CanFocus">True</property>
+        <property name="Position">1000</property>
+        <child>
+          <widget class="Gtk.EventBox" id="eventbox1">
+            <property name="MemberName" />
+            <property name="WidthRequest">700</property>
+            <property name="HeightRequest">700</property>
+            <child>
+              <placeholder />
+            </child>
+          </widget>
+          <packing>
+            <property name="Resize">False</property>
+            <property name="Shrink">False</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Fixed" id="fixed3">
+            <property name="MemberName" />
+            <property name="WidthRequest">250</property>
+            <property name="HeightRequest">700</property>
+            <property name="HasWindow">False</property>
+            <child>
+              <widget class="Gtk.Button" id="button1">
+                <property name="MemberName" />
+                <property name="WidthRequest">227</property>
+                <property name="HeightRequest">53</property>
+                <property name="CanFocus">True</property>
+                <property name="Type">TextOnly</property>
+                <property name="Label" translatable="yes">Generate curve</property>
+                <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="button1_Click" />
+              </widget>
+              <packing>
+                <property name="X">10</property>
+                <property name="Y">350</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Button" id="button2">
+                <property name="MemberName" />
+                <property name="WidthRequest">227</property>
+                <property name="HeightRequest">53</property>
+                <property name="CanFocus">True</property>
+                <property name="Type">TextOnly</property>
+                <property name="Label" translatable="yes">Rectangle rule</property>
+                <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="button2_Click" />
+              </widget>
+              <packing>
+                <property name="X">10</property>
+                <property name="Y">450</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Button" id="button4">
+                <property name="MemberName" />
+                <property name="WidthRequest">227</property>
+                <property name="HeightRequest">53</property>
+                <property name="CanFocus">True</property>
+                <property name="Type">TextOnly</property>
+                <property name="Label" translatable="yes">Simpson's rule</property>
+                <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="button4_Click" />
+              </widget>
+              <packing>
+                <property name="X">10</property>
+                <property name="Y">570</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Button" id="button5">
+                <property name="MemberName" />
+                <property name="WidthRequest">227</property>
+                <property name="HeightRequest">53</property>
+                <property name="CanFocus">True</property>
+                <property name="Type">TextOnly</property>
+                <property name="Label" translatable="yes">Trapezoidal rule</property>
+                <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="button5_Click" />
+              </widget>
+              <packing>
+                <property name="X">10</property>
+                <property name="Y">510</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="label5">
+                <property name="MemberName" />
+                <property name="LabelProp" translatable="yes">number of points :</property>
+              </widget>
+              <packing>
+                <property name="X">20</property>
+                <property name="Y">269</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="label4">
+                <property name="MemberName" />
+                <property name="LabelProp" translatable="yes">3. Size of intervals</property>
+              </widget>
+              <packing>
+                <property name="X">10</property>
+                <property name="Y">160</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Entry" id="textBox1">
+                <property name="MemberName" />
+                <property name="WidthRequest">227</property>
+                <property name="HeightRequest">31</property>
+                <property name="CanFocus">True</property>
+                <property name="Text" translatable="yes">x * pi + 2^4</property>
+                <property name="IsEditable">True</property>
+                <property name="InvisibleChar">●</property>
+                <signal name="Changed" handler="textBox1_TextChanged" />
+              </widget>
+              <packing>
+                <property name="X">19</property>
+                <property name="Y">39</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="label3">
+                <property name="MemberName" />
+                <property name="LabelProp" translatable="yes">1. Enter an expression</property>
+              </widget>
+              <packing>
+                <property name="X">10</property>
+                <property name="Y">20</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Entry" id="textNB">
+                <property name="MemberName" />
+                <property name="WidthRequest">156</property>
+                <property name="HeightRequest">24</property>
+                <property name="CanFocus">True</property>
+                <property name="Text" translatable="yes">11</property>
+                <property name="IsEditable">False</property>
+                <property name="HasFrame">False</property>
+                <property name="InvisibleChar">●</property>
+              </widget>
+              <packing>
+                <property name="X">22</property>
+                <property name="Y">293</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="label9">
+                <property name="MemberName" />
+                <property name="WidthRequest">18</property>
+                <property name="HeightRequest">25</property>
+                <property name="LabelProp" translatable="yes">]</property>
+              </widget>
+              <packing>
+                <property name="X">213</property>
+                <property name="Y">110</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Entry" id="textB">
+                <property name="MemberName" />
+                <property name="WidthRequest">69</property>
+                <property name="HeightRequest">24</property>
+                <property name="CanFocus">True</property>
+                <property name="Text" translatable="yes">10.5</property>
+                <property name="IsEditable">True</property>
+                <property name="HasFrame">False</property>
+                <property name="InvisibleChar">●</property>
+                <signal name="Changed" handler="textB_TextChanged" />
+              </widget>
+              <packing>
+                <property name="X">145</property>
+                <property name="Y">110</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="label8">
+                <property name="MemberName" />
+                <property name="WidthRequest">26</property>
+                <property name="HeightRequest">37</property>
+                <property name="LabelProp" translatable="yes">,</property>
+              </widget>
+              <packing>
+                <property name="X">122</property>
+                <property name="Y">110</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Entry" id="textA">
+                <property name="MemberName" />
+                <property name="WidthRequest">70</property>
+                <property name="HeightRequest">24</property>
+                <property name="CanFocus">True</property>
+                <property name="Text" translatable="yes">0.5</property>
+                <property name="IsEditable">True</property>
+                <property name="HasFrame">False</property>
+                <property name="InvisibleChar">●</property>
+                <signal name="Changed" handler="textA_TextChanged" />
+              </widget>
+              <packing>
+                <property name="X">53</property>
+                <property name="Y">110</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="label7">
+                <property name="MemberName" />
+                <property name="WidthRequest">47</property>
+                <property name="HeightRequest">25</property>
+                <property name="LabelProp" translatable="yes">I = [</property>
+              </widget>
+              <packing>
+                <property name="X">14</property>
+                <property name="Y">110</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="label6">
+                <property name="MemberName" />
+                <property name="LabelProp" translatable="yes">2. Choose a domain</property>
+              </widget>
+              <packing>
+                <property name="X">10</property>
+                <property name="Y">90</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="label10">
+                <property name="MemberName" />
+                <property name="LabelProp" translatable="yes">---------------------------------------------------------------</property>
+              </widget>
+              <packing>
+                <property name="X">12</property>
+                <property name="Y">70</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="label11">
+                <property name="MemberName" />
+                <property name="LabelProp" translatable="yes">---------------------------------------------------------------</property>
+              </widget>
+              <packing>
+                <property name="X">12</property>
+                <property name="Y">143</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="label12">
+                <property name="MemberName" />
+                <property name="LabelProp" translatable="yes">---------------------------------------------------------------</property>
+              </widget>
+              <packing>
+                <property name="X">12</property>
+                <property name="Y">325</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="label13">
+                <property name="MemberName" />
+                <property name="LabelProp" translatable="yes">Compute area using :</property>
+              </widget>
+              <packing>
+                <property name="X">15</property>
+                <property name="Y">420</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Entry" id="textI">
+                <property name="MemberName" />
+                <property name="WidthRequest">120</property>
+                <property name="HeightRequest">24</property>
+                <property name="CanFocus">True</property>
+                <property name="Text" translatable="yes">1.0</property>
+                <property name="IsEditable">True</property>
+                <property name="HasFrame">False</property>
+                <property name="InvisibleChar">●</property>
+                <signal name="Changed" handler="textI_TextChanged" />
+              </widget>
+              <packing>
+                <property name="X">100</property>
+                <property name="Y">220</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.SpinButton" id="numericUpDown1">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="Lower">1</property>
+                <property name="Upper">10</property>
+                <property name="PageIncrement">1</property>
+                <property name="StepIncrement">1</property>
+                <property name="ClimbRate">1</property>
+                <property name="Numeric">True</property>
+                <property name="Value">1</property>
+              </widget>
+              <packing>
+                <property name="X">176</property>
+                <property name="Y">650</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="label14">
+                <property name="MemberName" />
+                <property name="WidthRequest">94</property>
+                <property name="HeightRequest">25</property>
+                <property name="LabelProp" translatable="yes">interval :</property>
+              </widget>
+              <packing>
+                <property name="X">15</property>
+                <property name="Y">220</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.HScale" id="trackBarI">
+                <property name="MemberName" />
+                <property name="WidthRequest">236</property>
+                <property name="HeightRequest">30</property>
+                <property name="CanFocus">True</property>
+                <property name="Lower">1</property>
+                <property name="Upper">10000</property>
+                <property name="PageIncrement">10</property>
+                <property name="StepIncrement">1</property>
+                <property name="Value">1000</property>
+                <property name="DrawValue">False</property>
+                <property name="Digits">0</property>
+                <property name="ValuePos">Top</property>
+                <signal name="ValueChanged" handler="trackBarI_Scroll" />
+              </widget>
+              <packing>
+                <property name="X">10</property>
+                <property name="Y">181</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Button" id="button3">
+                <property name="MemberName" />
+                <property name="WidthRequest">158</property>
+                <property name="HeightRequest">53</property>
+                <property name="CanFocus">True</property>
+                <property name="Type">TextOnly</property>
+                <property name="Label" translatable="yes">Newton</property>
+                <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="button3_Click" />
+              </widget>
+              <packing>
+                <property name="X">10</property>
+                <property name="Y">630</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="Resize">False</property>
+            <property name="Shrink">False</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>

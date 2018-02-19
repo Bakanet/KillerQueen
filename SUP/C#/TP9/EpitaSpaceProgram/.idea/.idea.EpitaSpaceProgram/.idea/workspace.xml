@@ -11,28 +11,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SpringScene.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/SpringScene.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-              <folding>
-                <marker date="1518791006000" expanded="true" signature="65:259" ph="{...}" />
-                <marker date="1518791006000" expanded="true" signature="104:257" ph="{...}" />
-                <marker date="1518791006000" expanded="true" signature="139:251" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Body.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Body.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
+            <state relative-caret-position="1512">
               <caret line="86" column="40" lean-forward="false" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
               <folding>
                 <marker date="1518781100000" expanded="false" signature="6:77" ph="..." />
-                <marker date="1518781100000" expanded="true" signature="106:3706" ph="{...}" />
                 <marker date="1518781100000" expanded="true" signature="140:3704" ph="{...}" />
                 <marker date="1518781100000" expanded="true" signature="155:369" ph="/* This constructor exists as a way to create a body without specifying an initial velocity. The corresponding bo ... */" />
                 <marker date="1518781100000" expanded="true" signature="532:552" ph="{...}" />
@@ -50,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DamperSpring.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DamperSpring.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/DamperSpring.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="323">
               <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding>
                 <marker date="1518793423000" expanded="true" signature="42:736" ph="{...}" />
@@ -65,15 +50,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringMax.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SpringMax.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/SpringMax.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="78" lean-forward="false" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+            <state relative-caret-position="187">
+              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding>
-                <marker date="1518794676000" expanded="true" signature="42:435" ph="{...}" />
-                <marker date="1518794676000" expanded="true" signature="80:433" ph="{...}" />
-                <marker date="1518794676000" expanded="true" signature="294:427" ph="{...}" />
+                <marker date="1519049874000" expanded="true" signature="42:432" ph="{...}" />
+                <marker date="1519049874000" expanded="true" signature="80:430" ph="{...}" />
+                <marker date="1519049874000" expanded="true" signature="294:424" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -85,7 +70,6 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1518438086000" expanded="true" signature="65:273" ph="{...}" />
                 <marker date="1518438086000" expanded="true" signature="106:271" ph="{...}" />
                 <marker date="1518438086000" expanded="true" signature="143:265" ph="{...}" />
               </folding>
@@ -96,7 +80,7 @@
       <file leaf-file-name="Spring.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Spring.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="72">
               <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               <folding>
                 <marker date="1518794469000" expanded="true" signature="27:562" ph="{...}" />
@@ -111,15 +95,12 @@
       <file leaf-file-name="CompositeBody.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/CompositeBody.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="198">
+              <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
               <folding>
-                <marker date="1518796214000" expanded="true" signature="62:729" ph="{...}" />
-                <marker date="1518796214000" expanded="true" signature="111:727" ph="{...}" />
-                <marker date="1518796214000" expanded="true" signature="310:369" ph="{...}" />
-                <marker date="1518796214000" expanded="true" signature="408:544" ph="{...}" />
-                <marker date="1518796214000" expanded="true" signature="595:721" ph="{...}" />
-                <marker date="1518796214000" expanded="true" signature="647:711" ph="{...}" />
+                <marker date="1519049874000" expanded="true" signature="111:801" ph="{...}" />
+                <marker date="1519049874000" expanded="true" signature="770:785" ph="{...}" />
+                <marker date="1519049874000" expanded="true" signature="770:795" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -128,10 +109,9 @@
       <file leaf-file-name="CirclingDemoScene.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/CirclingDemoScene.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="9" selection-end-column="94" />
+            <state relative-caret-position="144">
+              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="9" selection-end-column="94" />
               <folding>
-                <marker date="1518438086000" expanded="true" signature="65:366" ph="{...}" />
                 <marker date="1518438086000" expanded="true" signature="110:364" ph="{...}" />
                 <marker date="1518438086000" expanded="true" signature="151:358" ph="{...}" />
               </folding>
@@ -142,13 +122,34 @@
       <file leaf-file-name="CirclingSpring.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/CirclingSpring.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="150">
               <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
-                <marker date="1518796752000" expanded="true" signature="6:45" ph="..." />
-                <marker date="1518796752000" expanded="true" signature="74:369" ph="{...}" />
-                <marker date="1518796752000" expanded="true" signature="124:367" ph="{...}" />
-                <marker date="1518796752000" expanded="true" signature="327:361" ph="{...}" />
+                <marker date="1519049874000" expanded="false" signature="6:45" ph="..." />
+                <marker date="1519049874000" expanded="true" signature="74:685" ph="{...}" />
+                <marker date="1519049874000" expanded="true" signature="124:683" ph="{...}" />
+                <marker date="1519049874000" expanded="true" signature="327:677" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="System.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/System.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+              <folding>
+                <marker date="1519052421000" expanded="true" signature="6:96" ph="..." />
+                <marker date="1519052421000" expanded="true" signature="125:1275" ph="{...}" />
+                <marker date="1519052421000" expanded="true" signature="161:1273" ph="{...}" />
+                <marker date="1519052421000" expanded="true" signature="327:411" ph="{...}" />
+                <marker date="1519052421000" expanded="true" signature="454:1011" ph="{...}" />
+                <marker date="1519052421000" expanded="true" signature="507:1001" ph="{...}" />
+                <marker date="1519052421000" expanded="true" signature="605:987" ph="{...}" />
+                <marker date="1519052421000" expanded="true" signature="662:969" ph="{...}" />
+                <marker date="1519052421000" expanded="true" signature="1095:1180" ph="{...}" />
+                <marker date="1519052421000" expanded="true" signature="1216:1267" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -160,7 +161,6 @@
             <state relative-caret-position="252">
               <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding>
-                <marker date="1518792779000" expanded="true" signature="27:467" ph="{...}" />
                 <marker date="1518792779000" expanded="true" signature="61:465" ph="{...}" />
                 <marker date="1518792779000" expanded="true" signature="264:320" ph="{...}" />
                 <marker date="1518792779000" expanded="true" signature="371:459" ph="{...}" />
@@ -207,6 +207,7 @@
         <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/SpringMax.cs" />
         <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/CompositeBody.cs" />
         <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/CirclingSpring.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/System.cs" />
       </list>
     </option>
   </component>
@@ -237,6 +238,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -253,12 +255,6 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="EpitaSpaceProgram (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="EpitaSpaceProgram" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="ACDC" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="EpitaSpaceProgram (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="EpitaSpaceProgram" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Entities" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
@@ -267,7 +263,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,11 +314,12 @@
       <workItem from="1518777753251" duration="336000" />
       <workItem from="1518780953746" duration="1158000" />
       <workItem from="1518786185110" duration="10087000" />
+      <workItem from="1519049909485" duration="3261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14627000" />
+    <option name="totallyTimeSpent" value="17888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -335,17 +331,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="840" y="18" width="840" height="1013" extended-state="6" />
+    <frame x="960" y="18" width="960" height="1163" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33551913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33521128" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2284689" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18933055" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -372,40 +368,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Vector2.cs">
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/SpringScene.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
-            <marker date="1518777142000" expanded="false" signature="6:43" ph="..." />
-            <marker date="1518777142000" expanded="true" signature="72:2519" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="99:2517" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="255:490" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="610:674" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="740:818" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="884:962" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1030:1110" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1178:1258" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1326:1406" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1474:1554" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1627:1692" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1783:1889" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="2001:2097" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="2248:2341" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="2420:2511" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/TestScene.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1516784400000" expanded="true" signature="65:606" ph="{...}" />
-            <marker date="1516784400000" expanded="true" signature="102:604" ph="{...}" />
-            <marker date="1516784400000" expanded="true" signature="135:598" ph="{...}" />
-            <marker date="1516784400000" expanded="true" signature="158:516" ph="/* Add a new body called &quot;Boring&quot; to the scene, with a mass of 10000kg, a density of 1kg/m^3, and an initial ... */" />
+            <marker date="1518791006000" expanded="true" signature="104:257" ph="{...}" />
+            <marker date="1518791006000" expanded="true" signature="139:251" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -416,7 +385,139 @@
           <caret line="86" column="40" lean-forward="false" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
           <folding>
             <marker date="1518781100000" expanded="false" signature="6:77" ph="..." />
-            <marker date="1518781100000" expanded="true" signature="106:3706" ph="{...}" />
+            <marker date="1518781100000" expanded="true" signature="140:3704" ph="{...}" />
+            <marker date="1518781100000" expanded="true" signature="155:369" ph="/* This constructor exists as a way to create a body without specifying an initial velocity. The corresponding bo ... */" />
+            <marker date="1518781100000" expanded="true" signature="532:552" ph="{...}" />
+            <marker date="1518781100000" expanded="true" signature="562:628" ph="/* Create a new body. ... */" />
+            <marker date="1518781100000" expanded="true" signature="740:1011" ph="{...}" />
+            <marker date="1518781100000" expanded="true" signature="1815:2265" ph="/* Update the body during a single update frame. ... */" />
+            <marker date="1518781100000" expanded="true" signature="2314:2776" ph="{...}" />
+            <marker date="1518781100000" expanded="true" signature="2425:2720" ph="/* Once we've applied the previous update frame's acceleration, we can reset the acceleration to zero. It is the ... */" />
+            <marker date="1518781100000" expanded="true" signature="2786:2897" ph="/* See the definition of this method in Json::ISerializable::Serialize. ... */" />
+            <marker date="1518781100000" expanded="true" signature="2944:3466" ph="{...}" />
+            <marker date="1518781100000" expanded="true" signature="3009:3454" ph="{...}" />
+            <marker date="1518781100000" expanded="true" signature="3636:3698" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/SpringMax.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="78" lean-forward="false" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+          <folding>
+            <marker date="1519049874000" expanded="true" signature="42:432" ph="{...}" />
+            <marker date="1519049874000" expanded="true" signature="80:430" ph="{...}" />
+            <marker date="1519049874000" expanded="true" signature="294:424" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/CirclingScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518438086000" expanded="true" signature="106:271" ph="{...}" />
+            <marker date="1518438086000" expanded="true" signature="143:265" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Spring.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <marker date="1518794469000" expanded="true" signature="27:562" ph="{...}" />
+            <marker date="1518794469000" expanded="true" signature="60:560" ph="{...}" />
+            <marker date="1518794469000" expanded="true" signature="308:396" ph="{...}" />
+            <marker date="1518794469000" expanded="true" signature="447:554" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/CompositeBody.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <marker date="1519049874000" expanded="true" signature="111:801" ph="{...}" />
+            <marker date="1519049874000" expanded="true" signature="770:785" ph="{...}" />
+            <marker date="1519049874000" expanded="true" signature="770:795" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/CirclingDemoScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="9" selection-end-column="94" />
+          <folding>
+            <marker date="1518438086000" expanded="true" signature="110:364" ph="{...}" />
+            <marker date="1518438086000" expanded="true" signature="151:358" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/CirclingSpring.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <marker date="1519049874000" expanded="false" signature="6:45" ph="..." />
+            <marker date="1519049874000" expanded="true" signature="74:685" ph="{...}" />
+            <marker date="1519049874000" expanded="true" signature="124:683" ph="{...}" />
+            <marker date="1519049874000" expanded="true" signature="327:677" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Gravity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <marker date="1518792779000" expanded="true" signature="61:465" ph="{...}" />
+            <marker date="1518792779000" expanded="true" signature="264:320" ph="{...}" />
+            <marker date="1518792779000" expanded="true" signature="371:459" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/DamperSpring.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <marker date="1518793423000" expanded="true" signature="42:736" ph="{...}" />
+            <marker date="1518793423000" expanded="true" signature="83:734" ph="{...}" />
+            <marker date="1518793423000" expanded="true" signature="394:502" ph="{...}" />
+            <marker date="1518793423000" expanded="true" signature="553:728" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Vector2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/TestScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Body.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="86" column="40" lean-forward="false" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
+          <folding>
+            <marker date="1518781100000" expanded="false" signature="6:77" ph="..." />
             <marker date="1518781100000" expanded="true" signature="140:3704" ph="{...}" />
             <marker date="1518781100000" expanded="true" signature="155:369" ph="/* This constructor exists as a way to create a body without specifying an initial velocity. The corresponding bo ... */" />
             <marker date="1518781100000" expanded="true" signature="532:552" ph="{...}" />
@@ -437,14 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding>
-            <marker date="1518787646000" expanded="false" signature="6:75" ph="..." />
-            <marker date="1518787646000" expanded="true" signature="104:1603" ph="{...}" />
-            <marker date="1518787646000" expanded="true" signature="140:1601" ph="{...}" />
-            <marker date="1518787646000" expanded="true" signature="180:377" ph="{...}" />
-            <marker date="1518787646000" expanded="true" signature="203:338" ph="/* Write your tests for Vector2 here. ... */" />
-            <marker date="1518787646000" expanded="true" signature="421:1595" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -453,7 +546,6 @@
         <state relative-caret-position="126">
           <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           <folding>
-            <marker date="1518792779000" expanded="true" signature="27:467" ph="{...}" />
             <marker date="1518792779000" expanded="true" signature="61:465" ph="{...}" />
             <marker date="1518792779000" expanded="true" signature="264:320" ph="{...}" />
             <marker date="1518792779000" expanded="true" signature="371:459" ph="{...}" />
@@ -465,24 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1584">
           <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding>
-            <marker date="1518777142000" expanded="false" signature="6:43" ph="..." />
-            <marker date="1518777142000" expanded="true" signature="72:2519" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="99:2517" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="255:490" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="610:674" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="740:818" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="884:962" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1030:1110" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1178:1258" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1326:1406" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1474:1554" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1627:1692" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1783:1889" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="2001:2097" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="2248:2341" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="2420:2511" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -490,12 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1516784400000" expanded="true" signature="65:606" ph="{...}" />
-            <marker date="1516784400000" expanded="true" signature="102:604" ph="{...}" />
-            <marker date="1516784400000" expanded="true" signature="135:598" ph="{...}" />
-            <marker date="1516784400000" expanded="true" signature="158:516" ph="/* Add a new body called &quot;Boring&quot; to the scene, with a mass of 10000kg, a density of 1kg/m^3, and an initial ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -503,14 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding>
-            <marker date="1518787646000" expanded="false" signature="6:75" ph="..." />
-            <marker date="1518787646000" expanded="true" signature="104:1603" ph="{...}" />
-            <marker date="1518787646000" expanded="true" signature="140:1601" ph="{...}" />
-            <marker date="1518787646000" expanded="true" signature="180:377" ph="{...}" />
-            <marker date="1518787646000" expanded="true" signature="203:338" ph="/* Write your tests for Vector2 here. ... */" />
-            <marker date="1518787646000" expanded="true" signature="421:1595" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -520,7 +580,6 @@
           <caret line="86" column="27" lean-forward="false" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
           <folding>
             <marker date="1518781100000" expanded="false" signature="6:77" ph="..." />
-            <marker date="1518781100000" expanded="true" signature="106:3706" ph="{...}" />
             <marker date="1518781100000" expanded="true" signature="140:3704" ph="{...}" />
             <marker date="1518781100000" expanded="true" signature="155:369" ph="/* This constructor exists as a way to create a body without specifying an initial velocity. The corresponding bo ... */" />
             <marker date="1518781100000" expanded="true" signature="532:552" ph="{...}" />
@@ -541,24 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1584">
           <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding>
-            <marker date="1518777142000" expanded="false" signature="6:43" ph="..." />
-            <marker date="1518777142000" expanded="true" signature="72:2519" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="99:2517" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="255:490" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="610:674" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="740:818" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="884:962" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1030:1110" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1178:1258" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1326:1406" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1474:1554" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1627:1692" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1783:1889" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="2001:2097" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="2248:2341" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="2420:2511" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -566,12 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1516784400000" expanded="true" signature="65:606" ph="{...}" />
-            <marker date="1516784400000" expanded="true" signature="102:604" ph="{...}" />
-            <marker date="1516784400000" expanded="true" signature="135:598" ph="{...}" />
-            <marker date="1516784400000" expanded="true" signature="158:516" ph="/* Add a new body called &quot;Boring&quot; to the scene, with a mass of 10000kg, a density of 1kg/m^3, and an initial ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -579,14 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding>
-            <marker date="1518787646000" expanded="false" signature="6:75" ph="..." />
-            <marker date="1518787646000" expanded="true" signature="104:1603" ph="{...}" />
-            <marker date="1518787646000" expanded="true" signature="140:1601" ph="{...}" />
-            <marker date="1518787646000" expanded="true" signature="180:377" ph="{...}" />
-            <marker date="1518787646000" expanded="true" signature="203:338" ph="/* Write your tests for Vector2 here. ... */" />
-            <marker date="1518787646000" expanded="true" signature="421:1595" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -594,24 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="72" column="31" lean-forward="false" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
-          <folding>
-            <marker date="1518777142000" expanded="false" signature="6:43" ph="..." />
-            <marker date="1518777142000" expanded="true" signature="72:2519" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="99:2517" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="255:490" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="610:674" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="740:818" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="884:962" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1030:1110" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1178:1258" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1326:1406" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1474:1554" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1627:1692" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="1783:1889" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="2001:2097" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="2248:2341" ph="{...}" />
-            <marker date="1518777142000" expanded="true" signature="2420:2511" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -619,11 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1518438086000" expanded="true" signature="27:418" ph="{...}" />
-            <marker date="1518438086000" expanded="true" signature="63:416" ph="{...}" />
-            <marker date="1518438086000" expanded="true" signature="169:366" ph="/* How many times per second should we update the simulation (Hertz). ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,17 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-305">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1518703191000" expanded="false" signature="6:90" ph="..." />
-            <marker date="1518703191000" expanded="true" signature="124:1905" ph="{...}" />
-            <marker date="1518703191000" expanded="true" signature="255:1903" ph="{...}" />
-            <marker date="1518703191000" expanded="true" signature="485:579" ph="{...}" />
-            <marker date="1518703191000" expanded="true" signature="744:1113" ph="{...}" />
-            <marker date="1518703191000" expanded="true" signature="1157:1212" ph="{...}" />
-            <marker date="1518703191000" expanded="true" signature="1241:1410" ph="{...}" />
-            <marker date="1518703191000" expanded="true" signature="1438:1522" ph="{...}" />
-            <marker date="1518703191000" expanded="true" signature="1569:1897" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -649,19 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-148">
           <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <marker date="1518714056000" expanded="false" signature="6:84" ph="..." />
-            <marker date="1518714056000" expanded="true" signature="118:1759" ph="{...}" />
-            <marker date="1518714056000" expanded="true" signature="211:1757" ph="{...}" />
-            <marker date="1518714056000" expanded="true" signature="311:391" ph="{...}" />
-            <marker date="1518714056000" expanded="true" signature="420:778" ph="{...}" />
-            <marker date="1518714056000" expanded="true" signature="838:1018" ph="{...}" />
-            <marker date="1518714056000" expanded="true" signature="1085:1147" ph="{...}" />
-            <marker date="1518714056000" expanded="true" signature="1221:1649" ph="{...}" />
-            <marker date="1518714056000" expanded="true" signature="1345:1446" ph="{...}" />
-            <marker date="1518714056000" expanded="true" signature="1478:1573" ph="{...}" />
-            <marker date="1518714056000" expanded="true" signature="1698:1751" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -669,24 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-980">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1518438103000" expanded="true" signature="6:103" ph="..." />
-            <marker date="1518438103000" expanded="true" signature="137:2977" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="144:400" ph="/* Represents a client of the simulation. ... */" />
-            <marker date="1518438103000" expanded="true" signature="424:2975" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="905:1031" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="1060:1239" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="1270:1358" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="1387:1594" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="1629:1736" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="1781:1857" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="1905:2557" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="2028:2172" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="2235:2547" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="2353:2533" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="2628:2803" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="2843:2969" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,33 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1518438086000" expanded="true" signature="27:2548" ph="{...}" />
-            <marker date="1518438086000" expanded="true" signature="62:2546" ph="{...}" />
-            <marker date="1518438086000" expanded="true" signature="344:1062" ph="{...}" />
-            <marker date="1518438086000" expanded="true" signature="416:704" ph="/* Here, we set the initial velocity of the body to 10 m/s in the direction of the right. ... */" />
-            <marker date="1518438086000" expanded="true" signature="761:1052" ph="/* Try fiddling with the initial attributes of your body. Remember that `Acceleration` gets reset at each ... */" />
-            <marker date="1518438086000" expanded="true" signature="1072:1341" ph="/* Updates the body during a single update frame. The `delta` argument represents the time that has passed ... */" />
-            <marker date="1518438086000" expanded="true" signature="1391:2540" ph="{...}" />
-            <marker date="1518438086000" expanded="true" signature="1414:1565" ph="/* Calling the base class' `Update` method as the very first step is extremely important, as our body would ... */" />
-            <marker date="1518438086000" expanded="true" signature="1637:2530" ph="/* Try some of the following: ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/System.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1518438103000" expanded="true" signature="6:82" ph="..." />
-            <marker date="1518438103000" expanded="true" signature="111:706" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="147:704" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="287:368" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="411:452" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="536:621" ph="{...}" />
-            <marker date="1518438103000" expanded="true" signature="657:698" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,14 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding>
-            <marker date="1518787646000" expanded="false" signature="6:75" ph="..." />
-            <marker date="1518787646000" expanded="true" signature="104:1603" ph="{...}" />
-            <marker date="1518787646000" expanded="true" signature="140:1601" ph="{...}" />
-            <marker date="1518787646000" expanded="true" signature="180:377" ph="{...}" />
-            <marker date="1518787646000" expanded="true" signature="203:338" ph="/* Write your tests for Vector2 here. ... */" />
-            <marker date="1518787646000" expanded="true" signature="421:1595" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,12 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1518438086000" expanded="false" signature="6:43" ph="..." />
-            <marker date="1518438086000" expanded="true" signature="79:1193" ph="{...}" />
-            <marker date="1518438086000" expanded="true" signature="127:1191" ph="{...}" />
-            <marker date="1518438086000" expanded="true" signature="171:1185" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,12 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1518438086000" expanded="false" signature="6:43" ph="..." />
-            <marker date="1518438086000" expanded="true" signature="79:644" ph="{...}" />
-            <marker date="1518438086000" expanded="true" signature="121:642" ph="{...}" />
-            <marker date="1518438086000" expanded="true" signature="198:636" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,12 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <marker date="1516784400000" expanded="true" signature="65:606" ph="{...}" />
-            <marker date="1516784400000" expanded="true" signature="102:604" ph="{...}" />
-            <marker date="1516784400000" expanded="true" signature="135:598" ph="{...}" />
-            <marker date="1516784400000" expanded="true" signature="158:516" ph="/* Add a new body called &quot;Boring&quot; to the scene, with a mass of 10000kg, a density of 1kg/m^3, and an initial ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -783,7 +692,6 @@
         <state relative-caret-position="144">
           <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
-            <marker date="1518791006000" expanded="true" signature="65:259" ph="{...}" />
             <marker date="1518791006000" expanded="true" signature="104:257" ph="{...}" />
             <marker date="1518791006000" expanded="true" signature="139:251" ph="{...}" />
           </folding>
@@ -795,7 +703,6 @@
         <state relative-caret-position="252">
           <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding>
-            <marker date="1518792779000" expanded="true" signature="27:467" ph="{...}" />
             <marker date="1518792779000" expanded="true" signature="61:465" ph="{...}" />
             <marker date="1518792779000" expanded="true" signature="264:320" ph="{...}" />
             <marker date="1518792779000" expanded="true" signature="371:459" ph="{...}" />
@@ -803,41 +710,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Spring.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <marker date="1518794469000" expanded="true" signature="27:562" ph="{...}" />
-            <marker date="1518794469000" expanded="true" signature="60:560" ph="{...}" />
-            <marker date="1518794469000" expanded="true" signature="308:396" ph="{...}" />
-            <marker date="1518794469000" expanded="true" signature="447:554" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/CompositeBody.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="198">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
           <folding>
-            <marker date="1518796214000" expanded="true" signature="62:729" ph="{...}" />
-            <marker date="1518796214000" expanded="true" signature="111:727" ph="{...}" />
-            <marker date="1518796214000" expanded="true" signature="310:369" ph="{...}" />
-            <marker date="1518796214000" expanded="true" signature="408:544" ph="{...}" />
-            <marker date="1518796214000" expanded="true" signature="595:721" ph="{...}" />
-            <marker date="1518796214000" expanded="true" signature="647:711" ph="{...}" />
+            <marker date="1519049874000" expanded="true" signature="111:801" ph="{...}" />
+            <marker date="1519049874000" expanded="true" signature="770:785" ph="{...}" />
+            <marker date="1519049874000" expanded="true" signature="770:795" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Body.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+        <state relative-caret-position="1512">
           <caret line="86" column="40" lean-forward="false" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
           <folding>
             <marker date="1518781100000" expanded="false" signature="6:77" ph="..." />
-            <marker date="1518781100000" expanded="true" signature="106:3706" ph="{...}" />
             <marker date="1518781100000" expanded="true" signature="140:3704" ph="{...}" />
             <marker date="1518781100000" expanded="true" signature="155:369" ph="/* This constructor exists as a way to create a body without specifying an initial velocity. The corresponding bo ... */" />
             <marker date="1518781100000" expanded="true" signature="532:552" ph="{...}" />
@@ -854,25 +744,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/CirclingSpring.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <marker date="1518796752000" expanded="true" signature="6:45" ph="..." />
-            <marker date="1518796752000" expanded="true" signature="74:369" ph="{...}" />
-            <marker date="1518796752000" expanded="true" signature="124:367" ph="{...}" />
-            <marker date="1518796752000" expanded="true" signature="327:361" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/CirclingScene.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518438086000" expanded="true" signature="65:273" ph="{...}" />
             <marker date="1518438086000" expanded="true" signature="106:271" ph="{...}" />
             <marker date="1518438086000" expanded="true" signature="143:265" ph="{...}" />
           </folding>
@@ -881,37 +757,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/CirclingDemoScene.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="9" selection-end-column="94" />
+        <state relative-caret-position="144">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="9" selection-end-column="94" />
           <folding>
-            <marker date="1518438086000" expanded="true" signature="65:366" ph="{...}" />
             <marker date="1518438086000" expanded="true" signature="110:364" ph="{...}" />
             <marker date="1518438086000" expanded="true" signature="151:358" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/SpringMax.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="78" lean-forward="false" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
-          <folding>
-            <marker date="1518794676000" expanded="true" signature="42:435" ph="{...}" />
-            <marker date="1518794676000" expanded="true" signature="80:433" ph="{...}" />
-            <marker date="1518794676000" expanded="true" signature="294:427" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/DamperSpring.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="323">
           <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
             <marker date="1518793423000" expanded="true" signature="42:736" ph="{...}" />
             <marker date="1518793423000" expanded="true" signature="83:734" ph="{...}" />
             <marker date="1518793423000" expanded="true" signature="394:502" ph="{...}" />
             <marker date="1518793423000" expanded="true" signature="553:728" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/CirclingSpring.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <marker date="1519049874000" expanded="false" signature="6:45" ph="..." />
+            <marker date="1519049874000" expanded="true" signature="74:685" ph="{...}" />
+            <marker date="1519049874000" expanded="true" signature="124:683" ph="{...}" />
+            <marker date="1519049874000" expanded="true" signature="327:677" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Spring.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <marker date="1518794469000" expanded="true" signature="27:562" ph="{...}" />
+            <marker date="1518794469000" expanded="true" signature="60:560" ph="{...}" />
+            <marker date="1518794469000" expanded="true" signature="308:396" ph="{...}" />
+            <marker date="1518794469000" expanded="true" signature="447:554" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/System.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <marker date="1519052421000" expanded="true" signature="6:96" ph="..." />
+            <marker date="1519052421000" expanded="true" signature="125:1275" ph="{...}" />
+            <marker date="1519052421000" expanded="true" signature="161:1273" ph="{...}" />
+            <marker date="1519052421000" expanded="true" signature="327:411" ph="{...}" />
+            <marker date="1519052421000" expanded="true" signature="454:1011" ph="{...}" />
+            <marker date="1519052421000" expanded="true" signature="507:1001" ph="{...}" />
+            <marker date="1519052421000" expanded="true" signature="605:987" ph="{...}" />
+            <marker date="1519052421000" expanded="true" signature="662:969" ph="{...}" />
+            <marker date="1519052421000" expanded="true" signature="1095:1180" ph="{...}" />
+            <marker date="1519052421000" expanded="true" signature="1216:1267" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/SpringMax.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <marker date="1519049874000" expanded="true" signature="42:432" ph="{...}" />
+            <marker date="1519049874000" expanded="true" signature="80:430" ph="{...}" />
+            <marker date="1519049874000" expanded="true" signature="294:424" ph="{...}" />
           </folding>
         </state>
       </provider>

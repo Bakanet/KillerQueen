@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{800BFF1F-6BF4-4434-888F-3963D804124B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mathmageddon/MainWindow.cs">
+    <Files>
+      <File FileName="Mathmageddon/MainWindow.cs" Line="8" Column="1" />
+      <File FileName="Mathmageddon/Program.cs" Line="12" Column="49" />
+      <File FileName="Mathmageddon/packages.config" Line="1" Column="1" />
+      <File FileName="Mathmageddon/NewtonQuadrature.cs" Line="1" Column="1" />
+      <File FileName="Mathmageddon/Mathmageddon.csproj" Line="1" Column="1" />
+      <File FileName="Mathmageddon/Integral.cs" Line="1" Column="1" />
+      <File FileName="Mathmageddon/GaussQuadrature.cs" Line="1" Column="1" />
+      <File FileName="Mathmageddon/Derivative.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.ItemProperties.Mathmageddon PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
