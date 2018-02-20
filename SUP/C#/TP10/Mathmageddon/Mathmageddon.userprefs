@@ -1,17 +1,27 @@
-﻿<Properties StartupConfiguration="{800BFF1F-6BF4-4434-888F-3963D804124B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mathmageddon/MainWindow.cs">
+﻿<Properties StartupConfiguration="{BAEAC453-A7EC-435E-9E7A-410FC3116887}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mathmageddon/Integral.cs">
     <Files>
-      <File FileName="Mathmageddon/MainWindow.cs" Line="8" Column="1" />
-      <File FileName="Mathmageddon/Program.cs" Line="12" Column="49" />
+      <File FileName="Mathmageddon/Program.cs" Line="17" Column="43" />
       <File FileName="Mathmageddon/packages.config" Line="1" Column="1" />
       <File FileName="Mathmageddon/NewtonQuadrature.cs" Line="1" Column="1" />
-      <File FileName="Mathmageddon/Mathmageddon.csproj" Line="1" Column="1" />
-      <File FileName="Mathmageddon/Integral.cs" Line="1" Column="1" />
       <File FileName="Mathmageddon/GaussQuadrature.cs" Line="1" Column="1" />
+      <File FileName="Mathmageddon/Form1.cs" Line="1" Column="1" />
+      <File FileName="Mathmageddon/Integral.cs" Line="1" Column="1" />
       <File FileName="Mathmageddon/Derivative.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mathmageddon" expanded="True">
+            <Node name="Mathmageddon" expanded="True">
+              <Node name="Integral.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Mathmageddon PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

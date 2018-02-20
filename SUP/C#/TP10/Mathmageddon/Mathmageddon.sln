@@ -1,17 +1,25 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathmageddon", "Mathmageddon\Mathmageddon.csproj", "{800BFF1F-6BF4-4434-888F-3963D804124B}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathmageddon", "Mathmageddon\Mathmageddon.csproj", "{BAEAC453-A7EC-435E-9E7A-410FC3116887}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x86 = Debug|x86
-		Release|x86 = Release|x86
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{800BFF1F-6BF4-4434-888F-3963D804124B}.Debug|x86.ActiveCfg = Debug|x86
-		{800BFF1F-6BF4-4434-888F-3963D804124B}.Debug|x86.Build.0 = Debug|x86
-		{800BFF1F-6BF4-4434-888F-3963D804124B}.Release|x86.ActiveCfg = Release|x86
-		{800BFF1F-6BF4-4434-888F-3963D804124B}.Release|x86.Build.0 = Release|x86
+		{BAEAC453-A7EC-435E-9E7A-410FC3116887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEAC453-A7EC-435E-9E7A-410FC3116887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEAC453-A7EC-435E-9E7A-410FC3116887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEAC453-A7EC-435E-9E7A-410FC3116887}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF42D8F7-BB05-4B81-8F22-DD25E5BDF420}
 	EndGlobalSection
 EndGlobal

@@ -93,7 +93,8 @@ def heapify(H):
     """    
     if not isHeap(H):
         length = len(H)
-        for j in range(1, length // 2 - 1):
+        c = 1
+        while c < length // 2 - 1:
             for i in range(1, length):
                 if H[i] != None:
                     minimum = i
@@ -105,6 +106,7 @@ def heapify(H):
                         minimum = posRightChild
                     if minimum != i:
                         H[i], H[minimum] = H[minimum], H[i]
+            c += 1
     
     return H
 

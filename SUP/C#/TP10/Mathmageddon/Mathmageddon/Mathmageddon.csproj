@@ -1,226 +1,235 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{800BFF1F-6BF4-4434-888F-3963D804124B}</ProjectGuid>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BAEAC453-A7EC-435E-9E7A-410FC3116887}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Mathmageddon</RootNamespace>
-    <AssemblyName>Mathmageddon</AssemblyName>
+    <RootNamespace>TPC10</RootNamespace>
+    <AssemblyName>TPC10</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <ProductVersion>12.0.0</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
-    <DebugSymbols>True</DebugSymbols>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>False</Optimize>
-    <OutputPath>bin\Debug</OutputPath>
-    <DefineConstants>DEBUG;</DefineConstants>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
-    <Optimize>True</Optimize>
-    <OutputPath>bin\Release</OutputPath>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x86</PlatformTarget>
-    <DebugType>none</DebugType>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="gtk-sharp, Version=2.4.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
-    <Reference Include="gdk-sharp, Version=2.4.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
-    <Reference Include="glib-sharp, Version=2.4.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
-    <Reference Include="glade-sharp, Version=2.4.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
-    <Reference Include="pango-sharp, Version=2.4.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
-    <Reference Include="atk-sharp, Version=2.4.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
-    <Reference Include="Mono.Posix" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="OxyPlot">
-      <HintPath>..\packages\OxyPlot.Core.1.0.0\lib\net45\OxyPlot.dll</HintPath>
-    </Reference>
-    <Reference Include="OxyPlot.GtkSharp">
-      <HintPath>..\packages\OxyPlot.GtkSharp.1.0.0\lib\net45\OxyPlot.GtkSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="MathParser.org-mXparser.Net45">
+    <Reference Include="MathParser.org-mXparser.Net45, Version=4.1.1.0, Culture=neutral, PublicKeyToken=0fbab7add73ed6e2, processorArchitecture=MSIL">
       <HintPath>..\packages\MathParser.org-mXparser.4.1.1\lib\net45\MathParser.org-mXparser.Net45.dll</HintPath>
     </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="gtk-gui\gui.stetic">
-      <LogicalName>gui.stetic</LogicalName>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="gtk-gui\generated.cs" />
-    <Compile Include="MainWindow.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Derivative.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="GaussQuadrature.cs" />
     <Compile Include="Integral.cs" />
     <Compile Include="NewtonQuadrature.cs" />
-    <Compile Include="gtk-gui\MainWindow.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-    <None Include="Mathmageddon.csproj" />
-    <None Include="docs\stylesheet.css" />
-    <None Include="docs\script.js" />
-    <None Include="docs\overview-tree.html" />
-    <None Include="docs\overview-summary.html" />
-    <None Include="docs\overview-frame.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\Tutorial.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\RunTest.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\RegTestSyntax.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\RegTestExpressionAPI.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\RegTestExpression.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\PerformanceTests.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\package-use.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\package-tree.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\package-summary.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\package-frame.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\class-use\RunTest.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\class-use\RegTestSyntax.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\class-use\RegTestExpressionAPI.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\class-use\RegTestExpression.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\class-use\PerformanceTests.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\RecursiveArgument.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\PrimitiveElement.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\Unit.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\Token.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\RandomVariable.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\ParserSymbol.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\package-use.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\package-tree.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\package-summary.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\package-frame.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\Operator.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\KeyWord.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\FunctionVariadic.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\Function3Arg.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\Function2Arg.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\Function1Arg.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\ConstantValue.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\Unit.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\Token.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\RandomVariable.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\ParserSymbol.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\Operator.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\KeyWord.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\FunctionVariadic.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\Function3Arg.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\Function2Arg.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\Function1Arg.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\ConstantValue.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\CalculusOperator.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\BooleanOperator.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\BitwiseOperator.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\BinaryRelation.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\CalculusOperator.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\BooleanOperator.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\BitwiseOperator.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\parsertokens\BinaryRelation.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\package-use.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\package-tree.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\package-summary.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\package-frame.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mXparser.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\Units.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\Statistics.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\SpecialFunctions.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\ProbabilityDistributions.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\PrimesCache.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\PhysicalConstants.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\package-use.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\package-tree.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\package-summary.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\package-frame.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\NumberTheory.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\MathFunctions.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\MathConstants.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\Evaluate.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\Units.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\Statistics.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\SpecialFunctions.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\ProbabilityDistributions.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\PrimesCache.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\PhysicalConstants.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\NumberTheory.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\MathFunctions.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\MathConstants.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\Evaluate.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\Calculus.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\BooleanAlgebra.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\BinaryRelations.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\AstronomicalConstants.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\Calculus.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\BooleanAlgebra.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\BinaryRelations.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\mathcollection\AstronomicalConstants.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\FunctionExtension.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\Function.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\Expression.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\Constant.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\class-use\Tutorial.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\class-use\RecursiveArgument.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\class-use\PrimitiveElement.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\class-use\mXparser.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\class-use\FunctionExtension.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\class-use\Function.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\class-use\Expression.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\class-use\Constant.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\class-use\Argument.html" />
-    <None Include="docs\org\mariuszgromada\math\mxparser\Argument.html" />
-    <None Include="docs\index.html" />
-    <None Include="docs\index-files\index-9.html" />
-    <None Include="docs\index-files\index-8.html" />
-    <None Include="docs\index-files\index-7.html" />
-    <None Include="docs\index-files\index-6.html" />
-    <None Include="docs\index-files\index-5.html" />
-    <None Include="docs\index-files\index-4.html" />
-    <None Include="docs\index-files\index-3.html" />
-    <None Include="docs\index-files\index-26.html" />
-    <None Include="docs\index-files\index-25.html" />
-    <None Include="docs\index-files\index-24.html" />
-    <None Include="docs\index-files\index-23.html" />
-    <None Include="docs\index-files\index-22.html" />
-    <None Include="docs\index-files\index-21.html" />
-    <None Include="docs\index-files\index-20.html" />
-    <None Include="docs\index-files\index-2.html" />
-    <None Include="docs\index-files\index-19.html" />
-    <None Include="docs\index-files\index-18.html" />
-    <None Include="docs\index-files\index-17.html" />
-    <None Include="docs\index-files\index-16.html" />
-    <None Include="docs\index-files\index-15.html" />
-    <None Include="docs\index-files\index-14.html" />
-    <None Include="docs\index-files\index-13.html" />
-    <None Include="docs\index-files\index-12.html" />
-    <None Include="docs\index-files\index-11.html" />
-    <None Include="docs\index-files\index-10.html" />
-    <None Include="docs\index-files\index-1.html" />
-    <None Include="docs\help-doc.html" />
-    <None Include="docs\deprecated-list.html" />
-    <None Include="docs\constant-values.html" />
-    <None Include="docs\allclasses-noframe.html" />
-    <None Include="docs\allclasses-frame.html" />
+    <None Include="App.config" />
   </ItemGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Content Include="docs\allclasses-frame.html" />
+    <Content Include="docs\allclasses-noframe.html" />
+    <Content Include="docs\constant-values.html" />
+    <Content Include="docs\deprecated-list.html" />
+    <Content Include="docs\help-doc.html" />
+    <Content Include="docs\index-files\index-1.html" />
+    <Content Include="docs\index-files\index-10.html" />
+    <Content Include="docs\index-files\index-11.html" />
+    <Content Include="docs\index-files\index-12.html" />
+    <Content Include="docs\index-files\index-13.html" />
+    <Content Include="docs\index-files\index-14.html" />
+    <Content Include="docs\index-files\index-15.html" />
+    <Content Include="docs\index-files\index-16.html" />
+    <Content Include="docs\index-files\index-17.html" />
+    <Content Include="docs\index-files\index-18.html" />
+    <Content Include="docs\index-files\index-19.html" />
+    <Content Include="docs\index-files\index-2.html" />
+    <Content Include="docs\index-files\index-20.html" />
+    <Content Include="docs\index-files\index-21.html" />
+    <Content Include="docs\index-files\index-22.html" />
+    <Content Include="docs\index-files\index-23.html" />
+    <Content Include="docs\index-files\index-24.html" />
+    <Content Include="docs\index-files\index-25.html" />
+    <Content Include="docs\index-files\index-26.html" />
+    <Content Include="docs\index-files\index-3.html" />
+    <Content Include="docs\index-files\index-4.html" />
+    <Content Include="docs\index-files\index-5.html" />
+    <Content Include="docs\index-files\index-6.html" />
+    <Content Include="docs\index-files\index-7.html" />
+    <Content Include="docs\index-files\index-8.html" />
+    <Content Include="docs\index-files\index-9.html" />
+    <Content Include="docs\index.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\Argument.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\class-use\Argument.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\class-use\Constant.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\class-use\Expression.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\class-use\Function.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\class-use\FunctionExtension.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\class-use\mXparser.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\class-use\PrimitiveElement.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\class-use\RecursiveArgument.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\class-use\Tutorial.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\Constant.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\Expression.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\Function.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\FunctionExtension.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\AstronomicalConstants.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\BinaryRelations.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\BooleanAlgebra.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\Calculus.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\AstronomicalConstants.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\BinaryRelations.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\BooleanAlgebra.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\Calculus.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\Evaluate.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\MathConstants.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\MathFunctions.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\NumberTheory.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\PhysicalConstants.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\PrimesCache.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\ProbabilityDistributions.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\SpecialFunctions.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\Statistics.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\class-use\Units.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\Evaluate.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\MathConstants.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\MathFunctions.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\NumberTheory.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\package-frame.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\package-summary.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\package-tree.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\package-use.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\PhysicalConstants.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\PrimesCache.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\ProbabilityDistributions.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\SpecialFunctions.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\Statistics.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mathcollection\Units.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\mXparser.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\package-frame.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\package-summary.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\package-tree.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\package-use.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\BinaryRelation.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\BitwiseOperator.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\BooleanOperator.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\CalculusOperator.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\BinaryRelation.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\BitwiseOperator.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\BooleanOperator.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\CalculusOperator.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\ConstantValue.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\Function1Arg.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\Function2Arg.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\Function3Arg.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\FunctionVariadic.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\KeyWord.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\Operator.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\ParserSymbol.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\RandomVariable.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\Token.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\class-use\Unit.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\ConstantValue.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\Function1Arg.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\Function2Arg.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\Function3Arg.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\FunctionVariadic.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\KeyWord.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\Operator.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\package-frame.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\package-summary.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\package-tree.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\package-use.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\ParserSymbol.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\RandomVariable.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\Token.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\parsertokens\Unit.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\PrimitiveElement.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\RecursiveArgument.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\class-use\PerformanceTests.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\class-use\RegTestExpression.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\class-use\RegTestExpressionAPI.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\class-use\RegTestSyntax.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\class-use\RunTest.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\package-frame.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\package-summary.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\package-tree.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\package-use.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\PerformanceTests.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\RegTestExpression.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\RegTestExpressionAPI.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\RegTestSyntax.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\regressiontesting\RunTest.html" />
+    <Content Include="docs\org\mariuszgromada\math\mxparser\Tutorial.html" />
+    <Content Include="docs\overview-frame.html" />
+    <Content Include="docs\overview-summary.html" />
+    <Content Include="docs\overview-tree.html" />
+    <Content Include="docs\script.js" />
+    <Content Include="docs\stylesheet.css" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
