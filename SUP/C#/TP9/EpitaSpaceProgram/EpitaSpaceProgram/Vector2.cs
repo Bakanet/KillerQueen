@@ -77,7 +77,7 @@ namespace EpitaSpaceProgram
         // Don't worry about me for now, you'll meet me again later on during the practical.
         public static double Dot(Vector2 v1, Vector2 v2)
         {
-            throw new NotImplementedException("Method not implemented");
+            return v1.X * v2.X + v1.Y * v2.Y;
         }
 
         // Do not edit this method.
