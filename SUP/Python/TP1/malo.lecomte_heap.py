@@ -58,8 +58,15 @@ def heapPop(H):
     length = len(H)
     H[1], H[length - 1] = H[length - 1], H[1]
     elt = H.pop()[1]
-    posChild = length - 2
-    posParent = 1
+    i, length2 = 1, length // 2                 # length // 2 to avoid computing it more than one time in the while loop
+
+    while i < length2:
+        if i + 1 < length2 and H[2 * i + 1] < H[2 * i] and H[i] > H[2 * i + 1]:
+            H[i], H[2 * i + 1] = H[2 * i + 1], H[i]
+            i = 2 * i + 1
+        elif H[i] > H[2 * i]:
+            H[i], H[2 * i] = H[2 * i], H[i]
+            i = 2 * i
 
     return elt
 
@@ -73,7 +80,7 @@ def isHeap(T):
     """
     length = len(T) // 2
     i = 1
-    while i < length and T[i][0] <= T[2*i][0] and T[i][0] <= T[2*i + 1][0]:
+    while i < length and T[i] <= T[2 * i] and (i + 1 >= length or T[i] <= T[2 * i + 1]):
         i += 1
     return i >= length
     
@@ -90,9 +97,7 @@ def heapify(H):
         while c < length // 2 - 1:                                                  # we need to iterate only on half of the list (2 * i, 2 * i + 1)
             for i in range(1, length):
                 if H[i] != None:
-                    minimum = i
-                    posLeftChild = 2 * i
-                    posRightChild = 2 * i + 1
+                    minimum, posLeftChild, posRightChild = i, 2 * i, 2 * i + 1
                     if posLeftChild < length and H[posLeftChild][0] < H[minimum][0]:      # search minimum between root and left child
                         minimum = posLeftChild
                     if posRightChild < length and H[posRightChild][0] < H[minimum][0]:    # search minimum between root and right child
@@ -102,3 +107,11 @@ def heapify(H):
             c += 1
     
     return H
+
+T = [None, (20, 'A'), (5, 'B'), (10, 'C'), (12, 'D'), (15, 'E'), (8, 'F'), (2, 'G'), (6, 'H'), (2, 'I'), (9, 'J')]
+print(isHeap(T))
+print(heapify(T))
+print(isHeap(T))
+print(isHeap([None]))
+print(heapPop(T))
+print(isHeap(T))
