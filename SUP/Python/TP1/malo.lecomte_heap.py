@@ -107,11 +107,3 @@ def heapify(H):
             c += 1
     
     return H
-
-T = [None, (20, 'A'), (5, 'B'), (10, 'C'), (12, 'D'), (15, 'E'), (8, 'F'), (2, 'G'), (6, 'H'), (2, 'I'), (9, 'J')]
-print(isHeap(T))
-print(heapify(T))
-print(isHeap(T))
-print(isHeap([None]))
-print(heapPop(T))
-print(isHeap(T))
