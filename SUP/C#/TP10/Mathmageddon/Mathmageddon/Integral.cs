@@ -51,14 +51,17 @@ namespace integral
 
         public static double IntegralSimpsonRule(double a, double b, Func<double, double> f)
         {
-            //FIXME
-            throw new NotImplementedException();
+            return ((b - a) / 6) * (f(a) + 4 * f((a + b) / 2) + f(b));
         }
 
         public static double CompositeIntegralSimpsonRule(double a, double b, double n, Func<double, double> f)
         {
-            //FIXME
-            throw new NotImplementedException();
+            double integral = 0;
+            for (double i = a; i < b; i += n)
+            {
+                integral += IntegralSimpsonRule(a, i + n, f);
+            }
+            return integral;
         }
 
         public static double CISRErrorMargin(double a, double b, double n, Func<double, double> f, Func<double, double> F)
