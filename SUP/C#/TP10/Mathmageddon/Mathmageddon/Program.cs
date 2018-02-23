@@ -14,6 +14,10 @@ namespace TPC10
         [STAThread]
         static void Main()
         {
+            double g(double x)
+            {
+                return x * x;
+            }
             // Viewer (Windows compatible)
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

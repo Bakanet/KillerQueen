@@ -10,14 +10,19 @@ namespace derivative
     {
         public static double RateOfChange(double a, double h, Func<double, double> f)
         {
-            //FIXME
-            throw new NotImplementedException();
+            if (h == 0)
+                throw new DivideByZeroException();
+            return Math.Round((f(a + h) - f(a)) / h, 6);
         }
 
         public static List<double> GeneratePointsForPlot(double a, double b, double t, Func<double, double> f)
         {
-            //FIXME
-            throw new NotImplementedException();
+            List<double> list = new List<double>();
+            for (double i = a; i < b; i += t)
+            {
+                list.Add(RateOfChange(i, b - i, f));
+            }
+            return list;
         }
     }
 }

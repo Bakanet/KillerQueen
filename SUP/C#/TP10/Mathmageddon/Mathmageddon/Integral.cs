@@ -10,38 +10,43 @@ namespace integral
     {
         public static double IntegralRectangleRule(double a, double b, Func<double, double> f)
         {
-            //FIXME
-            throw new NotImplementedException();
+            return f(a) * (b - a);
         }
 
         public static double CompositeIntegralRectangleRule(double a, double b, double n, Func<double, double> f)
         {
-            //FIXME
-            throw new NotImplementedException();
+            double integral = 0;
+            for (double i = a; i < b; i += n)
+            {
+                integral += IntegralRectangleRule(i, i + n, f);
+            }
+
+            return integral;
         }
 
         public static double CIRRErrorMargin(double a, double b, double n, Func<double, double> f, Func<double, double> F)
         {
-            //FIXME
-            throw new NotImplementedException();
+            return F(b) - F(a) - CompositeIntegralRectangleRule(a, b, n, f);
         }
 
         public static double IntegralTrapezoidalRule(double a, double b, Func<double, double> f)
         {
-            //FIXME
-            throw new NotImplementedException();
+            return (b - a) * (f(a) + f(b)) / 2;
         }
 
         public static double CompositeIntegralTrapezoidalRule(double a, double b, double n, Func<double, double> f)
         {
-            //FIXME
-            throw new NotImplementedException();
+            double integral = 0;
+            for (double i = a; i < b; i += n)
+            {
+                integral += IntegralTrapezoidalRule(i, i + n, f);
+            }
+            return integral;
         }
 
         public static double CITRErrorMargin(double a, double b, double n, Func<double, double> f, Func<double, double> F)
         {
-            //FIXME
-            throw new NotImplementedException();
+            return F(b) - F(a) - CompositeIntegralTrapezoidalRule(a, b, n, f);
         }
 
         public static double IntegralSimpsonRule(double a, double b, Func<double, double> f)

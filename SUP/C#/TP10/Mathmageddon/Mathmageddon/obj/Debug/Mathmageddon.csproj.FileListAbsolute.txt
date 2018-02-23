@@ -1,0 +1,11 @@
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP10\Mathmageddon\Mathmageddon\bin\Debug\TPC10.exe.config
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP10\Mathmageddon\Mathmageddon\bin\Debug\TPC10.exe
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP10\Mathmageddon\Mathmageddon\bin\Debug\TPC10.pdb
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP10\Mathmageddon\Mathmageddon\bin\Debug\MathParser.org-mXparser.Net45.dll
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP10\Mathmageddon\Mathmageddon\obj\Debug\Mathmageddon.csprojResolveAssemblyReference.cache
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP10\Mathmageddon\Mathmageddon\obj\Debug\TPC10.Form1.resources
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP10\Mathmageddon\Mathmageddon\obj\Debug\TPC10.Properties.Resources.resources
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP10\Mathmageddon\Mathmageddon\obj\Debug\Mathmageddon.csproj.GenerateResource.Cache
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP10\Mathmageddon\Mathmageddon\obj\Debug\Mathmageddon.csproj.CoreCompileInputs.cache
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP10\Mathmageddon\Mathmageddon\obj\Debug\TPC10.exe
+C:\Users\malol\Desktop\ProjetsEpita\KillerQueen\SUP\C#\TP10\Mathmageddon\Mathmageddon\obj\Debug\TPC10.pdb
