@@ -66,8 +66,7 @@ namespace integral
 
         public static double CISRErrorMargin(double a, double b, double n, Func<double, double> f, Func<double, double> F)
         {
-            //FIXME
-            throw new NotImplementedException();
+            return F(b) - F(a) - CompositeIntegralSimpsonRule(a, b, n, f);
         }
     }
 }
