@@ -14,6 +14,7 @@ namespace newton
         // Initialize it, you will need to call this function the first time you use the dictionary
         public static void InitDictionary()
         {
+            dictionary = new Dictionary<int, List<double>>{};
             dictionary.Add(0, new List<double> { 1, 1 });
             dictionary.Add(1, new List<double> { 1.0 / 2.0, 1, 1 });
             dictionary.Add(2, new List<double> { 1.0 / 6.0, 1, 4, 1 });
@@ -52,8 +53,6 @@ namespace newton
             double integral = 0;
             for (double i = a; i < b; i += n)
             {
-                if (i + n > b)
-                    n = b - i;
                 integral += IntegralNewtonQuadrature(i, i + n, d, f);
             }
             return integral;
@@ -61,7 +60,7 @@ namespace newton
 
         public static double CINQErrorMargin(double a, double b, double n, int d, Func<double, double> f, Func<double, double> F)
         {
-            return F(b) - F(a) - CompositeIntegralNewtonQuadrature(a, b, n, d, f);
+            return F(b) - F(a) - CompositeIntegralNewtonQuadrature(a, b, n, d, f);  
         }
     }
 }

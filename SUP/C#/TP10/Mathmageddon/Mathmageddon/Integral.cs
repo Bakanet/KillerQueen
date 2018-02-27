@@ -59,7 +59,7 @@ namespace integral
             double integral = 0;
             for (double i = a; i < b; i += n)
             {
-                integral += IntegralSimpsonRule(a, i + n, f);
+                integral += IntegralSimpsonRule(i, i + n, f);
             }
             return integral;
         }
