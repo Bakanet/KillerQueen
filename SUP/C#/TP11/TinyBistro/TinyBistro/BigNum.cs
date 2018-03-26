@@ -210,15 +210,15 @@ namespace TinyBistro
         }
 
         public static BigNum operator *(BigNum a, BigNum b)
-        {
-            int aLength = a.GetNumDigits(), bLength = b.GetNumDigits();
-            
+        {   
             if (a < b)
             {
                 BigNum c = new BigNum(b.GetStringNumber());
                 b = a;
                 a = c;
             }
+
+            int aLength = a.GetNumDigits(), bLength = b.GetNumDigits();
 
             int r = 0, n = 0, count = 1;
             BigNum result = new BigNum("0");
@@ -240,6 +240,7 @@ namespace TinyBistro
                     product += '0';
                 }
 
+                ++count;
                 result += new BigNum(product);
             }
 
