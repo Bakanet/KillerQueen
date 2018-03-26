@@ -50,14 +50,14 @@ namespace TinyBistro
                         BigNum res3 = new BigNum(num1) * new BigNum(num2);
                         res3.Print();
                         break;
-                    case 4:
+                    /*case 4:
                         BigNum res4 = new BigNum(num1) / new BigNum(num2);
                         res4.Print();
                         break;
                     case 5:
                         BigNum res5 = new BigNum(num1) % new BigNum(num2);
                         res5.Print();
-                        break;
+                        break;*/
                     default:
                         throw new ArgumentException("Maybe you break the code of Main but this is not supposed to happen");
             }
