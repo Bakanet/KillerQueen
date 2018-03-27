@@ -64,6 +64,19 @@ namespace TinyBistro
             Console.WriteLine();
             Console.WriteLine("Press enter key to quit...");
             Console.ReadLine();
+
+            /*BigNum a = new BigNum("25");
+            BigNum b = new BigNum("48");
+            a.Print();
+            b.Print();
+
+            BigNum c = new BigNum(b.GetStringNumber());
+            b = a;
+            a = c;
+
+            a.Print();
+            b.Print();
+            Console.ReadLine();*/
         }
     }
 }

@@ -62,7 +62,7 @@ namespace TinyBistro
                 digits[position] = digit;
             }
 
-            for (int i = length - 1; digits[i] == 0; --i)
+            for (int i = length - 1; i > -1 && digits[i] == 0; --i)
             {
                 digits.RemoveAt(i);
             }
@@ -72,7 +72,7 @@ namespace TinyBistro
         {
             string result = "";
 
-            for (int i = 0; i < GetNumDigits(); ++i)
+            for (int i = digits.Count - 1; i >= 0 ; --i)
             {
                 result += GetDigit(i);
             }
@@ -136,6 +136,8 @@ namespace TinyBistro
 
         public static BigNum operator +(BigNum a, BigNum b)
         {
+            BigNum c = new BigNum("");
+
             int aLength = a.GetNumDigits(), bLength = b.GetNumDigits();
             int count = Math.Max(a.GetNumDigits(), b.GetNumDigits());
             int r = 0;
@@ -161,23 +163,24 @@ namespace TinyBistro
                 if (n > 9)
                 {
                     r = 1;
-                    a.SetDigit(n - 10, i);
+                    c.AddDigit(n - 10);
                 }
 
                 else
                 {
                     r = 0;
-                    a.SetDigit(n, i);
+                    c.AddDigit(n);
                 }
             }
 
-            return a;
+            if (r == 1)
+                c.AddDigit(1);
+
+            return c;
         }
 
         public static BigNum operator -(BigNum a, BigNum b)
         {
-            BigNum c = new BigNum("");
-
             int n = 0, r = 0;
             int bLength = b.GetNumDigits();
             for (int i = 0; i < a.GetNumDigits(); ++i)
@@ -211,17 +214,17 @@ namespace TinyBistro
 
         public static BigNum operator *(BigNum a, BigNum b)
         {   
-            if (a < b)
+            /*if (a.GetNumDigits() < b.GetNumDigits())
             {
-                BigNum c = new BigNum(b.GetStringNumber());
-                b = a;
-                a = c;
-            }
+                BigNum c = a;
+                a = b;
+                b = c;
+            }*/
 
             int aLength = a.GetNumDigits(), bLength = b.GetNumDigits();
 
-            int r = 0, n = 0, count = 1;
-            BigNum result = new BigNum("0");
+            int r = 0, n = 0, count = 0;
+            BigNum result = new BigNum("");
 
             for (int i = 0; i < bLength; ++i)
             {
@@ -232,7 +235,7 @@ namespace TinyBistro
                     r = n / 10;
                     n %= 10;
 
-                    product += ('0' + n);
+                    product = n + product;
                 }
 
                 for (int k = 0; k < count; ++k)
@@ -243,6 +246,9 @@ namespace TinyBistro
                 ++count;
                 result += new BigNum(product);
             }
+
+            if (r > 0)
+                result.AddDigit(r);
 
             return result;
         }
