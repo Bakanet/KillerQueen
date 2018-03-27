@@ -214,13 +214,6 @@ namespace TinyBistro
 
         public static BigNum operator *(BigNum a, BigNum b)
         {   
-            /*if (a.GetNumDigits() < b.GetNumDigits())
-            {
-                BigNum c = a;
-                a = b;
-                b = c;
-            }*/
-
             int aLength = a.GetNumDigits(), bLength = b.GetNumDigits();
 
             int r = 0, n = 0, count = 0;
