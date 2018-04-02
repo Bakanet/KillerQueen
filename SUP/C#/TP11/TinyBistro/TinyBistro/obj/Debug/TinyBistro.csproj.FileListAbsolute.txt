@@ -1,0 +1,12 @@
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP11\malo.lecomte\TinyBistro\TinyBistro\bin\Debug\TinyBistro.exe
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP11\malo.lecomte\TinyBistro\TinyBistro\bin\Debug\TinyBistro.pdb
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP11\malo.lecomte\TinyBistro\TinyBistro\obj\Debug\TinyBistro.csprojResolveAssemblyReference.cache
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP11\malo.lecomte\TinyBistro\TinyBistro\obj\Debug\TinyBistro.csproj.CoreCompileInputs.cache
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP11\malo.lecomte\TinyBistro\TinyBistro\obj\Debug\TinyBistro.exe
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP11\malo.lecomte\TinyBistro\TinyBistro\obj\Debug\TinyBistro.pdb
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP11\TinyBistro\TinyBistro\bin\Debug\TinyBistro.exe
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP11\TinyBistro\TinyBistro\bin\Debug\TinyBistro.pdb
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP11\TinyBistro\TinyBistro\obj\Debug\TinyBistro.csprojResolveAssemblyReference.cache
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP11\TinyBistro\TinyBistro\obj\Debug\TinyBistro.csproj.CoreCompileInputs.cache
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP11\TinyBistro\TinyBistro\obj\Debug\TinyBistro.exe
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP11\TinyBistro\TinyBistro\obj\Debug\TinyBistro.pdb

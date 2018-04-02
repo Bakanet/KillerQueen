@@ -68,18 +68,6 @@ namespace TinyBistro
             }
         }
 
-        public string GetStringNumber()
-        {
-            string result = "";
-
-            for (int i = digits.Count - 1; i >= 0 ; --i)
-            {
-                result += GetDigit(i);
-            }
-
-            return result;
-        }
-
         public void Print()
         {
             if (digits.Count == 0)
@@ -97,13 +85,25 @@ namespace TinyBistro
             }
         }
 
+        public string GetStringNumber()
+        {
+            string result = "";
+
+            for (int i = digits.Count - 1; i >= 0; --i)
+            {
+                result += GetDigit(i);
+            }
+
+            return result;
+        }
+
         public static bool operator <(BigNum a, BigNum b)
         {
             int aNum = a.GetNumDigits(), bNum = b.GetNumDigits();
             if (aNum != bNum)
                 return aNum < bNum;
 
-            int i = aNum;
+            int i = aNum - 1;
             for (; i >= 0 && a.GetDigit(i) < b.GetDigit(i); --i)
             {
             }
@@ -246,21 +246,35 @@ namespace TinyBistro
             return result;
         }
 
-        /*public static BigNum operator /(BigNum a, BigNum b)
+        /* public int Divide(BigNum n, int interval)
+        {
+            string s = n.GetStringNumber();
+        } */
+
+        public static BigNum operator /(BigNum a, BigNum b)
         {
             if (a < b)
                 return new BigNum("0");
 
-            int count = b.GetNumDigits();
-            int parsed = 0;
+            if (b == new BigNum("1"))
+                return a;
 
-            for (int i = 0; i < count; ++i)
+            BigNum c = new BigNum("");
+            BigNum zero = new BigNum("0");
+            while (a > b)
             {
-
+                a -= b;
+                c += new BigNum("1");
             }
 
-        }*/
+            return c;
+        }
 
-
+        public static BigNum operator %(BigNum a, BigNum b)
+        {
+            BigNum c = new BigNum(a.GetStringNumber());
+            BigNum result = c - ((a / b) * b);
+            return result;
+        }
     }
 }
