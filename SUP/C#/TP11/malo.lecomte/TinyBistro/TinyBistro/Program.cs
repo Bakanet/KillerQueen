@@ -7,6 +7,9 @@ namespace TinyBistro
     {
         public static void Main(string[] args)
         {
+            BigNumExtended c = BigNumExtended.OpNot(new BigNumExtended("5"));
+            c.Print();
+
             Console.WriteLine("What type of operation do you want to use ?");
             Console.WriteLine("  1. +");
             Console.WriteLine("  2. -");

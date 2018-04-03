@@ -10,7 +10,7 @@ namespace TinyBistro
 	public class BigNumExtended : BigNum
 	{
 		private List<bool> binary;
-		public bool isPositive;
+		private bool isPositive;
 
 		public BigNumExtended(string number)
 			: base(number)
@@ -28,8 +28,6 @@ namespace TinyBistro
             List<int> digits = new List<int>();
             for (int i = number.Count() - 1; i >= 0; --i)
             {
-                if (number[i] == '-')
-                    continue;
                 digits.Add(number[i] - '0');
             }
 
@@ -189,11 +187,7 @@ namespace TinyBistro
 		public static BigNumExtended OpAnd(BigNumExtended a, BigNumExtended b)
 		{
             if (a < b)
-            {
-                BigNumExtended c = a;
-                a = b;
-                b = c;
-            }
+                return OpAnd(b, a);
 
             List<bool> l = new List<bool>();
 
@@ -283,37 +277,8 @@ namespace TinyBistro
 		// OpXor(BigNumExtended("123456789"), BigNumExtended("987654321")) = 1032168868
 		public static BigNumExtended OpXor(BigNumExtended a, BigNumExtended b)
 		{
-            if (a < b)
-            {
-                BigNumExtended c = a;
-                a = b;
-                b = c;
-            }
-
-            List<bool> l = new List<bool>();
-
-            for (int i = 0; i < a.binary.Count(); ++i)
-            {
-                bool x = false, y = false;
-
-                if (i >= b.binary.Count())
-                    x = a.binary[i];
-
-                else
-                {
-                    x = a.binary[i];
-                    y = b.binary[i];
-                }
-
-                l.Add((x && !y) || (!x && y));
-            }
-
-            bool sign = false;
-            if ((a.isPositive && b.isPositive) || (!a.isPositive && !b.isPositive))
-                sign = true;
-
-            return new BigNumExtended(l, sign);
-        }
+			throw new NotImplementedException();
+		}
 
 		// a is a BigNumExtended
 		// i is the number of bits to shift
@@ -350,8 +315,8 @@ namespace TinyBistro
 		// BigNumExtended("100") + BigNumExtended("-1") = 99
 		public static BigNumExtended operator +(BigNumExtended a, BigNumExtended b)
 		{
-            throw new NotImplementedException();
-        }
+			throw new NotImplementedException();
+		}
 		
 		// a is a BigNumExtended
 		// b is a BigNumExtended
@@ -370,15 +335,7 @@ namespace TinyBistro
 		// BigNumExtended("100") * BigNumExtended("-1") = -100
 		public static BigNumExtended operator *(BigNumExtended a, BigNumExtended b)
 		{
-            BigNum a2 = a, b2 = b;
-            string sign = "";
-
-            if ((a.isPositive && !b.isPositive) || (!a.isPositive && b.isPositive))
-                sign = "-";
-
-            BigNum c = a2 * b2;
-
-            return new BigNumExtended(sign + c.GetStringNumber());
+			throw new NotImplementedException();
 		}
 		
 		// a is a BigNumExtended
@@ -388,15 +345,7 @@ namespace TinyBistro
 		// BigNumExtended("100") / BigNumExtended("-1") = -100
 		public static BigNumExtended operator /(BigNumExtended a, BigNumExtended b)
 		{
-            BigNum a2 = a, b2 = b;
-            string sign = "";
-
-            if ((a.isPositive && !b.isPositive) || (!a.isPositive && b.isPositive))
-                sign = "-";
-
-            BigNum c = a2 / b2;
-
-            return new BigNumExtended(sign + c.GetStringNumber());
-        }
+			throw new NotImplementedException();
+		}
 	}
 }
