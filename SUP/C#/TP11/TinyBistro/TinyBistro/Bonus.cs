@@ -32,6 +32,7 @@ namespace TinyBistro
             }
 
             binary = DecToBool(digits);
+            Digits = digits;
 		}
 		
 		// 0 represents false
@@ -41,8 +42,10 @@ namespace TinyBistro
 		// BigNumExtended(new List<bool>(list), false) => digits = (9, 8, 7, 6, 5, 4, 3, 2, 1), isPositive = false
 		public BigNumExtended(List<bool> l, bool b)
 			: base(null)
-		{
-			throw new NotImplementedException();
+        {
+            isPositive = b;
+            Digits = BoolToDec(l);
+            binary = l;
 		}
 
 		// l is the binary list
@@ -51,7 +54,25 @@ namespace TinyBistro
 		// BoolToDec(list) = {9, 8, 7, 6, 5, 4, 3, 2, 1}
 		public static List<int> BoolToDec(List<bool> l)
 		{
-			throw new NotImplementedException();
+            BigNum result = new BigNum("");
+
+            for (int i = 0; i < l.Count(); ++i)
+            {
+                if (l[i])
+                {
+                    string number = Math.Pow(2, i).ToString();
+                    result += new BigNum(number);
+                }
+            }
+
+            string str = result.GetStringNumber();
+            List<int> list = new List<int>();
+            for (int j = str.Count() - 1; j >= 0; --j)
+            {
+                list.Add(str[j] - '0');
+            }
+
+            return list;
 		}
 		
 		// l is the binary list
@@ -94,13 +115,12 @@ namespace TinyBistro
                         continue;
                     }
 
-                    if ((digits2[j] - '0') % 2 == 1)
-                        retain = 1;
-
                     if (retain > 0)
                         digit += 5;
-                    
-                    if ((digits2[j] - '0') % 2 == 0)
+
+                    if ((digits2[j] - '0') % 2 == 1)
+                        retain = 1;
+                    else
                         retain = 0;
 
                     digits += digit;
@@ -108,7 +128,7 @@ namespace TinyBistro
             }
 
             List<bool> ret = new List<bool>();
-            for (int k = result.Count() - 1; k >= 0; --k)
+            for (int k = 0; k < result.Count(); ++k)
             {
                 if (result[k] == '0')
                     ret.Add(false);
@@ -125,7 +145,7 @@ namespace TinyBistro
 		// Power(BigNumExtended("123456789"), BigNumExtended("2")) = 975461057789971041
 		public static BigNumExtended Power(BigNumExtended a, BigNumExtended b)
 		{
-			throw new NotImplementedException();
+            throw new NotImplementedException();
 		}
 
 		// a is a BigNumExtended
@@ -134,6 +154,8 @@ namespace TinyBistro
 		// Root(BigNumExtended("-123456789")) = ArgumentException
 		public static BigNumExtended Root(BigNumExtended a)
 		{
+            if (!a.isPositive)
+                throw new ArgumentException("the number can't be negative");
 			throw new NotImplementedException();
 		}
 
@@ -145,7 +167,17 @@ namespace TinyBistro
 		// Print(BigNumExtended("-123456789"), new List<char>(list)) = -bcdefghjkl
 		public static void Print(BigNumExtended a, List<char> l)
 		{
-			throw new NotImplementedException();
+            string result = "";
+            if (!a.isPositive)
+                result = "-";
+            for (int i = a.GetNumDigits() - 1; i >= 0; --i)
+            {
+                if (a.GetDigit(i) - '0' > l.Count())
+                    throw new OverflowException("the digit is too big for the base");
+                result += l[a.GetDigit(i) - '0'];
+            }
+
+            Console.WriteLine(result);
 		}
 
 		// a is a BigNumExtended
@@ -189,7 +221,14 @@ namespace TinyBistro
 		// Returns a left shifted by i
 		public static BigNumExtended operator <<(BigNumExtended a, int i)
 		{
-			throw new NotImplementedException();
+            List<bool> binaries = new List<bool>();
+			for (int j = 0; j < i; ++j)
+                binaries.Add(false);
+
+            for (int k = 0; k < a.binary.Count(); ++k)
+                binaries.Add(a.binary[k]);
+
+            return new BigNumExtended(binaries, a.isPositive);
 		}
 
 		// a is a BigNumExtended
@@ -197,7 +236,12 @@ namespace TinyBistro
 		// Returns a right shifted by i
 		public static BigNumExtended operator >>(BigNumExtended a, int i)
 		{
-			throw new NotImplementedException();
+            for (int j = 0; j < i; ++j)
+            {
+                a.binary.RemoveAt(0);
+            }
+
+            return new BigNumExtended(a.binary, a.isPositive);
 		}
 
 		// a is a BigNumExtended

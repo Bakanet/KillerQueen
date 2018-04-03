@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace TinyBistro
 {
@@ -6,6 +7,10 @@ namespace TinyBistro
     {
         public static void Main(string[] args)
         {
+            List<char> b = new List<char>{ 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'j', 'k', 'l'};
+            BigNumExtended a = new BigNumExtended("123456789");
+            BigNumExtended.Print(a, b);
+
             Console.WriteLine("What type of operation do you want to use ?");
             Console.WriteLine("  1. +");
             Console.WriteLine("  2. -");
@@ -64,8 +69,6 @@ namespace TinyBistro
             Console.WriteLine();
             Console.WriteLine("Press enter key to quit...");
             Console.ReadLine();
-
-            BigNumExtended test = new BigNumExtended("254");
         }
     }
 }

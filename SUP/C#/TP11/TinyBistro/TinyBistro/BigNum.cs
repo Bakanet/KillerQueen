@@ -11,8 +11,16 @@ namespace TinyBistro
     {
         private List<int> digits;
 
+        public List<int> Digits
+        {
+            get { return digits; }
+            set { digits = value; }
+        }
+
         public BigNum(string number)
         {
+            if (number == null)         // pour gérer le cas si le number est nul, sinon ça plante au niveau de number.Length
+                goto pass;
             digits = new List<int>();
             for (int i = number.Length - 1; i >= 0; --i)
             {
@@ -20,6 +28,8 @@ namespace TinyBistro
                     throw new ArgumentException("You have to write a number");
                 digits.Add(number[i] - '0');
             }
+
+            pass:;
         }
 
         public int GetNumDigits()
