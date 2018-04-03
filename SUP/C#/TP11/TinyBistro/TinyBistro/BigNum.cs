@@ -114,11 +114,14 @@ namespace TinyBistro
                 return aNum < bNum;
 
             int i = aNum - 1;
-            for (; i >= 0 && a.GetDigit(i) < b.GetDigit(i); --i)
+            bool stop = false;
+            for (; i >= 0 && !stop; --i)
             {
+                if (a.GetDigit(i) < b.GetDigit(i))
+                    stop = true;
             }
 
-            return i < 0;
+            return stop;
         }
 
         public static bool operator >(BigNum a, BigNum b)

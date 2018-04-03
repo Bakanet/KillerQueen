@@ -7,9 +7,8 @@ namespace TinyBistro
     {
         public static void Main(string[] args)
         {
-            List<char> b = new List<char>{ 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'j', 'k', 'l'};
-            BigNumExtended a = new BigNumExtended("123456789");
-            BigNumExtended.Print(a, b);
+            BigNumExtended c = BigNumExtended.OpOr(new BigNumExtended("123456789"), new BigNumExtended("987654321"));
+            c.Print();
 
             Console.WriteLine("What type of operation do you want to use ?");
             Console.WriteLine("  1. +");

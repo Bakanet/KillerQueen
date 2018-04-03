@@ -28,7 +28,7 @@ namespace TinyBistro
             List<int> digits = new List<int>();
             for (int i = number.Count() - 1; i >= 0; --i)
             {
-                digits.Add(number[i]);
+                digits.Add(number[i] - '0');
             }
 
             binary = DecToBool(digits);
@@ -84,7 +84,7 @@ namespace TinyBistro
             string digits = "", result = "";
             for (int i = l.Count() - 1; i >= 0; --i)
             {
-                digits += (l[i] - '0');
+                digits += (l[i]);
             }
 
             
@@ -118,7 +118,7 @@ namespace TinyBistro
                     if (retain > 0)
                         digit += 5;
 
-                    if ((digits2[j] - '0') % 2 == 1)
+                    if ((digits2[j]) % 2 == 1)
                         retain = 1;
                     else
                         retain = 0;
@@ -186,17 +186,63 @@ namespace TinyBistro
 		// OpAnd(BigNumExtended("123456789"), BigNumExtended("987654321")) = 39471121
 		public static BigNumExtended OpAnd(BigNumExtended a, BigNumExtended b)
 		{
-			throw new NotImplementedException();
+            if (a < b)
+                return OpAnd(b, a);
+
+            List<bool> l = new List<bool>();
+
+            for (int i = 0; i < a.binary.Count(); ++i)
+            {
+                bool x = false, y = false;
+
+                if (i >= b.binary.Count())
+                    x = a.binary[i];
+
+                else
+                {
+                    x = a.binary[i];
+                    y = b.binary[i];
+                }
+
+                l.Add(x && y);
+            }
+
+            return new BigNumExtended(l, true);
 		}
 
-		// a est un BigNumExtended
-		// b est un BigNumExtended
-		// Returns the binary or between a and b
-		// OpOr(BigNumExtended("123456789"), BigNumExtended("987654321")) = 1071639989
-		public static BigNumExtended OpOr(BigNumExtended a, BigNumExtended b)
-		{
-			throw new NotImplementedException();
-		}
+        // a est un BigNumExtended
+        // b est un BigNumExtended
+        // Returns the binary or between a and b
+        // OpOr(BigNumExtended("123456789"), BigNumExtended("987654321")) = 1071639989
+        public static BigNumExtended OpOr(BigNumExtended a, BigNumExtended b)
+        {
+            if (a < b)
+            {
+                BigNumExtended c = a;
+                a = b;
+                b = c;
+            }
+
+            List<bool> l = new List<bool>();
+
+            for (int i = 0; i < a.binary.Count(); ++i)
+            {
+                bool x = false, y = false;
+
+                if (i >= b.binary.Count())
+                    x = a.binary[i];
+
+                else
+                {
+                    x = a.binary[i];
+                    y = b.binary[i];
+                }
+
+                l.Add(x || y);
+            }
+
+            return new BigNumExtended(l, true);
+        }
 
 		// a is a BigNumExtended
 		// b is a BigNumExtended
