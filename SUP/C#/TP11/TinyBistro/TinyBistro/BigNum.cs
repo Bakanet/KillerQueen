@@ -261,11 +261,6 @@ namespace TinyBistro
             return result;
         }
 
-        /* public int Divide(BigNum n, int interval)
-        {
-            string s = n.GetStringNumber();
-        } */
-
         public static BigNum operator /(BigNum a, BigNum b)
         {
             if (a < b)
