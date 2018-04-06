@@ -29,6 +29,8 @@ namespace EvalExpr
 
         public Token(Type toktype, string val)
         {
+            _val = val;
+            _toktype = toktype;
         }
 
         public override string ToString()
