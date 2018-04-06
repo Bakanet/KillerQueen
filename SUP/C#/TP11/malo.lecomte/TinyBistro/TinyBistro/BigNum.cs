@@ -19,17 +19,19 @@ namespace TinyBistro
 
         public BigNum(string number)
         {
-            if (number == null)         // pour gérer le cas si le number est nul, sinon ça plante au niveau de number.Length
-                goto pass;
             digits = new List<int>();
             for (int i = number.Length - 1; i >= 0; --i)
             {
+                if (number[i] == '-')
+                {
+                    digits.Add('-');
+                    continue;
+                }
+
                 if (number[i] < '0' || number[i] > '9')
                     throw new ArgumentException("You have to write a number");
                 digits.Add(number[i] - '0');
             }
-
-            pass:;
         }
 
         public int GetNumDigits()
@@ -258,11 +260,6 @@ namespace TinyBistro
 
             return result;
         }
-
-        /* public int Divide(BigNum n, int interval)
-        {
-            string s = n.GetStringNumber();
-        } */
 
         public static BigNum operator /(BigNum a, BigNum b)
         {
