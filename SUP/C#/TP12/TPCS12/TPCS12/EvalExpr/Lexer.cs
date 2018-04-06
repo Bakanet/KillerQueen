@@ -14,22 +14,22 @@ namespace EvalExpr
             if (expr[pos] > '0' && expr[pos] < '9')
             {
                 ++pos;
-                return new Token(Token.Type.INT, expr[pos].ToString());
+                return new Token(Token.Type.INT, expr[pos - 1].ToString());
             }
             switch (expr[pos])
             {
                 case '+':
                     ++pos;
-                    return new Token(Token.Type.PLUS, null);
+                    return new Token(Token.Type.PLUS, "+");
                 case '-':
                     ++pos;
-                    return new Token(Token.Type.MINUS, null);
+                    return new Token(Token.Type.MINUS, "-");
                 case '*':
                     ++pos;
-                    return new Token(Token.Type.MULT, null);
+                    return new Token(Token.Type.MULT, "*");
                 case '/':
                     ++pos;
-                    return new Token(Token.Type.DIV, null);
+                    return new Token(Token.Type.DIV, "/");
                 default:
                     throw new ArgumentException("char isn't an int or an operator");
             }

@@ -1,0 +1,6 @@
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP12\TPCS12\TPCS12\bin\Debug\TPCS12.exe
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP12\TPCS12\TPCS12\bin\Debug\TPCS12.pdb
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP12\TPCS12\TPCS12\obj\Debug\TPCS12.csprojResolveAssemblyReference.cache
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP12\TPCS12\TPCS12\obj\Debug\TPCS12.csproj.CoreCompileInputs.cache
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP12\TPCS12\TPCS12\obj\Debug\TPCS12.exe
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP12\TPCS12\TPCS12\obj\Debug\TPCS12.pdb
