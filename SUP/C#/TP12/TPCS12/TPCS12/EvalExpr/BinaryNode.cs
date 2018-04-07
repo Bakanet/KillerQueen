@@ -26,20 +26,26 @@ namespace EvalExpr
 
         public BinaryNode(Operator op)
         {
-            //FIXME
-            throw new NotImplementedException();
+            _op = op;
+            _left = null;
+            _right = null;
         }
 
         public void Build(Stack<INode> output)
         {
-            //FIXME
-            throw new NotImplementedException();
+            _right = output.Pop();
+            _right.Build(output);
+            _left = output.Pop();
+            _left.Build(output);
         }
  
         public void Print()
         {
-            //FIXME
-            throw new NotImplementedException();
+            Console.Write('(');
+            _left.Print();
+            Console.Write(_op);
+            _right.Print();
+            Console.Write(')');
         }
 
         public void PrintRevertPolish()

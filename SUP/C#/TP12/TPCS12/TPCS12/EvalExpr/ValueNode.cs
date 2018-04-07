@@ -14,14 +14,11 @@ namespace EvalExpr
 
         public void Build(Stack<INode> output)
         {
-            //FIXME
-            throw new NotImplementedException();
         }
         
         public void Print()
         {
-            //FIXME
-            throw new NotImplementedException();
+            Console.Write(_val);
         }
 
         public void PrintRevertPolish()
