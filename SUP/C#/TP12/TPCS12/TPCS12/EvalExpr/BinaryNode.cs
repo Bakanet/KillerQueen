@@ -56,8 +56,20 @@ namespace EvalExpr
         
         public int Eval()
         {
-            //FIXME
-            throw new NotImplementedException();
+            switch (_op)
+            {
+                case Operator.PLUS:
+                    return _left.Eval() + _right.Eval();
+
+                case Operator.MINUS:
+                    return _left.Eval() - _right.Eval();
+
+                case Operator.MULT:
+                    return _left.Eval() * _right.Eval();
+
+                default:
+                    return _left.Eval() / _right.Eval();
+            }
         }
     }
 }

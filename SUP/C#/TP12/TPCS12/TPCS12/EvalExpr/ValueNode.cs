@@ -29,8 +29,7 @@ namespace EvalExpr
 
         public int Eval()
         {
-            //FIXME
-            throw new NotImplementedException();
+            return _val;
         }
     }
 }
