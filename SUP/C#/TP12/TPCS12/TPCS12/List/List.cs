@@ -6,8 +6,8 @@ namespace List
 {
     public class List<T>
     {
-        protected Node<T> head_;
-        protected Node<T> tail_;
+        public Node<T> head_;
+        public Node<T> tail_;
 
         public List()
         {
