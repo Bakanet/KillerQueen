@@ -67,29 +67,78 @@ namespace List
             }
         }
 
-        /*public void insert(int i, T value)
+        public void insert(int i, T value)
         {
-            Node<T> n = head_;
-            int index = 0;
-            for (; index < i - 1 && n != null; ++index)
+            Node<T> newNode = new Node<T>(value);
+            if (i == 0)
             {
-                n = n.Next;
+                newNode.Next = head_;
+                head_.Prev = newNode;
+                head_ = newNode;
             }
 
-            if (index < i - 1)
-                throw new IndexOutOfRangeException("index is out of range");
+            else
+            {
+                Node<T> n = head_;
+                int index = 0;
+                for (; index < i - 1 && n != null; ++index)
+                {
+                    n = n.Next;
+                }
 
-            Node<T> node = new Node<T>(value);
-            node.Prev = n;
-            node.Next = n.Next;
-            node.Next.Prev = node;
-            n.Next = node;
-        }*/
+                if (index < i - 1)
+                    throw new IndexOutOfRangeException("index is out of range");
+
+                if (n == tail_)
+                {
+                    n.Next = newNode;
+                    newNode.Prev = n;
+                    tail_ = newNode;
+                }
+
+                else
+                {
+                    newNode.Next = n.Next;
+                    newNode.Prev = n;
+                    n.Next.Prev = newNode;
+                    n.Next = newNode;
+                }
+
+            }
+        }
 
         public void delete(int i)
         {
-            //FIXME
-            throw new NotImplementedException();
+            if (i == 0)
+            {
+                head_.Next.Prev = null;
+                head_ = head_.Next;
+            }
+
+            else
+            {
+                Node<T> n = head_;
+                int index = 0;
+                for (; index < i - 1 && n != null; ++index)
+                {
+                    n = n.Next;
+                }
+
+                if (index < i - 1)
+                    throw new IndexOutOfRangeException("index is out of range");
+
+                if (n == tail_)
+                {
+                    tail_.Prev.Next = null;
+                    tail_ = tail_.Prev;
+                }
+
+                else
+                {
+                    n.Next = n.Next.Next;
+                    n.Next.Prev = n;
+                }
+            }
         }
     }
 }
