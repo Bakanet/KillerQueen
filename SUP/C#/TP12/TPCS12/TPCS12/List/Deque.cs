@@ -4,50 +4,60 @@ using System.Runtime.Remoting.Messaging;
 
 namespace List
 {
-    public class Dequeue<T> //FIXME
+    public class Dequeue<T> : List<T>
     {
         public Dequeue()
             : base()
         {}
         
         public Dequeue(T elt)
-            : base() //FIXME
+            : base(elt)
         {}
         
         public T front()
         {
-            //FIXME
-            throw new NotImplementedException();
+            if (head_ == null)
+                throw new NullReferenceException("deque is empty");
+
+            return head_.Data;
         }
         
         public T back()
         {
-            //FIXME
-            throw new NotImplementedException();
+            if (tail_ == null)
+                throw new NullReferenceException("deque is empty");
+
+            return tail_.Data;
         }
         
         public virtual void popBack()
         {
-            //FIXME
-            throw new NotImplementedException();
+            Node<T> n = head_;
+            int i = 0;
+            for (; n != null; ++i)
+                n = n.Next;
+
+            delete(i - 1);
         }
         
         public void popFront()
         {
-            //FIXME
-            throw new NotImplementedException();
+            delete(0);
         }
 
         public void pushFront(T elt)
         {
-            //FIXME
-            throw new NotImplementedException();
+            insert(0, elt);
         }
         
         public void pushBack(T elt)
         {
-            //FIXME
-            throw new NotImplementedException();
+            Node<T> n = head_;
+            int i = 0;
+            for (; n != null; ++i)
+                n = n.Next;
+
+            insert(i, elt);
         }
     }
 }
