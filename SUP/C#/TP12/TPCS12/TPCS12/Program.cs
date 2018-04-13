@@ -8,10 +8,7 @@ namespace TPCS12
     {
         public static void Main(string[] args)
         {
-            List<Token> tokens = Lexer.Lex(" 3 + 4 -5* 6");
-            foreach (Token token in tokens)
-                Console.Write(token);
-            Console.WriteLine();
+            Console.WriteLine(Parser.Parse("2 + 3 -4 * 8").Eval());
             Console.ReadLine();
         }
     }

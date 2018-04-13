@@ -11,7 +11,7 @@ namespace EvalExpr
             List<Token> tokens = Lexer.Lex(expr);
             Stack<INode> output = new Stack<INode>();
             Stack<Token> operatorStack = new Stack<Token>();
-            int[] priority = { 1, 1, 2, 2 };    // priorites des additions + - * / (on utilise leur place dans l'enum pour recuperer leur priorite dans le tableau)
+            int[] priority = { 1, 1, 2, 2 };    // priorites des operateurs + - * / (on utilise leur place dans l'enum pour recuperer leur priorite dans le tableau)
 
             foreach (var token in tokens)
             {
@@ -26,7 +26,7 @@ namespace EvalExpr
                         output.Push(new BinaryNode((BinaryNode.Operator)(int)operatorStack.Pop().TokType));
                     // c'est archi lourd mais en gros on prend le 1er op de la stack des operators et on crée un INode qu'on push dans notre output
 
-                    output.Push(new BinaryNode((BinaryNode.Operator)(int)token.TokType));
+                    operatorStack.Push(token);
                 }
             }
 
