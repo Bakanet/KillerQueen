@@ -4,32 +4,32 @@ using System.Runtime.Remoting.Messaging;
 
 namespace List
 {
-    public class Stack<T> //FIXME 
+    public class Stack<T> : List<T>
     {
         public Stack()
             : base()
         {}
         
         public Stack(T elt)
-            : base() //FIXME
+            : base(elt)
         {}
         
         public T front()
         {
-            //FIXME
-            throw new NotImplementedException();
+            if (head_ == null)
+                throw new NullReferenceException("stack is empty");
+
+            return head_.Data;
         }
         
         public void popFront()
         {
-            //FIXME
-            throw new NotImplementedException();
+            delete(0);
         }
         
         public void pushFront(T elt)
         {
-            //FIXME
-            throw new NotImplementedException();
+            insert(0, elt);
         }
     }
 }

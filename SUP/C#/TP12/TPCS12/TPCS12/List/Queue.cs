@@ -4,32 +4,36 @@ using System.Runtime.Remoting.Messaging;
 
 namespace List
 {
-    public class Queue<T> //FIXME 
+    public class Queue<T> : List<T>
     {
         public Queue()
             : base()
         {}
         
         public Queue(T elt)
-            : base() //FIXME
+            : base(elt)
         {}
         
         public T front()
         {
-            //FIXME
-            throw new NotImplementedException();
+            if (head_ == null)
+                throw new NullReferenceException("queue is empty");
+            return head_.Data;
         }
         
         public void popFront()
         {
-            //FIXME
-            throw new NotImplementedException();
+            delete(0);
         }
 
         public void pushBack(T elt)
         {
-            //FIXME
-            throw new NotImplementedException();
+            Node<T> n = head_;
+            int i = 0;
+            for (; n != null; ++i)
+                n = n.Next;
+
+            insert(i, elt);
         }
     }
 }
