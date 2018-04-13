@@ -13,8 +13,14 @@ namespace EvalExpr
         {
             if (expr[pos] > '0' && expr[pos] < '9')
             {
-                ++pos;
-                return new Token(Token.Type.INT, expr[pos - 1].ToString());
+                string str = "";
+                while (pos < expr.Length && expr[pos] > '0' && expr[pos] < '9')
+                {
+                    str += expr[pos];
+                    ++pos;
+                }
+
+                return new Token(Token.Type.INT, str);
             }
             switch (expr[pos])
             {

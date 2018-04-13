@@ -8,7 +8,7 @@ namespace TPCS12
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(Parser.Parse("2 + 3 -4 * 8").Eval());
+            Console.WriteLine(Parser.Parse("24 + 3 -4 * 8").Eval());
             Console.ReadLine();
         }
     }
