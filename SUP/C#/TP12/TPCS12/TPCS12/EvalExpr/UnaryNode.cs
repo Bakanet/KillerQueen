@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Runtime.Remoting.Messaging;
@@ -18,14 +18,14 @@ namespace EvalExpr
 
         public void Build(Stack<INode> output)
         {
-            //FIXME
-            throw new NotImplementedException();
+            _val = output.Pop();
+            _val.Build(output);
         }
 
-        public void Print()
-        {
-            //FIXME
-            throw new NotImplementedException();
+        public void Print(){
+            if (!_positive)
+                Console.Write("-");
+            _val.Print();
         }
         
         public void PrintRevertPolish()
@@ -36,8 +36,10 @@ namespace EvalExpr
 
         public int Eval()
         {
-            //FIXME
-            throw new NotImplementedException();
-        }
-    }
+            int sign = 1;
+            if (!_positive)
+                sign = -1;
+
+            return sign * _val.Eval();
+        }}
 }
