@@ -23,8 +23,8 @@ namespace EvalExpr
 
         public void PrintRevertPolish()
         {
-            //FIXME
-            throw new NotImplementedException();
+            Console.Write(_val);
+            Console.Write(" ");
         }
 
         public int Eval()

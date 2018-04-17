@@ -43,15 +43,47 @@ namespace EvalExpr
         {
             Console.Write('(');
             _left.Print();
-            Console.Write(_op);
+            
+            switch (_op)
+            {
+                case Operator.PLUS:
+                    Console.Write(" + ");
+                    break;
+                case Operator.MINUS:
+                    Console.Write(" - ");
+                    break;
+                case Operator.MULT:
+                    Console.Write(" * ");
+                    break;
+                case Operator.DIV:
+                    Console.Write(" / ");
+                    break;
+            }
+
             _right.Print();
             Console.Write(')');
         }
 
         public void PrintRevertPolish()
         {
-            //FIXME
-            throw new NotImplementedException();
+            _left.PrintRevertPolish();
+            _right.PrintRevertPolish();
+
+            switch (_op)
+            {
+                case Operator.PLUS:
+                    Console.Write("+ ");
+                    break;
+                case Operator.MINUS:
+                    Console.Write("- ");
+                    break;
+                case Operator.MULT:
+                    Console.Write("* ");
+                    break;
+                case Operator.DIV:
+                    Console.Write("/ ");
+                    break;
+            }
         }
         
         public int Eval()

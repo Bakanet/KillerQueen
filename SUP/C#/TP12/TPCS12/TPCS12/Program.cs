@@ -9,8 +9,8 @@ namespace TPCS12
     {
         public static void Main(string[] args)
         {
-            
-
+            INode test = Parser.Parse("4 - 1 + 2 * 3");
+            test.PrintRevertPolish();
             Console.ReadLine();
         }
     }
