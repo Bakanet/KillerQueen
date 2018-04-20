@@ -31,8 +31,7 @@ namespace Client
             byte[] buffer = new byte[1024];
             int number = _sock.Receive(buffer, SocketFlags.None);
 
-            string str = Encoding.ASCII.GetString(buffer, 0, number);
-            Console.WriteLine(str);
+            Console.WriteLine(Encoding.ASCII.GetString(buffer, 0, number));
         }
 
 		public void SendData()

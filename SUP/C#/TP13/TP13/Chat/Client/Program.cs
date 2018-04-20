@@ -13,6 +13,7 @@ namespace Client
 				return;
 			}
 
+
 			try
 			{
 				if (!IPAddress.TryParse(args[0], out var address))

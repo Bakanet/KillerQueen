@@ -86,7 +86,7 @@ namespace Server
             {
                 if (client == sender)
                     continue;
-                sender.Send(msg, message.Length, SocketFlags.None);
+                client.Send(msg, message.Length, SocketFlags.None);
             }
         }
     }
