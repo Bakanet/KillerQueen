@@ -28,12 +28,19 @@ namespace Client
 
 		public void ReceiveData()
 		{
-			throw  new NotImplementedException();
-		}
+            byte[] buffer = new byte[1024];
+            int number = _sock.Receive(buffer, SocketFlags.None);
+
+            string str = Encoding.ASCII.GetString(buffer, 0, number);
+            Console.WriteLine(str);
+        }
 
 		public void SendData()
 		{
-			throw  new NotImplementedException();
+            string str = Console.ReadLine();
+            byte[] buffer = Encoding.ASCII.GetBytes(str);
+
+            _sock.Send(buffer, str.Length, SocketFlags.None);
 		}
 	}
 }

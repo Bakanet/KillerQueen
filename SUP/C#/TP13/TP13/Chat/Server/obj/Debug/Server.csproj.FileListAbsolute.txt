@@ -1,0 +1,6 @@
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP13\TP13\Chat\Server\bin\Debug\Server.exe
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP13\TP13\Chat\Server\bin\Debug\Server.pdb
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP13\TP13\Chat\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP13\TP13\Chat\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP13\TP13\Chat\Server\obj\Debug\Server.exe
+C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP13\TP13\Chat\Server\obj\Debug\Server.pdb

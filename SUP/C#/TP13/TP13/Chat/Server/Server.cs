@@ -50,22 +50,33 @@ namespace Server
 
         public Server(int port)
         {
-            throw  new NotImplementedException();
+            _sock = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            _clients = new List<Socket>();
+            _port = port;
         }
 
         public void Init()
         {
-            throw  new NotImplementedException();
+            _sock.Bind(new IPEndPoint(IPAddress.Any, _port));
+            _sock.Listen(10);
+            Console.WriteLine("Server Started");
         }
 
         public Socket Accept()
         {
-            throw  new NotImplementedException();
+            Socket client = _sock.Accept();
+            _clients.Add(client);
+
+            return client;
         }
 
         public void ReceiveMessages(Socket client)
         {
-            throw  new NotImplementedException();
+            byte[] buffer = new byte[1024];
+            int number = client.Receive(buffer, SocketFlags.None);
+
+            string str = Encoding.ASCII.GetString(buffer, 0, number);
+            SendMessage(str, client);
         }
 
         public void SendMessage(string message, Socket sender)
