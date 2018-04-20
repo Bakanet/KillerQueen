@@ -81,7 +81,13 @@ namespace Server
 
         public void SendMessage(string message, Socket sender)
         {
-            throw  new NotImplementedException();
+            byte[] msg = Encoding.ASCII.GetBytes(message);
+            foreach (Socket client in _clients)
+            {
+                if (client == sender)
+                    continue;
+                sender.Send(msg, message.Length, SocketFlags.None);
+            }
         }
     }
 }
