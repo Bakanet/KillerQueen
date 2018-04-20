@@ -1,0 +1,15 @@
+The server for Rednit.
+
+---- REQUIREMENTS ----
+postgres v9+.
+mono 5.0.0+, make you can use commands (mono, csc, msbuild).
+
+---- INSTALL ----
+Start postgres.
+Execute: ./database.sh
+	creates de database.
+Execute: ./launch.sh -b
+	builds then launches the server.
+	
+---- LAUNCH ----
+Execute: ./launch.sh
