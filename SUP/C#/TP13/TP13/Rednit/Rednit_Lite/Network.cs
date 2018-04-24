@@ -14,7 +14,10 @@ namespace Rednit_Lite
 		/// <returns> Returns the new TcpClient connected to the server.</returns>
 		public static TcpClient ConnectSocket()
 		{
-			throw new NotImplementedException();
+            TcpClient client = new TcpClient();
+            client.Connect(Data.Address, Data.Port);
+
+            return client;
 		}
 
 		/// <summary>
@@ -65,7 +68,19 @@ namespace Rednit_Lite
 		/// <returns>Returns whether the response of the server is an error or not.</returns>
 		public static bool CreateAccount(string login, string password)
 		{
-			throw new NotImplementedException();
+            Protocol protocol = new Protocol(MessageType.Create);
+            protocol.Login = login;
+            protocol.Password = password;
+            byte[] arr = Formatter.ToByteArray(protocol);
+
+            Data.Client.Client.Send(arr);
+            try
+            { ReceiveMessage(); }
+            catch (Exception)
+            { return false; }
+
+            return true;
+
 		}
 
 		/// <summary>
@@ -84,8 +99,20 @@ namespace Rednit_Lite
 		/// <returns>Returns whether the response of the server is an error or not.</returns>
 		public static bool ConnectAccount(string login, string password)
 		{
-			throw new NotImplementedException();
-		}
+            Protocol protocol = new Protocol(MessageType.Connect);
+            protocol.Login = login;
+            protocol.Password = password;
+            byte[] arr = Formatter.ToByteArray(protocol);
+            Protocol received;
+            Data.Client.Client.Send(arr);
+
+            try
+            { received = ReceiveMessage(); }
+            catch (Exception)
+            { return false; }
+
+            return received.Type == MessageType.Response;
+        }
 
 		/// <summary>
 		///   Ask the server the data of a certain user.
@@ -101,8 +128,22 @@ namespace Rednit_Lite
 		/// <returns>Returns the UserData object returned by the server or null.</returns>
 		public static UserData AskData(string login)
 		{
-			throw new NotImplementedException();
-		}
+            Protocol protocol = new Protocol(MessageType.RequestData);
+            protocol.Login = login;
+            byte[] arr = Formatter.ToByteArray(protocol);
+            Data.Client.Client.Send(arr);
+            Protocol received;
+
+            try
+            { received = ReceiveMessage(); }
+            catch (Exception)
+            { return null; }
+
+            if (received.Type == MessageType.Response)
+                return received.User;
+            else
+                return null;
+        }
 
 		/// <summary>
 		///   Send to the server the data of a certain user.
@@ -118,7 +159,18 @@ namespace Rednit_Lite
 		/// <returns>Returns whether the response of the server is an error or not.</returns>
 		public static bool SendData(UserData user)
 		{
-			throw new NotImplementedException();
+            Protocol protocol = new Protocol(MessageType.SendData);
+            protocol.User = user;
+            byte[] arr = Formatter.ToByteArray(protocol);
+            Data.Client.Client.Send(arr);
+            Protocol received;
+
+            try
+            { received = ReceiveMessage(); }
+            catch (Exception)
+            { return false; }
+
+            return received.Type == MessageType.Response;
 		}
 
 		/// <summary>
@@ -137,7 +189,20 @@ namespace Rednit_Lite
 		/// <returns>Returns whether the response of the server is an error or not.</returns>
 		public static bool SendLike(string login, bool like)
 		{
-			throw new NotImplementedException();
+            Protocol protocol;
+            if (like)
+                protocol = new Protocol(MessageType.Like);
+            else
+                protocol = new Protocol(MessageType.Dislike);
+            Data.Login = login;
+            Protocol received;
+
+            try
+            { received = ReceiveMessage(); }
+            catch (Exception)
+            { return false; }
+
+            return received.Type == MessageType.Response;
 		}
 
 		/// <summary>
@@ -154,7 +219,21 @@ namespace Rednit_Lite
 		/// <returns>Returns the UserData object returned by the server or null.</returns>
 		public static UserData AskMatch(string login)
 		{
-			throw new NotImplementedException();
+            Protocol protocol = new Protocol(MessageType.RequestMatch);
+            protocol.Login = login;
+            byte[] arr = Formatter.ToByteArray(protocol);
+            Data.Client.Client.Send(arr);
+            Protocol received;
+
+            try
+            { received = ReceiveMessage(); }
+            catch (Exception)
+            { return null; }
+
+            if (received.Type == MessageType.Response)
+                return received.User;
+            else
+                return null;
 		}
 
 		/// <summary>
@@ -202,7 +281,41 @@ namespace Rednit_Lite
 		/// <returns></returns>
 		public static string[] AskFriends()
 		{
-			throw new NotImplementedException();
+            Protocol protocol = new Protocol(MessageType.RequestFriends);
+            protocol.Login = Data.Login;
+            byte[] arr = Formatter.ToByteArray(protocol);
+            Data.Client.Client.Send(arr);
+            Protocol received;
+
+            try
+            { received = ReceiveMessage(); }
+            catch (Exception)
+            { return null; }
+
+            if (received.Type == MessageType.Response)
+            {
+                string str = received.Message;
+                List<string> retList = new List<string>();
+                for (int i = 0; i < str.Length; ++i)
+                {
+                    if (str[i] == '\'')
+                    {
+                        string str2 = "";
+                        ++i;
+                        while (str[i] != '\'')
+                        {
+                            str2 += str[i];
+                            ++i;
+                        }
+                        retList.Add(str2);
+                    }
+                }
+
+                return retList.ToArray();
+            }
+
+            else
+                return null;
 		}
 
 		/// <summary>
@@ -220,7 +333,19 @@ namespace Rednit_Lite
 		/// <returns></returns>
 		public static bool MessageTo(string login, string message)
 		{
-			throw new NotImplementedException();
+            Protocol protocol = new Protocol(MessageType.MessageTo);
+            protocol.Login = login;
+            protocol.Message = message;
+            byte[] arr = Formatter.ToByteArray(protocol);
+            Data.Client.Client.Send(arr);
+            Protocol received;
+
+            try
+            { received = ReceiveMessage(); }
+            catch (Exception)
+            { return false; }
+
+            return received.Type == MessageType.Response;
 		}
 
 		/// <summary>
@@ -237,7 +362,21 @@ namespace Rednit_Lite
 		/// <returns></returns>
 		public static string MessageFrom(string login)
 		{
-			throw new NotImplementedException();
+            Protocol protocol = new Protocol(MessageType.MessageFrom);
+            protocol.Login = login;
+            byte[] arr = Formatter.ToByteArray(protocol);
+            Data.Client.Client.Send(arr);
+            Protocol received;
+
+            try
+            { received = ReceiveMessage(); }
+            catch (Exception)
+            { return null; }
+
+            if (received.Type == MessageType.Response)
+                return received.Message;
+            else
+                return null;
 		}
 	}
 }
