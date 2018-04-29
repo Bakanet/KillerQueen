@@ -1,0 +1,7 @@
+﻿{
+  "server":
+  {
+    "address": "cri.epita.net",
+    "port": 2468
+  }
+}

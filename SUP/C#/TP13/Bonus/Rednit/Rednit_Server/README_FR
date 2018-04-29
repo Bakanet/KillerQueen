@@ -1,0 +1,15 @@
+Le serveur pour Rednit.
+
+---- PREREQUIS ----
+postgres v9 ou plus.
+mono 5.0.0 ou plus, s'assurer d'avoir (mono, csc, msbuild).
+
+---- INSTALL ----
+Lancer postgres.
+Executer: ./database.sh
+	qui va créer la base de donnée.
+Executer: ./launch.sh -b
+	qui va build puis lancer le serveur.
+	
+---- LAUNCH ----
+Executer: ./launch.sh
