@@ -5,7 +5,7 @@ __revision__ = '$Id: huffman.py 2018-04-24'
 """
 Huffman homework
 2018
-@author: login
+@author: malo.lecomte
 """
 
 from algopy import bintree
@@ -17,10 +17,8 @@ from algopy import heap
 ## COMPRESSION
 
 def buildfrequencylist(dataIN):
-    """
-    Builds a tuple list of the character frequencies in the input.
-    """
-    # FIXME
+    l = []
+    for (i in dataIN)
     pass
 
 
