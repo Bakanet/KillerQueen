@@ -1,4 +1,2 @@
 # KillerQueen
-Daizan no Bakudan ! Bites za Dusto !
-
-TP Epita + Python pour Neeya <3
+TP Epita (SUP C#, Caml et Python) + quelques TD de Python
