@@ -72,7 +72,7 @@ namespace Genetics
 
         public static void SaveState()
         {
-            if (!File.Exists(_pathSave))
+            if (_pathSave == null)
                 throw new FileNotFoundException("the save file do not exists");
             SaveAndLoad.Save(_pathSave, _listPlayer);
         }
@@ -81,15 +81,17 @@ namespace Genetics
 
         #region Init
 
-        public static void InitNew(int size = 200)
+        public static void InitNew(int size = 20)
         {
-            _listPlayer = new List<Player>(200);
+            _listPlayer = new List<Player>();
+            for (int i = 0; i < size; ++i)
+                _listPlayer.Add(new Player());
         }
 
         public static void Init()
         {
             if (File.Exists(_pathLoad))
-                SaveAndLoad.Load(_pathLoad);
+                _listPlayer = SaveAndLoad.Load(_pathLoad);
             else
                 InitNew();
         }
@@ -117,22 +119,21 @@ namespace Genetics
 
         public static void Train(int generationNumber, bool replaceWithMutation = true)
         {
-            Map map = RessourceLoad.GetCurregcyntMap();
+            Map map = RessourceLoad.GetCurrentMap();
             int timeout = map.Timeout;
 
             for (int i = 0; i < generationNumber; ++i)
             {
-                int j = 0;
-                for (int i = 0; uf)
+                for (int j = 0; j < _listPlayer.Count; ++j)
                 {
+                    Player player = _listPlayer[j];
                     player.ResetScore();
                     player.SetStart(map);
                     for (int k = 0; k < timeout; ++k)
                     {
                         player.PlayAFrame();
                     }
-                    Console.WriteLine("{0}-{1} : {2}%", i, j, (i / _listPlayer.Count) * 100);
-                    ++j;
+                    Console.WriteLine("{0}-{1} : {2}%", i, j, ((i + 1) * 100 / generationNumber));
                 }
 
                 Regenerate(replaceWithMutation);
@@ -152,7 +153,6 @@ namespace Genetics
 
         public static void SimpleSort()
         {
-            //Ptn malo je t'aime
             bool sorted = false;
             while (!sorted)
             {

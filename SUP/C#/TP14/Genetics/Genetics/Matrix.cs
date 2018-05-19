@@ -74,11 +74,7 @@ namespace Genetics
 
             for (int k = 0; k < Width; ++k)
             {
-                Bias[k] += Rdn.Next(-10, 10) / 10;
-                if (Bias[k] < -1)
-                    Bias[k] = -1;
-                else if (Bias[k] > -0.5)
-                    Bias[k] = -0.5f;
+                Bias[k] += (float) Rdn.NextDouble() / 5 - 0.1f;
             }
         }
 

@@ -9,7 +9,6 @@ C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP14\Genetics\Gen
 C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP14\Genetics\Genetics\bin\Debug\SharpDX.Direct3D11.dll
 C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP14\Genetics\Genetics\bin\Debug\SharpDX.Direct2D1.dll
 C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP14\Genetics\Genetics\bin\Debug\SharpDX.XInput.dll
-C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP14\Genetics\Genetics\bin\Debug\SharpDX.RawInput.dll
 C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP14\Genetics\Genetics\bin\Debug\SharpDX.Direct3D9.dll
 C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP14\Genetics\Genetics\bin\Debug\MonoGame.Framework.xml
 C:\Users\malol\OneDrive\Bureau\ProjetsEpita\KillerQueen\SUP\C#\TP14\Genetics\Genetics\bin\Debug\nunit.framework.pdb

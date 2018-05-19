@@ -180,6 +180,7 @@ namespace Genetics
             }
             else
             {
+                Console.WriteLine("Mutated");
                 _brain1.MakeCopyFrom(p1._brain1);
                 _brain2.MakeCopyFrom(p1._brain2);
                 _brain3.MakeCopyFrom(p1._brain3);

@@ -5,18 +5,17 @@ namespace Genetics
 {
     internal class Program
     {
-        private const string PathForTest = "maybebest.save";
+        private const string PathForTest = "../../save/maybebest.save";
         private const string PathBotToSubmit = "../../save/bot.save";
 
         public static void Main(string[] args)
         {
             RessourceLoad.InitMap();
-            RessourceLoad.SetCurrentMap("long3"); //with this line you can set the current map from folder map
-            NewTraining(200);
-            for (int i = 0; i < 200; ++i)
-            {
-                ShowNth(i);
-            }
+            RessourceLoad.SetCurrentMap("example"); //with this line you can set the current map from folder map
+            NewTraining(50);
+            SaveBest();
+            Showbest();
+            Console.Read();
             // Feel free to use all the function below in order to train your players
         }
 
