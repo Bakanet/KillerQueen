@@ -48,17 +48,15 @@ def buildHuffmantree(inputList):
         tree.append((l[i][0], bintree.BinTree(l[i][1], None, None)))
     while length > 0:
         B = bintree.BinTree(None, tree[length - 1][1], tree[length][1])
-        key =  tree[length][0] + tree[length - 1][0]
+        freq =  tree[length][0] + tree[length - 1][0]
         tree.pop()
         tree.pop()
-        tree.append((key, B))
+        tree.append((freq, B))
         length -= 1
-        temp = tree[length]
         j = length
-        while j > 0 and key > tree[j - 1][0]:
-            tree[j] = tree[j - 1]
+        while j > 0 and freq > tree[j - 1][0]:
+            tree[j], tree[j - 1] = tree[j - 1], tree[j]
             j -= 1
-        tree[j] = temp
     return tree[0][1]
 
 def __binList(B, binString, char, l):
