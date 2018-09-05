@@ -1,0 +1,71 @@
+{         Prime v1.2 (C) 1997 Allen Cheng. All Rights Reserved.
+
+   Please feel free to use this unit on your program,
+   give me some Credits if you like.... Enjoy!
+
+ This is quite fast, and is about 50-80% faster than the fastest one in SWAG.
+ As this Function is optimized for large numbers, you may not see any
+ differents in small numbers, but it only takes 6 seconds to find and
+ display all primes from 1000000 to 1020000.
+
+Homepage:  http://www.geocities.com/SiliconValley/Park/8979/
+Email:     ac@4u.net
+
+You can always download the newest version from my Homepage.
+
+P.S. If you've found some ways to optimized this unit, please feel free to
+change anything, it would be nice if you can send me a copy.
+
+*****************************************************************************
+*Notice*
+  There was a bug in Prime v1.1 which think 3 is not a prime. Fixed in v1.2
+  Please change the line:
+
+           2 : Begin PrimeChk := True; Exit; End;
+      to
+           2,3 : Begin PrimeChk := True; Exit; End;
+
+****************************************************************************
+
+Benchmarks:
+( On a 486dx/33 )
+                   | 1.0 | 1.1 | 1.2 |
+                   |     |     |     |
+1000000 to 1020000 | 11s | 6.8s|  6s |
+                   |     |     |     |
+1000000 to 1090000 | N/A | 31s | 26s |
+
+}
+
+Unit Prime;
+
+Interface
+Function PrimeChk(Num: LongInt): Boolean;
+
+Implementation
+
+Function PrimeChk(Num: LongInt): Boolean;
+ Var x : LongInt;
+     i : Integer;
+ Const
+  y : Array[1..25] of Integer =
+  (2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97);
+
+
+ Begin
+  PrimeChk := True;
+  If Num = 1 Then Begin PrimeChk := False; Exit; End;
+
+  For i := 1 to 25 Do
+   If ( (Num mod y[i])=0 ) And (Num<>y[i]) Then
+     Begin PrimeChk := False; Exit; End;
+
+  x := 99;
+  While (Sqr(x) < Num) Do
+   Begin
+    x := x + 2;
+    If (Num mod x)=0 Then Begin PrimeChk:=False; Exit; End;
+   End;
+ End;
+
+End.

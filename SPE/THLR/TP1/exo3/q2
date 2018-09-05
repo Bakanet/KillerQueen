@@ -1,0 +1,12 @@
+#include <utility>
+
+class GreuhGreuh
+{
+public:
+
+	virtual void Apply() = 0;
+	virtual void applyFunc(Functor fun) = 0;
+	virtual int Process(int i) = 0;
+	virtual Functor Do_some_stuff() = 0;
+	
+}

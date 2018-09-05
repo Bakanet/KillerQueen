@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+	printf("Chaine n°1\n");
+	printf("Chaine n°2\n");
+	
+	return 0;
+}
