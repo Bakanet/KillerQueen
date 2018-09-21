@@ -1,2 +1,0 @@
-q1 : perl -0777 -pe 's/".[^"]*"/CHAINE/gsm' q1
-q2 : perl -0777 -pe 's/".[^\)]*"/CHAINE/gsm' q2
