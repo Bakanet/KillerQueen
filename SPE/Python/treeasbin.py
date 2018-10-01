@@ -5,8 +5,7 @@ Created on Sept. 2016
 @author: nb, gd
 """
 
-from . import queue
-from .queue import Queue
+from queue2 import Queue
 
 class TreeAsBin:
     """
