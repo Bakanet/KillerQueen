@@ -1,3 +1,3 @@
 # KillerQueen
-TP Epita (SUP C#/Caml + SPE C/ASM).\n
+TP Epita (SUP C#/Caml + SPE C/ASM).  
 TD Python SPE.
