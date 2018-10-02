@@ -10,52 +10,7 @@ Todo:
 
 """
 
-from collections import deque
-
-class Queue:
-    """Simple class for FIFO (first-in-first-out) container."""
-
-    def __init__(self):
-        """Init queue."""
-
-        self.elements = deque()
-
-    def enqueue(self, elt):
-        """Add an element to the queue.
-
-        Args:
-            elt (Any): Element to enqueue.
-
-        Returns:
-            Queue: The updated queue.
-
-        """
-
-        self.elements.append(elt)
-        return self
-
-    def dequeue(self):
-        """Remove and return next element from the queue.
-
-        Returns:
-            Any: Element from the queue.
-
-        Raises:
-            IndexError: If queue is empty.
-
-        """
-
-        return self.elements.popleft()
-
-    def isempty(self):
-        """Check whether queue is empty.
-
-        Returns:
-            bool: True if queue is empty, False otherwise.
-
-        """
-
-        return len(self.elements) == 0
+import queue
 
 class Tree:
     """Simple class for general tree.
@@ -87,6 +42,41 @@ class Tree:
         """Number of children of node."""
 
         return len(self.children)
+
+    def display(self, filename='temp'):
+        """Render a tree to SVG format.
+
+        *Warning:* Made for use within IPython/Jupyter only.
+
+        Args:
+            ref (Tree).
+            filename (str): Temporary filename to store SVG output.
+
+        Returns:
+            SVG: IPython SVG wrapper object for tree.
+
+        """
+        # Ensure all modules are available
+        try:
+            from graphviz import Graph
+            from IPython.display import SVG
+        except:
+            raise Exception("Missing module: graphviz and/or IPython.")
+        # Traverse tree and generate temporary Graph object
+        ref = self
+        output_format = 'svg'
+        graph = Graph(filename, format=output_format)
+        q = queue.Queue()
+        q.put(ref)
+        while not q.empty():
+            ref = q.get()
+            graph.node(str(id(ref)), label=str(ref.key))
+            for child in ref.children:
+                graph.edge(str(id(ref)), str(id(child)))
+                q.put(child)
+        # Render to temporary file and SVG object
+        graph.render(filename=filename, cleanup=True)
+        return SVG(filename + '.' + output_format)
 
 
 def size(ref):
@@ -209,48 +199,12 @@ def dot(ref):
 
     s = "graph {\n"
     s += "node [shape=circle, fixedsize=true, height=0.5, width=0.5]\n"
-    q = Queue()
-    q.enqueue(ref)
-    while not q.isempty():
-        ref = q.dequeue()
+    q = queue.Queue()
+    q.put(ref)
+    while not q.empty():
+        ref = q.get()
         for child in ref.children:
             s = s + "   " + str(ref.key) + " -- " + str(child.key) + "\n"
-            q.enqueue(child)
+            q.put(child)
     s += "}"
     return s
-
-
-def display(ref, filename='temp'):
-    """Render a tree to SVG format.
-
-    *Warning:* Made for use within IPython/Jupyter only.
-
-    Args:
-        ref (Tree).
-        filename (str): Temporary filename to store SVG output.
-
-    Returns:
-        SVG: IPython SVG wrapper object for tree.
-
-    """
-
-    # Ensure all modules are available
-    try:
-        from graphviz import Graph
-        from IPython.display import SVG
-    except:
-        raise Exception("Missing module: graphviz and/or IPython.")
-    # Traverse tree and generate temporary Graph object
-    output_format = 'svg'
-    graph = Graph(filename, format=output_format)
-    q = Queue()
-    q.enqueue(ref)
-    while not q.isempty():
-        ref = q.dequeue()
-        graph.node(str(id(ref)), label=str(ref.key))
-        for child in ref.children:
-            graph.edge(str(id(ref)), str(id(child)))
-            q.enqueue(child)
-    # Render to temporary file and SVG object
-    graph.render(filename=filename, cleanup=True)
-    return SVG(filename + '.' + output_format)

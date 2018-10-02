@@ -5,8 +5,6 @@ Created on Sept. 2016
 @author: nb, gd
 """
 
-from queue2 import Queue
-
 class TreeAsBin:
     """
     Simple class for (General) Trees 
