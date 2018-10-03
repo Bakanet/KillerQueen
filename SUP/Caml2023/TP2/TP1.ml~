@@ -1,0 +1,4 @@
+let rec build_line n str =
+  if n = 0 then str
+  else
+    str ^ build_line (n-1) str;;
