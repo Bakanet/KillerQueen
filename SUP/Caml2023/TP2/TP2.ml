@@ -45,4 +45,8 @@ let rec mountain n (x,y) (z,t) =
     let m = (x+z) / 2 in let h = (y+t)/2 + Random.int(10*n) in
 			 mountain (n-1) (x,y) (m,h); mountain (n-1) (m,h) (z,t);;
 
-let rec dragon p q r
+let rec dragon n (x,y) (z,t) =
+  if n = 0 then draw_line (x,y) (z,t)
+  else
+    let u = ((x+z)/2) + ((t-y)/2) in let v = (y+t)/2 - (z-x)/2 in
+				 dragon (n-1) (x,y) (u,v); dragon (n-1) (u,v) (z,t);;
