@@ -26,9 +26,23 @@ let square2 n (str,str2) =
       (square_build (n-1) m (a+1) (str,str2)); print_string(build_line2 m a (str,str2)); print_newline()
   in
   square_build n (n*2) 0 (str,str2)
-      
 
 let rec triangle n str =
   if n = 0 then ()
   else
     triangle (n-1) str; print_string(build_line n str); print_newline();;
+
+#load "graphics.cma";;
+open Graphics;;
+
+let draw_line (x,y) (z,t) =
+  moveto x y;
+  lineto z t;;
+
+let rec mountain n (x,y) (z,t) =
+  if n = 0 then draw_line (x,y) (z,t)
+  else
+    let m = (x+z) / 2 in let h = (y+t)/2 + Random.int(10*n) in
+			 mountain (n-1) (x,y) (m,h); mountain (n-1) (m,h) (z,t);;
+
+let rec dragon p q r
