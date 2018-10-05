@@ -49,4 +49,6 @@ let rec dragon n (x,y) (z,t) =
   if n = 0 then draw_line (x,y) (z,t)
   else
     let u = ((x+z)/2) + ((t-y)/2) in let v = (y+t)/2 - (z-x)/2 in
-				 dragon (n-1) (x,y) (u,v); dragon (n-1) (u,v) (z,t);;
+				     dragon (n-1) (x,y) (u,v); dragon (n-1) (z,t) (u,v);;
+
+let rec draw_sponge 
