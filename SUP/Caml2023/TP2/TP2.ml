@@ -50,5 +50,11 @@ let rec dragon n (x,y) (z,t) =
   else
     let u = ((x+z)/2) + ((t-y)/2) in let v = (y+t)/2 - (z-x)/2 in
 				     dragon (n-1) (x,y) (u,v); dragon (n-1) (z,t) (u,v);;
-
-let rec draw_sponge 
+let rec draw_sponge (x,y) n =
+    if n <= 1 then fill_rect x y n n
+    else
+      draw_sponge (x,y) (n/3); draw_sponge (x + n/3, y) (n/3);
+  draw_sponge (x + 2*n/3, y) (n/3); draw_sponge (x, y - n/3) (n/3);
+  draw_sponge (x + 2*n/3, y - n/3) (n/3); draw_sponge (x, y - 2*n/3) (n/3);
+  draw_sponge (x + n/3, y - 2*n/3) (n/3); draw_sponge (x + 2*n/3, y - 2*n/3) (n/3);;
+(*doen't work -> stack overflow ??*)
