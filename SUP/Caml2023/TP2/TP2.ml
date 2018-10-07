@@ -34,7 +34,6 @@ let rec triangle n str =
 
 #load "graphics.cma";;
 open Graphics;;
-open_graph "";;
 
 let draw_line (x,y) (z,t) =
   moveto x y;
@@ -53,9 +52,9 @@ let rec dragon n (x,y) (z,t) =
 				     dragon (n-1) (x,y) (u,v); dragon (n-1) (z,t) (u,v);;
 
 
-let rec ds x y n = match n/3 with
-  |0 -> fill_rect x y n n;
-  |_ -> let nd = n/3 in
+let rec ds x y n =
+  if n/3 = 0 then fill_rect x y n n
+  else let nd = n/3 in
     ds x y nd;
   ds (x + nd) y nd;
   ds (x + 2*nd) y nd;
@@ -68,3 +67,17 @@ let rec ds x y n = match n/3 with
 let sponge (x,y) n =
   clear_graph ();
   ds x y n;;
+
+let middle x y z t = ((x+z)/2, (y+t)/2);;
+
+let triangle (a,b) n = let rec rec_t n (x,y) (z,t) (i,j) = match n with
+  |0 -> moveto x y;
+    lineto z t;
+    lineto i j;
+    lineto x y;
+  |_ -> let a = middle x y z t and b = middle z t i j and c = middle i j x y in
+	rec_t (n/2) (x,y) a c;
+	rec_t (n/2) c b (i,j);
+	rec_t (n/2) a (z,t) b; in
+		       rec_t n (a,b) (a+(n/2), int_of_float(sqrt(3.)*.(float_of_int(n)/.2.))) (a+n,b);;
+
