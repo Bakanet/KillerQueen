@@ -34,6 +34,7 @@ let rec triangle n str =
 
 #load "graphics.cma";;
 open Graphics;;
+open_graph "";;
 
 let draw_line (x,y) (z,t) =
   moveto x y;
@@ -50,11 +51,20 @@ let rec dragon n (x,y) (z,t) =
   else
     let u = ((x+z)/2) + ((t-y)/2) in let v = (y+t)/2 - (z-x)/2 in
 				     dragon (n-1) (x,y) (u,v); dragon (n-1) (z,t) (u,v);;
-let rec draw_sponge (x,y) n =
-    if n <= 1 then fill_rect x y n n
-    else
-      draw_sponge (x,y) (n/3); draw_sponge (x + n/3, y) (n/3);
-  draw_sponge (x + 2*n/3, y) (n/3); draw_sponge (x, y - n/3) (n/3);
-  draw_sponge (x + 2*n/3, y - n/3) (n/3); draw_sponge (x, y - 2*n/3) (n/3);
-  draw_sponge (x + n/3, y - 2*n/3) (n/3); draw_sponge (x + 2*n/3, y - 2*n/3) (n/3);;
-(*doen't work -> stack overflow ??*)
+
+
+let rec ds x y n = match n/3 with
+  |0 -> fill_rect x y n n;
+  |_ -> let nd = n/3 in
+    ds x y nd;
+  ds (x + nd) y nd;
+  ds (x + 2*nd) y nd;
+  ds x (y + nd) nd;
+  ds (x + 2*nd) (y + nd) nd;
+  ds x (y + 2*nd) nd;
+  ds (x + nd) (y + 2*nd) nd;
+  ds (x + 2*nd) (y + 2*nd) nd;;
+
+let sponge (x,y) n =
+  clear_graph ();
+  ds x y n;;
