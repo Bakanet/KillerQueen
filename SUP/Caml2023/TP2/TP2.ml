@@ -80,4 +80,3 @@ let triangle (a,b) n = let rec rec_t n (x,y) (z,t) (i,j) = match n with
 	rec_t (n/2) c b (i,j);
 	rec_t (n/2) a (z,t) b; in
 		       rec_t n (a,b) (a+(n/2), int_of_float(sqrt(3.)*.(float_of_int(n)/.2.))) (a+n,b);;
-
