@@ -5,6 +5,8 @@ Created on Sept. 2016
 @author: nb, gd
 """
 
+import queue
+
 class TreeAsBin:
     """
     Simple class for (General) Trees 
@@ -18,6 +20,44 @@ class TreeAsBin:
         self.key = key
         self.child = child
         self.sibling = sibling
+
+    def display(self, filename='temp'):
+        """Render a tree to SVG format.
+
+        *Warning:* Made for use within IPython/Jupyter only.
+
+        Args:
+            ref (Tree).
+            filename (str): Temporary filename to store SVG output.
+
+        Returns:
+            SVG: IPython SVG wrapper object for tree.
+
+        """
+
+        # Ensure all modules are available
+        try:
+            from graphviz import Graph
+            from IPython.display import SVG
+        except:
+            raise Exception("Missing module: graphviz and/or IPython.")
+        # Traverse tree and generate temporary Graph object
+        ref = self
+        output_format = 'svg'
+        graph = Graph(filename, format=output_format)
+        q = queue.Queue()
+        q.put(ref)
+        while not q.empty():
+            ref = q.get()
+            graph.node(str(id(ref)), label=str(ref.key))
+            child = ref.child
+            while child:
+                graph.edge(str(id(ref)), str(id(child)))
+                q.put(child)
+                child = child.sibling
+        # Render to temporary file and SVG object
+        graph.render(filename=filename, cleanup=True)
+        return SVG(filename + '.' + output_format)
 
 
 def tutoEx1():
@@ -120,55 +160,17 @@ def dot(ref):
 
     s = "graph {\n"
     s += "node [shape=circle, fixedsize=true, height=0.5, width=0.5]\n"
-    q = Queue()
-    q.enqueue(ref)
-    while not q.isempty():
-        ref = q.dequeue()
+    q = queue.Queue()
+    q.put(ref)
+    while not q.empty():
+        ref = q.get()
         child = ref.child
         while child:
             s = s + "   " + str(ref.key) + " -- " + str(child.key) + "\n"
-            q.enqueue(child)
+            q.put(child)
             child = child.sibling
     s += "}"
     return s
-
-
-def display(ref, filename='temp'):
-    """Render a tree to SVG format.
-
-    *Warning:* Made for use within IPython/Jupyter only.
-
-    Args:
-        ref (Tree).
-        filename (str): Temporary filename to store SVG output.
-
-    Returns:
-        SVG: IPython SVG wrapper object for tree.
-
-    """
-
-    # Ensure all modules are available
-    try:
-        from graphviz import Graph
-        from IPython.display import SVG
-    except:
-        raise Exception("Missing module: graphviz and/or IPython.")
-    # Traverse tree and generate temporary Graph object
-    output_format = 'svg'
-    graph = Graph(filename, format=output_format)
-    q = Queue()
-    q.enqueue(ref)
-    while not q.isempty():
-        ref = q.dequeue()
-        graph.node(str(id(ref)), label=str(ref.key))
-        child = ref.child
-        while child:
-            graph.edge(str(id(ref)), str(id(child)))
-            q.enqueue(child)
-            child = child.sibling
-    # Render to temporary file and SVG object
-    graph.render(filename=filename, cleanup=True)
-    return SVG(filename + '.' + output_format)
 
 
 #------------------------------------------------------------------------------
@@ -188,11 +190,11 @@ def __linkToDot(A, B, highlight=''):
 def __toDot(T):
     links = ""
     nodes = ""
-    q = Queue()
-    q.enqueue(T)
-    q.enqueue(None)
-    while not q.isempty():
-        T = q.dequeue()
+    q = queue.Queue()
+    q.put(T)
+    q.put(None)
+    while not q.empty():
+        T = q.get()
         if T:
             child = T.child
             first = True
@@ -205,12 +207,12 @@ def __toDot(T):
                     links += __linkToDot(T, child)
                 if child.sibling:
                     links += __linkToDot(child, child.sibling, ' [constraint="false", color="blue", style="bold"]')
-                q.enqueue(child)
+                q.put(child)
                 child = child.sibling
         else:
             nodes += '\n'
-            if not q.isempty():
-                q.enqueue(None)
+            if not q.empty():
+                q.put(None)
     return nodes + links
 
 def todotfordisplay(T):
