@@ -1,6 +1,6 @@
-#ifndef TP2_ISQRT_H
-#define TP2_ISQRT_H
+#ifndef ISQRT_H
+#define ISQRT_H
 
 unsigned long isqrt(unsigned long n);
 
-#endif //TP2_ISQRT_H
+#endif
