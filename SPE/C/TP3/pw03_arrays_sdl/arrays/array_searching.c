@@ -29,7 +29,7 @@
  */
 size_t array_find(int array[], size_t len, int x)
 {
-    for (int i = 0; i < len; i++) {
+    for (size_t i = 0; i < len; i++) {
         if (x == array[i])
             return i;
     }
@@ -46,7 +46,16 @@ size_t array_bin_search(int array[], size_t len, int x)
     size_t left = 0, right = len - 1;
     while (right >= left) {
         size_t mid = (left + right) / 2;
+
+        if (array[mid] == x)
+            return mid;
+        else if (array[mid] > x)
+            right = mid - 1;
+        else
+            left = mid + 1;
     }
+
+    return right;
 }
 
 /*
