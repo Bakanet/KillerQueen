@@ -5,11 +5,12 @@ __revision__ = '$Id: prefixTrees.py 2018-02-14'
 """
 Prefix Trees homework
 2018
-@author: login
+@author: malo.lecomte
 """
 
 
 from algopy import tree
+import prefixtreesexample
 
 
 ################################################################################
@@ -24,10 +25,7 @@ def countwords(T):
     >>> countwords(Tree1)
     11
     """
-
-    # FIXME
-    return None
-
+    
 def longestwordlength(T):
     """ longest word length
     
