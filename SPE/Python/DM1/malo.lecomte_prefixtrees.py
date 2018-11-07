@@ -10,7 +10,7 @@ Prefix Trees homework
 
 
 from algopy import tree
-import prefixtreesexample
+import prefixtreesexample as pt
 
 
 ################################################################################
@@ -26,6 +26,11 @@ def countwords(T):
     11
     """
     
+    nb = 1 if T.key[1] else 0
+    for child in T.children:
+        nb += countwords(child)
+    return nb
+
 def longestwordlength(T):
     """ longest word length
     
@@ -36,8 +41,7 @@ def longestwordlength(T):
     6
     """
     
-    # FIXME
-    return None
+    return tree.height(T)
 
 def averagelength(T):
     """ average word length
@@ -49,8 +53,22 @@ def averagelength(T):
     4.636363636363637
     """
     
-    # FIXME
-    return None
+    (lenw, nbw) = _averagelength(T)
+    return  lenw/nbw
+
+def _averagelength(T, lenwords=0):
+    if T.key[1] and not T.children:
+        return (lenwords, 1)
+    else:
+        nbwords = 1 if T.key[1] else 0
+        lenwsum = 0
+        for child in T.children:
+            (lenw, nbw) = _averagelength(child, lenwords + 1)
+            lenwsum += lenw
+            nbwords += nbw
+        return (lenwsum, nbwords)
+    
+print(_averagelength(pt.Tree1)) 
 
 ###############################################################################
 ## Researches
