@@ -65,14 +65,13 @@ def _averagelength(T, lenwords=0):
             lenwords *= 2
         else:
             nbwords = 0
+
         lenwsum = 0
         for child in T.children:
             (lenw, nbw) = _averagelength(child, lenwords + 1)
             lenwsum += lenw
             nbwords += nbw
         return (lenwsum, nbwords)
-
-print(averagelength(pt.Tree1))
 
 ###############################################################################
 ## Researches
@@ -90,9 +89,23 @@ def searchword(T, word):
     >>> searchword(Tree1, "Famous")
     True
     """
+    word = word.lower()
+    b = False
+    for child in T.children:
+        b = b or _searchword(child, word)
+    return b
 
-    # FIXME
-    return None
+
+def _searchword(T, word, height=0):
+    if T.key[0] != word[height]:
+        return False
+    elif T.key[1] and len(word)-1 == height:
+        return True
+    else:
+        b = False
+        for child in T.children:
+            b = b or _searchword(child, word, height + 1)
+        return b
 
 ###############################################################################
 ## Lists
