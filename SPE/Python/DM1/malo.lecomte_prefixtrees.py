@@ -120,8 +120,16 @@ def wordlist(T):
     ['case', 'cast', 'castle', 'circle', 'city', 'come', 'could', 'fame', 'famous', 'fan', 'fancy']
     """
 
-   # FIXME
-    return None
+    l = []
+    _wordlist(T, l)
+    return l
+
+def _wordlist(T, l, str=""):
+    if T.key[1]:
+        l.append(str + T.key[0])
+    else:
+        for child in T.children:
+            _wordlist(child, l, str + T.key[0])
 
 def longestwords(T):
     """ search for the longest words in dictionary
@@ -133,8 +141,17 @@ def longestwords(T):
     ['castle', 'circle', 'famous']
     """
 
-    # FIXME
-    return None
+    maxsize = tree.height(T)
+    l = []
+    _longestwords(T, maxsize, l)
+    return l
+
+def _longestwords(T, maxsize, l, str="", height=0):
+    if T.key[1] and height == maxsize:
+        l.append(str + T.key[0])
+    else:
+        for child in T.children:
+            _longestwords(child, maxsize, l, str + T.key[0], height + 1)
 
 def completion(T, prefix):
     """ generate the list of words with a common prefix
