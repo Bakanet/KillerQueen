@@ -35,4 +35,3 @@ Tree1 = Tree(('', False),
                     Tree(('n', True),
                          [Tree(('c', False),
                                [Tree(('y', True))])])])])])
-                        

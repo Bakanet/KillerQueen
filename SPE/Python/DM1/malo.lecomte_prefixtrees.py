@@ -31,6 +31,8 @@ def countwords(T):
         nb += countwords(child)
     return nb
 
+print(countwords(pt.Tree1))
+
 def longestwordlength(T):
     """ longest word length
 
@@ -92,20 +94,22 @@ def searchword(T, word):
     word = word.lower()
     b = False
     for child in T.children:
-        b = b or _searchword(child, word)
+        b = b or _searchword(child, word, len(word))
     return b
 
 
-def _searchword(T, word, height=0):
+def _searchword(T, word, length, height=0):
     if T.key[0] != word[height]:
         return False
-    elif T.key[1] and len(word)-1 == height:
-        return True
+    elif length-1 == height:
+        return T.key[1]
     else:
         b = False
         for child in T.children:
-            b = b or _searchword(child, word, height + 1)
+            b = b or _searchword(child, word, length, height + 1)
         return b
+
+print(searchword(pt.Tree1, "fam"))
 
 ###############################################################################
 ## Lists
@@ -127,9 +131,10 @@ def wordlist(T):
 def _wordlist(T, l, str=""):
     if T.key[1]:
         l.append(str + T.key[0])
-    else:
-        for child in T.children:
-            _wordlist(child, l, str + T.key[0])
+    for child in T.children:
+        _wordlist(child, l, str + T.key[0])
+
+print(wordlist(pt.Tree1))
 
 def longestwords(T):
     """ search for the longest words in dictionary
@@ -181,8 +186,10 @@ def treetofile(T, filename):
     # give the same file as "textFiles/wordList1.txt" but in alphabetic order
     """
 
-    # FIXME
-
+    f = open(filename, 'w')
+    for word in wordlist(T):
+        f.write(word + '\n')
+    f.close()
 
 ###############################################################################
 ## Build Tree
