@@ -5,6 +5,8 @@ circle
 city
 come
 could
+est
+esta
 fame
 famous
 fan
