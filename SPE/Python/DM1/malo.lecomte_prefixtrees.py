@@ -10,6 +10,7 @@ Prefix Trees homework
 
 
 from algopy import tree
+import prefixtreesexample as pt
 
 ################################################################################
 ## MEASURES
@@ -128,6 +129,8 @@ def _wordlist(T, l, str=""):
     for child in T.children:
         _wordlist(child, l, str + T.key[0])
 
+wordlist(pt.Tree1)
+
 def longestwords(T):
     """ search for the longest words in dictionary
 
@@ -178,10 +181,11 @@ def treetofile(T, filename):
     # give the same file as "textFiles/wordList1.txt" but in alphabetic order
     """
 
-    f = open(filename, 'w')
-    for word in wordlist(T):
-        f.write(word + '\n')
-    f.close()
+    if filename != '':
+        f = open(filename, 'w')
+        for word in wordlist(T):
+            f.write(word + '\n')
+        f.close()
 
 ###############################################################################
 ## Build Tree
@@ -209,8 +213,8 @@ def _addword(T, word, length, height=0):
                 i += 1
             if i == nb:
                 B = tree.Tree((word[height], height == length - 1))
-                _addword(B, word, length, height + 1)
                 children.append(B)
+                _addword(B, word, length, height + 1)
             else:
                 if T.children[i].key[0] == word[height]:
                     if height == length - 1:
@@ -218,16 +222,16 @@ def _addword(T, word, length, height=0):
                     _addword(T.children[i], word, length, height + 1)
                 else:
                     B = tree.Tree((word[height], height == length - 1))
-                    _addword(B, word, length, height + 1)
                     children.append(B)
+                    _addword(B, word, length, height + 1)
                 while i < nb:
                     children.append(T.children[i])
                     i += 1
             T.children = children
         else:
             B = tree.Tree((word[height], height == length - 1))
-            _addword(B, word, length, height + 1)
             T.children.append(B)
+            _addword(B, word, length, height + 1)
 
 def treefromfile(filename):
     """ build the prefix tree from a file of words
@@ -246,6 +250,8 @@ def treefromfile(filename):
         if str[i] == '\n':
             addword(B, str2)
             str2 = ""
+        elif i == length - 1:
+            addword(B, str2 + str[i])
         else:
             str2 += str[i]
         i += 1
