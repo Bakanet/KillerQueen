@@ -10,7 +10,6 @@ Prefix Trees homework
 
 
 from algopy import tree
-import prefixtreesexample as pt
 
 ################################################################################
 ## MEASURES
@@ -119,17 +118,14 @@ def wordlist(T):
     ['case', 'cast', 'castle', 'circle', 'city', 'come', 'could', 'fame', 'famous', 'fan', 'fancy']
     """
 
-    l = []
-    _wordlist(T, l)
-    return l
+    return _wordlist(T)
 
-def _wordlist(T, l, str=""):
+def _wordlist(T, l=[], str=""):
     if T.key[1]:
         l.append(str + T.key[0])
     for child in T.children:
         _wordlist(child, l, str + T.key[0])
-
-wordlist(pt.Tree1)
+    return l
 
 def longestwords(T):
     """ search for the longest words in dictionary
@@ -141,9 +137,8 @@ def longestwords(T):
     ['castle', 'circle', 'famous']
     """
 
-    maxsize = tree.height(T)
     l = []
-    _longestwords(T, maxsize, l)
+    _longestwords(T, tree.height(T), l)
     return l
 
 def _longestwords(T, maxsize, l, str="", height=0):
@@ -168,8 +163,22 @@ def completion(T, prefix):
     []
     """
 
-    # FIXME
-    return None
+    l = []
+    _completion(T, len(prefix), prefix.lower(), l)
+    return l
+
+def _completion(T, maxlength, prefix, l, str="", height=0):
+    if T.key[1]:
+        if height >= maxlength:
+            l.append(str + T.key[0])
+    if height < maxlength:
+        for child in T.children:
+            if child.key[0] == prefix[height]:
+                _completion(child, maxlength, prefix, l, str + T.key[0],
+                height + 1)
+    else:
+        for child in T.children:
+            _completion(child, maxlength, prefix, l, str + T.key[0], height + 1)
 
 def treetofile(T, filename):
     """ save the dictionary in a file
